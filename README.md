@@ -12,5 +12,4 @@ Must have Python and R set up. For R, you'll need the 'stringr' and 'dplyr' libr
 
 ### TODOs:
 - [ ] The `NEW 2016_deq_cas_data_descriptors.csv` file looks like it was opened and saved in Excel at one point. Fields like `03-1794` are now saved as `Mar-17` and the preceise data is gone. If we could find a version of the data without excel saving that would be great.
-- [ ] When the same data exists for multiple sites, how do we know which is real and which is maybe just an office or something?
 - [ ] The data_a, data_b, data_c columns are messy still. We're dropping 3k rows of 37k.
