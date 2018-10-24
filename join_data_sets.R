@@ -1,6 +1,6 @@
 library(dplyr)
 library(stringr)
-setwd("~/Desktop/Portland Clean Air/")
+setwd("~/Desktop/Portland_Clean_Air/")
 
 # company level details
 deq_co_details <- read.csv("2016_deq_co_details.csv", stringsAsFactors = F)
@@ -27,7 +27,7 @@ deq_emission_w_co <- left_join(deq_co_details,
 # step 2
 # add a more intuitive flag for if emissions controls are in place
 deq_cas_data_descriptors %>%
-  mutate(has_emissions_control_in_use = ifelse(x_control == "x", "F", "T")) %>%
+  mutate(is_unfiltered_emissions = ifelse(x_control == "x", "T", "F")) %>%
   mutate(clean_desc_row_id = as.numeric(desc_row_id)) ->
   deq_cas_data_descriptors
 
@@ -38,39 +38,63 @@ deq_cas_data_descriptors %>%
 # View(deq_cas_data_descriptors[is.na(deq_cas_data_descriptors$clean_desc_row_id),])
 deq_cas_data_descriptors %>% 
   filter(!is.na(clean_desc_row_id)) %>%
-  select(clean_desc_row_id, has_emissions_control_in_use) ->
+  select(clean_desc_row_id, is_unfiltered_emissions) ->
   deq_cas_data_descriptors_clean 
 
 # step 3
-# NOTE THIS ASSUMPTION IS PROBABLY WRONG
-# join in emissions controls data and remove all companies that have 
-# emission controls in place.
-# NOTE THIS ASSUMPTION IS PROBABLY WRONG
+# take all emissions data and join in whether the emissions are unfiltered
 all_emissions_data <- left_join(deq_emission_w_co, 
                                 deq_cas_data_descriptors_clean, 
                                 by = c("desc_row_id" = "clean_desc_row_id"))
 
-# this sets the air filter flag
-# it is defined as all rows in which a filter is not being used per the CAS data set
-# or rows in which there was no data in the CAS dataset
-all_emissions_data %>%
-  mutate(emission_control = !(has_emissions_control_in_use == "T" )) ->
-  all_emissions_data
-
 
 # step 4
-# Tossing out all bad data_a rows
-# tossing out bad rows accounts for 2046 rows of 37k
-# 700 rows are blank, then "See Note 1", then a bunch of garbage.
+# This is a TODO
+# Tossing out all bad data_a, data_b, and data_c rows
+# tossing out bad rows accounts for 3k rows of 37k
+# for data_a, 700 rows are blank, then "See Note 1", then a bunch of garbage.
 # what does "See Note 1" mean in the data_a column mean?
 
 all_emissions_data %>%
   mutate(clean_data_a = as.numeric(data_a)) %>%
-  filter(!is.na(clean_data_a)) -> all_emissions_data
+  filter(!is.na(clean_data_a)) %>%
+  mutate(clean_data_b = as.numeric(data_b)) %>%
+  filter(!is.na(clean_data_b)) %>%
+  mutate(clean_data_c = as.numeric(data_c)) %>%
+  filter(!is.na(clean_data_c)) -> all_emissions_data
+
+# step 5
+# reduce dataset to only unfitered emissions
+all_emissions_data %>%
+  filter(is_unfiltered_emissions == "T") -> all_unfiltered_emissions
+
+# step 6 
+# aggregate data by summing by pollutant type
+all_unfiltered_emissions %>% 
+  group_by(company.source.no, 
+           filename,
+           st.addr, 
+           city.addr,
+           zip.addr,
+           facility.name, 
+           cas_code, 
+           cas_name, 
+           unit_a, 
+           unit_b, 
+           unit_c) %>%
+  summarise(total_data_a = sum(clean_data_a), 
+            total_data_b = sum(clean_data_b),
+            total_data_c = sum(clean_data_c)) -> all_unfiltered_emissions_summary
+
+# step 7
+# save to csv
+write.csv(all_unfiltered_emissions_summary, "unfiltered_data_summary.csv")
+
+# step 8 
+# do a basic analysis to see top polluters for most frequent appearing pollutants
 
 # top 10 pollutants
-all_emissions_data %>%
-  filter(emission_control == F) %>%
+all_unfiltered_emissions_summary %>%
   group_by(cas_name) %>%
   summarise(n = n()) %>%
   arrange(-n) %>%
@@ -78,29 +102,10 @@ all_emissions_data %>%
   select(cas_name) %>%
   unlist(use.names = F)-> top_cas
 
-all_emissions_data %>%
-  filter(emission_control == F) %>%
+all_unfiltered_emissions_summary %>%
   filter(cas_name %in% top_cas) %>%
   group_by(cas_name) %>%
-  filter(clean_data_a == max(clean_data_a)) %>%
-  View
+  filter(total_data_a == max(total_data_a)) -> worst_offenders_by_top_pollutants
 
-
-View(deq_co_details)
-deq_co_details %>%
-  group_by(company.source.no) %>%
-  summarise(n = n()) %>%
-  group_by(n) %>%
-  summarise(n2 = n())
-
-View(head(deq_emission))
-str(deq_emission)
-
-deq_emission_w_co %>%
-  filter(str_detect(facility.name, "PCC")) %>% 
-  filter(str_detect(cas_name, "ethyl benzene")) %>% View
-
-
-
-%>% View
-?starts_with
+write.csv(worst_offenders_by_top_pollutants, "worst_offenders.csv")
+View(worst_offenders_by_top_pollutants)
