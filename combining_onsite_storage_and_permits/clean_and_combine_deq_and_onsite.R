@@ -81,7 +81,15 @@ names(deq_permits_wash_co)[names(deq_permits_wash_co) == "X7"] <- 'X8'
 deq_permits <- rbind(deq_permits_mult_co, deq_permits_wash_co)
 deq_permits$in_deq_permits <- 1
 
+#####
+# Data Set 4 - Permit Type Descriptions
+#####
+deq_permit_desc <- read.csv("raw_data/permit_types.csv", 
+                            stringsAsFactors = F)
+deq_permit_desc$general_type_permit_deq <- as.character(deq_permit_desc$general_type_permit_deq)
+
 # rename the columns to make more sense
+# and join in the descriptions of the permit types
 deq_permits %>%
   rename(source_number_deq = Source.Number) %>%
   rename(company_name_deq = Source.Name) %>%
@@ -90,11 +98,14 @@ deq_permits %>%
   rename(general_type_permit_deq = X8) %>%
   rename(pca_website = DEQ.Permit.and.Review) %>%
   rename(in_deq = in_deq_permits) %>%
-  select(ends_with("deq"), address, pca_website) -> deq_permits 
+  select(ends_with("deq"), address, pca_website) %>%
+  left_join(., deq_permit_desc, 
+            by = c("general_type_permit_deq" = "general_type_permit_deq")) %>%
+  mutate(general_type_desc_permit_deq = coalesce(general_type_desc_permit_deq, "Other")) -> deq_permits 
 
-  
+
 #####
-# Data Set 4 - Railyards
+# Data Set 5 - Railyards
 #####
 railyards <- read.xlsx("raw_data/NEI PCA railyards.xlsx")
 railyards %>%
@@ -105,7 +116,7 @@ railyards %>%
   select(ends_with("railyard"), lat, lng) -> railyards
 
 #####
-# Data Set 5 - Airports
+# Data Set 6 - Airports
 #####
 airports <- read.xlsx("raw_data/NEI clack, mult, Wash airports final.xlsx", 
                       colNames = F)
@@ -119,7 +130,7 @@ airports %>%
   select(ends_with("airport"), lat, lng) -> airports
 
 #####
-# Data Set 6 - Washington County No Permit Polluters
+# Data Set 7 - Washington County No Permit Polluters
 #####
 wash_co_no_permit_polluters <- read.xlsx("raw_data/wash county no permit polluters.xlsx")
 wash_co_no_permit_polluters %>%
@@ -142,7 +153,7 @@ full_join(deq_permits, onsite_chem_storage_trim, by = "address") %>%
 
 full_ds %>%
   select(source_number_deq, company_name_deq, naics_code_deq, 
-         permit_number_deq, general_type_permit_deq, 
+         permit_number_deq, general_type_permit_deq, general_type_desc_permit_deq, 
          pca_website, address, lat, lng, in_deq, company_name_storage, 
          company_id_storage, company_type_storage, naics_code_storage, 
          naics_code_description_storage, chemical_name_storage, 
@@ -179,7 +190,8 @@ full_ds %>%
 # if it's already been done, the if statement skips this step
 ##### 
 full_ds %>%
-  select(company_name, address, key, in_deq, in_storage, general_type_permit_deq) %>%
+  select(company_name, address, key, in_deq, in_storage, 
+         general_type_permit_deq, general_type_desc_permit_deq) %>%
   unique() %>%
   rename(Company = company_name) %>%
   rename(Address = address) %>%
@@ -190,8 +202,8 @@ full_ds %>%
   mutate(in_storage = ifelse(!is.na(in_storage), "Yes", "No")) %>% 
   rename("Has Onsite Storage of Chemicals" = in_storage) %>%
   mutate(general_type_permit_deq = as.numeric(gsub(",.*","",general_type_permit_deq))) %>%
-  filter(!is.na(general_type_permit_deq)) %>%
-  rename("DEQ General Permit Type" = general_type_permit_deq) -> tmp_deq_and_onsite
+  rename("DEQ General Permit Type" = general_type_permit_deq) %>%
+  rename("DEQ General Permit Type Description" = general_type_desc_permit_deq) -> tmp_deq_and_onsite
 
 tmp_deq_and_onsite %>%
   filter(`Has DEQ Permit` == "Yes") %>%
@@ -210,34 +222,12 @@ tmp_deq_and_onsite %>%
 
 tmp_deq_and_onsite %>%
   filter(`Has DEQ Permit` == "No") %>%
+  select(Company, Address, `More Info URL`) %>%
   write.csv(., "cleaned_data/map_data/onsite_storage.csv", 
             row.names = F)
 
 #####
-# geocode the washington county no permit polluters data
-# if it's already been done, the if statement skips this step
-##### 
-if(!file.exists("cleaned_data/map_data/wash_co_no_permit_polluters.csv")) {
-  wash_co_no_permit_polluters %>%
-    mutate(lat = NA) %>%
-    mutate(lng = NA) %>%
-    unique() -> wash_co_no_permit_polluters
-  
-  for(i in 1:nrow(wash_co_no_permit_polluters)) {
-    result <- geocode(wash_co_no_permit_polluters$address[i], output = "latlon", source = "dsk")
-    wash_co_no_permit_polluters$lng[i] <- as.numeric(result[1])
-    wash_co_no_permit_polluters$lat[i] <- as.numeric(result[2])
-    
-  }
-  write.csv(wash_co_no_permit_polluters, "cleaned_data/map_data/wash_co_no_permit_polluters.csv", 
-            row.names = F)
-} else {
-  wash_co_no_permit_polluters <- read.csv("cleaned_data/map_data/wash_co_no_permit_polluters.csv",
-                                     stringsAsFactors = F)
-}
-View(wash_co_no_permit_polluters)
-#####
-# Write airports and railyards to the same directory
+# Write airports, railyards, and Wash Co No Permit Polluters to the same map directory
 #####
 railyards %>%
   rename(Railyard = site_name_railyard) %>%
@@ -252,3 +242,9 @@ airports %>%
   rename(Airport = site_name_airport) %>%
   select(Airport, County, Latitude, Longitude) %>%
   write.csv(., "cleaned_data/map_data/airports.csv", row.names = F)
+wash_co_no_permit_polluters %>%
+  rename("Site Name" = site_name_wash_co_no_permit) %>%
+  rename(Address = address) %>%
+  select(`Site Name`, Address) %>%
+  write.csv(.,"cleaned_data/map_data/wash_co_no_permit_polluters.csv", row.names = F )
+  

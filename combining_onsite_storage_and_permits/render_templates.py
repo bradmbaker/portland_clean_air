@@ -10,17 +10,17 @@ printable = set(string.printable)
 
 # load in the cleaned datasets that were cleaned up in R
 companies = pd.read_csv('cleaned_data/companies.csv')
-companies = companies[0:3]
+companies = companies
 deq_summary = pd.read_csv('cleaned_data/deq_summary.csv')
 storage_summary = pd.read_csv('cleaned_data/storage_summary.csv')
 old_website_info = pickle.load(open('cleaned_data/old_website_info.p','rb' ))
 
 # prepping the template environment
-file_loader = FileSystemLoader('website')
+file_loader = FileSystemLoader('templates')
 env = Environment(loader=file_loader)
 
 # loading the templates
-template = env.get_template('template2.html')
+template = env.get_template('template.html')
 template_deq = env.get_template('template_deq.html')
 template_storage = env.get_template('template_storage.html')
 
@@ -38,6 +38,7 @@ for index, row in companies.iterrows():
             company_name_deq = tmp_deq['company_name_deq'].item(),
             naics_code_deq = tmp_deq['naics_code_deq'].item(),
             general_type_permit_deq = tmp_deq['general_type_permit_deq'].item(),
+            general_type_desc_permit_deq = tmp_deq['general_type_desc_permit_deq'].item(),
             permit_info = permit_info,
             )
     if row['in_storage'] == 1:
