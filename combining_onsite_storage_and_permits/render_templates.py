@@ -1,6 +1,8 @@
 from jinja2 import Environment, FileSystemLoader
 import pandas as pd
 import string
+import os
+import pickle
 
 # this is for dealing with some funky characters in some of the data. 
 # just going to remove them later
@@ -11,6 +13,7 @@ companies = pd.read_csv('cleaned_data/companies.csv')
 companies = companies[0:3]
 deq_summary = pd.read_csv('cleaned_data/deq_summary.csv')
 storage_summary = pd.read_csv('cleaned_data/storage_summary.csv')
+old_website_info = pickle.load(open('cleaned_data/old_website_info.p','rb' ))
 
 # prepping the template environment
 file_loader = FileSystemLoader('website')
@@ -24,11 +27,18 @@ template_storage = env.get_template('template_storage.html')
 # loop through the company data and pull in other data when relevant.
 for index, row in companies.iterrows():
     print row['key']
+    # check if there is relevant DEQ data
     if row['in_deq'] == 1:
         tmp_deq = deq_summary[deq_summary['key'] == row['key']]
+        if row['key'] in old_website_info:
+            permit_info = old_website_info[row['key']]
+        else:
+            permit_info = ''
         tmp_deq_template = template_deq.render(
             company_name_deq = tmp_deq['company_name_deq'].item(),
             naics_code_deq = tmp_deq['naics_code_deq'].item(),
+            general_type_permit_deq = tmp_deq['general_type_permit_deq'].item(),
+            permit_info = permit_info,
             )
     if row['in_storage'] == 1:
         tmp_storage = storage_summary[storage_summary['key'] == row['key']]
@@ -55,7 +65,9 @@ for index, row in companies.iterrows():
         deq_template = tmp_deq_template,
         storage_template = tmp_storage_template,
         )
-    with open('rendered_websites/' + row['key'] + '.html', 'w') as f:
+    tmp_dir = 'rendered_websites/' + row['key']
+    os.mkdir(tmp_dir)
+    with open(tmp_dir + '/index.html', 'w') as f:
         f.write(rendered_website)
 
 
