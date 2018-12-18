@@ -1,129 +1,564 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Portland Clean Air Publications</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-</head>
-<body style="margin:8px">
 
-<h1> Portland Clean Air</h1> 
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <head>
+    <title>Portland Clean Air - Reports, Publications, and Data</title>
+    <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
+    <meta name="description" content="Portland Clean Air is a registered Oregon Political Committee opposed to Coal Train Dust and Industrial Pollution" />
+    <meta name="keywords" content="Portland Clean Air Pollution Neighbors Industrial Coal Train Dust Diesel Particulate Carcinogen Mutagen Toxic Department of Environmental Quality Air Quality Water Quality DEQ" />
+    <meta name="ICBM" content="45.5438, -122.6295" />
+    <meta name="DC.title" content="Portland Clean Air" />
+    <!-- <link rel="stylesheet" href="" type="text/css" />
+    <base href="http://portlandcleanair.org/" /> -->
+    <script type="text/javascript">
+//<![CDATA[
+window.onload = function() {
+    // Code if document.getElementByClassName() doesn't exist
+    if (document.getElementsByClassName == undefined) {
+        document.getElementsByClassName = function(className) {
+            var hasClassName = new RegExp("(?:^|\\s)" + className + "(?:$|\\s)");
+            var allElements = document.getElementsByTagName("*");
+            var results = [];
+
+            var element;
+            for (var i = 0; (element = allElements[i]) != null; i++) {
+                var elementClass = element.className;
+                if (elementClass && elementClass.indexOf(className) != -1 && hasClassName.test(elementClass))
+                    results.push(element);
+            }
+
+            return results;
+        }
+    }
+
+    var anchorList = document.getElementsByClassName('targetblank');
+    for (var i in anchorList) {
+        anchorList[i].target = '_blank';
+    }
+}
+// twitter
+!function(d,s,id){
+    var js,
+        fjs=d.getElementsByTagName(s)[0],
+        p=/^http:/.test(d.location)?'http':'https';
+    if(!d.getElementById(id)){
+      js=d.createElement(s);
+      js.id=id;
+      js.src=p+"://platform.twitter.com/widgets.js";
+      fjs.parentNode.insertBefore(js,fjs);
+    }
+}(document,"script","twitter-wjs");
+// facebook
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+//]]>
+    </script>
+    <style type="text/css">
+      @font-face {
+        font-family: printclearly;
+        src: url(printclearly.ttf);
+      }
+      @font-face {
+        font-family: printclearlybold;
+        src: url(print_bold_ot.otf);
+      }
+      @font-face {
+        font-family: calibribold;
+        src: url(calibribold.ttf);
+      }
+      @font-face {
+        font-family: avenirlight;
+        src: url(avenir-light.ttf);
+      }
+      @font-face {
+        font-family: kelsonsansbold;
+ /*       font-weight: bold; */
+        src: url("kelson-sans-bold.otf") format("opentype");
+      }
+      h1 {
+        font-family: avenirlight;
+        font-family: printclearlybold;
+        font-family: kelsonsansbold;
+        font-weight: bold;
+        background-color: white;
+        background-color: #CBF8FF;
+        background-color: #A8F2FF;
+        background-color: #ccf0ff;
+        font-size: 30pt;
+       /* text-transform: uppercase; */
+        margin-top: 5pt;
+        margin-bottom: 0pt;
+      }
+      h2, h3 {
+        font-family: calibribold;
+        font-family: kelsonsansbold;
+        font-weight: bold;
+      }
+      div.map h2 {
+        font-family: calibribold;
+      }
+      body {
+        font-family: avenirlight;
+        background-color: #d1ffe1;
+        background-color: #7FE3E7;
+        background-color: #A8F2FF;
+        background-color: #fafafa;
+      }
+      div.map {
+        border: solid 1px black;
+      }
+      div.about {
+        width: 335pt;
+        clear: none;
+        float: left;
+        margin-right: 5pt;
+        padding: 5pt;
+        border-right: solid 1px grey
+      }
+      div.about h2 {
+        margin-top: 10pt;
+        text-align: left;
+        padding-left: 15pt;
+      }
+      div.moremaps {
+        width: 335pt;
+        float: left;
+        clear: none;
+        margin-right: 4pt;
+        padding: 5pt;
+      }
+      div.moremaps h2 {
+        margin-top: 10pt;
+        text-align: left;
+        padding-left: 35pt;
+      }
+      div.moreinfo {
+        width: 300px;
+        float: left;
+        clear: none;
+        margin-right: 0pt;
+        background-color: #ccf0ff;
+        border-left: solid 2pt #ccf0ff;
+        border-right: solid 2pt #ccf0ff;
+        border-top: solid 5pt #ccf0ff;
+        border-bottom: solid 5pt #ccf0ff;
+      }
+      div.moreinfo h2 {
+        margin-top: 10pt;
+        text-align: left;
+        padding-left: 45pt;
+      }
+      div.moremaps dl, div.moreinfo dl {
+        font-size: 100%;
+         margin-left: 35pt;
+      }
+      div.moreinfo dl {
+         margin-left: 45pt;
+      }
+      dl dt {
+         margin-top: 10pt;
+      }
+      
+      div.about, div.moremaps, div.moreinfo {
+        height: 680pt;
+        margin-bottom: 20pt;
+/*        background-color: #EBF8FF; */
+      }
+      div dl {
+        margin-left: 10pt;
+      }
+      div.about dl {
+        margin-left: 15pt;
+        margin-right: 15pt;
+      }
+      div.about dl, div.about p {
+        font-size: 90%;
+      }
+
+      div.about p.mission {
+        margin-right: 15pt;
+        margin-left:  15pt;
+        font-size: 120%;
+      }
+
+      div.about dl dd:last-child {
+        margin-bottom: 0.5em;
+      }
+      div.about dl dt {
+        margin-top: 0.5em;
+      }
+
+      a:link {
+        text-decoration: none;
+      }
+      div.about, div.moremaps, div.moreinfo, div.map {
+        /* border: solid 1px black; */
+        margin-top: 5pt;
+        margin-bottom: 5pt;
+        padding-left: 5pt;
+        padding-right: 5pt;
+      }
+      div.map {
+        padding-left: 0pt;
+        padding-right: 0pt;
+        padding-bottom: 0pt;
+        margin-bottom: 0pt;
+        margin-top: 0pt;
+        background-color: white;
+      }
+      h1 {
+        width: auto;
+        text-align: left;
+        border: solid 1px black;
+        padding-top: 10pt;
+        padding-bottom: 10pt;
+        padding-left: 10pt;
+        padding-right: 10pt;
+      }
+      h1 span.hillsboro {
+        float: right;
+        text-align: right;
+      }
+      h2 {
+        margin: 0 auto;
+        width: 100%;
+        text-align: left;
+        font-size: 18pt;
+        /* border-bottom: solid 1px black; */
+      }
+      h3 {
+        margin-left: 15pt;
+        font-size: 14pt;
+        margin-bottom: 5pt;
+      }
+      div.legend {
+        width: 350px;
+        float: right;
+        margin-bottom: 0pt;
+        background-color: white;
+      }
+      div.legend h2 {
+        font-size: 200%;
+        margin-top: 5pt;
+        margin-bottom: 3pt;
+        width: 100%;
+        padding-left: 0.5em;
+      }
+      div.main {
+        width: 944pt;
+      }
+      body {
+        margin-left: auto;
+        margin-right: auto;
+        width: 944pt;
+      } 
+      h2.subhead {
+        float: left; 
+        background-color: #A8F2FF;
+        background-color: #ccf0ff;
+        font-size: 18pt;
+        letter-spacing: 2pt;
+        margin-bottom: 0pt;
+        margin-left: 0pt; 
+        margin-right: 0pt;
+        padding-left: 5pt;
+        padding-right: 5pt;
+        padding-top: 5pt;
+        padding-bottom: 5pt; 
+        border-right: solid 0px black;
+        width: 100%;
+        z-index: 1000;
+        text-transform: uppercase;
+      }
+      object {
+        z-index: -1;
+        overflow: hidden
+      }
+      span.arial {
+        font-size: 33pt;
+        line-height: 30pt;
+        font-family:  arial;
+        font-weight: bold;
+      }
+      div.footer {
+        margin-top: 0px;
+        font-size: 10pt;
+        padding-bottom: 5pt;
+        padding-left: 15pt;
+        padding-right: 15pt;
+        padding-top: 35pt;
+        margin-right: 6pt;
+        margin-left: 6pt;
+        clear: both;
+        color: #7f7f7f;
+        background-color: #ccf0ff;
+      }
+      div.banner {
+        line-height: 40pt;
+        overflow: hidden;
+        color: white;
+        padding: 10pt;
+        padding-right: 2em;
+        font-size: 36pt;
+        text-align: right;
+        text-align-vertical: middle;
+        background: black url('/bannerphoto.jpg') 50% 50% no-repeat;
+        background-size: 100%;
+      }
+      .roundbox {
+        width: auto;
+        float: right;
+        padding: 15pt;
+        border: solid 3pt white;
+        background-color: rgba(63,63,191, 0.8);
+        -moz-border-radius-topleft: 10pt;
+        border-top-left-radius: 10pt;
+        -moz-border-radius-topright: 10pt;
+        border-top-right-radius: 10pt;
+        -moz-border-radius-bottomleft: 10pt;
+        border-bottom-left-radius: 10pt;
+        -moz-border-radius-bottomright: 10pt;
+        border-bottom-right-radius: 10pt;
+        margin-bottom: 0.5em;
+      }
+      .donate, .donate:link {
+        color: white;
+        margin-top: 0.5em;
+        background-color: rgba(242,72,123, 0.57);
+        font-family: calibribold;
+        display: block;
+      }
+      input.donate {
+        font-size: 100%;
+      }
+      .dright {
+        float: right;
+        margin-right: -1.7em;
+      }
+      .dleft {
+        float: left;
+      }
+      @keyframes shake {
+        0%   { left:  5px; top:  95px; background-color: rgba(242,72,123, 0.57); }
+        15%  { left:  5px; top: 100px; background-color: rgba(242,72,123, 0.57); }
+        50%  { left:  5px; top: 100px; background-color: rgba(72,72,242, 0.57); }
+        85%  { left:  5px; top: 100px; background-color: rgba(242,72,123, 0.57); }
+        100% { left:  5px; top:  95px; background-color: rgba(242,72,123, 0.57); }
+      }
+      .alert, .alert:link {
+        float: left !important;
+        color: white;
+        margin-top: 0.5em;
+        background-color: rgba(242,72,123, 0.57);
+        font-family: calibribold;
+        display: block;
+        animation-name: shake;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        position: relative;
+        font-size: 80%;
+        line-height: 80%;
+      }
+      div.moreinfo {
+              margin-bottom: 0pt;
+              height: 687pt;
+      }
+      div.socialtw, div.socialfb {
+        display: static;
+        overflow: hidden;
+        float: right;
+        clear: both;
+        width: 300px;
+      }
+      div.socialtw {
+        height: 370px;
+        margin-bottom: 5pt;
+      }
+      div.socialfb {
+        height: 500px;
+      }
+      span.right {
+        display: block;
+        float: right;
+      }
+      .mapinfolink {
+        text-align: center;
+        font-size: 140%;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+      }
+      .legend {
+        text-align: center;
+      }
+      input.donate {
+        margin: 0px;
+        padding: 0px;
+        border: none;
+        background-color: rgba(242,72,123, 0.0);
+        line-height: 85%;
+      }
+      .smallprint {
+        font-size: 35%;
+        color: black;
+        letter-spacing: 1.5pt;
+        text-align: center;
+        margin-bottom: 0px;
+        line-height: 15pt;
+        padding-bottom: 0px;
+        
+      }
+      .donate {
+        margin-bottom: 0px;
+      }
+      .form {
+        margin: 0px;
+        padding: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <!--
+    <h1>Portland Clean Air<!-- <span class="hillsboro"> Hillsboro Air <span class="arial">&amp;</span> Water</span> -- ></h1>
+    -->
+      <div class="banner">
+<!--
+        <a class="roundbox donate dright" href="https://secure.actblue.com/contribute/page/hillsboroairwater?refcode=haw&amount=50.00">
+          Donate to HAW
+        </a>
+-->
+<!--
+        <a class="roundbox donate dleft" href="https://secure.actblue.com/contribute/page/pdxcleanair?refcode=frontpage&amount=50.00">
+          Donate to PCA
+        </a>
+-->
+<form  action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="PFZ9D8YUKY6AW">
+<!--
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" 
+  alt="Donate">
+-->
+<div class="roundbox donate dright">
+<input class="donate dright" type="submit" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" 
+  alt="Donate" value="Donate to PCA"><div class="smallprint"><br />via our 501(c)(3) Cascadia Action</div></div>
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+        <br />
+        <br style="line-height: 170%" />
+        <div class="roundbox dright">
+          pdx<br />clean<br />air
+        </div>
+
+      </div>
+<div>
+<h2 class="subhead">Reports, Publications & Data </h2>
+</div>
+
+<div>
 <h2> Publications </h2>
+<!-- this is generated from the spreadsheet https://docs.google.com/spreadsheets/d/1GPQ7Xa3OBF1wspwxcihUU5Ob66AdTjeVH2nHJ-jKZG4/edit?usp=sharing -->
 <h3> Reports </h3>
-<ul><p>
-<li><a href = "http://www.portlandcleanair.org/files/PCA-Guide-to-Industrial-Air-Pollution.pdf"> Guide to Industrial Air Pollution Government
-Records</a></li>
-<li><a href="http://www.portlandcleanair.org/files/Woodsmoke%20facts
-heet%20PCA.pdf">Portland Residential and Restaurant Wood
-Smoke</a> using Multnomah County Health and
-Building Dept data</li>
-<li><a href="http://www.portlandcleanair.org/files/PDXPCADemolitionsReport.pdf">Lead and Asbestos from Portland Residential
-Home Demolitions</a></li>
-<li><a href="http://portlandcleanair.org/files/MethodologyMultRankingNATA.pdf">Portland Air Quality Ranking Methodology</a> Using EPA NATA data</li>
-<li><a href="http://portlandcleanair.org/files/divisionbus.pdf">Portland Electric Bus Factsheet</a></li>
-<li><a href="http://gallery.mailchimp.com/82a1ba1d94e846c9df4ac5ec1/files/2a708d8a-dae3-4498-8a09-7c357b182dfb/PCA_diesel_mitigations_10.pdf">Diesel Truck Mitigation
-</a></li>
-<li>Broken URL: http://gallery.mailchimp.com/82a1ba1d94e84
-6c9df4ac5ec1/files/3b6320eb-0b3e-4581-b17b7fbdee8fd47b/final_ODOT.pdf <a href="">Portland Area Highways 24-hour Truck Counts
-</a> Using ODOT data</li>
-</p></ul>
-
+  <ul>
+  <li><a href='http://www.portlandcleanair.org/files/PCA-Guide-to-Industrial-Air-Pollution.pdf'>Guide to Industrial Air Pollution Government Records</a> </li>  
+  <li><a href='http://www.portlandcleanair.org/files/Woodsmoke%20factsheet%20PCA.pdf'>Portland Residential and Restaurant Wood Smoke</a> using Multnomah County Health and Building Dept data</li>  
+  <li><a href='http://www.portlandcleanair.org/files/PDXPCADemolitionsReport.pdf'>Lead and Asbestos from Portland Residential Home Demolitions</a> </li>  
+  <li><a href='http://portlandcleanair.org/files/MethodologyMultRankingNATA.pdf'>Portland Air Quality Ranking Methodology</a> using EPA NATA data</li>  
+  <li><a href='http://portlandcleanair.org/files/divisionbus.pdf'>Portland Electric Bus Factsheet</a> </li> 
+  <li><a href='http://gallery.mailchimp.com/82a1ba1d94e846c9df4ac5ec1/files/2a708d8a-dae3-4498-8a09-7c357b182dfb/PCA_diesel_mitigations_10.pdf'>Diesel Truck Mitigation</a> </li> 
+  <li><a href='http://portlandcleanair.org/files/final%20ODOT.pdf'>Portland Area Highways 24-hour Truck Counts</a> using ODOT data</li> 
+  </ul>
 <h3> Interactive Online Maps </h3>
-<ul><p>
-<li><a href="http://www.portlandcleanair.org/">Portland Industrial Stack Emitters</a> Using scans of all DEQ ACDP Permit, Application, Review, and Assignments for Multnomah as well as Washington Counties Fire Marshall HSIS data </li>
-<li><a href="https://www.google.com/maps/d/u/0/viewer?mid=142ST6NqDE0VdtoI-EY0Nw_YOK2w&ll=45.38192838621225%2C-122.473611&z=9">Portland Area Unfiltered Commercial Diesel
-Trucks over 26,000 lbs.</a> From ODOT data</li>
-<li><a href="https://www.google.com/maps/d/u/0/viewer?mid=1cAfRb6mBreW9r56Odhl2kSkyjkc&ll=45.532709368110446%2C-122.63262492861327&z=12">Portland Area Surface Street 24-Hour Truck</a> Counts From PBOT data</li>
-<li><a href="https://www.google.com/maps/d/u/0/viewer?mid=1UktznewigOVLhY1rFykvWtmwfzY&ll=45.5425048186408%2C-122.63415299999997&z=11">2014-15 Glyphosate Use in Portland Parks</a></li> 
-</p></ul>
+  <ul>
+  <li><a href='http://www.portlandcleanair.org/'>Portland Industrial Stack Emitters</a> using scans of all DEQ ACDP Permit, Application, Review, and Assignments for Multnomah as well as Washington Counties Fire Marshall HSIS data </li> 
+  <li><a href='https://www.google.com/maps/d/u/0/viewer?mid=142ST6NqDE0VdtoI-EY0Nw_YOK2w&ll=45.38192838621225%2C-122.473611&z=9'>Portland Area Unfiltered Commercial Diesel Trucks over 26,000 lbs.</a> From ODOT data</li> 
+  <li><a href='https://www.google.com/maps/d/u/0/viewer?mid=1cAfRb6mBreW9r56Odhl2kSkyjkc&ll=45.532709368110446%2C-122.63262492861327&z=12'>Portland Area Surface Street 24-Hour Truck</a> Counts From PBOT data</li>  
+  <li><a href='https://www.google.com/maps/d/u/0/viewer?mid=1UktznewigOVLhY1rFykvWtmwfzY&ll=45.5425048186408%2C-122.63415299999997&z=11'>2014-15 Glyphosate Use in Portland Parks</a> </li> 
+  </ul>
 <h3> Collaborative Reports </h3>
-<ul><p>
-<li><a href="http://linntonna.org/get-involved/report/">The Linnton Report: N and NW Portland
-Industrial Air Polluters</a></li>
-<li><a href="http://eastsideportlandair.org/report/">Eastside Factsheet: A Neighborhood Report on
-Industrial Air Pollution</a></li>
-<li><a href="http://www.cullycleanair.org/factsheet-2/">Cully Air Action Team Factsheet on Local
-Polluters</a></li>
-<li><a href="http://portlandcleanair.org/files/HAW.pdf">Hillsboro Industrial Polluters and Their Effects
-on Neighborhoods
-</a></li>
-<li><a href="http://portlandcleanair.org/files/HAWAirportFinal.pdf">Hillsboro Airport and Toxic Air Pollution
-</a></li>
-<li>BROKEN URL: necoalition.org/report/ <a href="">North East Coalition of Neighborhoods Air
-Pollution Report</a></li>
-<li><a href="http://pdxnhn.org/">Portland North Harbor Neighbors Air Pollution
-Report</a> (scroll down the page for the two
-reports)</li>
-<li><a href="http://www.creston-kenilworth.org/report.html">Brooklyn Railyards Report</a></li>
-<li><a href="http://gallery.mailchimp.com/82a1ba1d94e846c9df4ac5ec1/files/af422455-c7f7-41b9-9f71-b8e000231122/NECN_Letter_to_DEQ_1_16_18.pdf">Northeast Coalition of Neighborhoods
-Volkswagon Diesel Settlement letter to DEQ</a></li>
-</p></ul>
-
-<h2>Data sets obtained or created by Portland Clean Air</h2>
-<p>
-  <h5>EPA</h5>
   <ul>
-    <li>EPA - Oregon TRI 2017 </li>
-    <ul><li>Portland area TRI 2017 edited &#9734; &#9733; </li></ul>
-    <li>EPA - 2011 NATA Oregon diesel particulate microgram per cubic liter &#9733;</li>
-    <li>EPA - 2011 NATA nationwide respiratory distress</li>
-    <li>EPA - 2011 NEI Portland area diesel particulate by vehicle source</li>
-    <li>EPA - 2011 NEI Portland area rail yards and airports &#9733;</li>
+  <li><a href='http://linntonna.org/get-involved/report/'>The Linnton Report: N and NW Portland Industrial Air Polluters</a> </li>  
+  <li><a href='http://eastsideportlandair.org/report/'>Eastside Factsheet: A Neighborhood Report on Industrial Air Pollution</a> </li>  
+  <li><a href='http://www.cullycleanair.org/factsheet-2/'>Cully Air Action Team Factsheet on Local Polluters</a> </li>  
+  <li><a href='http://portlandcleanair.org/files/HAW.pdf'>Hillsboro Industrial Polluters and Their Effects on Neighborhoods</a> </li> 
+  <li><a href='http://portlandcleanair.org/files/HAWAirportFinal.pdf'>Hillsboro Airport and Toxic Air Pollution</a> </li> 
+  <li><a href='http://portlandcleanair.org/files/NECN%20air%20report%202018%208.pdf'>North East Coalition of Neighborhoods Air Pollution Report</a> </li> 
+  <li><a href='http://pdxnhn.org/'>Portland North Harbor Neighbors Air Pollution Report</a> (scroll down the page for the two reports)</li> 
+  <li><a href='http://www.creston-kenilworth.org/report.html'>Brooklyn Railyards Report</a> </li> 
+  <li><a href='http://gallery.mailchimp.com/82a1ba1d94e846c9df4ac5ec1/files/af422455-c7f7-41b9-9f71-b8e000231122/NECN_Letter_to_DEQ_1_16_18.pdf'>Northeast Coalition of Neighborhoods Volkswagon Diesel Settlement letter to DEQ</a> </li>  
   </ul>
-  <h5>DEQ</h5>
+<!-- this below HTML is generated from the spreadsheet at https://docs.google.com/spreadsheets/d/1GPQ7Xa3OBF1wspwxcihUU5Ob66AdTjeVH2nHJ-jKZG4/edit?usp=sharing -->
+<h2>Data Sets Obtained or Created by Portland Clean Air</h2>
+<h3>EPA</h3>
   <ul>
-    <li>DEQ - ACDP, Review, Application, Annual Reports for Oregon industry &#9733;</li>
-    <li>DEQ - Portland area aethalometer readings</li>
-    <li>DEQ - ACDP chemical balance sheets and control devices for Oregon industry</li>
+ <li>Oregon Tri 2017</li>
+  <li>Portland Area Tri 2017 &#9733;  &#9734;  </li>
+  <li>2011 NATA Oregon diesel particulate microgram per cubic liter  &#9733; </li>
+  <li>2011 NATA nationwide respiratory distress</li>
+  <li>2011 NEI Portland area diesel particulate by vehicle source</li>
+  <li>2011 NEI Portland Area Rail Yards &#9733;   <ul>   <li><a href='https://github.com/bradmbaker/portland_clean_air/blob/master/combining_onsite_storage_and_permits/raw_data/NEI%20PCA%20railyards.xlsx'>Link to Data </a></li>   </ul> </li>
+  <li>2011 NEI Portland Area Airports &#9733;   <ul>   <li><a href='https://github.com/bradmbaker/portland_clean_air/blob/master/combining_onsite_storage_and_permits/raw_data/NEI%20clack%2C%20mult%2C%20Wash%20airports%20final.xlsx'>Link to Data </a></li>    </ul> </li>
   </ul>
-  <h5>Oregon State Fire Marshall</h5>
+<h3>DEQ</h3>
   <ul>
-    <li> Oregon HSIS on site chemical storage</li>
-    <ul>
-      <li>Fire Marshall - HSIS edited, non-hazardous substances removed &#9734; &#9733;</li>
-      <li>Fire Marshall -  HSIS Portland area on site heavy metals &#9734; &#9733;</li>
-    </ul>
+ <li>ACDP, Review, Application, Annual Reports for Oregon industry &#9733;   <ul>     <li><a href='http://portlandcleanair.org/files/procedures/ACDP%20methods.pdf'>Link to Procedure </a></li>  </ul> </li>
+  <li>Portland area aethalometer readings</li>
+  <li>ACDP chemical balance sheets and control devices for Oregon industry </li>
   </ul>
-  <h5>Multnomah County Health Dept.</h5>
+<h3>Oregon State Fire Marshall</h3>
   <ul>
-    <li>Multnomah County restaurants &#9733;</li>
+ <li>Oregon HSIS on site chemical storage </li>
+  <li>Fire Marshall - HSIS edited, non-hazardous substances removed  &#9733;  &#9734;  </li>
+  <li>Fire Marshall - HSIS Portland area on site heavy metals &#9733;  &#9734; </li>
   </ul>
-  <h5>Multnomah County Building Dept</h5>
+<h3>Multnomah County Health Dept.</h3>
   <ul>
-    <li>Multnomah County Type I Hoods &#9733;</li>
-    <li>Type I hoods that burn wood or charcoal &#9734; &#9733;</li>
+ <li>Multnomah County restaurants &#9733; </li>
   </ul>
-  <h5>ODOT</h5>
+<h3>Multnomah County Building Dept.</h3>
   <ul>
-    <li>Oregon commercial truck ownership over 16,000 lbs</li>
-    <li>Portland area unfiltered commercial truck fleets over 16,000 lbs &#9734; &#9733;</li>
-    <li>Portland area highway 24-hour truck counts (GIS mapped by ODOT)</li>
+ <li>Multnomah County Type I Hoods &#9733;  </li>
+  <li>Type I hoods that burn wood or charcoal &#9733;  &#9734; </li>
   </ul>
-  <h5>DMV</h5>
+<h3>ODOT</h3>
   <ul>
-    <li>Oregon commercial diesel truck ownership under 16,000 lbs</li>
-    <li>Portland area unfiltered commercial truck fleets under 16,000 lbs &#9734;</li>
-    <li>Oregon government-owned diesel trucks</li>
-    <li>Portland area unfiltered government-owned diesel truck fleets &#9734;</li>
-    <li>Oregon personal diesel truck ownership and zip codes (personal info deleted)</li>
+ <li>Oregon commercial truck ownership over 16,000 lbs</li>
+  <li>ODOT Portland area unfiltered commercial truck fleets over 16,000 lbs &#9733;  &#9734; </li>
+  <li>Portland area highway 24-hour truck counts (GIS mapped by ODOT)</li>
   </ul>
-  <h5>PBOT</h5>
+<h3>DMV</h3>
   <ul>
-    <li>Multnomah County surface street 24-hour truck counts &#9733;</li>
+ <li>Oregon commercial diesel truck ownership under 16,000 lbs</li>
+  <li>Portland area unfiltered commercial truck fleets under 16,000 lbs &#9734;  </li>
+  <li>Oregon government-owned diesel trucks</li>
+  <li>Portland area unfiltered government-owned diesel truck fleets &#9734;  </li>
+  <li>Oregon personal diesel truck ownership and zip codes (personal info deleted) </li>
   </ul>
-  <h5>Portland Parks & Recreation</h5>
+<h3>PBOT</h3>
   <ul>
-    <li> Glyphosate use in Portland Parks &#9733;</li>
+ <li>Multnomah County surface street 24-hour truck counts &#9733; </li>
   </ul>
-
-  <h5>Key</h5>
-  <ul> 
-    <li> &#9734; = version edited by Portland Clean Air</li>
-    <li> &#9733; = GIS mapped by Portland Clean Air</li>
+<h3>Portland Parks and Rec</h3>
+  <ul>
+ <li>Glyphosate use in Portland Parks &#9733; </li>
+  </ul>
+<h3>Key</h3>
+  <ul>
+ <li>&#9733; = version edited by Portland Clean Air</li>
+    <li> &#9734; = GIS mapped by Portland Clean Air</li>
     <li> Portland area = Multnomah, Washington, Clackamas Counties</li>
   </ul>
-</p></body></html>
+</div>
+      <div class="footer">
+        &copy; 2015-2018 portland clean air <span class="right">working to improve our air quality</span>
+      </div>
+  </body>
+</html>

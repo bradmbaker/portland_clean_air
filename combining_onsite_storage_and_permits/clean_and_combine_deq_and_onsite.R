@@ -24,6 +24,10 @@ paste(
 ) %>%
   toupper() -> onsite_chem_storage_raw$address 
 
+# remove all storage facilities who start with 4
+onsite_chem_storage_raw %>%
+  filter(!grepl("^4.*", NAICS1 )) -> onsite_chem_storage_raw
+
 # only keep the relevant chemical storage data
 # so it is more manageable
 onsite_chem_storage_raw %>%
@@ -31,7 +35,8 @@ onsite_chem_storage_raw %>%
          NAICS1, NAICSDesc1, NAICS2, NAICSDesc2, 
          ChemicalID, ChemName, HazardousIngredient, 
          AvgAmt, MaxAmt, UnitDesc, StorageType1, 
-         HazClass1Desc, HazClass2Desc, Latitude, Longitude, address) %>%
+         HazClass1Desc, HazClass2Desc, Latitude, Longitude, 
+         address, County) %>%
   mutate(in_storage = 1) %>%
   rename(company_name_storage = FacilityName) %>%
   rename(company_id_storage = FacilityID) %>%
@@ -60,7 +65,7 @@ paste(
   deq_permits_mult_co$`City,.State.Zip`,
   sep = ", "
 ) %>% sub("-[0-9]{4}","",.) -> deq_permits_mult_co$address
-
+deq_permits_mult_co$county <- "Multnomah"
 
 #######
 # Data Set 3 - Washington County DEQ Permits
@@ -74,12 +79,60 @@ paste(
   deq_permits_wash_co$`City,.State.Zip`,
   sep = ", "
 ) %>% sub("-[0-9]{4}","",.) -> deq_permits_wash_co$address
+deq_permits_wash_co$county <- "Washington"
 
-# combine both deq datasets into one dataset.
+# combine Washco and Multco deq datasets into one dataset.
 deq_permits_wash_co$Operating.Status <- NA
 names(deq_permits_wash_co)[names(deq_permits_wash_co) == "X7"] <- 'X8'
 deq_permits <- rbind(deq_permits_mult_co, deq_permits_wash_co)
+
+
+#####
+# Data Set 4 - Clackamas County DEQ Permits
+#####
+deq_permits_clack_co <- read.csv("raw_data/clackamas_acdp.csv", stringsAsFactors = F)
+# this dataset has alpha codes for permits so map them to the numeric values
+alpha_permit_codes <- c("G", "ST", "SI", "BS", "TV")
+numeric_permit_codes <- c(31, 32, 33, 34, 31)
+codes <- data.frame(alpha_permit_codes, numeric_permit_codes, stringsAsFactors = F)
+deq_permits_clack_co %>%
+  left_join(., codes, by = c("Permit_Type" = "alpha_permit_codes")) %>%
+  mutate(county = "Clackamas") -> deq_permits_clack_co
+paste(
+  deq_permits_clack_co$Site_Address,
+  deq_permits_clack_co$City,
+  sep = ", "
+) %>% sub("-[0-9]{4}","",.) -> deq_permits_clack_co$address
+
+
+# get Clackamas County to match the merged dataset
+deq_permits_clack_co %>% 
+  mutate(`DEQ.Permit.and.Review` = paste("www.portlandcleanair.org/", Source_Number, sep="")) %>%
+  select(Source_Number, Source_Name, Site_Address, City, Operating_Status, 
+         SIC_Codes, NAICS_Codes, numeric_permit_codes, Permit_Number, `DEQ.Permit.and.Review`, 
+         address, county) %>%
+  rename(`Source.Number` = Source_Number) %>%
+  rename(`Source.Name` = Source_Name) %>%
+  rename(`Site.Address` = Site_Address) %>%
+  rename(`City,.State.Zip` = City) %>%
+  rename(`Operating.Status` = Operating_Status) %>%
+  rename(`SIC.Codes` = SIC_Codes) %>%
+  rename(`NAICS.Codes` = NAICS_Codes) %>%
+  rename(X8 = numeric_permit_codes) %>%
+  rename(`Permit.Number` = Permit_Number) -> deq_permits_clack_co
+
+
+# combine clackamas with the other data sets and remove all data that doesn't have a permit number.
+rbind(deq_permits, deq_permits_clack_co) -> deq_permits
+deq_permits %>%
+  filter(!is.na(Permit.Number)) -> deq_permits
 deq_permits$in_deq_permits <- 1
+
+# filter out coffee shops
+# TODO filter out gas stations and breweries
+deq_permits %>%
+  filter(general_type_permit_deq != 16) ## 16 is coffee roasters
+
 
 #####
 # Data Set 4 - Permit Type Descriptions
