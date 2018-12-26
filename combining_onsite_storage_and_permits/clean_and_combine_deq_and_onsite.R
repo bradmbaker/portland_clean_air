@@ -52,7 +52,6 @@ onsite_chem_storage_raw %>%
   rename(lat = Latitude) %>%
   rename(lng = Longitude) -> onsite_chem_storage_trim
 
-
 #######
 # Data Set 2 - Multnomah County DEQ Permits
 #######
@@ -128,14 +127,9 @@ deq_permits %>%
   filter(!is.na(Permit.Number)) -> deq_permits
 deq_permits$in_deq_permits <- 1
 
-# filter out coffee shops
-# TODO filter out gas stations and breweries
-deq_permits %>%
-  filter(general_type_permit_deq != 16) ## 16 is coffee roasters
-
 
 #####
-# Data Set 4 - Permit Type Descriptions
+# Data Set 5 - Permit Type Descriptions
 #####
 deq_permit_desc <- read.csv("raw_data/permit_types.csv", 
                             stringsAsFactors = F)
@@ -157,8 +151,15 @@ deq_permits %>%
   mutate(general_type_desc_permit_deq = coalesce(general_type_desc_permit_deq, "Other")) -> deq_permits 
 
 
+# filter out coffee shops
+# TODO filter out gas stations somehow
+deq_permits %>%
+  filter(general_type_permit_deq != 16) %>% ## 16 is coffee roasters
+  filter(!grepl("brew", company_name_deq, ignore.case = T)) %>% # remove places named brew something
+  filter(!grepl("coffee", company_name_deq, ignore.case = T)) -> deq_permits # remove places named coffee something
+
 #####
-# Data Set 5 - Railyards
+# Data Set 6 - Railyards
 #####
 railyards <- read.xlsx("raw_data/NEI PCA railyards.xlsx")
 railyards %>%
@@ -169,7 +170,7 @@ railyards %>%
   select(ends_with("railyard"), lat, lng) -> railyards
 
 #####
-# Data Set 6 - Airports
+# Data Set 7 - Airports
 #####
 airports <- read.xlsx("raw_data/NEI clack, mult, Wash airports final.xlsx", 
                       colNames = F)
@@ -183,7 +184,7 @@ airports %>%
   select(ends_with("airport"), lat, lng) -> airports
 
 #####
-# Data Set 7 - Washington County No Permit Polluters
+# Data Set 8 - Washington County No Permit Polluters
 #####
 wash_co_no_permit_polluters <- read.xlsx("raw_data/wash county no permit polluters.xlsx")
 wash_co_no_permit_polluters %>%
@@ -260,17 +261,14 @@ full_ds %>%
 
 tmp_deq_and_onsite %>%
   filter(`Has DEQ Permit` == "Yes") %>%
-  group_by(`DEQ General Permit Type`) %>%
-  count() %>%
-  arrange(desc(n)) %>% ungroup() %>%
-  top_n(10) -> top_permit_categories
+  filter(grepl("^1", `DEQ General Permit Type`)) %>%
+  write.csv(., "cleaned_data/map_data/deq_permits_pt1.csv", 
+            row.names = F)
 
 tmp_deq_and_onsite %>%
   filter(`Has DEQ Permit` == "Yes") %>%
-  left_join(., top_permit_categories, by = c("DEQ General Permit Type" = "DEQ General Permit Type")) %>% 
-  mutate(n = ifelse(is.na(n), "Other", as.character(`DEQ General Permit Type`))) %>% 
-  rename(`DEQ General Permit Display Type` = n) %>%
-  write.csv(., "cleaned_data/map_data/deq_permits.csv", 
+  filter(!grepl("^1", `DEQ General Permit Type`)) %>%
+  write.csv(., "cleaned_data/map_data/deq_permits_pt2.csv", 
             row.names = F)
 
 tmp_deq_and_onsite %>%

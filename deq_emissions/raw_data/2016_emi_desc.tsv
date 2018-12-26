@@ -1,0 +1,3069 @@
+00001	EP 1	DRILLING HOLES FOR BLASTING AND EXPLORATION	30532010	9303
+00002	EP 3	PUSHING BLASTED ROCK FROM QUARRY BENCHES TO QUARRY FLOOR	30532011	9303
+00003	EP 4	992 FEL LOAD HAUL TRUCK (Picking Up Rock from Floor for Transport to Crusher)	30532033	9303
+00004	EP 5	HAUL TRUCK MILES (Unpaved Road Transport of Limestone from Quarry Face to Crusher)	30532090	9303
+00005	EP 6	HAUL TRUCK UNLOADING INTO PRIMARY CRUSHER HOPPER	30532031	9303
+00006	EP 8	232.VF1 FEEDER TRANSFER TO 232.BC1 BELT	30532006	9303
+00007	EP 9	232.BC1 BELT TRANSFER TO 232.ST1 STACKER	30532006	9303
+00008	EP 12	232.BC2 BELT TRANSFER TO 232.BC3 BELT	30532006	9303
+00009	EP 13	232.BC3 BELT TRANSFER TO 232.BC4 BELT	30532006	9303
+00010	EP 14	232.BC4 BELT TRANSFER TO 252.BC1 BELT	30532006	9303
+00011	EP 16	252.BC2 BELT TRANSFER TO 252.HP1 HOPPER	30532006	9303
+00012	EP 22	252.BC3 BELT TRANSFER TO 252.ST1 STACKER	30532006	9303
+00013	EP 25	252.BC4 BELT TRANSFER TO 252.ST2 STACKER	30532006	9303
+00014	EP 28	252.BC5 BELT TRANSFER TO 252.ST3 STACKER	30532006	9303
+00015	EP 35	282.BC2 BELT TRANSFER TO 282.BC1 BELT	30532006	9303
+00016	EP 36	282.BC1 BELT TRANSFER TO 282.BC3 BELT	30532006	9303
+00017	EP 40	281.FE1 FEEDER HOPPER TRANSFER TO 281.BC1 BELT	30504603	9303
+00018	EP 40	281.FE1 FEEDER HOPPER TRANSFER TO 281.BC1 BELT	30504603	9303
+00019	EP 41	281.BC1 BELT TRANSFER TO 281.BC4 BELT	30504603	9303
+00020	EP 41	281.BC1 BELT TRANSFER TO 281.BC4 BELT	30504603	9303
+00021	EP 50	Transfer from belt 271.BC3 to belt 271.BC4/282.BC3	30504603	9303
+00022	EP 50	Transfer from belt 271.BC3 to belt 271.BC4/282.BC3	30504603	9303
+00023	EP 53	FUGITIVE EMISSIONS FROM 232.VF2 Through 232.VF8	30532006	9303
+00024	EP 54	FUGITIVE EMISSIONS FROM 282.VF1 Through 282.VF5	30532006	9303
+00025	EP 56	FUGITIVE EMISSIONS FROM 282.VF6 Through 282.VF9	30532006	9303
+00026	EP 57	FUGITIVE EMISSIONS FROM 282.VFA	30532006	9303
+00027	EP 58	Transfer from belt 281.BC4 to belt 282.BC4	30504603	9303
+00028	EP 58	Transfer from belt 281.BC4 to belt 282.BC4	30504603	9303
+00029	EP 61	252.BC1 BELT TRANSFER TO 252.SN1	30532006	9303
+00030	EPCR4	Transfer from 331.BI1 to weighbelt 331.BC1/weighbelt 331.BC3	30532006	9303
+00031	EPCR5	Transfer from belt 331.BC3 to truck 	30532032	9303
+00032	EPCR7	Transfer from 331.BI2 to weighbelt 331.BC1/weighbelt 331.BC3 	30532006	9303
+00033	EPCR8	331.BC1 WEIGHBELT TRANSFER TO 331.BC2 BELT	30532006	9303
+00034	EPCR9	331.BC2 WEIGH FEEDER TRANSFER TO RAILCAR	30532032	9303
+00035	EP 10	232.ST1 STACKER TRANSFER TO HIMAG/HICAL/CAP ROCK PILE	30532006	9303
+00036	EP 11	FUGITIVE EMISSIONS FROM HIMAG/HICAL/CAP ROCK PILE	30510305	9303
+00037	EP 23	252.ST1 STACKER TO COARSE SUGAR ROCK PILE	30532006	9303
+00038	EP 26	252.ST2 STACKER TRANSFER TO FINE SUGAR ROCK PILE	30532006	9303
+00039	EP 27	FUGITIVE EMISSIONS FROM FINE SUGAR ROCK PILE	30510305	9303
+00040	EP 29	252.ST3 Stacker TRANSFER TO HIMAG/HICAL/CAP ROCK PILE	30532006	9303
+00041	EP 30	FUGITIVE EMISSIONS FROM HIMAG/HICAL ROCK PILE	30510305	9303
+00042	EP 33	330L FEL LOAD to HOPPER (Transfer from Sugar Rock Loader to Hopper 282.HP1)	30532006	9303
+00043	EP 39	LOADER PICK-UP ROCK AND TRANSFER TO 281.FE1 FEEDER HOPPER	30504603	9303
+00044	EP 39	LOADER PICK-UP ROCK AND TRANSFER TO 281.FE1 FEEDER HOPPER	30504603	9303
+00045	EP 44	LOADER PICK-UP CLAY/SHALE TRANSFER TO 271.HP1 HOPPER	30504603	9303
+00046	EP 44	LOADER PICK-UP CLAY/SHALE TRANSFER TO 271.HP1 HOPPER	30504603	9303
+00047	EP 48	271.BC2 BELT TRANSFER TO CLAY STOCKPILE	30504603	9303
+00048	EP 49	FUGITIVE EMISSIONS FROM CLAY PILE	30510399	9303
+00049	EP 51	271.BC3 BELT TRANSFER TO SHALE PILE	30504603	9303
+00050	EP 52	FUGITIVE EMISSIONS FROM SHALE PILE	30510399	9303
+00051	EP 55	DOZING OF CLAY AND SHALE	30504601	9303
+00052	EP 55	DOZING OF CLAY AND SHALE	30504601	9303
+00053	EP 59	Transfer from 333.HP1 hopper to 333.BC1 belt	30500612	9303
+00054	EP 60	Transfer from 333.BC1 belt to 331.BE1 bucket elevator	30500612	9303
+00055	282.BF1	282.BC3 & 281.BC4 to 282.BC4 transfer 	30532006	9303
+00056	282.BF1	282.BC3 & 281.BC4 to 282.BC4 transfer 	30504603	9303
+00057	282.BF1	282.BC3 & 281.BC4 to 282.BC4 transfer 	30504603	9303
+00058	282.BF2	282.BC4 to 341.BC1 transfer	30532006	9303
+00059	282.BF2	282.BC4 to 341.BC1 transfer	30504603	9303
+00060	282.BF2	282.BC4 to 341.BC1 transfer	30504603	9303
+00061	271.BF1	Clay/shale crusher 271.CR1 (Hazmag impact crusher)	30504615	9303
+00062	271.BF1	Clay/shale crusher 271.CR1 (Hazmag impact crusher)	30504615	9303
+00063	252.BF1 (formerly EP 15, 18, 19, 20 & 21)	252.SN1 SCREEN & FOUR BELT TRANSFERS	30532006	9303
+00064	EP 7	PRIMARY CRUSHER 232.CR1	30532001	9303
+00065	EP 17	252.CR1 CRUSHER (Secondary Crusher)	30532002	9303
+00066	T1-T6	Portable screen plant to process 22,500 Mg/yr rock to produce stemming for quarry	30532004	9303
+00067	341.BF1	Iron ore, shale, clay and clean rock storage silos	30500699	9303
+00068	351.BF2	Raw material conveyors (351.BC2 to 351.BC3)	30500612	9303
+00069	351.BF3	Discharge of raw material feeders (351.WF1, 351.WF2, 351.WF3, 351.WF4, 351.WF5, and 351.BC1 to 351.BC2)	30500612	9303
+00070	351.BF4 - new	351.CHB to truck	30500612	9303
+00071	371.BF1	Raw meal conveyors  (371.BE1, 371.AS3, 371.AS4, 371.AS5 & 411.SI1)	30500612	9303
+00072	341.BF2	Chute onto screen (341.CH1) and emissions off screen itself (331.SN1) 	30532006	9303
+00073	411.BF1	Air slide for the raw mix into blend silos (411.AS2 & 411.SI2)	30500612	9303
+00074	421.BF3(HO')	Kiln feed system for preheat tower #1 (alleviator) (421.AM2, & 421.AS9)	30500612	9303
+00075	421.BF2	Kiln feed system for preheat tower #2 (421.BI2, 421.BE2, 421.AL2, 421.ASG, 421.AS4, 421.AS1, 421.BI1, 421.AL1, & 421.ASF)	30500612	9303
+00076	421.BF1	Kiln feed system (ground level)   (421.AM1, 421.AS7)	30500612	9303
+00077	476.BF1	Raw and Pulverized Coal Bins	30500621	9303
+00078	476.BF2	Raw and Pulverized Coal Bins	30500621	9303
+00079	476.BF4	Raw and Pulverized Coal Bins	30500621	9303
+00080	471.BF1	Reciprocating Grate Clinker Cooler Vent (CC)	30500614	9303
+00081	491.BF8(CM')	Clinker silos (532.SI6, 532.SI9, 532.SI3, 532.SI4, 532.SI5, 532.SI2, & 491.CV8)	30500699	9303
+00082	521.BF4(CM')	Clinker silo (491.CV3, 532.SI1)	30500699	9303
+00083	523.BF3	523.SI2 and 523.SI4 via 523.CHV to 523.BC4	30500616	9303
+00084	523.BF2	new clinker loadout (523.HP4 to Hood on Truck, 523.LS2)	30500616	9303
+00085	532.BF6	Material conveying into finish mill #2 (532.BC1, 532.BC2, 532.BC3, 532.BC4 & 531.BC3)	30500616	9303
+00086	542.BF2(CM')	Finish mill #2 vent (542.BM1 & 542.SC2) and surge hopper 542.HP1	30500616	9303
+00087	542.BF3	Material handling into finish mill #2 separator (542.SR1, 592.AS2,592.CQ1, 592.AS3, 592.PP1, 592.CQ1, 542.AS1 & 542.SC3)	30500616	9303
+00088	542.BF1(CM')	Finish mill #2 conveying equipment (542.AS2, 542.BE1 & 542.AS3)	30500616	9303
+00089	531.BF1	Material conveying into finish mill #1 (531.BE1)	30500616	9303
+00090	541.BF2	Transfer between belt conveyors for material handling to finish mill #1 (531.BC2, 541.AS1, 541.AS2, 541.AS3 & 541.BE1)	30500616	9303
+00091	541.BF1	Separator for finish mill #1 (541.BM1, 541.SR1, 591.AS1, 591.CQ1 & 591.PP1)	30500616	9303
+00092	611.BF8	Loading bins (611.BE1, 611.SC8, 611.SC9, 622.BI1, 622.BI2, 622.BI3, 621.BI1, 621.BI2 & 621.BI3)	30500619	9303
+00093	611.BF1(CP')	Cement silo #1 (611.SI1)	30500618	9303
+00094	611.BF2(CP')	Cement silo #2 (611.SI2)	30500618	9303
+00095	611.BF3(CP')	Cement silo #3 (611.SI3)	30500618	9303
+00096	611.BF4	Cement silo #4 (611.SI4)	30500618	9303
+00097	611.BF5	Cement storage dome (611.SI5)	30500618	9303
+00098	622.BF1(CP')	Rail car loading spout (622.LS1)	30500619	9303
+00099	621.BF1(CP')	Truck loading spout (621.LS1)	30500619	9303
+00100	521.BF1	Rail car unloading hopper (521.BC1)	30500607	9303
+00101	521.BF5	new coal receiving / reclaim system (521.VF3 to 521.BCA)	30500608	9303
+00102	521.BF5	new coal receiving / reclaim system (521.VF3 to 521.BCA)	30500607	9303
+00103	521.BF6	new coal receiving / reclaim system (521.BCA to 521.BCB)	30500608	9303
+00104	521.BF6	new coal receiving / reclaim system (521.BCA to 521.BCB)	30500607	9303
+00105	521.BF2(KG')	Conveying system for gypsum/clinker/coal silo loading (521.SC1, 521.SC2, 521.BC3, 521.BE1& 521.BC7, 476.BC1, 521.EE1, 521.HP3)	30500607	9303
+00106	521.BF2(KG')	Conveying system for gypsum/clinker/coal silo loading (521.SC1, 521.SC2, 521.BC3, 521.BE1& 521.BC7, 476.BC1, 521.EE1, 521.HP3)	30500608	9303
+00107	521.BF3(KG')	Conveying system for gypsum/clinker/coal silo/pile loading  (521.BC5, 521.BC4, 521.LS1)	30500607	9303
+00108	521.BF3(KG')	Conveying system for gypsum/clinker/coal silo/pile loading  (521.BC5, 521.BC4, 521.LS1)	30500608	9303
+00109	532.BF5(KG')	Finish mill feed system (532.WF2, 532.WF4, 532.WF6, 532.WF7 & 531.BC1)	30500616	9303
+00110	PT-FU-02A	  Coal Pile	30500608	9303
+00111	PT-FU-02B	  Coal Pile	30510303	9303
+00112	PT-FU-03A	  Gypsum Pile	30500607	9303
+00113	PT-FU-03B	  Gypsum Pile	30510399	9303
+00114	PT-FU-04A	  Iron Ore Pile	30500607	9303
+00115	PT-FU-04B	  Iron Ore Pile	30510399	9303
+00116	PT-FU-05A	  Clinker Pile	30500616	9303
+00117	PT-FU-05B	  Clinker Pile	30510399	9303
+00118	PT-FU-08	  Chemical Grade Limestone Pit and Loadout, Coal/Clinker/Gypsum Reclaim Pit	30500607	9303
+00119	PT-FU-08	  Chemical Grade Limestone Pit and Loadout, Coal/Clinker/Gypsum Reclaim Pit	30500621	9303
+00120	OP2	Remote Stack Yard - SE of Primary Crusher - Includes Sugar Rock, Stemming Rock and Sugar Rock Fines	30510302	9303
+00121	OP5	   Cement Rock near Old Secondary	30510302	9303
+00122	OP8	   High Alumina - Near shale pit north of shale crusher	30510399	9303
+00123	OP9	   Low Alumina - Near shale pit north of shale crusher	30510399	9303
+00124	OP10	   Stemming Rock	30510305	9303
+00125	431.BF1 & 476.BF3	Pyroprocessing	30500606	9303
+00126	431.BF1 & 476.BF3	Pyroprocessing	30500606	9303
+00127	431.BF1 & 476.BF3	Pyroprocessing	30500606	9303
+00128	431.BF1 & 476.BF3	Pyroprocessing	30500606	9303
+00129	431.BF1 & 476.BF3	Pyroprocessing	30500606	9303
+00130	431.BF1 & 476.BF3	Pyroprocessing	30500606	9303
+00131	431.BF1 & 476.BF3	Pyroprocessing	30500606	9303
+00132	Boiler Natural Gas	Boiler Natural Gas	10200603	9303
+00133	Fuel Gas Heater	Boiler Natural Gas	10200603	9303
+00134	Recip Engine Unit 1	Reciprocating Engine	20200252	9303
+00135	Recip Engine Unit 2	Reciprocating Engine	20200252	9303
+00136	Recip Engine Unit 3	Reciprocating Engine	20200252	9303
+00137	Recip Enginer Unit 4	Reciprocating Engine	20200252	9303
+00138	Emergency Generator	Reciprocating Engine	20200253	9303
+00150	Transit Mixed Concrete Plant	Concrete yards batched	6597
+00151	Boiler	Hot Water Heater	6597
+00160	Corvallis RMC 02-2125	Transit mixed concrete cubic yards	6597
+00161	Corvallis RMC PFU	Plant Fuel Use - Hot water	6597
+00174	RF_CFU	Rotary Fine (CFU)	--	9303
+00175	RC_SCR	Rotary Coarse (Wet Scrubber)	--	9303
+00176	URC_SCR	Ultra Rotary Coarse (Wet Scrubber)	--	9303
+00177	FB_CFU	Flameblown (CFU)	--	9303
+00178	GM_SCR	Glass Melt (Wet Scrubber)	--	9303
+00179	NATGAS	Total Natural Gas Combustion	--	9303
+00180	Energy Center Boilers Natural Gas	Boiler Natural Gas	NA	9303
+00181	Corvallis Campus Building Boilers	Boiler Natural Gas	NA	9303
+00182	Energy Center Boilers Diesel #2	Boiler Diesel #2	NA	9303
+00183	Engine > 600 HP Diesel #2	Engine >600 HP Diesel #2	NA	9303
+00184	Engine < 600 HP Diesel #2	Engine < 600 HP Diesel #2	NA	9303
+00185	Energy Center CTG/HRSG Natural Gas	Turbine Natural Gas	NA	9303
+00186	Energy Center CTG Diesel #2	Turbine Diesel #2	NA	9303
+00187	Animal Crematory Natural Gas	Animal Crematory Natural Gas	2810060200	9303
+00188	Boiler	NA	NA	9303
+00189	Kilns - Hemlock	NA	NA	9303
+00190	Kilns - Douglas Fir	NA	NA	9303
+00200	F-LFG1	fugitie landfill gas generated in cell 0	50410563	9303
+00201	F-LFG2	fugitive landfill gas generated in all other cells	50410563	9303
+00202	Open Flare-1	landfill gas collected and sent to the flare	50100410	9303
+00203	Open Flare-2	landfill gas collected and sent to the flare	50100410	9303
+00204	TIP	number of hours tipper operated	50100410	9303
+00205	PCS	Petroleum contaminated soil received	50410563	9303
+00206	EU1	Caterpillar 3516 Landfill Gas Engines 1 - 3	20100802	9303
+00207	EU2	Caterpillar 3520 Landfill Gas Engines 4 - 5	20100802	9303
+00208	CONC	Concrete Production	6597
+00209	BLRS	Boiler	6597
+00210	COAT	Concrete Coating	6597
+00211	WELD	Rebar Welding	6597
+00214	Boards Dept / Welding (GMAW)-1	Stainless Welding	30905800	9303
+00215	Boards Dept / Welding(FCAW)-2	Mild Steel	309053	9303
+00216	Boards Dept / Welding-(GMAW) 3	Aluminum Boards	30905200	9303
+00217	Boards Dept / Welding (GMAW)-4	Mild Steel	30905200	9303
+00218	Rails / Welding (GMAW)	Mild Steel	30905200	9303
+00219	Boards Department	Finishing Area	none	9303
+00220	Mechanized/Non-atomized	Styrene	NA	9303
+00221	Manual/hand	Styrene	NA	9303
+00222	Gelcoat	Styrene	NA	9303
+00223	Resin RTM	Styrene	NA	9303
+00241	Concrete Batchplant	Cubic yard batched	6597
+00242	Hot Water Heater	Boiler (3.8 MBTU)	6597
+00248	Boiler 1	Digester Boiler	NA	9303
+00249	Boiler 1	Natural Gas	NA	9303
+00250	Flare 1	Digester Flare	NA	9303
+00251	Gen Engine 1	Digester Engine	NA	9303
+00252	Process Flow	Water Treatment Process Flow	NA	9303
+00256	Boiler 1	Digester Boiler	NA	9303
+00257	Boiler 1	Natural Gas	NA	9303
+00258	Flare 1	Digester Flare	NA	9303
+00259	Gen Engine 1	Digester Engine	NA	9303
+00260	Gen Engine 2	Diesel Engine	NA	9303
+00261	Process Flow	Water Treatment Process Flow	NA	9303
+00266	Furnace	Natural gas	39900601	9303
+00267	Abbrasive blasting	Abbrasive blasting	30900208	9303
+00268	Forklift	LPG	20301001	9303
+00269	Air arc	Carbon arc cutting	30904700	9303
+00270	Electric induction furnace	Electric induction furnace	30400705	9303
+00271	Pouring/casting	Pouring/casting	30400708	9303
+00272	Casting/cooling	Casting/cooling	30400713	9303
+00273	Casting knockout	Casting knockout	30400710	9303
+00274	Finishing clean/grind	Finishing clean/grind	30400711	9303
+00275	Sand handling/reclamation	Sand handling/reclimation	30400714	9303
+00276	Mold wash	Mold wash	NA	9303
+00277	Air Casting, Steel Parts	Air Casting	30405001	9303
+00278	Vacuum Casting, Steel Parts	Vacuum Casting	30405001	9303
+00279	Vacuum Casting, Titanium Parts	Vacuum Casting	30405001	9303
+00280	Steel Baghouses, without HEPA	Baghouses	30405001	9303
+00281	Steel Baghouses, with HEPA	Baghouses	30405001	9303
+00282	Titanium Baghouses, without HEPA	Baghouses	30405001	9303
+00283	Titanium Baghouses, with HEPA	Baghouses	30405001	9303
+00284	Fugitive, Steel	Fugitive	30488801	9303
+00285	Fugitive, Titanium	Fugitive	30488801	9303
+00286	Autoclave	Autoclave	30405001	9303
+00287	Wax Burnout, Wax Component, with Thermal Oxidation	Wax Burnout	30404901	9303
+00288	Wax Burnout, Non-Wax Component with Thermal Oxidation	Wax Burnout	30404901	9303
+00289	Latex, with Thermal Oxidation	Latex	30405001	9303
+00290	Core Facility - SDA 3C Binder 22	Core Facility	30405001	9303
+00291	Core Facility - phenolic resin	Core Facility	30405001	9303
+00292	Natural Gas Fired Equipment	Natural Gas Fired Equipment	30490003	9303
+00293	Wax Layout 	Wax Department	30405001	9303
+00294	X-Ray Developer	X-Ray	30405001	9303
+00295	Epoxy Resin Adhesive	Core Prep	30405001	9303
+00296	Molten Metal Insulation	Foundry	30405001	9303
+00300	Dryer and Boiler	Fuel Combustion	30201206	9303
+00301	Chopper Gun Application	non-atomized controlled spray	30800723	9303
+00302	Clear Coat Resin Application	non-atomized mech. spray	30800723	9303
+00303	Hand Resin Application -Molds	Hand lay-up	30800726	9303
+00304	Tooling/Edge resin application	Hand lay-up	30800726	9303
+00305	Gel Coat Appliation	Spray lay-up	30800718	9303
+00306	Misc VOC Use	Misc.	30800799	9303
+00307	Boiler	Natural Gas Heating	10300603	9303
+00309	KSH 01	Emergency Generator	6597
+00310	KSH 02	Emergency Generator	6597
+00311	KSH 03	Emergency Generator	6597
+00316	60-3	2881 hp ULSD Emergency Generator	20200102	9303
+00317	60-4	2881 hp ULSD Emergency Generator	20200102	9303
+00318	BLRS	Boilers	6597
+00323	WELD MIG	Welding - E308	NA	9303
+00324	WELD TIG	Welding - E70S	NA	9303
+00325	Metal Fabricating	MILD STEEL	NA	9303
+00326	Metal Fabricating	STAINLESS STEEL 	NA	9303
+00327	Metal Fabricating	ALUMINUM	NA	9303
+00328	Metal Fabricating	INCONEL	NA	9303
+00329	Metal Fabricating	TITANIUM	NA	9303
+00330	Combustion	PROPANE	NA	9303
+00331	Combustion	NATURAL GAS	NA	9303
+00332	Stack from booth #1	Painting/Coating	6597
+00446	Weld	Welding Operations	6597
+00447	Oven	Oven drying	6597
+00449	SnPb-EL-1 Tin-Lead electroplating	Stannous & Lead fluoborate	NA	9303
+00450	Ni-EL-1 Nickel electroplating	Nickel Sulfamate	NA	9303
+00451	Ni-EL-2 Nickel electroplating	Nickel Sulfamate	NA	9303
+00452	Copper Electroplating	Copper Sulfate	NA	9303
+00453	Propane heaters	Propane usage	3-09-054	9303
+00454	Welders	Welding	3-09-054	9303
+00456	PSEL	Bread Baking	30203202	9303
+00457	Natural Gas - combustion	Ovens	NA	9303
+00458	Chromate Conversion Line	Chromate Conversion Tank	30901199	9303
+00459	Chromate Conversion Line	Deoxidation Tank	30901102	9303
+00460	Natural Gas Fired Furnaces	Natural Gas Fired Furnaces > 2.0 MMBtu	30400199	9303
+00461	Aluminum Crucible Furnace	Casting aluminum parts	30400199	9303
+00462	Aluminum Reverb Furnace	Aluminum Melting	30400103	9303
+00463	Zinc Crucible Furnace	Zinc Melting	30400803	9303
+00474	Generator A	DSG Engine	20100102	9303
+00475	Generator B	DSG Engine	20100102	9303
+00476	Plating Line 1 	Gold Electroplating	30901098	9303
+00477	Plating Line 3 	Gold Electroplating	30901098	9303
+00478	Kerfing Saws	Mist Eliminator	30903005	9303
+00479	CB-VENT-01	Carbon Filter	30102005	9303
+00480	DC-1	Dust Collector	30102005	9303
+00481	DC-2	Dust Collector	30102005	9303
+00482	DC-3	Dust Collector	30102005	9303
+00497	B3	Boiler 3 (NG)	1-02-006-02	9303
+00498	KILN_H	Kiln (Hemlock)	3-07-008-31 	9303
+00499	KILN_DF	Kiln (Douglas Fir)	3-07-008-31	9303
+00500	Boilers 1 & 2	B1/B2	10200601	9303
+00501	Boiler 3	B3	10200601	9303
+00502	Paper Machine 1	PM1	30700401	9303
+00503	Paper Machine 2	PM2	30700401	9303
+00504	Paper Machine 3	PM3	30700401	9303
+00505	Clay Handling System	CH	30504170	9303
+00506	Coating	CP	30700407	9303
+00507	Wastewater Treatment	WW	30701202	9303
+00508	Insert rows above this row!	NA	NA	9303
+00521	Flash fire furnace and other units	NG combustion	NA	9303
+00522	Alloy processing ( cut off. grinding, polishing, sand blasting and kolene,passivation)	grinding machines, sand blasters, polishers, hand grinders, belt grinders	NA	9303
+00523	Alloy processing ( cut off. grinding, polishing, sand blasting and kolene,passivation)	grinding machines, sand blasters, polishers, hand grinders, belt grinders	NA	9303
+00533	B-1+2	Boilers 1 and 2. Cleaver Brooks CB LE 800, 33 mmBtu/hr. NG fired only.	10100602	9303
+00534	B-3	Boiler 3 Cleaver Brooks CB LE 750, 29.5 mmBtu/hr. NG fired only.	10100602	9303
+00535	DK 1-4	Dry Kilns 2 American Wood Dryers, Installed 1998. 2 Wellons Dry Kilns, Steam Heated.	30700830	9303
+00536	DK 1-4	Dry Kilns 2 American Wood Dryers, Installed 1998. 2 Wellons Dry Kilns, Steam Heated.	30700830	9303
+00537	Boilers	Comfort Heat	NA	9303
+00538	Heat Treat Furnaces	Process Heat	NA	9303
+00539	Hard Chrome Plating	Hard Chrome Plating	NA	9303
+00540	Diamond Segment Manufacturing	Diamond Segment Manufacturing	NA	9303
+00555	Casting Production - Cr	Melt Furnaces	NA	9303
+00556	Casting Production - Mn	Melt Furnaces	NA	9303
+00557	Casting Production - Ni	Melt Furnaces	NA	9303
+00558	Finishing & Grinding	NA	NA	9303
+00559	Silica Sand Wash	Mold Wash	NA	9303
+00560	Olivine Sand Wash	Mold Wash	NA	9303
+00561	Heat treat ovens	Propane	NA	9303
+00562	Pasting Baghouse	Baghouse for Pasting Line 2, Lead Oxide Storage Tanks, Drum Compactor, and Hoffman Central Vac System	NA	9303
+00563	Strip Caster	Strip Casting	NA	9303
+00564	Expanded Metal Baghouse	Expanded Metal Line	NA	9303
+00565	Expanded Metal Trim Dryer	Expanded Metal Trim Dryer	NA	9303
+00566	Automatic Post Building 1	APB 1 & 2 for COS Lines 1 & 2	NA	9303
+00567	Automatic Post Building 2	APB 3 & 4 for COS Lines 3 & 4	NA	9303
+00568	Sovema Chemsets 1-5	Chemset Chambers	NA	9303
+00569	Radco Cleaner Baghouse	Radco Cleaning System	NA	9303
+00570	COS Baghouse	Baghouse for COS Line 2 and Stackers 1 & 6	NA	9303
+00571	COS Line 3 Radco	COS Line 3 and Stacker 3	NA	9303
+00572	COS Line 4 Radco	COS Line 4 and Stacker 4	NA	9303
+00573	Stacker 2 & 5 Radco	Stackers 2 & 5	NA	9303
+00574	Wet Formation	Boosted Stock, Acid Fill, and Acid Top Off	NA	9303
+00575	Natural Gas Combustion	Facility NG Combustion	NA	9303
+00576	Fugitive Emissions	Facility Fugitive Emissions	NA	9303
+00577	Gravel Plant	Crusher	6597
+00579	Air Casting, Steel Parts	Air Casting	30405001	9303
+00580	Autoclave	Autoclave	30405001	9303
+00581	Fugitive, Steel	Fugitive	30488801	9303
+00582	Heat Treat Condensation Filtration Device, Air Casting (Steel, vacuum/electric heat-treat furnace)	Heat Treat	30405001	9303
+00583	Heat Treat Condensation Filtration Device, Air Casting (Steel, natural gas heat-treat furnace)	Heat Treat	30405001	9303
+00584	Heat Treat Condensation Filtration Device, Vacuum Casting (Steel, vacuum/electric heat-treat furnace)	Heat Treat	30405001	9303
+00585	Heat Treat Condensation Filtration Device, Vacuum Casting (Steel, natural gas heat-treat furnace)	Heat Treat	30405001	9303
+00586	Investing, Hydrochloric Acid	Investing	30405001	9303
+00587	Latex, no Thermal Oxidation	Latex	30405001	9303
+00588	Natural Gas Fired Equipment	Natural Gas Fired Equipment	30490003	9303
+00589	Steel Baghouses, with HEPA	Baghouses	30405001	9303
+00590	Steel Baghouses, without HEPA	Baghouses	30405001	9303
+00591	Torch Burnoff, Steel Air Casting	Misc Metal Processing	30405001	9303
+00592	Torch Burnoff, Steel Vacuum Casting	Misc Metal Processing	30405001	9303
+00593	Vacuum Casting, Steel Parts	Vacuum Casting	30405001	9303
+00594	Wax Burnout, Non-Wax Component with Thermal Oxidation	Wax Burnout	30404901	9303
+00595	Wax Burnout, Wax Component, no Thermal Oxidation	Wax Burnout	30404901	9303
+00596	Investing, PGME (Steel)	Investing	30405001	9303
+00597	X-Ray Developer	X-Ray	30405001	9303
+00598	Wax Layout - Dykem	Wax Department	30405001	9303
+00599	Wax Layout - Mold Release	Wax Department	30405001	9303
+00600	Water Treatment - sodium hydroxide	Waste Water System	30482001	9303
+00601	Swing Grind Cyclone	Swing Grind Cyclone	30405001	9303
+00602	Steel Torch Burnoff Baghouses, without HEPA	Baghouses	30405001	9303
+00603	Investing, IPA (steel)	Investing	30405001	9303
+00604	Investing, IPA (steel), Thermal Oxidizer down	Investing	30405001	9303
+00605	Molten Metal Insulation	Foundry	30405001	9303
+00606	Board Dryer - NG	Natural Gas Combustion*	3-05-015-20 (Gypsum Manufacturing - Drying Kiln)	9303
+00608	Boiler	Boiler Natural Gas	10200603	9303
+00609	Solar Saturn T-1300 Turbine 	Turbine	20300202	9303
+00610	IR1	Reciprocating Engine Natural Gas	20300201	9303
+00611	IR2	Reciprocating Engine Natural Gas	20300201	9303
+00612	Emergency Generator	Generator Natural Gas	20300201	9303
+00614	R-1, R-4, R-5, SM-6, HF-23, HWT, TE-1	Natural gas fired furnaces, hot water cleaning tank, & thermal evaporator	39000605, 50300713, 10200603	9303
+00615	R-1, R-4, R-5, SM-6, HF-23, H-1 through 16, H-18, H-19, H-518	Melting and holding furnaces	39000605, 30400114	9303
+00616	R-1, R-4, R-5, SM-6, HF-23, H-1 through 16, H-18, H-19, H-518	Melting and holding furnaces	39000605, 30400114	9303
+00617	R-1, R-4, R-5, SM-6, HF-23, H-1 through 16, H-18, H-19, H-518	Melting and holding furnaces	39000605, 30400114	9303
+00618	R-1, R-4, R-5, SM-6, HF-23, H-1 through 16, H-18, H-19, H-518	Melting and holding furnaces	39000605, 30400114	9303
+00619	Ovens Natural Gas use	Natural Gas Combustion	10300603	9303
+00620	Boilers Natural Gas Use	Natural Gas Combustion	10300603	9303
+00621	Variety Oven 	Oven	30203201	9303
+00622	Auto Oven 	Oven	30203201	9303
+00623	Bun Oven 	Oven	30203201	9303
+00635	Dryer	Fuel Combustion	30201206	9303
+00637	Gelcoat Process - Spray Application	GEL - CCP 99-RW-005 Base White Sanitary	NA	9303
+00638	Gelcoat Process - Spray Application	GEL - CCP HAP 30 Adventurer White 572542	NA	9303
+00639	Gelcoat Process - Spray Application	GEL  -  SDS - DURATEC - Dura-Kote 991WC156 Adventure White	NA	9303
+00640	Gelcoat Process - Spray Application	GEL  -  SDS - DURATEC - Dura-Kote Sanitary White	NA	9303
+00641	Non-Atomized Mech Resin	RSN - ASH - Aropol L 65332 T-25 Resin-	NA	9303
+00642	Non-Atomized Mech Resin	RSN - SDS - ASH - Aropol L 67303 T-22G	NA	9303
+00643	Non-Atomized Mech Resin	RSN - SDS - ASHLAND - Aropol L 67303 T-20 RESIN - 000000147474 - 10-13-16	NA	9303
+00648	Gelcoat Process - Spray Application	GEL - CCP FV 99Q-WP-404C BONE WHITE 605287	NA	9303
+00649	Gelcoat Process - Spray Application	GEL - CCP 963-XK-161 Marine Clear 556025	NA	9303
+00650	Gelcoat Process - Spray Application	GEL - CCP FV 99Q-AP-135A GRANITE GRY 587166	NA	9303
+00651	Gelcoat Process - Spray Application	GEL - FIBERLAY - Shield Northwood Gray Gel Coat	NA	9303
+00652	Gelcoat Process - Spray Application	GEL - ORCA Shield ECS Tan No Wax	NA	9303
+00653	Gelcoat Process - Spray Application	GEL - CCP 99-RW-005 Base White Sanitary	NA	9303
+00654	Gelcoat Process - Spray Application	GEL - CCP 945-GA-104 GREEN TOOLING GEL COAT 37036	NA	9303
+00655	Gelcoat Process - Spray Application	GEL - HK - RED TOOLING GELCOAT B-4008	NA	9303
+00656	Gelcoat Process - Spray Application	GEL - SDS - DURATEC - Tacoma Black Gel Coat	NA	9303
+00657	Gelcoat Process - Spray Application	GEL - DURATEC - DURA-KOTE HIGH PERFORMANCE CLEAR 304-089	NA	9303
+00658	Gelcoat Process - Spray Application	GEL - CCP HAP33 Medium Gray	NA	9303
+00659	Gelcoat Process - Spray Application	GEL  -  SDS - AOC, LLC - G130LE81595	NA	9303
+00660	Gelcoat Process - Spray Application	GEL - ORCA Shield White 05711002013	NA	9303
+00661	Gelcoat Process - Spray Application	GK Machine Yellow SDS	NA	9303
+00662	Gelcoat Process - Spray Application	GEL  -  SDS - DURATEC - Dura-Kote Charcoal Grey - 307-C81	NA	9303
+00663	Gelcoat Process - Spray Application	GEL - CCP HAP 33 Emerald Green	NA	9303
+00664	Gelcoat Process - Spray Application	GEL - CCP HAP 30 Adventurer White 572542	NA	9303
+00665	Gelcoat Process - Spray Application	GEL  -  SDS - DURATEC - Dura-Kote Medium Grey - PC No. 307-C59   (GRANITE GRAY)	NA	9303
+00666	Gelcoat Process - Spray Application	GEL - SDS - DURATEC Dura-Kote Gel Poppyseed Red	NA	9303
+00667	Gelcoat Process - Spray Application	GEL  -  SDS - ASHLAND Maxguard LG-LEI H030A Gelcoat - SDS NO. 000000123641 BLUE ASH	NA	9303
+00668	Gelcoat Process - Spray Application	GEL  -  SDS - DURATEC - Dura-Kote Wooster Smoke	NA	9303
+00669	Gelcoat Process - Spray Application	GEL  -  SDS - GELCOAT PRODUCTS - QUICKMIX - HAP 33 Poppy Seed  9819MC	NA	9303
+00670	Gelcoat Process - Spray Application	GEL  -  SDS - DURATEC - Dura-Kote 991WC156 Adventure White	NA	9303
+00671	Gelcoat Process - Spray Application	GEL  -  SDS - POLYNT - BASE WHITE - (Flex White) 944W628 - Rev. 3-10-16	NA	9303
+00672	Gelcoat Process - Spray Application	GEL  -  SDS - DURATEC - Dura-Kote Marine Mact Omega Blue - 2-12-16  6303-D21	NA	9303
+00673	Gelcoat Process - Spray Application	GEL  -  SDS - FIBERLAY - Guard Chocolate Brown 1209 Gelcoat  -  6-23-15	NA	9303
+00674	Gelcoat Process - Spray Application	GEL  -  SDS - DURATEC - Dura-Kote Sanitary White	NA	9303
+00675	Gelcoat Process - Spray Application	GEL  -  SDS - POLYNT - HAP33 Adventure Charcoal Gray - 991AP474 - 10-12-16	NA	9303
+00676	Gelcoat Process - Spray Application	GEL - SDS - A. SHULMAN 81- 811800 Bus Gray	NA	9303
+00677	Gelcoat Process - Spray Application	GEL - A. Schulman 881-113090 TPI Sport White	NA	9303
+00678	Non-Atomized Mech Resin	RSN - ASH - Aropol L 65332 T-25 Resin-	NA	9303
+00679	Non-Atomized Mech Resin	RSN - SDS - ASHLAND - FR 650 T-20 Resin - 5-22-15	NA	9303
+00680	Non-Atomized Mech Resin	RSN - SDS - NORD COMPOSITES - Norester 2000 Pre-Accelerated	NA	9303
+00681	Non-Atomized Mech Resin	RSN - Reichhold Polylite TLP 33234-71	NA	9303
+00682	Non-Atomized Mech Resin	RSN - SDS - Reichold Dion 6631-20	NA	9303
+00683	Non-Atomized Mech Resin	NON STOCK RESIN *VERIFY PRICE*/_-DRUM  (From Title V)	NA	9303
+00684	Non-Atomized Mech Resin	RSN - ASH - Aropol L  65332 T-15 Resin	NA	9303
+00685	Non-Atomized Mech Resin	RSN - SDS - INTERPLASTIC CORP. - DCPD Laminating Resin - COR61-AA-133M -  8-22-16	NA	9303
+00686	Non-Atomized Mech Resin	RSN- AOC- COR75-AA-861HC ISO RESIN	NA	9303
+00687	Non-Atomized Mech Resin	RSN - CCP - POLYCOR - Print Block - 957AJ089	NA	9303
+00688	Non-Atomized Mech Resin	RSN - Interplastic Ortho Resin COR61-AA-930KS	NA	9303
+00689	Non-Atomized Mech Resin	RSN - SDS - AOC - K130-PTJ-20	NA	9303
+00690	Non-Atomized Mech Resin	RSN - SDS - ASH - Aropol L 67303 T-22G	NA	9303
+00691	Non-Atomized Mech Resin	RSN - SDS - INTERPLASTIC - COR61-AA-147 - rev. 6-30-16	NA	9303
+00692	Non-Atomized Mech Resin	RSN - CCP - FIREBLOCK - Norsodyne H 81269 TF	NA	9303
+00693	Non-Atomized Mech Resin	RSN - ASH - Derakane 411-350 Epoxy Vinyl Ester Resin	NA	9303
+00694	Non-Atomized Mech Resin	RSN - SDS - INTERPLASTIC CORP. - DCPD Laminating Resin - Unsaturated Poly. Resin - 5-29-15  -  COR61-229-781	NA	9303
+00695	Non-Atomized Mech Resin	RSN - SDS - POLYNT - 733-8650 Series 3-15-2016	NA	9303
+00696	Non-Atomized Mech Resin	RSN - Reichhold Polylite 33348-20	NA	9303
+00697	Non-Atomized Mech Resin	RSN - INTERPLASTIC - CORVE8117  Vinyl Ester Resin	NA	9303
+00721	1	2 Turbines	20200201	9303
+00722	2	Valves and Fitting	31088801	9303
+00723	3	Turbine starts/stops	31088801	9303
+00724	Amtech AT20 Dust Collector	Glass cleaning	50300607	9303
+00725	Fugitive emissions	Glass crushing, handling, cleaning	NA	9303
+00726	Baghouse	Dust collection	NA	9303
+00727	EU02/03/23/28b - HVLC System	Entire HVLC System (see EU02, EU03, EU23, and EU28b) - Venting/Bypass	30700102	9303
+00728	EU02 - BSW	HVLC System - Brownstock Washer Hoods and Associated Filtrate Tanks	30700102
+30700111	9303
+00729	EU02 - Deckers	HVLC System - Rewashers (Deckers) and Associated Filtrate Tanks	30700130
+30700111	9303
+00730	EU02 - Knotters	HVLC System - Brownstock Knotters	30700131	9303
+00731	EU03	HVLC System - Weak Black Liquor Tanks #1 and #2 (2)	30700124	9303
+00732	EU03 - Emergency	HVLC System - Weak Black Liquor Tank #3	30700124	9303
+00733	EU23/28b	HVLC System - Strong Black Liquor Tanks #1 through #4, Heavy Liquor Storage Tank #2 (5)	30700124	9303
+00734	EU02 - Bleach Plant, EOP Washer	Bleach Plant EOP Washer	NA	9303
+00735	EU06 - Bleach Plant	Bleach Plant Miscellaneous Vents	NA	9303
+00736	EU07	Bleach Plant Scrubber	30700114	9303
+00737	EU21	Lime Kiln	30700106	9303
+00738	EU23 - LVHC System	Entire LVHC System (see EU 23) - Venting/Bypass	30700125	9303
+00739	EU23 - Blow Tanks	LVHC System - 
+M&D Blow Tank & Kamyr Blow Tank	30700101	9303
+00740	EU23 - HVLC Components	HVLC System - 
+M&D Hood Vent, M&D ESCO Valve, and Kamyr Low-Pressure Feeder (Components not included elsewhere)	NA	9303
+00741	EU23 - Liquor Flash Tanks	LVHC System - 
+#2 Kamyr Liquor Flash Tank & #1 Kamyr Liquor Flash Tank Savety Valve	30700101	9303
+00742	EU23 - Blow Heat Condensers	LVHC System - 
+Blow Heat Condensers	30700101	9303
+00743	EU23 - Black Liquor Evaporator	LVHC System -
+Black Liquor Evaporator (First Effect, Second Effect, First Effect Dome Relief Valve, Second Effect Dome Relief Valve, Hotwell Emergency Vent)	30700103	9303
+00744	EU23 - Black Liquor Concentrator	LVHC System -
+Black Liquor Concentrator (First Body (2), Second Body Explosion Vent, NCG Vent Line)	30700103	9303
+00745	EU24	Recovery Furnace - NDCE	30700110	9303
+00746	EU24 - gas	Recovery Furnace	30700110	9303
+00747	EU25	Smelt Dissolving Tank	30700105	9303
+00748	EU28	RF Precipitator Ash Mix Tank (RF Saltcake Mix Tank Out of Service)	30700119	9303
+00749	EU33	Power Boiler	NA	9303
+00750	EU35	Fluid Bed Boiler	10300912	9303
+00751	EU35 - gas	Fluid Bed Boiler	NA	9303
+00752	EU37a PR-834	Limestone Silo	NA	9303
+00753	EU37a PR-835	Limestone Daybin	NA	9303
+00754	EU37a PR-836	Ash Silo Transfer Receiver	NA	9303
+00755	EU37a PR-837	Ash Silo Bin	NA	9303
+00756	EU37a PR-806	Saltcake Silo and Day Bin (Out of Service)	NA	9303
+00757	EU37a PR-838	Sand Silo	NA	9303
+00758	EU38a PR-368	Slaker Vent	30700123	9303
+00759	EU38a PR-376	Lime Tank	NA	9303
+00760	EU39	Fuel burning sources - #1, #2, #5, #6, & #7 PMs	30700401	9303
+00761	EU40 PR-417/418/419	#1 PM Wet End - Headbox to Press	30700401	9303
+00762	EU40 PR-410	#1 PM Winders	30700401	9303
+00763	EU40 PR-408	#2 PM Winders	30700401	9303
+00764	EU40 PR-402/403/407/412	#2 PM Wet End - Headbox to Press	30700401	9303
+00765	EU40 PR-601/602/604	#5 PM Wet End - Headbox to Press	30700401	9303
+00766	EU40 PR-606	#5 PM Calendar Stack/Reel	30700401	9303
+00767	EU40 PR-661/680	#6 PM	30700401	9303
+00768	EU40 PR-761/780	#7 PM	30700401	9303
+00769	EU40 PR-762	#7 PM	30700401	9303
+00770	EU40 PR-662	#6 PM Vacuum Pumps	30700401	9303
+00771	EU40 PR-660 - pulp/fugitive	#6 PM	30700401	9303
+00772	EU40 PR-413 - pulp/fugitive	#1 PM	30700401	9303
+00773	EU40 PR-404 - pulp/fugitive	#2 PM	30700401	9303
+00774	EU40 PR-605 - pulp/fugitive	#5 PM	30700401	9303
+00775	EU40 PR-760 - pulp/fugitive	#7 PM	30700401	9303
+00776	EU44	Wood Chip Pile, Woodmill Bark Pile, FBB Sludge Pile, FBB Bark Pile	NA	9303
+00777	EU47	Chip Pile Blowers, Main Chip Dump, Portable Truck Dump, PECO Crane	NA	9303
+00778	EU50	Screen Room Cyclones - Sawdust #1 & #2, Kraft Air Separator, Kraft Dust Control	NA	9303
+00779	EU51	M & D Storage Silo, Kraft Fir Silo, Kraft Alder Silo, Kamyr Cyclone	NA	9303
+00780	EU52	Kraft Mill Cyclone	NA	9303
+00781	EU20 PR-362	Green Liquor Clarifier	30700118	9303
+00782	EU20 PR-365/366/367	#1, #2, and #3 Causticizer	30700132	9303
+00783	EU20 PR-368	Lime Slaker Vent	30700123	9303
+00784	EU20 PR-363	Green Liquor Storage	NA	9303
+00785	EU20 PR-364	Spare Dump Tank	NA	9303
+00786	EU20 PR-369	#1 White Liquor Clarifier/Storage Tank	30700118	9303
+00787	EU20 PR-370	#2 White Liquor Clarifier/Storage Tank	30700118	9303
+00788	EU20 PR-371/380	#1 and #2 Dregs Washers	NA	9303
+00789	EU20 PR-350	Dregs Filter Vacuum Vent	NA	9303
+00790	EU20 PR-373	Lime Mud Washer	NA	9303
+00791	EU20 PR-374	Lime Mud Storage	NA	9303
+00792	EU20 PR-351	Lime Mud Filter	NA	9303
+00793	EU37b PR-702	Converting, Old Tissue #2	NA	9303
+00794	EU37b PR-705	Converting, New Tissue	NA	9303
+00795	EU37b PR-708	Converting #13 Rewinder	NA	9303
+00796	EU37b PR690/695	PM6 Converting	NA	9303
+00797	EU37b PR690 - fugitive	PM6 Converting	NA	9303
+00798	EU15	Methanol Storage Tank (12000 gallon)	NA	9303
+00799	EU20 - Lime Mud Filter Vacuum Pump	Lime Mud Filter Vacuum Pump	NA	9303
+00800	EU20 - Green Liquor Dregs Hood Filter	Green Liquor Dregs Filter Hood	NA	9303
+00801	EU20 - Lime Mud Mix Tank	Lime Mud Mix Tank	NA	9303
+00802	EU 47 - Chip Bin	Kamyr Chip Bin	NA	9303
+00803	Kraft Pump Screen Systems	Kamyr Screen, M&D Screen	30700120	9303
+00804	Bleach Plant Tanks	Bleached Pulp - Bleach Plant Tanks 1 through 5, 11, & 12 (7)	30700135	9303
+00805	Paper Machine Tanks	Bleached Pulp - Paper Machine Tanks 1 through 12 (12)	30700135	9303
+00806	Kraft Mill Tanks	Unbleached Pulp - Kraft Mill Tanks 6 through 10 & 1 LD (6)	30700135	9303
+00807	EU53	Wastewater Treatment System	NA	9303
+00822	Dryers	Dryers 	30201203	9303
+00823	Boiler	Boilers	10100602	9303
+00824	Cooker	Cooker	30201201	9303
+00825	Fishmeal Dryers	Dryers	30201203	9303
+00826	2-Kiln	Dry Kiln - Hemlock	30799998	9303
+00827	2-Kiln	Dry Kiln - Doug Fir	30799998	9303
+00828	3-HFB	Hogged Fuel Boiler	10100902	9303
+00833	EP13	Distillation Scrubber	30205010	9303
+00834	EP13	Distillation Scrubber	30205010	9303
+00835	EP14	<html>Fermentation (CO<sub>2</sub>) Scrubber</html>	30205011	9303
+00836	EP14	<html>Fermentation (CO<sub>2</sub>) Scrubber</html>	30205011	9303
+00837	EP19	Regenerative Thermal Oxidizer #1- process	30205012, 30205014	9303
+00838	EP19	Regenerative Thermal Oxidizer #1- process	30205012, 30205014	9303
+00839	EP19	Regenerative Thermal Oxidizer #1- NG comb	30205020, 30205021	9303
+00840	EP20	Regenerative Thermal Oxidizer #2 - process	30205012, 30205014	9303
+00841	EP20	Regenerative Thermal Oxidizer #2 - process	30205012, 30205014	9303
+00842	EP20	Regenerative Thermal Oxidizer #2 - NG comb	30205020, 30205021	9303
+00843	EP21	Ethanol Loadout (Truck)	30205052	9303
+00844	EP21	Ethanol Loadout (Rail)	30205053	9303
+00845	EP21	Product Loadout Flare (Rail/Truck)	30205041	9303
+00846	EP35	Marine Vessel Loadout (Ethanol)	40899996	9303
+00847	EP35	Product Loadout Vapor Combustion Unit (VCU) Combustion	30190014	9303
+00848	EP23	Boiler #1	10200602	9303
+00849	EP24	Boiler #2	10200602	9303
+00850	EP25	Boiler #3	10200602	9303
+00851	EP26	Boiler #4	10200602	9303
+00852	EP27	Emergency Generator #1	20200401	9303
+00853	EP28	Emergency Generator #2	20200401	9303
+00854	EP29	Emergency Fire Pump	20200102	9303
+00855	FS05	Equipment Leaks	30205091	9303
+00856	FS06	Wet Cake Storage/Loadout	30125001	9303
+00857	FS08	Uncaptured Marine Vessel Loadout	40899996	9303
+00858	FS09	Uncaptured Truck Loadout	30205052	9303
+00859	FS10	Uncaptured Rail Loadout	30205053	9303
+00860	TK6101	200 Proof Storage Tank: Standing Losses	30205034	9303
+00861	TK6101	200 Proof Storage Tank: Working Losses	30205035	9303
+00862	TK6102	200 Proof Storage Tank: Standing Losses	30205034	9303
+00863	TK6102	200 Proof Storage Tank: Working Losses	30205035	9303
+00864	TK6104	Denatured Ethanol Storage Tank: Standing Losses	30205030	9303
+00865	TK6104	Denatured Ethanol Storage Tank: Working Losses	30205031	9303
+00866	TK6105	Denatured Ethanol Storage Tank: Standing Losses	30205030	9303
+00867	TK6105	Denatured Ethanol Storage Tank: Working Losses	30205031	9303
+00868	TK6106	Denatured Ethanol Storage Tank: Standing Losses	30205030	9303
+00869	TK6106	Denatured Ethanol Storage Tank: Working Losses	30205031	9303
+00870	TK6114	Denaturant StorageTank: Standing Losses	40700809	9303
+00871	TK6114	Denaturant Storage: Working Losses	40700810	9303
+00872	TK6121	Denatured Ethanol Storage Tank: Standing Losses	30205030	9303
+00873	TK6121	Denatured Ethanol Storage Tank: Working Losses	30205031	9303
+00874	TK6122	Denatured Ethanol Storage Tank: Standing Losses	30205030	9303
+00875	TK6122	Denatured Ethanol Storage Tank: Working Losses	30205031	9303
+00876	---	Tank roof landings	30205031	9303
+00877	Loki	Combustion turbine	20100201	9303
+00878	EU-02	Chipper Saw	30700820	9303
+00879	EU-03	Drum Debarker	30700801	9303
+00880	EU-03a	Hammer Hog	30700801	9303
+00881	EU-04	Chipper	30700820	9303
+00882	EU-04b	Portable Chipper (Future)*	30700820	9303
+00883	EU-05	Chunk, Chip, Bark Transport, Screening	30700822	9303
+00884	EU-05a	Re-chipper Cyclone	30700808	9303
+00885	EU-06	Sawdust Cyclone	30700804	9303
+00886	EU-07	Sawdust Bin Vent	30700804	9303
+00887	EU-08	Chip and Hog Truck Bin Vents 	30704001	9303
+00888	EU-09	Sawdust-Truck Bin Unloading 	30700822	9303
+00889	EU-10	Other Truck Bin Loadouts 	30700822	9303
+00890	EP01	Marine Vessel Loadout (Ethanol)	40899996	9303
+00891	EP01	Marine Vessel Loadout (Crude Oil)	40600248	9303
+00892	EP01	Product Loadout Vapor Combustion Unit (VCU) Combustion	30190099	9303
+00893	TK6105	Storage Tank: Standing Losses - Crude Oil	40400160	9303
+00894	TK6105	Storage Tank: Working Losses - Crude oil	40400179	9303
+00895	TK6105	Storage Tank: Standing Losses  - Denatured Ethanol	30205030	9303
+00896	TK6105	Storage Tank: Working Losses  - Denatured Ethanol	30205031	9303
+00897	TK6106	Storage Tank: Standing Losses - Crude Oil	40400160	9303
+00898	TK6106	Storage Tank: Working Losses - Crude oil	40400179	9303
+00899	TK6106	Storage Tank: Standing Losses  - Denatured Ethanol	30205030	9303
+00900	TK6106	Storage Tank: Working Losses  - Denatured Ethanol	30205031	9303
+00901	FS02	Equipment Leaks - ethanol	40400151	9303
+00902	FS02	Equipment Leaks - crude	40400151	9303
+00903	FS03	Uncaptured Marine Vessel Loadout (Ethanol)	40899996	9303
+00904	FS03	Uncaptured Marine Vessel Loadout (Crude)	40600248	9303
+00905	---	Tank roof landings - Crude	40400179	9303
+00906	PB	Power Boilers	NA	9303
+00907	PM	Paper Machines	NA	9303
+00916	Ammonia Process	Purge Gas Vent	NA	9303
+00917	U1-E4, U2-E5, U3-E6	Main Board Dryers	39000699	9303
+00918	Boiler	Natural Gas Fired Boiler	10300603	9303
+00919	U4-E8, U5-E10, U6-E12, U7-E7, U13-A1	Paint Dryers,  Lin-O-Flames, Expansion Unit	39000699	9303
+00920	U1-E4	Wet End Dryer	39999999	9303
+00921	U2-E5	South Main Board Dryer #1	39999999	9303
+00922	U3-E6	North Main Board Dryer #2	39999999	9303
+00923	U4-E8	Prime Dryer #1	39999999	9303
+00924	U5-E10	Intermediate Dryer #1	39999999	9303
+00925	U6-E12	Finish Dryer #1	39999999	9303
+00926	U7-E7	Prime Line-O-Flames #1	39999999	9303
+00927	U8-E11	Intermediate Lin-O-Flame	39999999	9303
+00928	U17-B5	Baghouse #1	39999999	9303
+00929	U16-B4	Baghouse #2	39999999	9303
+00930	U15-B3	Baghouse #3	39999999	9303
+00931	U20-B6	Baghouse #5	39999999	9303
+00932	U17-B5, U16-B4, U15-B3, U20-B6	Baghouses	39999999	9303
+00933	U1-E4	Wet Stack #1	39999999	9303
+00934	U19-J2	Chip Pile	NA	9303
+00935	U4-E8	Prime Dryer #1 - Ammonia	39999999	9303
+00936	U7-E7	Prime Line-O-Flames #1 - Ammonia	39999999	9303
+00937	Wastewater Treatment	Wastewater Treatment Containing Sulfides	39999999	9303
+00942	GTEU6	Combined Cycle CombustionTurbines	20100201	9303
+00943	GTEU6	Combined Cycle CombustionTurbines	20100101	9303
+00944	PTEU1	Peaking Turbine	20100201	9303
+00945	PWEU1	Combined Cycle CombustionTurbine	20100201	9303
+00946	PWABEU1	Auxiliary Boiler	10200602	9303
+00947	RECIP01	Reciprocating Engine	20100202	9303
+00948	RECIP02	Reciprocating Engine	20100202	9303
+00949	RECIP03	Reciprocating Engine	20100202	9303
+00950	RECIP04	Reciprocating Engine	20100202	9303
+00951	RECIP05	Reciprocating Engine	20100202	9303
+00952	RECIP06	Reciprocating Engine	20100202	9303
+00953	RECIP07	Reciprocating Engine	20100202	9303
+00954	RECIP08	Reciprocating Engine	20100202	9303
+00955	RECIP09	Reciprocating Engine	20100202	9303
+00956	RECIP10	Reciprocating Engine	20100202	9303
+00957	RECIP11	Reciprocating Engine	20100202	9303
+00958	RECIP12	Reciprocating Engine	20100202	9303
+00963	1	Turbines	20200201	9303
+00964	2	Engines	20200253	9303
+00965	3	Turbine starts	31088801	9303
+00966	4	Fugitives	31088801	9303
+00967	5	TEG	2399000000	9303
+00968	GC-200	Nat.Gas Compressor Fuel	20200253	9303
+00969	TEG Reflux Stack	Nat.Gas Dehydration	31000301	9303
+00971	NG-fired wood drier	NG-fired Dryer (Wood Products)	30700611	9303
+00972	NG combustion	NG-fired Dryer (NG Combustion)	30700611	9303
+00973	Boiler 1	Boiler 1	1-02-019-01	9303
+00974	Boiler 1	Boiler 1	1-02-006-02	9303
+00975	Steam Tunnels	Steam Tunnels	3-07-007-31	9303
+00976	Dryers 1-3	Dryers 1-3	3-07-007-62	9303
+00977	Dryers 1-3	Dryers 1-3	3-07-007-63	9303
+00978	Presses 1-2	Presses 1-2	3-07-007-83	9303
+00979	Plywood Sander	NA	NA	9303
+00980	Plywood Saw	NA	NA	9303
+00981	RCO	RCO	3-07-007-99	9303
+00982	Resin Tanks	Resin Tanks	3-07-007-32	9303
+01007	Retort CCA	Wood Preservation CCA	30700598	9303
+01008	Retort CA-C	Wood Preservation CA-C	30700598	9303
+01010	Natural Gas	Boiler, dryer ovens, preservative dryer	NA	9303
+01011	Veneer Dryers - Heated	NA	NA	9303
+01012	Veneer Dryers - Cooling	NA	NA	9303
+01024	NG 	Natural Gas Combustion	NA	9303
+01025	Thermal Oxidizer	Spent Carbon Processing	NA	9303
+01026	Theraml Oxidizer	Biochar Processing	NA	9303
+01027	BOILER	Boiler	10200602	9303
+01028	Carcass Grinding	Tire Buffing	30800152	9303
+01031	PRN1-1	3.0 MW generator	20200102	9303
+01032	PRN1-2	3.0 MW generator	20200102	9303
+01033	PRN1-3	3.0 MW generator	20200102	9303
+01034	PRN1-4	3.0 MW generator	20200102	9303
+01035	PRN1-5	3.0 MW generator	20200102	9303
+01036	PRN1-6	3.0 MW generator	20200102	9303
+01037	PRN1-7	3.0 MW generator	20200102	9303
+01038	PRN1-8	3.0 MW generator	20200102	9303
+01039	PRN1-9	3.0 MW generator	20200102	9303
+01040	PRN1-10	3.0 MW generator	20200102	9303
+01041	PRN1-11	3.0 MW generator	20200102	9303
+01042	PRN1-12	3.0 MW generator	20200102	9303
+01043	PRN1-R	3.0 MW generator	20200102	9303
+01044	PRN1-2R	3.0 MW generator	20200102	9303
+01045	PRN2-1	3.0 MW generator	20200102	9303
+01046	PRN2-2	3.0 MW generator	20200102	9303
+01047	PRN2-3	3.0 MW generator	20200102	9303
+01048	PRN2-4	3.0 MW generator	20200102	9303
+01049	PRN2-5	3.0 MW generator	20200102	9303
+01050	PRN2-6	3.0 MW generator	20200102	9303
+01051	PRN2-7	3.0 MW generator	20200102	9303
+01052	PRN2-8	3.0 MW generator	20200102	9303
+01053	PRN2-9	3.0 MW generator	20200102	9303
+01054	PRN2-10	3.0 MW generator	20200102	9303
+01055	PRN2-11	3.0 MW generator	20200102	9303
+01056	PRN2-12	3.0 MW generator	20200102	9303
+01057	PRN2-R	3.0 MW generator	20200102	9303
+01058	PRN2-2R	3.0 MW generator	20200102	9303
+01059	PRN3-EG-N1	2.5 MW generator	20200102	9303
+01060	PRN3-EG-N2	2.5 MW generator	20200102	9303
+01061	PRN3-EG-N3	2.5 MW generator	20200102	9303
+01062	PRN3-EG-N4	2.5 MW generator	20200102	9303
+01063	PRN3-EG-1	3.0 MW generator	20200102	9303
+01064	PRN3-EG-1R	3.0 MW generator	20200102	9303
+01065	PRN3-EG-2R	3.0 MW generator	20200102	9303
+01066	PRN3-EG-2	3.0 MW generator	20200102	9303
+01067	PRN3-EG-3	3.0 MW generator	20200102	9303
+01068	PRN3-EG-4	3.0 MW generator	20200102	9303
+01069	PRN3-EG-5	3.0 MW generator	20200102	9303
+01070	PRN3-EG-6	3.0 MW generator	20200102	9303
+01071	PRN3-EG-7	3.0 MW generator	20200102	9303
+01072	PRN3-EG-8	3.0 MW generator	20200102	9303
+01073	PRN3-EG-9	3.0 MW generator	20200102	9303
+01074	PRN3-EG-10	3.0 MW generator	20200102	9303
+01075	PRN3-EG-11	3.0 MW generator	20200102	9303
+01076	PRN3-EG-12	3.0 MW generator	20200102	9303
+01077	PRN4-1	550 kW generator	20200102	9303
+01078	WH1	177 kW generator	20200102	9303
+01079	Fire Pump	194 kW Diesel Generator	20100102	9303
+01080	PRZ01 GEN 01	2.0 MW Diesel Generator	20100102	9303
+01081	PRZ01 GEN 02	2.0 MW Diesel Generator	20100102	9303
+01082	PRZ01 GEN 03	2.0 MW Diesel Generator	20100102	9303
+01083	PRZ03 GEN 01	2.75 MW Diesel Generator	20100102	9303
+01084	PRZ03 GEN 02	2.75 MW Diesel Generator	20100102	9303
+01085	PRZ03 GEN 03	2.75 MW Diesel Generator	20100102	9303
+01086	PRZ03 GEN 04	2.75 MW Diesel Generator	20100102	9303
+01087	PRZ03 GEN 05	2.75 MW Diesel Generator	20100102	9303
+01088	PRZ03 GEN 06	2.75 MW Diesel Generator	20100102	9303
+01089	PRZ03 GEN 07	2.75 MW Diesel Generator	20100102	9303
+01090	PRZ03 GEN 08	2.75 MW Diesel Generator	20100102	9303
+01091	PRZ03 GEN 09	2.75 MW Diesel Generator	20100102	9303
+01092	PRZ03 GEN 10	2.75 MW Diesel Generator	20100102	9303
+01093	PRZ03 GEN 11	2.75 MW Diesel Generator	20100102	9303
+01094	PRZ03 GEN 12	2.75 MW Diesel Generator	20100102	9303
+01095	PRZ04 GEN 01	4.0 MW Diesel Generator	20100102	9303
+01096	PRZ04 GEN 02	4.0 MW Diesel Generator	20100102	9303
+01097	PRZ04 GEN 03	4.0 MW Diesel Generator	20100102	9303
+01098	PRZ04 GEN 04	4.0 MW Diesel Generator	20100102	9303
+01099	PRZ04 GEN 05	4.0 MW Diesel Generator	20100102	9303
+01100	PRZ04 GEN 06	4.0 MW Diesel Generator	20100102	9303
+01101	PRZ04 GEN 07	4.0 MW Diesel Generator	20100102	9303
+01102	PRZ04 GEN 08	4.0 MW Diesel Generator	20100102	9303
+01103	PRZ04 GEN 09	4.0 MW Diesel Generator	20100102	9303
+01104	PRZ04 GEN 10	4.0 MW Diesel Generator	20100102	9303
+01105	PRZ04 GEN 11	4.0 MW Diesel Generator	20100102	9303
+01106	PRZ04 GEN 12	4.0 MW Diesel Generator	20100102	9303
+01107	Riley Boiler PH2	Hogged Fuel Boiler	NA	9303
+01108	Dryers - heated zones	Veneer Dryers	NA	9303
+01109	Dryers - cooling section	Veneer Dryers	NA	9303
+01110	Presses	Plywood Presses #1 - #4	NA	9303
+01111	Wellons Boiler	Hogged Fuel Boiler	10300903	9303
+01112	Green Veneer Steam Vats	Steam Vats	30700731	9303
+01113	Dry Lumber Kilns	Dry Kilns	30700831	9303
+01114	Boiler -MW	NG Boiler	NA	9303
+01115	Burn Off Oven	NG Oven	NA	9303
+01116	Cure Ovens	NG Oven	NA	9303
+01117	Kilns	Dehumidification Kilns	NA	9303
+01118	Veneer Dryer - heated	Electric Veneer Dryer	NA	9303
+01119	Veneer Dryer - cooling	Electric Veneer Dryer	NA	9303
+01128	BLRS	Boiler	6597
+01129	CYC	Cyclone	6597
+01130	DRY	Veneer dryer	6597
+01131	COAT	Surface coating	6597
+01134	Alpha Case Removal_Fugitive	Alpha Case Removal	30405001	9303
+01135	Alpha Case Removal_Stack	Alpha Case Removal	30405001	9303
+01136	Autoclave	Autoclave	30405001	9303
+01137	Titanium Baghouses, without HEPA	Baghouses	30405001	9303
+01138	Fugitive, Titanium	Fugitive	30488801	9303
+01139	Heat Treat Condensation Filtration Device, Vacuum Casting (Titanium)	Heat Treat	30405001	9303
+01140	Natural Gas Fired Equipment	Natural Gas Fired Equipment	30490003	9303
+01141	Ti Cyclone	Ti Cyclone	30405001	9303
+01142	Vacuum Casting, Titanium Parts	Vacuum Casting	30405001	9303
+01143	Wax Burnout, Non-Wax Component with Thermal Oxidation	Wax Burnout	30404901	9303
+01144	Wax Burnout, Wax Component, with Thermal Oxidation	Wax Burnout	30404901	9303
+01145	Investing, IPA 	Investing	30405001	9303
+01146	Wax Layout - Dykem	Wax Department	30405001	9303
+01147	Wax Layout - Mold Release	Wax Department	30405001	9303
+01148	X-Ray Developer	X-Ray	30405001	9303
+01149	Core-pack Slurry Process	Core-pack Slurry Process	30405001	9303
+01150	B-01-001	Natural gas boiler	10300603	9303
+01151	B-01-002	Natural gas boiler	10300603	9303
+01152	B-060-501	Low pressure steam boiler	10300603	9303
+01153	B-071-501	HVAC Heating Water	10300603	9303
+01154	B-071-502	HVAC Heating Water	10300603	9303
+01155	B-009-501	Process Hot Water	10300603	9303
+01156	PSD1c Spray Dryer (scrubbed)	Pharma Spray Dryer	30106036	9303
+01157	PSD1c Spray Dryer (direct vent)	Pharma Spray Dryer	30106036	9303
+01158	BLD150 Spray Dryer  (direct vent)	Pharma Spray Dryer	30106036	9303
+01159	BLD150 Spray Dryer (scrubbed)	Pharma Spray Dryer	30106036	9303
+01160	FAC-072	Process Chiller	2399010000	9303
+01161	FAC-010	Process Chiller	2399010000	9303
+01162	FAC-002	Process Chiller	2399010000	9303
+01174	LFG-01	Landfill Gas	50100402	9303
+01175	FLR-01 & FLR-02	Flare	50100410	9303
+01183	12A	GE LM1600	2-02-002-01	9303
+01184	12B	Cooper Rolls Coberra 125 (Avon)	2-02-002-01	9303
+01185	12C	Solar Titan SoLoNOx	2-02-002-01	9303
+01186	HWB-1 (South building)	Office heat, snow melt	30190003	9303
+01187	HSB-1/ B-3 Steam (North building)	Process heat	30190003	9303
+01188	B-1 (HW North Building)	Space heat, snow melt	30190003	9303
+01189	B-2 (HW North Building)	Space heat, snow melt	30190003	9303
+01190	PE4045L247429FirePump	Fire pump (86 hp)	20100102	9303
+01191	Generator N QSK-50-G4	North building (2,220 hp)	20100102	9303
+01192	Generator South	South building (755 hp)	20100102	9303
+01194	Biomass boiler	wood-fired boiler	10100903	9303
+01195	BO-1	Boiler	10200603	9303
+01205	HFB	Hog Fuel Boiler	1-02-009-02	9303
+01206	CBB	Natural Gas Boilers 1,2,3	1-02-006-02	9303
+01207	KLN 1-6	Kiln DF < 200°	NA	9303
+01208	KLN 1-6	Kiln HF < 200°	NA	9303
+01209	KLN 1-6	Kiln HF > 200°	NA	9303
+01210	KLN 1-6	Kiln LP < 200°	NA	9303
+01211	Heaters 1-2	Heaters 1-2	1-02-006-02	9303
+01212	Burners 1-2	Burners 1-2	1-02-006-03	9303
+01213	LVL Press	LVL Press	3-07-016-12	9303
+01214	Dryers 1-2	Dryers 1-2	3-07-016-03	9303
+01215	Dryers 1-2	Dryers 1-2	3-07-016-04	9303
+01216	I-Line Curing Chamber	I-Line Curing Chamber	3-07-016-70	9303
+01217	LVL Saw	LVL Saw	3-07-016-27	9303
+01218	RCO	RCO	3-07-016-39	9303
+01219	Resin Tanks	Resin Tanks	3-07-016-29	9303
+01234	Veneer Drying - RCO	Veneer Drying	2436	9303
+01235	Veneer Drying - cooling	Veneer Drying	NA	9303
+01236	LVL Press	Press	2439	9303
+01237	Hot oil natural gas burner	Hot oil burner	4961	9303
+01238	Welding	Welding	E70S-6	9303
+01239	Welding	Welding	7018	9303
+01240	Boiler 1	Boiler 1	1-02-019-01	9303
+01241	Boiler 1	Boiler 1	1-02-006-01	9303
+01242	Boiler 2	Boiler 2	1-02-019-01	9303
+01243	Boiler 2	Boiler 2	1-02-006-01	9303
+01244	Boiler 6	Boiler 6	1-02-019-01	9303
+01245	Boiler 6	Boiler 6	1-02-006-01	9303
+01246	Truck Shop Burner	Truck Shop Burner	1-05-001-13	9303
+01247	Kilns - DF	Kilns - DF	3-07-008-31	9303
+01248	Kilns - WW	Kilns - WW	3-07-008-31	9303
+01249	Steam Vats	Steam Vats	3-07-007-31	9303
+01250	Ply 1 Dryer 1	Ply 1 Dryer 1	3-07-007-62	9303
+01251	Ply 1 Dryer 1	Ply 1 Dryer 1	3-07-007-63	9303
+01252	Ply 2 Dryers 2-5	Ply 2 Dryers 2-5	3-07-007-62	9303
+01253	Ply 2 Dryers 2-5	Ply 2 Dryers 2-5	3-07-007-63	9303
+01254	Ply 2 Dryers 2-5 - Duratemp	Ply 2 Dryers 2-5 - Duratemp	3-07-007-99	9303
+01255	Ply 1 Presses 1-2	Ply 1 Presses 1-2	3-07-007-84	9303
+01256	Ply 2 Presses 1-4	Ply 2 Presses 1-4	3-07-007-83	9303
+01257	Ply 2 Presses 1-4 - Duratemp	Ply 2 Presses 1-4 - Duratemp	3-07-007-99	9303
+01258	Ply Sander	NA	NA	9303
+01259	Ply Saw	NA	NA	9303
+01260	RCO	RCO	3-07-007-99	9303
+01261	PB Dryers 1-4	PB Dryers 1-4	3-07-006-35	9303
+01262	PB Green Dryer	PB Green Dryer	3-07-006-77	9303
+01263	PB Green Dryer Burner	PB Green Dryer Burner	3-07-006-77	9303
+01264	PB Green Dryer Burner	PB Green Dryer Burner	3-07-006-77	9303
+01265	RTO	RTO	3-07-006-99	9303
+01266	PB Flakers and Blissmills	PB Flakers and Blissmills	3-07-006-63	9303
+01267	PB Line 2 Blender	PB Line 2 Blender	3-07-006-48	9303
+01268	PB Line 2 Former	PB Line 2 Former	3-07-006-41	9303
+01269	PB Line 2 Press	PB Line 2 Press	3-07-006-51	9303
+01270	PB Line 2 Board Cooler	PB Line 2 Board Cooler	3-07-006-61	9303
+01271	PB Saws	PB Saws	3-07-006-91	9303
+01272	PB Sanders	PB Sanders	3-07-006-67	9303
+01273	PB Heaters 1-2	PB Heaters 1-2	1-02-006-03	9303
+01274	Melamine Lines B&C	Melamine Lines B&C	3-07-006-99	9303
+01275	Prefinish Preheaters	Prefinish Preheaters	1-02-006-03	9303
+01276	Plywood Resin Tanks	Plywood Resin Tanks	3-07-007-32	9303
+01277	PB Resin Tanks	PB Resin Tanks	3-07-006-97	9303
+01339	Engine < 600 HP Diesel #2	Engine < 600 HP	NA	9303
+01340	hog fuel boiler	hog fuel	4961	9303
+01341	n/g boiler	Boiler Natural Gas	4961	9303
+01342	kilns - hemlock	lumber dry kilns	2421	9303
+01343	kilns - fir	lumber dry kilns	NA	9303
+01344	kilns - spf	lumber dry kilns	NA	9303
+01345	engine gas	engine gas	2421	9303
+01346	Flare	Backup to offsite LFGTE plant	50100410	9303
+01347	LFG Fugitives	Emissions not captured for destruction	NA	9303
+01348	EU 34 - Gelcoat spray booth	Armor Flex, Marine Clear, 963-XK-121 	NA	9303
+01349	EU 34 - Gelcoat spray booth	Dura-Kote Adventure White Air Cure, 991WC156 	NA	9303
+01350	EU 34 - Gelcoat spray booth	Green Tooling, 945-GA-104 	NA	9303
+01351	EU 34 - Gelcoat spray booth	Orenco Tan, in mold, 311-746 	NA	9303
+01352	EU 34 - Gelcoat spray booth	Orenco Tan, Air Cure,  311-747 	NA	9303
+01353	EU 34 - Gelcoat spray booth	Axiom Marble, BSE-1195 	NA	9303
+01354	EU 34 - Gelcoat spray booth	Black Vinyl Ester Hybrid Tooling, B-3019	NA	9303
+01355	EU 34 - Gelcoat spray booth	Black Vinyl Ester, 1902-045 	NA	9303
+01356	EU 34 - Gelcoat spray booth	Armorpro HAP33 Canary, 99M-YH-622	NA	9303
+01357	EU 34 - Gelcoat spray booth	Enguard Med Grey Sanding, AG-PR-9057	NA	9303
+01358	EU 34 - Gelcoat spray booth	All Advantage Tan,  311-XXX	NA	9303
+01359	EU 34 - Gelcoat spray booth	Maxguard Adventure White, WG-LE-4704	NA	9303
+01360	EU 34 - Gelcoat spray booth	Orenco Green Air Cure, 306-A79	NA	9303
+01361	EU 34 - Gelcoat spray booth	Colonial Ivory Air Cure, 314-G00	NA	9303
+01362	EU 34 - Gelcoat spray booth	F774-NNA-30	NA	9303
+01363	EU 34 - Gelcoat spray booth	Maxguard Orenco Tan, NE-33LE-7118	NA	9303
+01364	EU 43 - Filament winding operation	Aropol 7334-T-25 	NA	9303
+01365	EU 43 - Filament winding operation	Derakane 411-350	NA	9303
+01366	EU 43 - Filament winding operation	Dion Impact 9102-70	NA	9303
+01367	EU 43 - Filament winding operation	Resin 186-0616 	NA	9303
+01368	EU 45 - Non-RTM fiberglass operations	Resin 713-2332-22 	NA	9303
+01369	EU 45 - Non-RTM fiberglass operations	Polylite Tooling Resin DX33540-00	NA	9303
+01370	EU 46 - Adhesive operations	MA320	NA	9303
+01371	EU 46 - Adhesive operations	MA300 ITW 	NA	9303
+01372	EU 46 - Adhesive operations	Acralock SA1-510B GREY 	NA	9303
+01373	EU 46 - Adhesive operations	Acralock SA1-500A 	NA	9303
+01374	EU 46 - Adhesive operations	Acralock SA1-530B GREY 	NA	9303
+01375	EU 46 - Adhesive operations	Acralock SA1-590B GRY Acralock 	NA	9303
+01376	EU 46 - Adhesive operations	MA8110 	NA	9303
+01377	EU 46 - Adhesive operations	MA8120 	NA	9303
+01378	EU Boilers	Boilers - processing 	NA	9303
+01488	hog fuel boiler	hog fuel boiler	4961	9303
+01489	RTO NG usage	RTO	NA	9303
+01490	plywood presses	press p1,p2,p3,	2436	9303
+01491	engines gas	welders	2436	9303
+01492	engines diesel	loaders	2436	9303
+01493	veneer dryers/ heated section	DR1,DR2,DR3	2436	9303
+01494	veneer dryers / cooling section	DR1,DR2,DR3	2436	9303
+01495	Kipper & Sons Hogged Fuel Boiler DV-1.1	60 MMBtu/hr boiler; 40,000 lb/hr capacity	39000989	9303
+01496	Veneer Dryer DV-2.1 - heated section	longitudinal steam dryer, 11.2 Msqft/hr	30700718	9303
+01497	Veneer Dryer DV-2.1 - cooling section	longitudinal steam dryer, 11.2 Msqft/hr	NA	9303
+01498	Veneer Dryer DV-2.2 - heated section	jet steam dryer, 4.6 Msqft/hr	30700718	9303
+01499	Veneer Dryer DV-2.2 - cooling section	jet steam dryer, 4.6 Msqft/hr	NA	9303
+01507	Boiler 1	Boiler 1	1-02-019-01	9303
+01508	Boiler 1	Boiler 1	1-02-006-02	9303
+01509	Boiler 2	Boiler 2	1-02-019-01	9303
+01510	NG Boiler	NG Boiler	1-02-006-02	9303
+01511	Steam Vats	Steam Vats	3-07-007-31	9303
+01512	Dryers 1-6	Dryers 1-6	3-07-007-62	9303
+01513	Dryers 1-6	Dryers 1-6	3-07-007-63	9303
+01514	Dryers 1-6	Dryers 1-6	3-07-007-99	9303
+01515	Dryers 1-6	Dryers 1-6	3-07-007-63	9303
+01516	Presses 1-6	Presses 1-6	3-07-007-83	9303
+01517	Presses 1-6	Presses 1-6	3-07-007-99	9303
+01518	Ply Sander	NA	NA	9303
+01519	Ply Saw	NA	NA	9303
+01520	RCO	RCO	3-07-007-99	9303
+01521	Resin Tanks	Resin Tanks	3-07-007-32	9303
+01541	1	Exterior Fire-X Reaction Kettle	30799999 - Chemical Formulation (Mixing)
+Formaldehyde, Stack Emissions
+and
+Methanol, Stack Emissions	9303
+01542	2	Chromated Copper Arsenate (CCA) Wood Treating In Pressure Vessel (retort)	30700513 - Modified full-cell process, chromated copper arsenate
+and
+30700583 - Retort unloading, chromated copper arsenate
+and
+30700593 - Treated Wood Storage, chromated copper arsenate	9303
+01543	3	NG Process Boiler	39900601 - Process Heater / Furnace -NG (each of the 5 kilns has a burner < 10 MMBtu/Hr)
+and
+10200603 - NG Boiler < 10 MMBtu/Hr	9303
+01544	4	Kiln	NA	9303
+01545	5	Forklifts	27000320 - Industrial Forklift: Diesel	9303
+01546	Boiler 	Boiler Natural Gas	10200603	9303
+01547	Solar Saturn T-1300 Turbine	Turbine	20300202	9303
+01548	Emergency Generator	Generator Natural Gas	20300201	9303
+01555	ENG	Caterpillar 3520 generator	20100802	9303
+01556	FLR1	Flare 1	50300601	9303
+01557	FLR2	Flare 2	50300601	9303
+01558	ENG1	Engine Plant 1	50100421	9303
+01559	ENG2	Engine Plant 2	50100421	9303
+01560	LF Fug	LFG Fugitives	50100402	9303
+01561	Tippers	Waste Tippers	20200102	9303
+01562	Macro Encapsulation	Waste Disposal & Recycling	2640000000	9303
+01563	ORU Propane	Waste Disposal & Recycling	2640000000	9303
+01564	ORU Boiler	Waste Disposal & Recycling	2640000000	9303
+01565	Solidification	Waste Disposal & Recycling	2640000000	9303
+01566	Stabilization	Waste Disposal & Recycling	2640000000	9303
+01567	EEF	Waste Disposal & Recycling	2640000000	9303
+01568	TOX	Waste Disposal & Recycling	2640000000	9303
+01569	Waste Handling/Inspection	Waste Disposal & Recycling	2640000000	9303
+01571	PA-5700	Thermal Oxidizer	NA	9303
+01572	PA-0210	Pregasifier Preheater	NA	9303
+01573	PA-0610	TRC Preheater	NA	9303
+01574	G-4700	Emergency Generator	NA	9303
+01575	P-9110	Fire Water Pump	NA	9303
+01577	DMS - PM Belt Dryer	Pellet Mill Moving Belt Dryer	3-07-006-07	9303
+01578	DM4 - Rotary Dryer	West Rotary Dryer	3-07-006-25	9303
+01579	DM4 - Rotary Dryer	West Rotary Dryer	3-07-006-25	9303
+01580	BLR1/BLR2 - Boiler #1 & #2	2 Boilers (hogged fueled)	1-02-009-08	9303
+01581	DKD 1&2 / DKS 1,2 & 3	Dry Kilns - 2 doubles/3 singles - Pond Pine	3-07-008-39	9303
+01582	DKD 1&2 / DKS 1,2 & 3	Dry Kilns - 2 doubles/3 singles - Fir	3-07-008-31	9303
+01583	DRY2_WD	Dryer 2 - Rotary Dryer, Wood-Fired	3-07-0006-07	9303
+01584	DRY2_Propane	Dryer 2 - Rotary Dryer, NG-fired	NA	9303
+01585	Wood Combusiton	Dryer 2	NA	9303
+01586	Propane combustion	Dryer 2	NA	9303
+01587	Biomass Boilers (EU1)	wood fired	10200903	9303
+01588	Veneer Dryers (EU2) heated zone	steam heated dryers	30700762	9303
+01589	Veneer Dryers (EU2) cooling zone	steam heated dryers	30700763	9303
+01590	Presses 	panel presses	30700783	9303
+01591	Regenerative Thermal Oxidizer (RTO)	pollution control equipment	--	9303
+01592	Poly Patch - Willamette Valley	poly patch for panels	30700799	9303
+01593	Saws	saws	30700710	9303
+01594	Sander	sander	30700702	9303
+01616	Veneer Drying	Heated section	2435	9303
+01617	Veneer Drying	Cooling section	NA	9303
+01618	Natural gas boiler	Natural gas boiler	4961	9303
+01619	Log conditioning vats	Log conditioning vats	2435	9303
+01620	Welding	LIN 7018-18	7692	9303
+01621	Welding	LIN 7018-332	7692	9303
+01622	Welding	LIN 7018-532	7692	9303
+01623	Welding	LIN 11018-18	7692	9303
+01624	Welding	LIN 11018-532	7692	9303
+01625	Veneer Drying - RCO	Heated section	2436	9303
+01626	Veneer Drying	Cooling section	NA	9303
+01627	Presses	Presses	2436	9303
+01628	Hog fuel boiler	Hog fuel boiler	4961	9303
+01629	RCO natural gas	RCO natural gas	2436	9303
+01630	Welding	NA	NA	9303
+01633	Boiler 1	Natural Gas Boiler	10200602	7911
+01634	Presses 1, 2 and 3	Hot Presses	30700783	7911
+01635	Saws	Saws	30700710	7911
+01637	Landfill Gas Flare	Landfill Gas Flare	50100410	9303
+01638	Fugitives	Fugitives	50100402	9303
+01639	1	Cement Silo	30501107	9303
+01640	2	Cement Daybin	30501107	9303
+01641	3	Alumina Silo	30501117	9303
+01642	4	Alumina Daybin	30501117	9303
+01643	6	Silica Silo	30501107	9303
+01644	7	Boiler	NA	9303
+01645	9	Saws Dust Collector	NA	9303
+01646	10	Paint Cure Ovens	NA	9303
+01647	15	Cement Weigh Bin	30501107	9303
+01648	16	Alumina Weigh Bin	30501117	9303
+01649	18	Silica Transfer Belts	30501105	9303
+01650	19	Mixer	30501109	9303
+01651	20	Chipper Baghouse	NA	9303
+01654	Boiler-1	Natural Gas Boiler	30790003	9303
+01655	Veneer Dryer M-1 - Heated section	Direct Fired Veneer Dryer	30700752	9303
+01656	Veneer Dryer M-1 - cooling section	Direct Fired Veneer Dryer	30700753	9303
+01657	Plywood Press 1 & 2	Plywood Presses	30700784	9303
+01658	Particle Dryers 1 & 2	Rotary Particle Dryers	30700625	9303
+01659	Particle Dryers 1 & 2	Combustion	30700625	9303
+01660	Particleboard Press	Particleboard Press	30701055	9303
+01661	Particle Board Cooler Vent	Cooler Vent	30700660	9303
+01662	Plywood Sander	Sander	30700702	9303
+01663	Plywood Saw Trim Chipper	Chipper	30700791	9303
+01664	Plywood Saw	Saw	30700710	9303
+01665	Particleboard Press PMDI	Particleboard Press	30701055	9303
+01668	Landfill Gas Flare	Landfill Gas Flare	50100410	9303
+01669	RICE GTE	Cat 3520C	50100421	9303
+01670	Fugitives	Fugitives	50100402	9303
+01671	Chlorine 	Cl2 production	NA	9303
+01672	Hydrogen Bromide	HBr production	NA	9303
+01673	Boron Trifluoride	BF3 purification & filling	NA	9303
+01674	Hydrogen Fluoride	HF production	NA	9303
+01675	Fluorine	Fluorine 	NA	9303
+01676	Trichlorosilane	TCS production	NA	9303
+01677	Silane	Silane production	NA	9303
+01685	EU 4	Mix Room	NA	9303
+01686	EU 5	Murray Boiler	NA	9303
+01687	EU 5	Murray Boiler	NA	9303
+01688	EU 6	B & W Boiler	NA	9303
+01689	EU 6	B & W Boiler	NA	9303
+01690	EU 7	Thermal Oxidizer I	NA	9303
+01691	EU 7	Thermal Oxidizer I	NA	9303
+01692	EU 8	Storage Tanks 21-30, SR - 8, 17, 19, 33-35	NA	9303
+01693	EU 11	Thermal Oxidizer II	NA	9303
+01694	EU 11	Thermal Oxidizer II	NA	9303
+01695	EU 12	Glue Line for Packaging	NA	9303
+01696	EU 13	Pilot Coater	NA	9303
+01697	Maintenance	Maintenance	NA	9303
+01703	Co-Gen Engine	Dig. Gas Engine generator	20300702	9303
+01704	Boiler Natural Gas-Fired	Hurst Boiler	10300701	9303
+01705	Boiler Digester Gas-Fired	Hurst Boiler	10300701	9303
+01706	Flare Digester Gas-Fired	Excess Dig. Gas Flare	50100789	9303
+01707	Emergency Generator Diesel	Caterpiller 	20100202	9303
+01708	Influent Flow (VOC only)	POTW wastewater	50100701	9303
+01709	Boiler 	Natural Gas Boiler	10200602	9303
+01710	Steam Vats	block condition, net production	30700731	9303
+01711	Boiler 4	Boiler 4	1-02-019-02	9303
+01712	Boiler 4	Boiler 4	1-02-006-02	9303
+01713	Dryers 2&3	Dryers 2&3	3-07-009-09	9303
+01714	Dryers 2&3	Dryers 2&3	1-02-006-02	9303
+01715	Former	Former	3-07-009-78	9303
+01716	Press	Press	3-07-009-61	9303
+01717	Press Fugitives	Press Fugitives	3-07-009-61	9303
+01718	Board Cooler	Board Cooler	3-07-009-72	9303
+01719	Sander	Sander	3-07-009-85	9303
+01720	Saw	Saw	3-07-009-88	9303
+01721	RCO	RCO	3-07-009-99	9303
+01722	Resin Tanks	Resin Tanks	3-07-009-96	9303
+01727	Wood preservation- ACQ	CMC 10.3 and NW 200	30700598	9303
+01728	Wood preservation - CAC	NW-CA	30700598	9303
+01729	Wood preservation - ACZA	ACZA	30700598	9303
+01730	Boiler 	burning NG 	30700598	9303
+01736	EU 11	N. Hog Fuel Boiler	NA	9303
+01737	EU 12	S. Hog Fuel Boiler	NA	9303
+01738	EU 24	Air Knives	NA	9303
+01739	EU 28	Hog Fuel Emissions	NA	9303
+01740	EU 49	Hog Fuel Storage	NA	9303
+01741	Landscape Material Production	Mixing Landscape Products	NA	9303
+01742	Wastewater Treatment	Settling Ponds	NA	9303
+01743	Tub Grinding On-Site	Grinding Wood Waste	NA	9303
+01744	Tub Grinding Off-Site	Grinding Wood Waste	NA	9303
+01745	Fuel Pile Operations	Unloading and Handling Fuel	NA	9303
+01746	Combustion	Heaters	NA	9303
+01754	PRF Application	Phenol-Formaldehyde-Resorcinol Resin Application	NA	9303
+01755	Isoset Application (4) - Resin	Resin Application	NA	9303
+01756	Isoset Application (4) - MDI	Resin Applications - MDI Material	NA	9303
+01757	I-Joist Condition Chamber	I-Joist Condition Chamber	30701670	9303
+01765	11A	Solar Mars 100S SoLoNOx	2-02-002-01	9303
+01766	11B	Solar Mars T14000 SoLoNOx	2-02-002-01	9303
+01767	LFG - Flare	Flare	50100410	9303
+01768	Boiler	Steam Generator	30790003	9303
+01769	Veneer Dryer - Natural Gas	Dryer 1	30700746	9303
+01770	Veneer Dryer - Wood Fired	Dryer 3	30700746	9303
+01771	Veneer Dryer - Wood Fired	Dryer 3	NA	9303
+01772	Veneer Dryer - cooling	NA	NA	9303
+01773	Plywood Press - Softwood	Press	30700784	9303
+01774	Plywood Press - Hardwood	Press	30700784	9303
+01775	Plywood Sander	Sander	30700702	9303
+01776	Plywood Saw Trim Chipper	Chipper	30700791	9303
+01777	Plywood Saw	Saw	30700710	9303
+01778	Resin Tanks	Tanks	NA	9303
+01779	Resin Tanks	Tanks	NA	9303
+01780	Resin Tanks	Tanks	NA	9303
+01787	EU-1	Wood Coating 	2434	9303
+01788	EU-6	Nat Gas fired heater	2434	9303
+01789	Combustion Turbine 101 (CT 1)	Electric Generation 	20100201	9303
+01790	Combustion Turbine 201 (CT 2)	Electric Generation 	20100201	9303
+01791	Auxiliary Boiler (BR)	Steam Production	10100601	9303
+01792	Combustion Turbine 901A (CT 3)	Electric Generation 	20100201	9303
+01793	Combustion Turbine 901B (CT 4)	Electric Generation 	20100201	9303
+01794	Combustion Turbine 902A (CT 5)	Electric Generation 	20100201	9303
+01795	Combustion Turbine 902B (CT 6)	Electric Generation 	20100201	9303
+01796	B-1 & 2	Wood/Bark fired boilers for kilns	10200910	9303
+01797	B-4 & 5	Natural Gas/Oil fired boiler for building heat.	10200602	9303
+01798	Kiln	Kiln - Pondersa Pine	30700830	9303
+01799	Kiln	Kiln - Lodgepole Pine	30700830	9303
+01800	Kiln	Kiln - Douglas Fir	30700830	9303
+01801	Kiln	Kiln - White Fir	30700830	9303
+01802	Boiler G	Wood Fired Boiler	NA	9303
+01803	Boiler N	Natural Gas Boiler	NA	9303
+01804	Kilns	Lumber Kilns	NA	9303
+01805	NG Oven	Fiber Paint Oven	NA	9303
+01806	NG Heaters	Fiber Building Heaters	NA	9303
+01807	NG Boiler	Millwork NG Boiler	NA	9303
+01808	Veneer Dryer - heated	Veneer Dryer	NA	9303
+01809	Veneer Dryer - cooling	Veneer Dryer	NA	9303
+01810	Kilns	Dehumidification Kilns	NA	9303
+01811	Dryer/Press	Fiber Dryer/Press	NA	9303
+01812	Fiber Dryer	NG Dryer	NA	9303
+01818	HB01 - HB04, HB16	Dryers defibrators/Press, loader, unloader vents	3-07-007-05	9303
+01819	HB08	Bake Oven RCO	3-07-007-09	9303
+01820	HB09	Bake Oven Roof Vents	3-07-007-09	9303
+01821	HB10	Cyclone HB7 - Former Wire Negative Air System	3-07-008-08	9303
+01822	HB11	Cyclones HB19, HB20, HB21	3-07-008-04	9303
+01823	HB14	Cyclones HB23, 31, 32, 44 & Storage Silos #4 & #5 Rechippper rotary disc screen, Auto Trim/Cross cut saw cyclones15, 25, 26, 30	3-07-008-08	9303
+01824	PB01	Press vent/unloader biofilter	3-07-007-99	9303
+01825	PB03	Board side and end trim saws	3-07-007-99	9303
+01826	PB04	Board Cooler Vents	3-07-007-99	9303
+01827	PB05	Core Dryers	3-07-007-03	9303
+01828	PB06	Surface Dryers	3-07-007-03	9303
+01829	PB07	Cyclone PB22	3-07-007-08	9303
+01830	PB08	Cyclone PB24	3-07-007-08	9303
+01831	PB09	Cyclones with primary filters	3-07-007-99	9303
+01832	PB10	Cyclones with secondary filters	3-07-007-99	9303
+01833	PB12	Secondary screen with primary filter	3-07-007-99	9303
+01834	Natural Gas Combustion - HB-04, HB08, HB17, PB05, PB06 	Defibrator No. 4, Bake Oven RCO, Coating Oven, Core Dryers, Surface Dryers	 3-07-007-05, 3-99-900-03, 4, and 3-07-007-03	9303
+01836	BLR-S	Wood/Bark-Fired Boiler	10200902	9303
+01837	V-N heated	Veneer Dryers	2307000000	9303
+01838	V-N cooling	Veneer Dryers	2307000000	9303
+01839	PV	Press Vents	2307000000	9303
+01840	Plywood Sander	Sander	NA	9303
+01841	Plywood saw	Saw	NA	9303
+01842	Steam Vat	Steam Vat	2307000000	9303
+01843	Dust Collector	Dust Collector	2307000000	9303
+01851	Aux Boiler EU	Aux Blr on Oil	30600103	9303
+01852	Aux Boiler EU	Aux Blr on Oil	30600103	9303
+01853	CNDR-EU	Condenser Vent	30600603	9303
+01854	TV-EU	Storage Tank Venting	30630007	9303
+01855	HVAC	Boilers	NA	9303
+01858	14A	Solar Mars 14000S SoLoNOx	2-02-002-01	9303
+01859	14B	Solar Titan 130S	2-02-002-01	9303
+01860	Wire Cutting	Core Slabbing	NA	9303
+01861	Core Embossers	Embossing of Cores	NA	9303
+01862	RTO/Boiler	Combustion	NA	9303
+01876	13C	Cooper Rolls Coberra 125 (Avon)	2-02-002-01	9303
+01877	13D	Cooper Rolls Coberra 125 (Avon)	2-02-002-01	9303
+01878	Coating and Solvent Usage	NA	NA	9303
+01879	Uninstalled Engine Testing	NA	NA	9303
+01880	Tanks 1	NA	NA	9303
+01881	Tanks 2	NA	NA	9303
+01882	Tanks 3	NA	NA	9303
+01883	Tanks 4	NA	NA	9303
+01884	Insert rows above this row!	NA	NA	9303
+01885	Rotary Dryer	Rotary Dryer	NA	9303
+01886	Rotary Dryer	Rotary Dryer	NA	9303
+01887	Main baghouse	Crushing/Screening	NA	9303
+01888	Steam Boiler	Boiler No 1 and No. 2 	Part B, 13	9303
+01889	Ponderosa Pine Lumber Drying	Drying Kilns	Part B, 71	9303
+01890	White Fir Lumber Drying	Drying Kilns	Part B, 71	9303
+01891	EU12	Gasifier Heater	10200601	6714
+01892	EU13	Auxiliary Boiler	10200602	6714
+01893	EU14	Gasifier Flare Syngas	39990024	6714
+01894	EU15	Gasifier Flare Pilot	39990023	6714
+01895	EU19	Thermal Oil Heater	39990003	6714
+01896	EU21	Emergency Generator	20100102	6714
+01897	EU22	Fire Pump Engine	20300101	6714
+01898	EU29	Load-out Flare Pilot	39990023	6714
+01899	EU29	Naphtha Load-out Flare - Truck	40899999	6714
+01900	EU29	Naphtha Load-out Flare - Rail	39990024	6714
+01901	FS07	Product Load-out Fugitives (Jet Fuel) - Trucks	40899995	6714
+01902	FS07	Product Load-out Fugitives (Diesel) - Trucks	40899995	6714
+01903	FS08	Product Load-out Fugitives (Jet Fuel) - Rail	40899999	6714
+01904	FS09	Product Load-out Fugitives (Diesel) - Rail	40899999	6714
+01905	FS10	Equipment Leaks	39999999	6714
+01906	TK01	Jet Fuel Tank - Breathing Loss	40714697	6714
+01907	TK02	Jet Fuel Tank - Working Loss	40714698	6714
+01908	TK02	Off-Spec Jet Fuel Tank - Breathing Loss	40714697	6714
+01909	TK03	Off-Spec Jet Fuel Tank - Working Loss	40714698	6714
+01910	TK03	Jet Fuel Day Tank - Breathing Loss	40714697	6714
+01911	TK04	Jet Fuel Day Tank - Working Loss	40714698	6714
+01912	TK04	Diesel Tank - Breathing Loss	40714697	6714
+01913	TK05	Diesel Tank - Working Loss	40714698	6714
+01914	TK05	Off-spec Diesel Tank - Breathing Loss	40714697	6714
+01915	TK06	Off-spec Diesel Tank - Working Loss	40714698	6714
+01916	TK06	Diesel Day Tank - Breathing Loss	40714697	6714
+01917	TK07	Diesel Day Tank - Working Loss	40714698	6714
+01918	TK07	Naphtha Tank - Breathing Loss	40729697	6714
+01919	TK08	Naphtha Tank - Working Loss	40729698	6714
+01920	TK08	Off-Spec Naphtha Tank - Breathing Loss	40729697	6714
+01921	TK09	Off-Spec Naphtha Tank - Working Loss	40729698	6714
+01922	TK09	Day Naphtha Tank - Breathing Loss	40729697	6714
+01923	TK10	Day Naphtha Tank - Working Loss	40729698	6714
+01924	EU1	No. 1 Lime Kiln 	NA	9303
+01925	EU2	No. 2 Lime Kiln	NA	9303
+01926	EU3	No. 3 Lime Kiln	NA	9303
+01927	EU5	Heavy Black Liquor Oxidation 	NA	9303
+01928	EU5	61-070 & 62-020 Heavy Black Liquor Storage Tanks	NA	9303
+01929	EU8	Semi-Chem Brownstock Washing	NA	9303
+01930	EU11	Hog Fuel Boiler No. 4	NA	9303
+01931	EU13	No. 1 Power Boiler	NA	9303
+01932	EU14	No. 1 Recovery Furnace	NA	9303
+01933	EU14	No. 1 Recovery Boiler	NA	9303
+01934	EU15	No. 1 Smelt Dissolving Tank	NA	9303
+01935	EU16	No. 2 Recovery Furnace	NA	9303
+01936	EU16	No. 2 Recovery Boiler	NA	9303
+01937	EU17	No. 2 Smelt Dissolving Tank	NA	9303
+01938	EU18	No. 3 Power Boiler	NA	9303
+01939	EU22	No. 5 Power Boiler	NA	9303
+01940	EU80	OCC Pulping Plant 1	NA	9303
+01941	EU81	OCC Pulping Plant 2	NA	9303
+01942	EU101	Green Liquor System	NA	9303
+01943	EU102	Lime Mud Handling System	NA	9303
+01944	EU103	White Liquor System	NA	9303
+01945	EU103	63-351 & 63-252 No. 3 & No. 4 White Liquor Clarifier Tanks	NA	9303
+01946	EU105/106	Paper Machine No. 1 Dry End	NA	9303
+01947	EU107/108	Paper Machine No. 2 Dry End	NA	9303
+01948	EU109/110	Paper Machine No. 3 Dry End	NA	9303
+01949	EU113	Kraft Brownstock Hi-D Storage	NA	9303
+01950	EU114	Kraft Brownstock Secondary Screening 	NA	9303
+01951	EU117	Semi- Chem Brownstock High-Density Storage 	NA	9303
+01952	EU119	Semi-Chem Digester System	NA	9303
+01953	EU123	Weak Black Liquor Storage	NA	9303
+01954	EU125	Kraft Batch Digester Fill & Conveyor	NA	9303
+01955	EU126	NCG LVHC Combined Header	NA	9303
+01956	EU126	NCG Blowheat Accumulator	NA	9303
+01957	EU126	NCG Blowheat Evaporator 	NA	9303
+01958	EU126	NCG Turpentine Vent	NA	9303
+01959	EU128-A	Kraft Brownstock Washer #1	NA	9303
+01960	EU128-B	Kraft Brownstock Washer #2	NA	9303
+01961	EU128-C	Kraft Brownstock Washer #3	NA	9303
+01962	EU129	Wastewater Treatment Facility	NA	9303
+01963	EU138	No. 1 Lime Kiln Auxiliary Drive RICE	NA	9303
+01964	EU139	No. 2 Lime Kiln Auxiliary Drive RICE	NA	9303
+01965	EU140	No. 3 Lime Kiln Auxiliary Drive RICE	NA	9303
+01966	EU141	No. 2 Mud Tank Agitator Auxiliary Drive RICE	NA	9303
+01967	EU142	No. 3 Mud Tank Agitator Auxiliary Drive RICE	NA	9303
+01968	1	Turbine	20200201	9303
+01969	2	Heaters	10200602	9303
+01970	3	Vaporizers	10200602	9303
+01971	4	Turbine starts/stops	31088801	9303
+01972	5	Fugitives	31088801	9303
+01973	Kewanne Model H35-600G02	Natural gas-fired boiler	39000699	9303
+01974	Cooker	Fish meal - fish oil production	30201201	9303
+01975	Welding	L-50 - all sizes	30900500	9303
+01976	Welding	AWS E7024/E7024-1	30900500	9303
+02004	Welding	Welding Rods	30900500	9303
+02005	Welding	Welding Wire	30900500	9303
+02033	22-0010	Welding and Cutting mild steel	3444	9303
+02035	Acid Recovery Unit (A1) (SCRB-05) (Scrap Milling Tank)	AB	NA	9303
+02036	Heated Acid Bath #1 (A2) (SCRB-02)	AB	NA	9303
+02037	Heated Acid Bath #1 (A2) (SCRB-02)	AB	NA	9303
+02038	Cold Etch Bath (A4N) (SCRB-04)	AB	NA	9303
+02039	Heated Acid Bath #2 (A5) (SCRB-04)	AB	NA	9303
+02040	Heated Acid Bath #2 (A5) (SCRB-04)	AB	NA	9303
+02041	Caustic Bath (CB-01)	CB	NA	9303
+02042	Caustic Bath (CB-02)	CB	NA	9303
+02043	Stand Up Grinder (WC-03) (Vents Inside Building)	KO	NA	9303
+02044	Casting Furnaces 1-3	MM	NA	9303
+02045	Torch Booth (DC-04) (Vents Inside Building)	MM	NA	9303
+02046	Welding (DC-11) (Vents Inside Building)	MM	NA	9303
+02047	Welding (DC-17) (Vents Inside Building)	MM	NA	9303
+02048	Finishing Grinding (WC10-15) (Vents Inside Building)	BLDG H	NA	9303
+02049	Boilers 02,10,12,13,14,16,17,18,19; Natural Gas Burners 01-03,05-07; Burnout Ovens 01,04-08, 16, 17	NGBL	NA	9303
+02050	Staging stand up grinder (DC-10) (Vents inside)	AI	NA	9303
+02051	Grinding room booths (WGRB01-05) (vents inside)	BLDG C	NA	9303
+02052	Grind booths (WC-05) (vents inside)	AI	NA	9303
+02053	Grind booths (WC-08) (vents inside)	AI	NA	9303
+02054	Grind booths (WC-04) (vents inside)	AI	NA	9303
+02055	Grind booths (WC-09) (vents inside)	AI	NA	9303
+02056	Grind booth (WC-07) (vents inside)	AI	NA	9303
+02057	Intermediate rain fall sander  (DC-27)	AI	NA	9303
+02058	Backup grind room (DC-08)	AI	NA	9303
+02059	Stand up belt sander (DC-26)	AI	NA	9303
+02060	Wax leach acid wash #1 (EF-27)	AI	NA	9303
+02061	Wax leach acid wash #2 (EF-28)	AI	NA	9303
+02067	Boilers and RTOs	NG Combustion	NA	9303
+02075	Both Lines	Sodium Hydroxide Etch	NA	9303
+02076	Anodize Line	Sulfuric Acid Anodize	NA	9303
+02077	Anodize Line	Nickel Acetate Seal 	NA	9303
+02078	Nickel Electroless	Hydrochloric Acid pickle steel	NA	9303
+02079	Nickel Electroless	Zincate Aluminum line	NA	9303
+02080	Nickel Electroless	Nickel Electroless	NA	9303
+02082	Boiler 1	NG Emissions	NA	9303
+02083	Boiler 2	NG Emissions	NA	9303
+02084	Green Dryer #4	Process Emissions	NA	9303
+02085	Green Dryer #4	NG Emissions	NA	9303
+02086	Green Dryer #4	Wood Fired Emisions	NA	9303
+02087	Green Dryer #4 - RTO	NG Emissions	NA	9303
+02088	Face Dryer (FD-1)	Process Emissions	NA	9303
+02089	Face Dryer (FD-1)	NG Emissions	NA	9303
+02090	Core Dryers (CD-1 & CD-2)	Process Emissions	NA	9303
+02091	Core Dryers (CD-1 & CD-2) 	NG Emissions	NA	9303
+02092	Press 3	Process Emissions	NA	9303
+02093	Press 3 - RCO	NG Emissions	NA	9303
+02094	Board Cooler 3	Process Emissions	NA	9303
+02095	Press 4	Process Emissions	NA	9303
+02096	Press 4 _ RCO	NG Emissions	NA	9303
+02097	Board Cooler 4	Process Emissions	NA	9303
+02098	Line 4 Saws	Process Emissions	NA	9303
+02099	Line 4 Globe Saw	Process Emissions	NA	9303
+02100	Line 3 Globe Saw	Process Emissions	NA	9303
+02101	Line 3 Former	Process Emissions	NA	9303
+02102	Line 4 Former Clean-Up	Process Emissions	NA	9303
+02103	Dry Shredders	Process Emissions	NA	9303
+02104	Lamination Press	Process Emissions	NA	9303
+02105	Lamination Heater	Process Emissions	NA	9303
+02106	New Green Shredder	Process Emissions	NA	9303
+02107	Line 3 Sander	Process Emissions	NA	9303
+02108	Line 4 Former	Process Emissions	NA	9303
+02109	Line 4 Primary Sander	Process Emissions	NA	9303
+02110	Line 4 Finishing Sander	Process Emissions	NA	9303
+02111	Line 4 Edge Scraper Saws	Process Emissions	NA	9303
+02112	Nos. 1-4 PSKM Refiners, Nos. 1-5 Rotex	Process Emissions	NA	9303
+02113	Resin Storage Tanks	Working Waste	NA	9303
+02114	Natural Gas Combustion	Plantwide	NA	9303
+02115	Chamfer Cutting	Melting	NA	9303
+02116	Small Stub Cutting	Melting	NA	9303
+02117	Welding Tanks	Melting	NA	9303
+02118	Spot Grinding	Melting	NA	9303
+02119	Plasma torch cutting	Mill Product	NA	9303
+02120	Other Sources	Mill Product	NA	9303
+02121	Midwest Grinders BH	Mill Product	NA	9303
+02122	Swing Grinder BH	Mill Products	NA	9303
+02123	Vulcan Grinder BH	Mill Products	NA	9303
+02124	Diesel Emergency Generators (pre-2006 models)	EG	20200102	9303
+02125	Diesel Emergency Generators (post-2006 models)	EG	20200102	9303
+02126	EU9-boiler natural gas	Ammonia Recovery Boilers 1,2 & 3	NA	9303
+02127	EU9-Other natural gas	Remaining sitewide natural gas use including kilns, R&D boiler, furnaces and other sources	NA	9303
+02128	EG- natural gas	Emergency generator engines	NA	9303
+02129	EG- Diesel	Emergency generator and fire pump engines	NA	9303
+02130	EU4 & EU5- Blasting garnet	Blasting emission sources- garnet	NA	9303
+02131	EU4 & EU5- Blasting shot	Blasting emission sources- shot	NA	9303
+02132	EU4 & EU5- Blasting sand	Blasting emission sources- sand	NA	9303
+02133	EU12- Welding	Welding emission sources	NA	9303
+02134	EU4 -Grinding	Hand Grind	NA	9303
+02135	EU4 -Grinding	Swing Grind	NA	9303
+02136	EU4 -Grinding	Tysman Grind	NA	9303
+02137	EU2-Tank Vents	Conc. HCl tank	NA	9303
+02138	EU2-Tank Vents	Ammonia Recovery Feed Mix Tank	NA	9303
+02139	EU2-Tank Vents	Ammonia Recovery HCl Storage	NA	9303
+02140	EU2-Tank Vents	Ammonia Recovery Feed Storage	NA	9303
+02141	EU2-Tank Vents	Ammonia Recovery NH4OH Storage	NA	9303
+02142	EU2-Tank Vents	Tanks A-C; E,F,I,J; G&H	NA	9303
+02143	EU2-Tank Vents	Tanks A-C; E,F,I,J; G&H	NA	9303
+02144	EU2-Tank Vents	Solvent Stills Fe Column	NA	9303
+02145	EU12-Pickling	Hf peeling/ pickling crucibles, retort cleaning	NA	9303
+02146	EU12- Metal Cleaning	Metals acid cleaning (Fab & Extrusion)	NA	9303
+02147	EU12-Fab 	Metals acid cleaning (Fab)	NA	9303
+02148	EU12-Fab 	Metals acid cleaning (Fab)	NA	9303
+02149	EU12- Extrusion	Metals acid cleaning (Extrusion)	NA	9303
+02150	EU11- GW Treatment	Cooling Tower VOC	NA	9303
+02151	EU10- Vacuum Pumps	Vacuum Pumps	NA	9303
+02152	EU1	Chlorination Backyard Scrubber	NA	9303
+02153	EU1	Chlorination Courtyard Scrubber	NA	9303
+02154	EU2	Separations Feed Make-up Scrubber	NA	9303
+02155	EU2	Zr/HF Precipitation & Chemicals (Separations Ammonia Scrubber) 	NA	9303
+02156	EU2/EU9	Zirconium/Hafnium Kilns WESP	NA	9303
+02157	EU3	Zr & Hf Chlorination/Sublimation (Sublimation scrubber)	NA	9303
+02158	EU3	Reduction Furnaces (reduction scrubber)	NA	9303
+02159	EU3	Retort Wash, HCL tank, MG Recovery & DAF (APS Scrubber)	NA	9303
+02160	EU6	Thermite Material Handling	NA	9303
+02161	EU7	R&D Various Processes	NA	9303
+02162	EU12	Zr Reduction Sublimer/Sublimation Area (fugitives)	NA	9303
+02163	EU12	Zr Reduction Furnace Area (fugitives)	NA	9303
+02164	EU12	Zr Reduction Crucible Cleaning (fugitives)	NA	9303
+02165	EU12	Zr Reduction Zirconium/Hafnium Distillation (fugitives)	NA	9303
+02166	EU12	R&D Manifold Assemblies (fugitives)	NA	9303
+02167	EU12	CWTS Corrosive Solids Neutralization Tank	NA	9303
+02168	EU12	Fluoride Treatment; mix and solids 	NA	9303
+02169	EU12	Sand chlor- can storage - Fused Grade	NA	9303
+02170	EU12	Sand chlor- can storage - Reactor Grade	NA	9303
+02171	EU12	Sand chlor Fugitives - Fused Grade	NA	9303
+02172	EU12	Sand chlor Fugitives - Reactor Grade	NA	9303
+02173	EU12	Zr Reduction Retort Loading & can storage	NA	9303
+02174	EU12	Zr Reduction Retort Loading & can storage	NA	9303
+02175	EU12	Pure Chlor Chlorinator area (fugitives)	NA	9303
+02176	EU12	Pure Chlor Chlorinator area (fugitives)	NA	9303
+02177	EU12	Hf Chlorination fugitives	NA	9303
+02178	EU12	Hf sublimation fugitives	NA	9303
+02193	DRY1&2_WD	Dryer 1 - Rotary Dryer, Wood-Fired	3-07-0006-07	9303
+02194	DRY2_NG	Dryer 2 - Rotary Dryer, Natural Gas	NA	9303
+02195	Wood Combusiton	Rotary Dryers	NA	9303
+02196	NG combustion	Dryer 2	NA	9303
+02197	EPI Fuel Cell	Wood Fired fuel cell	10200912	9303
+02198	Veneer Dryers 1,2,& 3	Veneer drying	30700746	9303
+02199	Veneer Dryers Cooling Section	Cooling section of dryer	30788803	9303
+02200	Veneer Dryer Fugitives	NA	30788803	9303
+02201	Bag House #1	Dust collection	30700798	9303
+02202	Natural Gas Boiler	Back up Boiler	NA	9303
+02203	Plywood Press	Plywood Press	30700780	9303
+02204	  	NA	NA	9303
+02206	BLR	Boiler	1-02-009-02	9303
+02207	Kilns 1-9B - Fir	Dry Kilns	3-07-008-31	9303
+02208	Pellet Dehydrator	Dried wood	NA	9303
+02209	Pellet Dehydrator	Wood Fuel	NA	9303
+02210	Gasoline Dispensing	GD	2-02-017-02	9303
+02213	Veneer Dryers	Dryers (VD)	30700767	9303
+02214	Veneer Dryers Fugitives	Dryers (VD)	30700767	9303
+02215	Veneer Dryer Cooling Sections	Dryers (VD)	30701604	9303
+02216	Log Vats	Vats	30701628	9303
+02217	RCO Gas use	RCO-1	30205021	9303
+02218	Hog Fuel Boiler (Btu emission factors)	Boiler (HFB)	10201901	9303
+02222	SDTEU	Smelt Dissolving Tank	30700105	9303
+02223	PDEU	Pulp Dryer	unknown	9303
+02224	PB1-RO	Power Boiler #1 Burning Residual Oil	10200401	9303
+02225	PB1-NG	Power Boiler #1 Burning Natural Gas	10200601	9303
+02226	PB2- NG	Power Boiler #2 Burning Natural Gas	10200601	9303
+02227	BPEU	Bleach Plant	30700115	9303
+02228	RECEU-SCMT	Salt Cake Mix Tank	30700122	9303
+02229	BLTW	Black Liquor Tank Weak	30700124	9303
+02230	RFEU- NG	Recovery Furnace Burning Natural Gas	30700110	9303
+02231	RFEU- FO	Recovery Furnace Burning Fuel Oil	30700110	9303
+02232	RFEU- BLS	Recovery Furnace Burning Black Liquor Solids	30700110	9303
+02233	LKEU	Rotary Lime Kiln	30700106	9303
+02234	RECEU- GLC	Green Liquor Clarifier	30700118	9303
+02235	RECEU- GLST	Green Liquor Surge Tank	30700122	9303
+02236	RECEU- DFH	Dregs Filter Hood	30700122	9303
+02237	RECEU- GLST	Green Liquor storage tank	NA	9303
+02238	RECEU- LS	Lime Slaker	30700123	9303
+02239	RECEU- Causticizers	Causticizers	NA	9303
+02240	RECEU- WLOT	White Liquor Oxidation Tank	unknown	9303
+02241	RECEU- WLST	White Liquor Storage tank	NA	9303
+02242	RECEU- LMDT	Lime Mud Dilution Tank	unknown	9303
+02243	RECEU- LMPF	Lime Mud Precoat Filter	unknown	9303
+02244	RECEU- PFVPE	Precoat Filter Vac Pump Exhaust	unknown	9303
+02245	PMVEU-MPMV	Miscellaneous Pulp Mill Vents	unknown	9303
+02246	PMVEU-D	Decker	unknown	9303
+02247	PMVEU-O2D	Oxygen Delignification	unknown	9303
+02248	PMVEU- K	Knotters	30700131	9303
+02249	PMVEU- DCB	Digesters Chip Bin	unknown	9303
+02250	PMVEU-BSWSS	BSW Screening System	30700120	9303
+02251	PMVEU-BPST	Bleached Pulp Storage tanks	NA	9303
+02252	PMVEU-UBPST	Unbleached Pulp Storage tanks	NA	9303
+02253	WWTEU- WTS	Wastewater Treatment	30700121	9303
+02254	WWTEU- C	Clarifier	unknown	9303
+02255	CLO2EU	Chlorine Dioxide Generation	30700115	9303
+02256	NCG Venting	Uncontrolled Kraft NCG Venting	30700125	9303
+02269	Boiler #3	Wood Fired	10200907	9303
+02270	Steam Tunnels	Block Heating	30700701	9303
+02271	Veneer dryers 1 & 2	Heated section	30700711	9303
+02272	Veneer dryers 1 & 2	Fugitives	NA	9303
+02273	Veneer dryers 1 & 2	Cooling Section	30700711	9303
+02275	Building 1	Chemical Processing	2301000000	9303
+02276	Building 2	Chemical Processing	2301000000	9303
+02277	Building 6	Chemical Processing	2301000000	9303
+02278	Labs	R&D, QC	2301000000	9303
+02279	PACT & WW Column	Wastewater treatment	2630010000	9303
+02280	HW, Tank Farm & Truck Transfers	Storage tanks 	2510010000	9303
+02281	Boiler	Boiler Natural Gas	10200603	9303
+02282	EU-2.3	NA	10200602	9303
+02332	Deinking Operations	lbs/ADTP	30700408	9303
+02333	Paper Machines	lbs/ADTFP	30700401	9303
+02334	Natural Gas	lbs/10^6 SCF	39000699	9303
+02335	Mill Effluent, Air 	lbs/10^6 lbs Effluent	30701202	9303
+02336	RICE Fire Pump	lbs/MMBtu	20400402	9303
+02337	Freeze Protection Heaters	lbs/MMBtu	10500105	9303
+02338	Mill Effluent, Air 2	lbs/Day	30701202	9303
+02359	 Natural Gas	 Natural Gas	NA	9303
+02360	Engine < 600 HP Diesel #2	Engine < 600 HP	NA	9303
+02361	Chem Mill 	Chem Mill	2303000000	9303
+02362	Vacuum Casting	NA	NA	9303
+02363	Torch cutting	NA	NA	9303
+02364	Abrasive cutoff wheel	NA	NA	9303
+02365	Belt grinder	NA	NA	9303
+02366	Wire wheel	NA	NA	9303
+02367	Grinding booth down draft table	NA	NA	9303
+02368	Wastewater treatment	Evaporators	50282002	9303
+02369	Wastewater Treatment	Acid Waste Neutralization	50382599	9303
+02370	Remediation Project	Air Stripper	50410420	9303
+02379	Line Heater	Boiler Natural Gas	10200603	9303
+02380	Solar Saturn 10-1200  Turbine	Turbine	20300202	9303
+02381	Emergency Generator	Generator Natural Gas	20300201	9303
+02383	 Natural Gas	 Natural Gas	NA	9303
+02417	BLRS Gas	Boilers 1 and 2	2102006001	9303
+02418	BLRS Diesel	Boilers 1 and 2	2102004001	9303
+02421	Natural Gas Boiler	Boiler #1	4961	9303
+02422	Natural Gas Boiler	Boiler #2	4961	9303
+02423	Electrical Generation--biogas	CHP--methane	4911	9303
+02424	Electrical Generation--biogas	Flare--methane	4911	9303
+02425	E-1100 Grinder	Raw Resin Grinding	30100606	9303
+02426	E-2100 Freeze Dry	Freeze Drying	30100507	9303
+02427	E-3110 Pyrolysis Kiln	Carbon Creation	30100604	9303
+02428	U-3112 WW Oxidizer	3 MMBtu Waste Water TO	NA	9303
+02429	E-7300 Emergency Generator	Emergency Generator	NA	9303
+02430	Boiler	6 MMBTU Boiler	NA	9303
+02431	U-3110 Thermal Oxidizer 	Multiple process oxidizer	NA	9303
+02432	U-2100 Thermal Oxidizer	Freeze Dry oxidizer 	NA	9303
+02433	U-3112 WW Oxidizer	3 MMBtu Waste Water TO	NA	9303
+02434	Boiler 9 	Natural Gas Fired Boiler	NA	9303
+02435	Line 2 Dryer	Natural Gas Fired Dryer	NA	9303
+02436	Line 4 Dryer	Natural Gas Fired Dryer	NA	9303
+02437	Line 5 Dryer	Natural Gas Fired Dryer	NA	9303
+02438	Line 8 Dryer	Natural Gas Fired Dryer	NA	9303
+02439	Line 1 Fryer	Steam Heated Deep Fryer	NA	9303
+02440	Line 2 Fryer	Steam Heated Deep Fryer	NA	9303
+02441	Line 4 Fryer	Steam Heated Deep Fryer	NA	9303
+02442	Line 8 Fryer	Steam Heated Deep Fryer	NA	9303
+02443	Space Heat/AMUs	Natural Gas Fired Air Makeup Units	NA	9303
+02444	E.1 	Dryer 1/Calciner 1	1499	2767
+02445	E.2	Dryer 2/Calciner 2	1499	2767
+02446	E.3.a	Fluid Bed Dryer #1	1499	2767
+02447	E.3.b	Fluid Bed Dryer #2	1499	2767
+02448	E3	Raw ore dump	NA	2767
+02449	E3	Surge bins	NA	2767
+02450	E3	Waste storage bin (1-33A/B)	NA	2767
+02451	E3	Main product bin 1 (1-51A)	NA	2767
+02452	E3	Main product bin 2 (2-51A)	NA	2767
+02453	E3	Packer 1&2 bagger 1 (1-84)	NA	2767
+02454	E3	Packer 1&2 bagger 2 (2-84)	NA	2767
+02455	E3	PCB (3-84)	NA	2767
+02456	E4	unit bins 1&2 (1-7B & 2-7B)	NA	2767
+02457	E5	Unit 1 finished end classification (1-70)	NA	2767
+02458	E5	Unit 2 finished end classification (2-70)	NA	2767
+02459	E12	Fine filler circuit (F119)	NA	2767
+02460	Welding	Welding Wire (050)	30900500	9303
+02461	Welding	Welding Rods (041)	30900500	9303
+02553	Hard Chrome Plating Tank	Hard Chrome Plating	30901018	9303
+02556	Natural Gas -- Boilers	Natural Gas -- Boilers	10100602	9303
+02557	Tire Buffing 	Tire Buffing 	30800501	9303
+02558	Extrusion Process 	Extrusion Process 	30800197	9303
+02559	Retread Curing 	Retread Curing 	30800197	9303
+02580	BFS	Batch Fryer - Small	30203603	9303
+02581	BFM	Batch Fryer - Medium	30203603	9303
+02582	BFL	Batch Fryer - Large	30203603	9303
+02583	NGC	Natural Gas Combustion	10200603	9303
+02584	T-1	15,000 gallon styrene tank	NA	9303
+02585	T-2	15,000 gallon styrene tank	NA	9303
+02586	T-3	15,000 gallon methyl methacrylate tank	NA	9303
+02587	T-4	15,000 gallon methyl methacrylate tank	NA	9303
+02588	T-5	36,000 gallon vinyl acetate tank	NA	9303
+02589	T-6	36,000 gallon butyl acrylate tank	NA	9303
+02590	T-7	12,000 gallon methyl acrylate tank	NA	9303
+02591	T-8	12,000 gallon 2-ethyl hexyl acrylate tank	NA	9303
+02592	T-9	12,000 gallon butyl methacrylate tank	NA	9303
+02593	T-10	12,000 gallon 2-ethyl hexyl acrylate tank	NA	9303
+02594	T-NH3	Ammonia tank	NA	9303
+02595	Process Emissions	Monomer Feed Tanks, Reactors	NA	9303
+02596	Woodsure Process	Monomer Tanks, Vessels	NA	9303
+02597	Combustion Emissions	Gas-fired Boilers, Pressure Washer	NA	9303
+02598	Railcar Loading and Unloading	Fugitive emissions	NA	9303
+02599	Welding Stick	Welding 7018 Stick	NA	9303
+02600	Welding MIG	Welding L50 MIG (E70S)	NA	9303
+02601	Welding	Welding E71T	NA	9303
+02602	Welding	Welding ER70-S (L-56)	NA	9303
+02603	 Natural Gas	 Natural Gas	NA	9303
+02604	Aux Diesel Engine Testing	Engine < 600 HP	NA	9303
+02605	<html>WELDING <b>MIG</b></html>	ALC5356-035-16 Aluminum Wire	Aluminum Welding Wire	9303
+02606	<html>WELDING <b>TIG</b></html>	404318X36T 1/8 X 36 4043 TIG ALM	Aluminum Welding Wire	9303
+02607	<html>WELDING <b>MIG</b></html>	AVE308LHS33-035	Stainless Welding Wire	9303
+02608	<html>WELDING <b>MIG</b></html>	ED029201 045 X 33LB ELITE E71T-1 & E71T-9	Welding Wire	9303
+02609	<html>WELDING <b>MIG</b></html>	ED030611 S6-035 X 33 LB	Welding Wire	9303
+02610	<html>WELDING <b>TIG</b></html>	308LT-30 1/16 X 36" TIG 308L S/S	Stainless Welding Wire	9303
+02611	<html>WELDING <b>TIG</b></html>	308L332X36T 3/32 X 36 308L S/S TIG	Stainless Welding Wire	9303
+02612	<html>WELDING <b>TIG</b></html>	316L332X36T 3/32 X 36 316L S/S TIG	Stainless Welding Wire	9303
+02613	<html>WELDING <b>MIG </b></html>	ED019292 308LSI .035 25SP BLUMAX MIG	Welding Wire	9303
+02629	Welding  Mild Steel	Welding ER 70S	GMAW	9303
+02630	Welding  Tungsten Iron Carbide	Welding PS98	GMAW	9303
+02631	Welding	MIG Wire E70C	NA	9303
+02632	Welding	MIG Wire E80C	NA	9303
+02638	Cogeneration Engine	NA	NA	9303
+02639	Cogeneration Engine	Cogen	20300702	9303
+02640	Digester gas Boilers	Boilers	10300701	9303
+02641	Digester gas flares	flares	50100789	9303
+02642	Wastewater headworks	headworks	50100707	9303
+02643	Wastewater aeration basin	aeration basin	50100704	9303
+02644	Test cell	Turbine Engine Testing	20400102	9303
+02645	Media Blasting	Paint removal	39902001	9303
+02712	Boiler Natural Gas	Boiler Natural Gas	NA	9303
+02713	Boiler Diesel #2	Boiler Diesel #2	NA	9303
+02714	Boiler Backup Generators	Boiler BioDiesel	NA	9303
+02715	Gasoline Dispensing	Dispensing Gasoline	NA	9303
+02716	5356 Aluminum Weld Wire	Welding Emissions	NA	9303
+02717	Mild Steer ER70S Weld Wire	Welding Emissions	NA	9303
+02718	Stainless  Wled Wire ER-309L	Welding Emissions	NA	9303
+02719	Stainless 308L Filler Rods	Welding Emissions	NA	9303
+02720	Aluminum 4043 Filler Rods	Welding Emissions	NA	9303
+02721	Mild Steel E70S Filler Rods	Welding Emissions	NA	9303
+02722	Filler Electrode Rods E7018	Welding Emissions	NA	9303
+02723	Filler Electrode Rods E6010	Welding Emissions	NA	9303
+02724	Filler Electrode Rods E6011	Welding Emissions	NA	9303
+02725	Filler Electrode Rods E7014	Welding Emissions	NA	9303
+02726	Tungsten Rods	Welding Emissions	NA	9303
+02764	MWC-1	Municipal Waste Combustor	4953	9303
+02765	MWC-2	Municipal Waste Combustor	4953	9303
+02766	MWC-1	Municipal Waste Combustor	4953	9303
+02767	MWC-2	Municipal Waste Combustor	4953	9303
+02768	MWC-1 &2	Municipal Waste Combustor	NA	9303
+02769	BOILER	Boilers	10200600	9303
+02770	BOILER	Boilers	10200401	9303
+02771	HEATER	Space Heaters	10200600	9303
+02773	Boilers 1 and 2 and space heating (nat gas)	NA	NA	9303
+02777	Boiler Natural Gas	Boiler Natural Gas	NA	9303
+02778	Copper Sulfate	Feedmill Emissions	NA	9303
+02779	Manganous Oxide	Feedmill Emissions	NA	9303
+02780	Zinc oxide	Feedmill Emissions	NA	9303
+02781	SBP	Solvent based paint manufacturing (loading, filling and blending)	3-01-014-01	2993
+02782	WBP	Water-based paint manufacturing  (loading, filling and blending)	3-01-014-01	2993
+02783	DSP	Durastripe paint manufacturing  (loading, filling and blending)	3-01-014-01	2993
+02784	T001	Storage Tanks; working & breathing losses	3-01-014-04	2993
+02785	T003	Storage Tanks; working & breathing losses	3-01-014-04	2993
+02786	T005	Storage Tanks; working & breathing losses	3-01-014-04	2993
+02787	T006	Storage Tanks; working & breathing losses	3-01-014-04	2993
+02788	T007	Storage Tanks; working & breathing losses	3-01-014-04	2993
+02789	T008	Storage Tanks; working & breathing losses	3-01-014-04	2993
+02790	T010	Storage Tanks; working & breathing losses	3-01-014-04	2993
+02791	T014	Storage Tanks; working & breathing losses	3-01-014-04	2993
+02792	T017	Storage Tanks; working & breathing losses	3-01-014-04	2993
+02793	T018	Storage Tanks; working & breathing losses	3-01-014-04	2993
+02794	REACTOR	Resin Reactor	3-01-014-01	2993
+02795	RESIN	Resin Production	3-01-014-01	2993
+02796	TOTE	Tote Cleaning	4-01-003-99	2993
+02797	LEAKS	Equipment leaks	4-01-888-01	2993
+02798	PIGMENTS_SOLIDS	Particle emissions from pigments	4-01-003-01	2993
+02799	Line Heater	Boiler Natural Gas	10200603	9303
+02800	Solar Centaur T-4500 Turbine	Turbine	20300202	9303
+02801	Emergency Generator	Generator Natural Gas	20300201	9303
+02803	Paint Production 	Paint Production	30101401	9303
+02824	Engine > 600 HP Diesel #2	Engine >600 HP	NA	9303
+02831	FLR-01	Landfill Gas Flare	50100410	9303
+02832	LFG-01	Fugitive Landfill Gas	50100402	9303
+02833	ENG-01	Diesel Engine Emissions	50400201	9303
+02834	Natural Gas	Boilers	Unknown	9303
+02835	SV04	Vent Gas Scrubber	30205010	9303
+02836	SV04	Vent Gas Scrubber	30205010	9303
+02837	SV03	CO2 Scrubber - during CO2 recovery	30205011	9303
+02838	SV03	CO2 Scrubber - to atm	30205011	9303
+02839	SV03	CO2 Scrubber - C bed regen	30205011	9303
+02840	SV03	CO2 Scrubber - drying bed regen	30205011	9303
+02841	SV05	Ethanol Loadout (Truck)	30205052	9303
+02842	SV05	Ethanol Loadout (Rail/Barge)	30205053	9303
+02843	SV05	Product Loadout Flare (Truck)	30205041	9303
+02844	SV06	Boiler #1	10200602	9303
+02845	SV07	Boiler #2	10200602	9303
+02846	FS05	Equipment Leaks	30205091	9303
+02847	FS04	Wet Cake Storage/Loadout	30125001	9303
+02848	TK6101	200 Proof Storage Tank: Standing Losses	30205034	9303
+02849	TK6101	200 Proof Storage Tank: Working Losses	30205035	9303
+02850	TK6102	200 Proof Storage Tank: Standing Losses	30205034	9303
+02851	TK6102	200 Proof Storage Tank: Working Losses	30205035	9303
+02852	TK6103	190 Proof Storage Tank: Standing Losses	30205034	9303
+02853	TK6103	190 Proof Storage Tank: Working Losses	30205035	9303
+02854	TK6104	Denaturant Storage Tank: Standing Losses	40700809	9303
+02855	TK6104	Denaturant Storage Tank: Working Losses	40700810	9303
+02856	TK6105	Denatured Ethanol Storage Tank: Standing Losses	30205030	9303
+02857	TK6105	Denatured Ethanol Storage Tank: Working Losses	30205031	9303
+02858	TK6106	Denatured Ethanol Storage Tank: Standing Losses	30205030	9303
+02859	TK6106	Denatured Ethanol Storage Tank: Working Losses	30205031	9303
+02860	TK6107	Denatured Ethanol Storage Tank: Standing Losses	30205030	9303
+02861	TK6107	Denatured Ethanol Storage Tank: Working Losses	30205031	9303
+02862	TK6108	Denatured Ethanol Storage Tank: Standing Losses	30205030	9303
+02863	TK6108	Denatured Ethanol Storage Tank: Working Losses	30205031	9303
+02864	Emergency Generators, Kohler 2000 KW 	Emergency Generators, Kohler 2000 KW 	20200401	9303
+02865	 Emergency Generators,Kohler 2250 KW	 Emergency Generators,Kohler 2250 KW	20200401	9303
+02866	 Emergency Generators,MTU 2500KW	 Emergency Generators,MTU 2500KW	20200401	9303
+02867	 Emergency Generators, CAT 2000 KW	 Emergency Generators, CAT 2000 KW	20200401	9303
+02868	 Emergency Generators, CAT 2500 KW	 Emergency Generators, CAT 2500 KW	20200401	9303
+02869	 Emergency Generators, CAT 1825 KW	 Emergency Generators, CAT 1825 KW	20200401	9303
+02870	Emergency Generators, CAT 750 kW	Emergency Generators, CAT 750 kW	20200401	9303
+02871	 Emergency Generators CAT 1000 kW	 Emergency Generators CAT 1000 kW	20200401	9303
+02872	 Emergency Generators,MTU 2250 KW	 Emergency Generators,MTU 2250 KW	20200401	9303
+02873	 Emergency Generators, CAT 2000 kW	 Emergency Generators, CAT 2000 kW	20200401	9303
+02874	 Emergency Generators, CAT 2500 KW	 Emergency Generators, CAT 2500 KW	20200401	9303
+02875	 Emergency Generators, CAT 1825 KW	 Emergency Generators, CAT 1825 KW	20200401	9303
+02876	MB.EU	Main Boiler	10100222	9303
+02877	MB.EU	Main Boiler	10100222	9303
+02878	MB.EU	Main Boiler	10100501	9303
+02879	AB.EU	Auxiliary Boiler	10200501	9303
+02880	CTEU1	Combustion Turbine Generator	20100201	9303
+02881	ABEU2	Auxiliary Boiler	10200602	9303
+02885	Flare Tail Gas	NA	NA	9303
+02886	Flare Tail Gas	NA	NA	9303
+02887	Flair-Biogas HAPS	NA	NA	9303
+02888	Flair-Biogas HAPS	NA	NA	9303
+02889	Insert rows above this row!	NA	NA	9303
+02890	9A	Solar Mars T14000	2-02-002-01	9303
+02891	9B	Solar Mars T14000	2-02-002-01	9303
+02892	Boiler 1	Burn natural gas	30290003	9303
+02893	Dryer 1	Burn natural gas	30290003	9303
+02894	Line 1 Fryer	Deep fat frying potatoes	30203601	9303
+02895	Line 2 Fryer	Deep fat frying potatoes	30203601	9303
+02896	Line 3 Fryer	Deep fat frying potatoes	30203601	9303
+02897	Line 1 Dryer	Drying potato matter	30203600	9303
+02898	Line 2 Dryer	Drying potato matter	30203600	9303
+02899	CT1.EU	Combustion Turbine	20100201	9303
+02900	CT2.EU	Combustion Turbine	20100201	9303
+02901	AB.EU	Auxiliary Boiler	10200601	9303
+02906	Boilers 1&2	Burn natural gas	NA	9303
+02907	Dryers 1&4	Burn natural gas	NA	9303
+02908	Fryer 1	Deep fat frying potatoes	NA	9303
+02909	Fryer 2	Deep fat frying potatoes	NA	9303
+02910	Fryer 4	Deep fat frying potatoes	NA	9303
+02911	Dryer 1	Drying potato matter	NA	9303
+02912	Dryer 4	Drying potato matter	NA	9303
+02913	LACTOSE DRYER	Dryer	NA	9303
+02914	WHEY POWDER DRYER	Dryer	NA	9303
+02915	Ethanol Loaded into Barges	Loading ethanol into uncleaned barges (previously containing gasoline)	40600299	9303
+02917	Boiler 1 & 2	Natural Gas	2037, 2052	9303
+02918	ENG#1	Engine 1	20100802	9303
+02919	ENG#2	Engine 2	20100802	9303
+02920	ENG#3	Engine 3	20100802	9303
+02921	ENG-1, ENG-2, ENG-3	Digester gas-fueled engines	20100802	9303
+02922	FLR SRT, FLR PFD1	Combined flares	20190099	9303
+02923	TS-5801 Bright Nickel	Nickel electroplating	NA	9303
+02924	TS-5804 Semi-Bright Nickel	Nickel Electroplating	NA	9303
+02925	TS-5811 Brite Chrome	Decorative Chrome electroplating	NA	9303
+02926	Solvent Storage Group 1	Storage Tanks	30101404	9303
+02927	Solvent Storage Group 2	Storage Tanks 	30101404	9303
+02928	Solvent Storage Group 3	Storage Tanks	30101404	9303
+02929	Solvent Storage Group 4	Storage Tanks	30101404	9303
+02930	Resin Storage Group 1	Storage Tanks	30101404	9303
+02931	Resin Storage Group 2	Storage Tanks	30101404	9303
+02932	Resin Storage Group 3	Storage Tanks	30101404	9303
+02933	Dispersion/Letdown Tanks	Mixing Tanks 	30101402	9303
+02934	Dispersion/Letdown Tanks	Mixing Tanks 	30101402	9303
+02935	Dispersion/Letdown Tanks	Mixing Tanks 	30101401	9303
+02936	Dispersion/Letdown Tanks	Mixing Tanks 	30101401	9303
+02937	Dispersion/Letdown Tanks	Mixing Tanks 	30101401	9303
+02938	Dispersion/Letdown Tanks	Mixing Tanks 	30101401	9303
+02939	Dispersion/Letdown Tanks	Mixing Tanks 	30101401	9303
+02940	Dispersion/Letdown Tanks	Mixing Tanks 	30101401	9303
+02941	Dispersion/Letdown Tanks	Mixing Tanks 	30101401	9303
+02942	Dispersion/Letdown Tanks	Mixing Tanks 	30101401	9303
+02943	Dispersion/Letdown Tanks	Mixing Tanks 	30101401	9303
+02944	Dispersion/Letdown Tanks	Mixing Tanks 	30101401	9303
+02945	Dispersion/Letdown Tanks	Mixing Tanks 	30101401	9303
+02946	Dispersion/Letdown Tanks	Mixing Tanks 	30101401	9303
+02947	Dispersion/Letdown Tanks	Mixing Tanks 	30101401	9303
+02948	Dispersion/Letdown Tanks	Mixing Tanks 	30101401	9303
+02949	Dispersion/Letdown Tanks	Mixing Tanks 	30101401	9303
+02950	Dispersion/Letdown Tanks	Mixing Tanks 	30101401	9303
+02951	Dispersion/Letdown Tanks	Mixing Tanks 	30101401	9303
+02952	Dispersion/Letdown Tanks	Mixing Tanks 	30101401	9303
+02953	Dispersion/Letdown Tanks	Mixing Tanks 	30101401	9303
+02954	Dispersion/Letdown Tanks	Mixing Tanks 	30101401	9303
+02955	Dispersion/Letdown Tanks	Mixing Tanks 	30101401	9303
+02956	Dispersion/Letdown Tanks	Mixing Tanks 	30101401	9303
+02957	Dispersion/Letdown Tanks	Mixing Tanks 	30101401	9303
+02958	Dispersion/Letdown Tanks	Mixing Tanks 	30101401	9303
+02959	Dispersion/Letdown Tanks	Mixing Tanks 	30101401	9303
+02960	Dispersion/Letdown Tanks	Mixing Tanks 	30101401	9303
+02961	Dispersion/Letdown Tanks	Mixing Tanks 	30101401	9303
+02962	Dispersion/Letdown Tanks	Mixing Tanks 	30101401	9303
+02963	Dispersion/Letdown Tanks	Mixing Tanks 	30101401	9303
+02964	Dispersion/Letdown Tanks	Mixing Tanks 	30101401	9303
+02965	Dispersion/Letdown Tanks	Mixing Tanks 	30101401	9303
+02966	Dispersion/Letdown Tanks	Mixing Tanks 	30101401	9303
+02967	Dispersion/Letdown Tanks	Mixing Tanks 	30101401	9303
+02968	Dispersion/Letdown Tanks	Mixing Tanks 	30101401	9303
+02969	Dispersion/Letdown Tanks	Mixing Tanks 	30101401	9303
+02970	Dispersion/Letdown Tanks	Mixing Tanks 	30101401	9303
+02971	Dispersion/Letdown Tanks	Mixing Tanks 	30101401	9303
+02972	Dispersion/Letdown Tanks	Mixing Tanks 	30101401	9303
+02973	Dispersion/Letdown Tanks	Mixing Tanks 	30101401	9303
+02974	Dispersion/Letdown Tanks	Mixing Tanks 	30101401	9303
+02975	Dispersion/Letdown Tanks	Mixing Tanks 	30101401	9303
+02976	Dispersion/Letdown Tanks	Mixing Tanks 	30101401	9303
+02977	Dispersion/Letdown Tanks	Mixing Tanks 	30101401	9303
+02978	Solvent Regeneration	Solvent Regeneration	30101403	9303
+02979	Solvent Regeneration	Solvent Regeneration	30101403	9303
+02980	HC and IC manufacturing	NA	NA	9303
+02981	NG combustion	Boilers/heaters/abatement	NA	9303
+02982	EGEN	emergency generator	NA	9303
+03029	INK	Ink Production 	30102053	9303
+03030	HEAT	Heaters 	10500106	9303
+03031	REPACKAGING	Raw Material Repack	40100550	9303
+03032	SOLVENT	Solvent Washup	30102070	9303
+03033	Kiln Exhaust	Natural Gas fired tunnel kiln	3-05-003-11	9303
+03034	DICO#1	Kewanee Boiler	10300701	9303
+03035	DICO#2	Kewanee Boiler	10300701	9303
+03036	SLPR#1	Cleaver Brooks Boiler	10300701	9303
+03037	SPLR#2	Cleaver Brooks Boiler	10300701	9303
+03038	BLR (ALL)	Boilers combined (backup fuel)	10300602	9303
+03039	COGE-GEN2	GE Jenbacher Cogenerator	20300702	9303
+03040	COGE-GEN1	GE Jenbacher Cogenerator	20300702	9303
+03041	Flare #1	Varec Flares	NA	9303
+03042	Flare #2	Varec Flares	NA	9303
+03043	Flare #3	Varec Flares	NA	9303
+03044	GFS - Diesel	Gasoline fueling station - Diesel	NA	9303
+03045	GFS - Unleaded	Gasoline fueling station - unleaded	40600306	9303
+03046	EG#1	Emergency generator #1	NA	9303
+03047	WWTP	Wastewater Treatment (Entire Plant)	50100701	9303
+03048	Sludge Lagoon	Sludge Lagoon	NA	9303
+03049	Insert rows above this row!	NA	NA	9303
+03050	WELD - E70S	WELDING  WIRE	NA	9303
+03051	WELD - E70S	WELDING  WIRE	NA	9303
+03052	WELD - E308	WELDING  WIRE	NA	9303
+03053	BLAST	MEDIA	NA	9303
+03085	621.BF1	Receiving building (AG Terminal) - Cement	30500607	9303
+03086	621.BF2(A)	Top of silos (AG Terminal) - Cement	30500618	9303
+03087	621.BF3(A)	Lane 1 and Lane 2 truck loadout (AG Terminal) - Cement	30500619	9303
+03088	614.BF1	Ship Unloader DC (old Goldendale side) - Slag	30500607	9303
+03089	614.BF2	Unloader DC, Fuller Pulse Jet (old Goldendale side) - Slag	30500607	9303
+03090	614.BF3	Silo # 1 Bin Vent, Plenum Pulse (old Goldendale side) - Slag	30500618	9303
+03091	614.BF4	Silo # 2 Bin Vent, Plenum Pulse (old Goldendale side) - Slag	30500618	9303
+03092	614.BF5	Silo # 3 Bin Vent, Plenum Pulse ( old Goldendale side) - Slag	30500618	9303
+03093	611.BF3	Reclaim DC 2, Fuller Pulse Jet (Goldendale) - Slag	30500612	9303
+03094	621.BF2(B)	Top of silos (AG Terminal) - Slag	30500618	9303
+03095	621.BF3(B)	Lane 1 and Lane 2 truck loadout (AG Terminal) - Slag	30500619	9303
+03096	621.BF4	Pipe Conveyor, Head End Dust Collector (Discharge) - Slag	30500612	9303
+03097	One 50 hp boiler	natural gas-fired 50 hp boiler	1-02-006-03	9303
+03098	2 Rotary Loose-Fill  Expanders	Wally Expanders of polystyrene bead	3-08-008-01	9303
+03099	TS-4203 Zinc Bath	Zinc electroplating	NA	9303
+03100	TS-4212 Cyanide Cadmium	Cyanide Cadmium electroplating	NA	9303
+03101	TS-4218 Nickel Strike	Nickel electroplating	NA	9303
+03102	TS-4305 Cyanide Copper	Cyanide Copper electroplating	NA	9303
+03103	TS-4306 Cyanide Cadmium	Cyanide Cadmium electroplating	NA	9303
+03104	TS-4309 Acid Copper	Acid Copper electroplating	NA	9303
+03105	TS-4409 Zinc Bath	Zinc electroplating	NA	9303
+03106	TS-4505 Zinc Bath	Zinc electroplating	NA	9303
+03107	TS-4604 Cyanide Copper	Cyanide Copper electroplating	NA	9303
+03108	TS4605 Cyanide Cadmium	Cyanide Cadmium electroplating	NA	9303
+03109	TS-4608 Barrel Nickel	Nickel electroplating	NA	9303
+03110	PGE-DSG	Electric Power generator	6597
+03113	ECC Emergency Generator	1500 kW ULSD Generator	20100102	9303
+03114	Bright Nickel Plating	Bright Nickel Tank	NA	9303
+03115	Zinc plating	Zinc Tanks	NA	9303
+03116	Process Chemicals - Products with HCl	Blending activity producing a variety of water treatment products	NA	9303
+03117	Process Chemicals - Other Products	Blending activity producing a variety of water treatment products	NA	9303
+03118	Epichlorohydrin Point Source Emissions	Transfer of epichlorohydrin to reactor for Kymene production	NA	9303
+03119	Epichlorohydrin Fugitive Emissions	Offloading and storage of epichlorohydrin for Kymene production	NA	9303
+03120	Dimer Melter	Melting of AKD product to make emulsions	NA	9303
+03123	EU 2.3	Asphalt Pre-Heater #3	10200603	9303
+03124	EU 10.1	Hot Oil Heater #1	10200603	9303
+03125	EU 10.2	Hot Oil Heater #2	10200603	9303
+03126	EU 10.3	Filler Heater	10200603	9303
+03127	EU 10.4	Hot Oil Heater #4	10200603	9303
+03128	EU 11.4	Coater	30500108	9303
+03129	EU 11.2	Sealant Use Tank	30500105	9303
+03130	EU 11.3	Sealant Extruder	30500105	9303
+03131	EU 11.6	MLA Use Tank	30500105	9303
+03132	EU 11.7	MLA Applicator	30500105	9303
+03133	EU 11.9	Laminate Sealant Use Tank	30500105	9303
+03134	EU 11.10	Laminate Sealant Applicator	30500105	9303
+03135	EU 11.11	Sealant Mix Tank 1	30500105	9303
+03136	EU 11.12	Sealant Mix Tank 2	30500105	9303
+03137	EU 11.5	MLA Bulk Storage Tank	30500105	9303
+03138	EU 11.8	Sealant Bulk Storage Tank	30500105	9303
+03139	EU 6.6	Asphalt Storage Tank #18	30500105	9303
+03140	EU 6.7	Asphalt Storage Tank #19	30500105	9303
+03141	EU 12.1	Upper Surge Bin	30500143	9303
+03142	EU 12.2	Surfacing Material Minibins	30500141	9303
+03143	EU 13.1	Mineral Surfacing	30500151	9303
+03144	EU 13.2	Limestone Silo	30500143	9303
+03145	EU 15.1	Cooling Section	30500153	9303
+03146	LOADING	Bottom Loading	30500105	9303
+03147	SILANE	Surface Modifier	30500105	9303
+03151	EU-3	Scrap Preparation	30301558	9303
+03152	EU-8	Surface Processing - PM	30900207	9303
+03153	EU-10	Reheat Furnace	39900601	9303
+03154	EU-12	Torching Operations	30301558	9303
+03155	EU-13	Other Natural Gas Use	39900601	9303
+03156	EU-20	Low Nox Natural Gas Use	39900601	9303
+03157	EU-23	Coil Furnace Nat Gas Use	39900601	9303
+03158	EU-24	Pipe Mill Abrasive Blast	30900205	9303
+03159	EU-25	Pipe OD Coater	30901699	9303
+03160	EU-27	Pipe Mill Fugitives	30905400, 30905144	9303
+03161	Pipe Joiner	Pipe Joiner	30905400, 30301558	9303
+03176	Air Casting, Steel Parts	Air Casting	30405001	9303
+03177	Air Casting, Steel Ingots	Air Casting	30405001	9303
+03178	Vacuum Casting, Steel Parts	Vacuum Casting	30405001	9303
+03179	Vacuum Casting, Steel Ingots	Vacuum Casting	30405001	9303
+03180	Vacuum Casting, Titanium Parts	Vacuum Casting	30405001	9303
+03181	Steel Baghouses, without HEPA	Baghouses	30405001	9303
+03182	Steel Baghouses, with HEPA	Baghouses	30405001	9303
+03183	Steel Torch Burnoff Baghouses, with HEPA	Baghouses	30405001	9303
+03184	Steel Torch Burnoff Baghouses, without HEPA	Baghouses	30405001	9303
+03185	Titanium Baghouses, without HEPA	Baghouses	30405001	9303
+03186	Titanium Baghouses, with HEPA	Baghouses	30405001	9303
+03187	Fugitive, Steel	Fugitive	30488801	9303
+03188	Fugitive, Titanium	Fugitive	30488801	9303
+03189	Autoclave	Autoclave	30405001	9303
+03190	Wax Burnout, Wax Component, no Thermal Oxidation	Wax Burnout	30404901	9303
+03191	Wax Burnout, Non-Wax Component with Thermal Oxidation	Wax Burnout	30404901	9303
+03192	Latex, with Thermal Oxidation	Latex	30405001	9303
+03193	Latex, no Thermal Oxidation	Latex	30405001	9303
+03194	Natural Gas Fired Equipment	Natural Gas Fired Equipment	30490003	9303
+03195	Alpha Case Removal_Stack	Alpha Case Removal	30405001	9303
+03196	Alpha Case Removal_Fugitive	Alpha Case Removal	30405001	9303
+03197	Torch Burnoff, Steel Air Casting	Misc Metal Processing	30405001	9303
+03198	Torch Burnoff, Steel Vacuum Casting	Misc Metal Processing	30405001	9303
+03199	Miscellaneous Metal Processing, Titanium Vacuum Casting	Misc Metal Processing	30405001	9303
+03200	Investing, Hydrochloric Acid	Investing	30405001	9303
+03201	Heat Treat Condensation Filtration Device, Air Casting (Steel, vacuum/electric heat-treat furnace)	Heat Treat	30405001	9303
+03202	Heat Treat Condensation Filtration Device, Air Casting (Steel, natural gas heat-treat furnace)	Heat Treat	30405001	9303
+03203	Heat Treat Condensation Filtration Device, Vacuum Casting (Steel, vacuum/electric heat-treat furnace)	Heat Treat	30405001	9303
+03204	Heat Treat Condensation Filtration Device, Vacuum Casting (Steel, natural gas heat-treat furnace)	Heat Treat	30405001	9303
+03205	Heat Treat Condensation Filtration Device, Vacuum Casting (Titanium, vacuum/electric heat-treat furnace)	Heat Treat	30405001	9303
+03206	Investing, PGME (steel)	Investing	30405001	9303
+03207	Investing, PGME (titanium)	Investing	30405001	9303
+03208	Investing, IPA (steel)	Investing	30405001	9303
+03209	Investing, IPA (steel), Thermal Oxidizer down	Investing	30405001	9303
+03210	Investing, IPA (titanium)	Investing	30405001	9303
+03211	Investing, IPA (titanium), Thermal Oxidizer down	Investing	30405001	9303
+03212	Investing, DGME (steel)	Investing	30405001	9303
+03213	Investing, DGME (titanium)	Investing	30405001	9303
+03214	Investing, DG (steel)	Investing	30405001	9303
+03215	Investing, DG (titanium)	Investing	30405001	9303
+03216	Molten Metal Insulation	Foundry	30405001	9303
+03217	Wax Layout - Dykem	Wax Department	30405001	9303
+03218	Wax Layout - Mold Release	Wax Department	30405001	9303
+03219	X-Ray Developer	X-Ray	30405001	9303
+03220	#2 Baghouse - 0.31 lb/ton	Mang. #3 Arc Furnace	NA	9303
+03221	#1 Baghouse - 0.22 lb/ton	Steel #1 & 2 Arc Furnace	NA	9303
+03222	Roof Vent Fugitives - 0.8 lb/ton	Building #11	NA	9303
+03223	Roof Vent Fugitives - 1.24 lb/ton	Induction Furnaces - bldg #8	NA	9303
+03224	#3 Baghouse - 0.037	Main Foundry Shakeout	NA	9303
+03225	#5 Baghouse - 0.038	Main Foundry Sand System	NA	9303
+03226	#17 Baghouse - 0.01	South Foundry Sand System	NA	9303
+03227	#6 Baghouse - 0.002	Group 8, Mill #2	NA	9303
+03228	#8 Baghouse - 0.038	Group 3 & 6, Mill #4	NA	9303
+03229	#9 Baghouse - 0.027	Core Room	NA	9303
+03230	#4 Baghouse - 0.061	National Reclaimer	NA	9303
+03231	#22 Baghouse - 0.06	SMS Reclaimer	NA	9303
+03232	#20 Baghouse - 0.029	Group 9 Reclaimer	NA	9303
+03233	#14 Baghouse - 0.08	Table RotoBlast	NA	9303
+03234	#21 Baghouse - 0.014	Blast Room	NA	9303
+03235	#15 Baghouse - 0.001	Burning & Arcing	NA	9303
+03236	#11, 12, 13 Collectors - 0.014	Welding & Grinding	NA	9303
+03237	#7 Baghouse - 0.08	Table RotoBlast #1	NA	9303
+03238	#24 Baghouse - 0.08	Table RotoBlast #2	NA	9303
+03239	#16 Baghouse - 0.02	Tumble Blast	NA	9303
+03240	#19 Baghouse - 0.14	Spin Blast	NA	9303
+03241	#10 Baghouse - 0.027	Burning & Arcing	NA	9303
+03242	Natural Gas Combustion	Natural Gas Combustion	NA	9303
+03243	Fugitive Emissions	Coremaking	NA	9303
+03244	Fugitive Emissions	Cereal Flour	NA	9303
+03245	Fugitive Emissions	Shell Resin	NA	9303
+03246	Fugitive Emissions	Core Oil	NA	9303
+03247	Fugitive Emissions	Alkyd Resin + Catalyst	NA	9303
+03248	Fugitive Emissions	Sod. Sil. + Catalyst	NA	9303
+03277	EU4 GM1	Furnace A	30501402	9303
+03278	EU4 GM2	Furnace D	30501402	9303
+03279	EU4 GM2 green glass	Furnace D green	30501402	9303
+03280	EU4 GM1 Nat gas	Furnace A Nat gas	30501402	9303
+03281	EU4 GM2 Nat gas	Furnace D Nat gas	30501402	9303
+03282	EU6 	Misc Fuel Burning NG	NA	9303
+03283	EU7	Boiler NG	NA	9303
+03284	EU5	Hot End Surface Treatment	30501406	9303
+03285	Nickel Spray Welding	Nickel Spray Welding	NA	9303
+03286	EU1	Raw Material Handling	30510405	9303
+03287	EU1	Batch House	30510405	9303
+03291	Pickle Line	Pickle Line	2309100080	9303
+03292	Boiler 	Boiler	2102006001	9303
+03293	Galvanizing	Galvanizing	2309100080	9303
+03295	Natural Gas Fired Ammonia Heater	NA	NA	9303
+03296	Natural Gas Fired/Ammonia Flare	NA	NA	9303
+03297	Emergency Generator #1	NA	NA	9303
+03298	Emergency Generator #2	NA	NA	9303
+03299	Emergency Generator #3	NA	NA	9303
+03300	Ammonia Storage	Component Fugitives	NA	9303
+03301	Ammonia Loading	Truck and Rail Loading	NA	9303
+03302	Ammonia Unloading	Ship and Rail Unloading	NA	9303
+03303	1	Material received by barge	30501608	9303
+03304	2	Material received by rail	30501608	9303
+03305	3a 	Agricultural lime produced	30501601	9303
+03306	4	Hydrated lime produced 0.446	30501609	9303
+03307	3b	Agricultural lime produced - natural gas combustion	30590003	9303
+03308	OH_NG	Ovens and Heaters (5 heater units)	10200603.0	9303
+03309	CL_NASP	Coater- Polymer Modified Asphalt	30500105.0	9303
+03310	CL_SASP	Coater- Oxidized Asphalt	30500105.0	9303
+03311	ST_AST	Surge Tank	30500105.0	9303
+03312	LAM_ASP	Laminator (all shingles except 3 tab)	30500105.0	9303
+03313	HM_ASP	Asphalt & Limestone Mixers	30500105.0	9303
+03314	PRE_ASP	Preheat Tanks	30500105.0	9303
+03315	SBS_ASP	SBS Mixer	30500105.0	9303
+03316	TL_MOAS	Truck Loading	30500105.0	9303
+03317	OX_AST	Oxidized Asphalt Storage Tanks 	30500105.0	9303
+03318	MC_AST	Polymer Modified Asphalt Storage Tanks	30500105.0	9303
+03319	FT_AST	Flux Asphalt Storage Tanks	30500105.0	9303
+03320	LA_AST	Laminate & Seal Down Storage Tank Asphalt (No control)	30500105.0	9303
+03322	EXTANK	External Floating Roof Tanks	40400322	9303
+03323	INTANK	Internal Floating Roof Tanks	40400279	9303
+03324	FIXTANK	Fixed Roof Storage Tanks	40400312	9303
+03325	TRACK	Tanker Truck and Railcar Loading Racks	40400154	9303
+03326	OIL/W	Oil Water Separator	30600508	9303
+03327	FGTVOC	Fugitive VOC Emissions	30600801	9303
+03328	FW	Facility wide VOC emissions from painting and misc. solvent chemical usage.	40200101	9303
+03329	BOILER/FURNACE	Natural gas fired boilers and furnaces.	10200601	9303
+03334	T-2669	Storage Tank - Working	40400122	9303
+03335	T-2669	Storage Tank - Standing	40400121	9303
+03336	T-2783	Storage Tank - Working	40400122	9303
+03337	T-2783	Storage Tank - Standing	40400121	9303
+03338	T-2784	Storage Tank - Working	40400122	9303
+03339	T-2784	Storage Tank - Standing	40400121	9303
+03340	T-2915	Storage Tank - Working	40400116	9303
+03341	T-2915	Storage Tank - Standing	40400111	9303
+03342	T-2916	Storage Tank - Working	40400122	9303
+03343	T-2916	Storage Tank - Standing	40400121	9303
+03344	T-3407	Storage Tank - Working	40400116	9303
+03345	T-3407	Storage Tank - Standing	40400111	9303
+03346	T-3408	Storage Tank - Working	40400116	9303
+03347	T-3408	Storage Tank - Standing	40400111	9303
+03348	T-3409	Storage Tank - Working	40400116	9303
+03349	T-3409	Storage Tank - Standing	40400111	9303
+03350	T-3410	Storage Tank - Working	40400116	9303
+03351	T-3410	Storage Tank - Standing	40400111	9303
+03352	T-3411	Storage Tank - Working	40400116	9303
+03353	T-3411	Storage Tank - Standing	40400111	9303
+03354	T-3412	Storage Tank - Working	40400116	9303
+03355	T-3412	Storage Tank - Standing	40400111	9303
+03356	T-3413	Storage Tank - Working	40400116	9303
+03357	T-3413	Storage Tank - Standing	40400111	9303
+03358	T-3579	Storage Tank - Working	40400122	9303
+03359	T-3579	Storage Tank - Standing	40400121	9303
+03360	T-36	Storage Tank - Working	40400122	9303
+03361	T-36	Storage Tank - Standing	40400121	9303
+03362	T-3623	Storage Tank - Working	40400302	9303
+03363	T-3623	Storage Tank - Standing	40400301	9303
+03364	T-3761	Storage Tank - Working	40400122	9303
+03365	T-3761	Storage Tank - Standing	40400121	9303
+03366	T-4255	Storage Tank - Working	40400124	9303
+03367	T-4255	Storage Tank - Standing	40400130	9303
+03368	T-4259	Storage Tank - Working	40400116	9303
+03369	T-4259	Storage Tank - Standing	40400111	9303
+03370	T-4260	Storage Tank - Working	40400124	9303
+03371	T-4260	Storage Tank - Standing	40400130	9303
+03372	T-4318	Storage Tank - Working	40400122	9303
+03373	T-4318	Storage Tank - Standing	40400121	9303
+03374	T-4441	Storage Tank - Working	40400124	9303
+03375	T-4441	Storage Tank - Standing	40400130	9303
+03376	Rack Dye Tank	Storage Tank - Working	40400124	9303
+03377	Rack Dye Tank	Storage Tank - Standing	40400130	9303
+03378	Truck Loading Rack	Product Loading - Diesel	40400153	9303
+03379	Truck Loading Rack	Product Loading - Gasoline	40400153	9303
+03380	Truck Loading Rack	Product Loading - Diesel	40400154	9303
+03381	Truck Loading Rack	Product Loading - Gasoline	40400154	9303
+03382	Marine Barger Loading	Product Loading - Diesel	40600251	9303
+03383	Lube Plant	Facility Tankage	40400313	9303
+03384	Cleaver-Brooks	Gas Fire Boiler	10200602	9303
+03385	Process Water OWS	Oil Water Separator	30600508	9303
+03386	Piping Components	Fugitive Emissions	40400151	9303
+03387	INTANK_1	Internal Floating Roof Storage Tank #1	404001-11, 16, etc.	9303
+03388	INTANK_3	Internal Floating Roof Storage Tank #3	404001-11, 16, etc.	9303
+03389	INTANK_45	Internal Floating Roof Storage Tank #45	404001-11, 16, etc.	9303
+03390	INTANK_48	Internal Floating Roof Storage Tank #48	404001-11, 16, etc.	9303
+03391	INTANK_51	Internal Floating Roof Storage Tank #51	404001-11, 16, etc.	9303
+03392	INTANK_60	Internal Floating Roof Storage Tank #60	404001-11, 16, etc.	9303
+03393	INTANK_62	Internal Floating Roof Storage Tank #62	404001-11, 16, etc.	9303
+03394	FIXTANK_108	Fixed Roof Storage Tank #108	404001-01, 02, 07, 08, etc.	9303
+03395	INTANK_121	Internal Floating Roof Storage Tank #121	404001-11, 16, etc.	9303
+03396	INTANK_163	Internal Floating Roof Storage Tank #163	404001-11, 16, etc.	9303
+03397	INTANK_164	Internal Floating Roof Storage Tank #164	404001-11, 16, etc.	9303
+03398	MLOAD_Gasoline	Marine/Barge Loading Operations - Gasoline	406002-31, 32, 33, 36, etc.	9303
+03399	MLOAD_Avgas	Marine/Barge Loading Operations - Avgas	406002-31, 32, 33, 36, etc.	9303
+03400	MLOAD_Ethanol	Marine/Barge Loading Operations - Ethanol	406002-31, 32, 33, 36, etc.	9303
+03401	MLOAD_Crude	Marine/Barge Loading Operations - Crude Oil	406002-31, 32, 33, 36, etc.	9303
+03402	MLOADFGT_Gasoline	Fugitive Emissions from Marine/Barge Loading Operations - Gasoline	406002-31, 32, 33, 36, etc.	9303
+03403	MLOADFGT_Avgas	Fugitive Emissions from Marine/Barge Loading Operations - Avgas	406002-31, 32, 33, 36, etc.	9303
+03404	MLOADFGT_Ethanol	Fugitive Emissions from Marine/Barge Loading Operations - Ethanol	406002-31, 32, 33, 36, etc.	9303
+03405	MLOADFGT_Crude	Fugitive Emissions from Marine/Barge Loading Operations - Crude Oil	406002-31, 32, 33, 36, etc.	9303
+03406	TRACK_Gasoline	Tanker Truck/Trailer Loading Racks - Gasoline	406001-41, 43, etc.	9303
+03407	TRACK_Avgas	Tanker Truck/Trailer Loading Racks - Avgas	406001-41, 43, etc.	9303
+03408	TRACK_Transmix	Tanker Truck/Trailer Loading Racks - Transmix	406001-41, 43, etc.	9303
+03409	TRACK_Additive	Tanker Truck/Trailer Loading Racks - Additive	406001-41, 43, etc.	9303
+03410	TRACK_Leaded Transmix	Tanker Truck/Trailer Loading Racks - Leaded Transmix	406001-41, 43, etc.	9303
+03411	TRACK_Ethanol	Tanker Truck/Trailer Loading Racks - Ethanol	406001-41, 43, etc.	9303
+03412	TRACKFGT_Gasoline	Fugitive Emissions from Tanker Truck Loading - Gasoline	406001-41, 43, etc.	9303
+03413	TRACKFGT_Avgas	Fugitive Emissions from Tanker Truck Loading - Avgas	406001-41, 43, etc.	9303
+03414	TRACKFGT_Transmix	Fugitive Emissions from Tanker Truck Loading - Transmix	406001-41, 43, etc.	9303
+03415	TRACKFGT_Additive	Fugitive Emissions from Tanker Truck Loading - Additive	406001-41, 43, etc.	9303
+03416	TRACKFGT_Leaded Transmix	Fugitive Emissions from Tanker Truck Loading - Leaded Transmix	406001-41, 43, etc.	9303
+03417	TRACKFGT_Ethanol	Fugitive Emissions from Tanker Truck Loading - Ethanol	406001-41, 43, etc.	9303
+03418	FGTVOC_Gasoline	Gasoline Piping Components	40400151	9303
+03419	FGTVOC_Avgas	Avgas Piping Components	40400151	9303
+03420	FGTVOC_Transmix	Transmix Piping Components	40400151	9303
+03421	FGTVOC_Techron	Techron Piping Components	40400151	9303
+03422	FGTVOC_Ethanol	Ethanol Piping Components	40400151	9303
+03423	OIL/W	Oil-Water Separator	--	9303
+03424	HYDRO	Aerator	--	9303
+03425	BOILER_NG	2 Cleaver-Brooks Boilers Burning Natural Gas	10200-602	9303
+03426	BOILER_DIESEL	2 Cleaver-Brooks Boilers Burning Diesel Fuel	10200-502	9303
+03427	BBLENDSYS_Ethanol Rack Tank	Truck Rack Ethanol Day Tank	404001-11, 16, etc.	9303
+03428	BBLENDSYS_Sample Return Rack Tank	Truck Rack Sample Return Tank	404001-11, 16, etc.	9303
+03429	BBLENDSYS_Ethanol Marine Tank	Pipeline/Marine Ethanol Day Tank	404001-11, 16, etc.	9303
+03430	BBLENDSYS_Sample Return Marine Tank	Pipeline/Marine Sample Return Tank	404001-11, 16, etc.	9303
+03431	BBLENDSYS_Disconnect	Butane Hose Disconnect 	406001-41, 43, etc.	9303
+03432	BBLENDSYS_Piping	Butane Piping Fugitive Component Emissions	40400151	9303
+03443	Fugitive Toxic Emissions - See Note 3	Willbridge FGTVOC	40400151	9303
+03444	Fugitive Toxic Emissions - See Note 3	Linnton FGTVOC	40400151	9303
+03445	TRACK	Willbridge Gasoline	406001-41, 43, etc.	9303
+03446	TRACK	Willbridge Diesel	406001-41, 43, etc.	9303
+03447	TRACK - See Note 4	Willbridge Avgas	406001-41, 43, etc.	9303
+03448	TRACK - See Note 5	Willbridge Kerosene/Jet	406001-41, 43, etc.	9303
+03449	TRACK - See Note 6	Willbridge Ethanol	406001-41, 43, etc.	9303
+03450	TRACK	Linnton Gasoline	406001-41, 43, etc.	9303
+03451	TRACK	Linnton Diesel	406001-41, 43, etc.	9303
+03452	TRACK	Linnton Ethanol	406001-41, 43, etc.	9303
+03453	MLOAD	Willbridge Gasoline w/VRU	406002-31, 32, etc.	9303
+03454	MLOAD - See Note 5	Willbridge Kerosene/Jet	406002-31, 32, etc.	9303
+03455	MLOAD	Willbridge Distillate No. 2	406002-31, 32, etc.	9303
+03456	MLOAD	Willbridge Residual No. 6	406002-31, 32, etc.	9303
+03457	MLOAD - See Note 5	Linnton Kerosene/Jet	406002-31, 32, etc.	9303
+03458	MLOAD	Linnton Distillate No. 2	406002-31, 32, etc.	9303
+03459	MLOAD	Linnton Residual No. 6	406002-31, 32, etc.	9303
+03460	FIXTANK	Willbridge Diesel	404001-01, 02,  etc.	9303
+03461	FIXTANK - See Note 6	Willbridge Ethanol	404001-01, 02,  etc.	9303
+03462	FIXTANK - See Note 5	Willbridge Jet	404001-01, 02,  etc.	9303
+03463	FIXTANK	Linnton Diesel	404001-01, 02,  etc.	9303
+03464	FIXTANK - See Note 6	Linnton Ethanol	404001-01, 02,  etc.	9303
+03465	EXTANK	Linnton Gasoline RVP 7	404001-11, 16, etc.	9303
+03466	EXTANK	Linnton Gasoline RVP 9	404001-11, 16, etc.	9303
+03467	EXTANK	Linnton Gasoline RVP 13	404001-11, 16, etc.	9303
+03468	EXTANK	Linnton Gasoline RVP 15	404001-11, 16, etc.	9303
+03469	INTANK	Willbridge Gasoline RVP 7	404001-11, 16, etc.	9303
+03470	INTANK	Willbridge Gasoline RVP 9	404001-11, 16, etc.	9303
+03471	INTANK	Willbridge Gasoline RVP 13	404001-11, 16, etc.	9303
+03472	INTANK	Willbridge Gasoline RVP 15	404001-11, 16, etc.	9303
+03473	INTANK - See Note 6	Willbridge Ethanol	404001-11, 16, etc.	9303
+03474	INTANK - See Note 4	Willbridge Avgas	404001-11, 16, etc.	9303
+03475	INTANK -See Note 5	Willbridge Jet	404001-11, 16, etc.	9303
+03476	INTANK	Willbridge Diesel	404001-11, 16, etc.	9303
+03477	INTANK	Linnton Gasoline RVP 7	404001-11, 16, etc.	9303
+03478	INTANK	Linnton Gasoline RVP 9	404001-11, 16, etc.	9303
+03479	INTANK	Linnton Gasoline RVP 13	404001-11, 16, etc.	9303
+03480	INTANK	Linnton Gasoline RVP 15	404001-11, 16, etc.	9303
+03481	INTANK	Linnton Diesel	404001-11, 16, etc.	9303
+03482	INTANK	Linnton Ethanol	404001-11, 16, etc.	9303
+03483	Notes: 	NA	NA	9303
+03484	<html><sup>1</sup>Toxic emissions are based on a percentage of VOC emissions, as per speciation profiles according to the type of fuel (see references below).  VOC emissions and throughput rates (production/process rate) were previously submitted as part of the Annual Title V report.  Toxic Emissions = VOC Emissions (lbs/yr) x Toxic Weight Fraction (decimal)</html>	NA	NA	9303
+03485	Emission Factor, EF (lbs/gal) = VOC Emissions (lbs/yr) / Production Rate (gal/yr))	NA	NA	9303
+03486	<html><sup>2</sup>Boiler wasn't used for calendar year 2016</html>	NA	NA	9303
+03487	<html><sup>3</sup>Assumed fugitive toxic emissions were all from gasoline product.  VOC emissions were previously submitted as part of the Annual Title V report.  Toxic Emissions = VOC Emissions (lbs/yr) x Toxic Weight Fraction (decimal).</html>	NA	NA	9303
+03488	Emission factor is calculated as follows: Toxic Emissions = VOC Emissions (lbs/yr) / No. of components	NA	NA	9303
+03489	T10026 (IFR tank)	Storage	INTANK	9303
+03490	T10027 (IFR tank)	Storage	INTANK	9303
+03491	T1009 (IFR tank)	Storage	INTANK	9303
+03492	T1010 (IFR tank)	Storage	INTANK	9303
+03493	T1011 (IFR tank)	Storage	INTANK	9303
+03494	T2020 (IFR tank)	Storage	INTANK	9303
+03495	T2021 (IFR tank)	Storage	INTANK	9303
+03496	T2022 (IFR tank)	Storage	INTANK	9303
+03497	T2113 (IFR tank)	Storage	INTANK	9303
+03498	T2511 (BO)	Storage	FIXTANK	9303
+03499	T2512 (BO)	Storage	FIXTANK	9303
+03500	T2705 (DIESEL)	Storage	FIXTANK	9303
+03501	T2706 (IFR tank)	Storage	INTANK	9303
+03502	T3201 (IFR tank)	Storage	INTANK	9303
+03503	T3203 (IFR tank)	Storage	INTANK	9303
+03504	T3204 (IFR tank)	Storage	INTANK	9303
+03505	T3510 (IFR tank)	Storage	INTANK	9303
+03506	T3605 (BO)	Storage	FIXTANK	9303
+03507	T3614 (IFR tank)	Storage	INTANK	9303
+03508	T4402 (IFR tank)	Storage	INTANK	9303
+03509	T4507 (IFR tank)	Storage	INTANK	9303
+03510	T4507 (IFR tank)	Storage	INTANK	9303
+03511	T5209 (IFR tank)	Storage	INTANK	9303
+03512	T5618 (IFR tank)	Storage	INTANK	9303
+03513	T5901 (IFR tank)	Storage	INTANK	9303
+03514	T5902 (IFR tank)	Storage	INTANK	9303
+03515	T5919 (DIESEL)	Storage	FIXTANK	9303
+03516	T6408 (IFR tank)	Storage	INTANK	9303
+03517	T8006 (IFR tank)	Storage	INTANK	9303
+03518	T8007 (IFR tank)	Storage	INTANK	9303
+03519	T8308 (IFR tank)	Storage	INTANK	9303
+03520	MARINE LOADING	Product transfer	MLOAD	9303
+03521	TRUCK LOADING RACKS	Product transfer	TRACK	9303
+03522	TRUCK LOADING RACKS	Product transfer	TRACK	9303
+03523	FLANGES, VALVES, PUMP, ETC.	Fugitive Sources	FGTVOC	9303
+03524	BOILER (NATURAL GAS ONLY)	Boiler for heating (Natural Gas Only)	BOILER	9303
+03526	GAS-TRACK	Truck Loading	40400150	9303
+03527	GAS-TRACK-UNCONT	Truck Fugitives	40400154	9303
+03528	GAS-INTANK	Floating Roof Tanks	40400111	9303
+03529	GAS-FGTVOC-G-CONN	Equipment Fugitives Gas	40400151	9303
+03530	GAS-FGTVOC-G-VALV	Equipment Fugitives Gas	40400151	9303
+03531	GAS-FGTVOC-G-LINE	Equipment Fugitives Gas	40400151	9303
+03532	GAS-FGTVOC-G-LOAD	Equipment Fugitives Gas	40400151	9303
+03533	GAS-FGTVOC-G-OTHE	Equipment Fugitives Gas	40400151	9303
+03534	GAS-FGTVOC-L-CONN	Equipment Fugitives Light Liquid	40400151	9303
+03535	GAS-FGTVOC-L-VALV	Equipment Fugitives Light Liquid	40400151	9303
+03536	GAS-FGTVOC-L-PUMP	Equipment Fugitives Light Liquid	40400151	9303
+03537	GAS-FGTVOC-L-LOAD	Equipment Fugitives Light Liquid	40400151	9303
+03538	GAS-FGTVOC-L-OTHE	Equipment Fugitives Light Liquid	40400151	9303
+03539	DIS-TRACK	Truck Loading	40400150	9303
+03540	DIS-MLOAD	Marine Loading	40600251	9303
+03541	DIS-INTANK	Floating Roof Tanks	40400170	9303
+03542	DIS-FIXTANK	Fixed Roof Tanks	40400122	9303
+03543	ADD-FIXTANK	Fixed Roof Tanks	40400124	9303
+03544	TO	Thermal Oxidizer	40400153	9303
+03545	OWS	Oil Water Separator	50410405	9303
+03546	1	Natural Gas Combustion	2952	9303
+03547	2	No. 2 Fuel Oil Combustion	2952	9303
+03548	2b	No. 4 Fuel Oil Combustion	2952	9303
+03549	2c	No. 6 Fuel Oil Combustion	2952	9303
+03550	3	Horizontal Mixers	2952	9303
+03551	4	Vertical Mixers	2952	9303
+03552	5	Coater (Uncontrolled)	2952	9303
+03553	6	Laminate Application	2952	9303
+03554	7	Sealant Application	2952	9303
+03555	8	Cooling Section	2952	9303
+03556	9	Overlay Ink	2952	9303
+03557	10	Asphalt Storage Tank	2952	9303
+03558	11	Laminate Storage Tank	2952	9303
+03559	12	Sealant Storage Tank	2952	9303
+03560	13	Laminate Use Tank	2952	9303
+03561	14	Sealant Use Tank	2952	9303
+03562	15	Flux Storage Tank	2952	9303
+03563	16	Blowstills (Post Control)	2952	9303
+03564	17	Blowstills (No Catalyst)	2952	9303
+03565	18	Blowstills (w/catalyst)	2952	9303
+03566	19	Surfacing	2952	9303
+03568	EU1	Boiler 2	10200501	9303
+03569	EU2	Boiler 5	10200501	9303
+03570	EU3 	Boilers 6 and 7	10200501	9303
+03571	EU2	Boiler 5	10200501	9303
+03572	EU3 	Boilers 6 and 7	10200501	9303
+03573	B045-ELEC-EPG-1	BICC-465hp	20100102	9303
+03574	 B018-ELEC-EPG-1	BRB-2,346HP	20100102	9303
+03575	 B018-ELEC-EPG-2	BRB-2,346HP	20100102	9303
+03576	B025-ELEC-EPG-1 R	CSB-235hp	20100102	9303
+03577	B035-ELEC-EPG-1	CEI-900hp	20100102	9303
+03578	B010-ELEC-EPG-1	CDRC-469hp	20100102	9303
+03579	B054-ELEC-EPG-1	DCH-1,200hp	20100102	9303
+03580	B054-ELEC-EPG-2	DCH-1,200hp	20100102	9303
+03581	B054-ELEC-EPG-3	DCH-1,200hp	20100102	9303
+03582	B057-ELEC-EPG-1	EMC-827hp	20100102	9303
+03583	B013-ELEC-EPG-1	OHS-2,172hp	20100102	9303
+03584	B013-ELEC-EPG-2	OHS-2,172hp	20100102	9303
+03585	B013-ELEC-EPG-3	OHS-2,172hp	20100102	9303
+03586	B013-ELEC-EPG-4	OHS-2,876hp	20100102	9303
+03587	B023-ELEC-EPG-1	PS1-168hp	20100102	9303
+03588	B907-ELEC-EPG-1	PPV-201hp	20100102	9303
+03589	B039-ELEC-EPG-1	PS5-44hp	20100102	9303
+03590	B017-ELEC-EPG-1 R	PP-168hp	20100102	9303
+03591	B012-ELEC-EPG-1	RJH-2,168hp	20100102	9303
+03592	B003-ELEC-EPG-1	SJH-1,489hp	20100102	9303
+03593	B034-ELEC-EPG-1	Viabar-670hp	20100102	9303
+03594	B044-ELEC-EPG-1	SON-34hp	20100102	9303
+03595	3U-1 MELTING OPERATIONS - EAF 5 - Stack	Electric Arc Furnace - stack	3325	9303
+03596	3U-1 MELTING OPERATIONS - EAF 5 - Fugitive	Electric Arc Furnace - fugitive	3325	9303
+03597	3U-1 MELTING OPERATIONS - INDF 3 - Stack	Induction furnace 3 - stack	3325	9303
+03598	3U-1 MELTING OPERATIONS - INDF 4 - Stack	Induction furnace  4 - stack	3325	9303
+03599	3U-1 MELTING OPERATIONS - AOD - Res-stack	Argon oxygen decarburization - stack	3325	9303
+03600	3U-1 MELTING OPERATIONS - Ladle dump back - fugitive	Ladle dump back -  fugitive emissions (5%  of tmp; 50% of AOD fugitives)	NA	9303
+03601	3U-2 POURING, COOLING, AND SHAKEOUT - PCS - Stack	Pouring, Cooling, and Shakeout - Stack	3325	9303
+03602	3U-2 POURING, COOLING, AND SHAKEOUT - PCS - Fugitives	Pouring, Cooling and Shakeout - Fugitive	3325	9303
+03603	3U-3 MATERIAL HANDLING - Thermal Sand Reclaim - stack	Material handling, sand transport -stack	3325	9303
+03604	3U-4 SAND AND SHOT BLAST - Sand-Shot Blast - stack	Abrasive cleaning operations - stack	3325	9303
+03605	3U-5 CUTTING/GRINDING - Grinding - stack	Grinding and cutting operations (finishing) - stack	3325	9303
+03606	3U-6 HOTWORK - Welding - stack	Welding operations - process vents	3325	9303
+03607	3U-7 MOLD/CORE - Pug Mill system - stack	Mold making; core making - stack	NA	9303
+03608	3U-7 MOLD/CORE - Pug Mill system - stack	Mold making; core making - stack	3325	9303
+03609	3U-7 MOLD/CORE - Pug Mill system - stack	Mold making; core making - stack	NA	9303
+03610	3U-7 MOLD/CORE - Mold and Core Making - stack	Mold making; core making - stack	3325	9303
+03611	3U-7 MOLD/CORE - Mold and Core Making - fugitive	Mold making; core making - fugitive	NA	9303
+03612	3U-7 MOLD/CORE - Mold and Core - NPD - stack	Mold making; core making (R & D) - stack	NA	9303
+03613	3U-7 MOLD/CORE - Mold and Core - NPD fugitive	Mold making; core making (R & D) - fugitive	NA	9303
+03614	3U-8 VOC	Miscellaneous chemical use - fugitive	NA	9303
+03615	3U-10 NATURAL GAS	Facility-wide natural gas usage - process vents	3325	9303
+03616	     	NA	NA	9303
+03617	5-BO	Natural Gas Combustion Devices	30990003	9506
+03618	8-AGG	Welding	30900199	9506
+03619	8-AGG	Sanding (Prime Booth, controlled)	30900199	9506
+03620	8-AGG	Sanding (Offline, controlled)	30900199	9506
+03621	8-AGG	Sanding (Prime Booth, uncontrolled)	30900199	9506
+03622	8-AGG	Sanding (Preparation Area,uncontrolled)	30900199	9506
+03623	8-AGG	Sanding (Sanding Tunnel, uncontrolled)	30900199	9506
+03624	Engine	Diesel-fired Engine	20200102	9506
+03625	Tank 6	Shell Antifreeze	40714697/40714698	9506
+03626	Tank 11	SOPUS Antifreeze	40714697/40714698	9506
+03627	Tank SWW	Windshield Washer	40714697/40714698	9506
+03628	Tank WW	Windshield Washer	40714697/40714698	9506
+03750	EU-03, EU-04, EU-05, EU-13, EU-14 A, EU-14 B	Abrasive blast/grind	30900201	9303
+03751	EU-07	Chrome Plating	30901018	9303
+03752	85-001 tanklines	Plating - various	30901098	9303
+03753	85-105 tanklines, except EU-12 B	Plating - various	30901098	9303
+03754	EU-12 B	Cyanide Plating	30901098	9303
+03755	NG combustion	Boilers	NA	9303
+03756	Perlite Production	production lines with baghouse controls	30501801	9303
+03757	Combustion	Natural Gas heating	NA	9303
+03758	Tank 55000	Floating roof tank - standing loss	2501050120	9303
+03759	Tank 55000	Floating roof tank - working loss	2501050120	9303
+03760	Tank 55001	Floating roof tank - standing loss	2501050000	9303
+03761	Tank 55001	Floating roof tank - working loss	2501050000	9303
+03762	Tank 7017	Floating roof tank - standing loss	2501050120	9303
+03763	Tank 7017	Floating roof tank - working loss	2501050120	9303
+03764	Tank 80104	Floating roof tank - standing loss	2501050120	9303
+03765	Tank 80104	Floating roof tank - working loss	2501050120	9303
+03766	Tank 80105	Floating roof tank - standing loss	2501050120	9303
+03767	Tank 80105	Floating roof tank - working loss	2501050120	9303
+03768	Tank 84200	Floating roof tank - standing loss	2501050120	9303
+03769	Tank 84200	Floating roof tank - working loss	2501050120	9303
+03770	Tank 13519	Fixed roof tank - standing loss	2501050090	9303
+03771	Tank 13519	Fixed roof tank - working loss	2501050090	9303
+03772	Tank 13520	Fixed roof tank - standing loss	2501050090	9303
+03773	Tank 13520	Fixed roof tank - working loss	2501050090	9303
+03774	Tank 13521	Fixed roof tank - standing loss	2501050090	9303
+03775	Tank 13521	Fixed roof tank - working loss	2501050090	9303
+03776	Tank 13522	Fixed roof tank - standing loss	2501050090	9303
+03777	Tank 13522	Fixed roof tank - working loss	2501050090	9303
+03778	Tank 13523	Fixed roof tank - standing loss	2501050090	9303
+03779	Tank 13523	Fixed roof tank - working loss	2501050090	9303
+03780	Tank 13524	Fixed roof tank - standing loss	2501050090	9303
+03781	Tank 13524	Fixed roof tank - working loss	2501050090	9303
+03782	Tank 36002	Fixed roof tank - standing loss	2501050090	9303
+03783	Tank 36002	Fixed roof tank - working loss	2501050090	9303
+03784	Tank 80103	Fixed roof tank - standing loss	2501050090	9303
+03785	Tank 80103	Fixed roof tank - working loss	2501050090	9303
+03786	Tank 13	Fixed roof tank - standing loss	2501050000	9303
+03787	Tank 13	Fixed roof tank - working loss	2501050000	9303
+03788	Tank 190	Fixed roof tank - standing loss	2501050000	9303
+03789	Tank 190	Fixed roof tank - working loss	2501050000	9303
+03790	Tank 191	Fixed roof tank - standing loss	2501050000	9303
+03791	Tank 191	Fixed roof tank - working loss	2501050000	9303
+03792	Tank 286	Fixed roof tank - standing loss	2501050000	9303
+03793	Tank 286	Fixed roof tank - working loss	2501050000	9303
+03794	Tank 357	Fixed roof tank - standing loss	2501050000	9303
+03795	Tank 357	Fixed roof tank - working loss	2501050000	9303
+03796	Load Rack	Truck loading vented to VRU	2501050120	9303
+03797	Load Rack	Truck loading vented to VRU	2501050120	9303
+03798	Load Rack	Truck loading vented to VRU	2501050090	9303
+03799	Truck Fugitives	Fugitive emissions from truck loading	2501050120	9303
+03800	Truck Fugitives	Fugitive emissions from truck loading	2501050090	9303
+03801	Tank Degassing	Tank degassing and filling	2501050900	9303
+03802	Oil Water Separator	Oil water separator for contact water	2501050000	9303
+03803	Pipeline Fugitives	Fugitive emissions from pipeline components (valves, flanges, etc.)	2501050000	9303
+03804	Insignificant Emission Unit	Plasma Cutting 203 Mill	3-09-047-00	9303
+03805	Insignificant Emission Unit	Plasma Cutting 205 Mill	3-09-047-00	9303
+03806	Insignificant Emission Unit	Hand Held Torches 	3-06-046-00	9303
+03807	Insignificant Emission Unit	Hobart Fabco Excel Arc 17 Hand Weld	3-09-053-55	9303
+03808	Concrete Batch Plant 6-CBP	Sand Transfer to Mixer	3-05-011-09	9303
+03809	Concrete Batch Plant 6-CBP	Sand Transfer Deliver,  Convey, Store	3-05-011-22(24)(05)	9303
+03810	Concrete Batch Plant 6-CBP	Sand Transfer Weigh Hopper	3-05-011-08	9303
+03811	ID/OD Pipe Shot Blast 8-SBL	Steel Grit Blast Steel Pipe	3-09-002-07	9303
+03812	Sand (Grit) Blast 9-GBL	Sand Blast Steel Pipe	3-09-002-05	9303
+03813	Natural Gas 5-NG	Natural Gas Combustion	1-03-006-03	9303
+03814	Insignificant Emission Unit	Lincoln L61 5/32" Weld Wire	3-09-054-10	9303
+03815	Insignificant Emission Unit	Lincoln L61 1/8" Weld Wire	3-09-054-10	9303
+03816	Insignificant Emission Unit	Lincoln L61 3/16" Weld Wire	3-09-054-10	9303
+03817	Insignificant Emission Unit	Lincoln LA90 Weld Wire	3-09-054-00	9303
+03832	Kilns	Dry Kilns	NA	9303
+03833	Hogged Fuel Boiler	Boiler	NA	9303
+03837	NG Combustion, Facility Wide	Drum Furnace, Afterburner & Boiler	10200603	9303
+03838	Shot Blast Booths	Abrasive Blasting	30900205	9303
+03840	Boilers	Boilers	N/A	9303
+03862	Electrical Generator	Turbine Generator	NA	9303
+03863	Four Boilers & Hot Water Heater	Natural Gas Fired Boilers	10300602	9303
+03864	Four Boilers	Ultra Low Sulfur Diesel Fired Boilers	10300502	9303
+03865	Emergency generators (all)	Emergency Generators	20200401	9303
+03866	Asphalt Paving	Asphalt Paving	30500298	9303
+03867	GDF	Gasoline Dispensing Facility - GDF	40600403	9303
+03868	QTA	Gasoline Dispensing Facility - QTA	40600403	9303
+03869	Deicing Flare	Biogas & Natural Gas Fired Flare	49090021	9303
+03871	2-BLF	Blasting fugitives-grit	3-09-002-05	9303
+03872	2-BLF	Blasting fugitives-shot	3-09-002-07	9303
+03873	2-BLB123	Blasting baghouse 2-shot	3-09-002-07	9303
+03874	2-BLF123	Blasting baghouse 3-grit	3-09-002-05	9303
+03875	2-BLF45	Blasting baghouse 4-grit	3-09-002-05	9303
+03876	3-TC	Torch cutting-wet plasma	3-09-030-08	9303
+03877	3-TC	Torch cutting-dry plasma	3-09-030-08	9303
+03878	3-TC	Torch cutting-oxy-fuel	3-09-046-00	9303
+03879	4-NG	Natural gas use	3-09-030-08	9303
+03880	5-WLD	Welding-wire	3-09-052-00	9303
+03881	5-WLD	Welding-rod	3-09-052-00	9303
+03882	5-WLD	Welding-carbon pieces	3-09-052-00	9303
+03883	5-WLD	Welding-flux core stainless	3-09-052-00	9303
+03884	5-WLD	Welding- solid wire stainless	3-09-052-00	9303
+03885	5-WLD	Welding- rod stainless	3-09-052-00	9303
+03886	8-OSPRYM	Coatings-marine	4-02-025-01	9303
+03887	8-OSPRY	Coatings-rail	4-02-025-01	9303
+03890	Boilers Natural Gas Use	Natural Gas Combustion	10300603	9303
+03891	Ovens Natural Gas Use	Natural Gas Combustion	10300603	9303
+03892	Boiler Diesel Use	Diesel Combustion	10300503	9303
+03893	Main Line (ML)	Oven	30203201	9303
+03894	String Line (SL)/Adamatic Line 	Oven	30203201	9303
+03895	Bread Line (BL)	Oven	30203201	9303
+03896	English Muffin Line (EM)	Oven	30203201	9303
+03900	Premium Yeast fermentation - Actual	Continuous RTO Operation	NA	9303
+03901	Premium Yeast fermentation - As Permitted	Seasonal RTO Operation	NA	9303
+03902	Chip Ahoy Baking	Chips Ahoy Baking	NA	9303
+03903	Ovens - Natural Gas	All ovens baking	NA	9303
+03904	RTO - Natural Gas	Continuous RTO Operation	NA	9303
+03905	Boilers - Natural Gas	Full bakery operation	NA	9303
+03906	Boilers - #3 Diesel	Emergency Backup	NA	9303
+03920	NOx scrubber	scrubber for acid etching operations	NA	9303
+03921	HPM scrubber	scrubber for hazardous production materials operations	NA	9303
+03922	Epi scrubbers	scrubbers for epitaxial operations	NA	9303
+03923	General Exhaust	exhaust for all other operations + fugitives	NA	9303
+03924	All boilers combined	boilers	10100601	9303
+03925	All emergency generators combined	generators	20100102	9303
+03937	EU-1	Methanol Storage Tank, ST-23	30101805	9303
+03938	EU-2L3	Natural Gas Combustion in RTO	39000699	9303
+03939	EU-4B1, 4B2	Natural Gas Fired Main & Standby Boiler	10200602	9303
+03940	EU-3esc	Evaporator slab coating line component	30701399	9303
+03941	EU-2L3 Fugitive	Fugitives from coater/primer applicator	30701399	9303
+03942	EU-3esnc	Treatment of Distillate from Resin Manufacturing	30101805	9303
+03943	EU-3r - Distillate Tank #4	Distillate Tank #4	30101805	9303
+03944	EU-3r - Distillate Tank #5	Distillate Tank #5	30101805	9303
+03945	EU-3r - Cooling Tank	Cooling Tank	30101805	9303
+03946	EU-3r - Reactor Charging	Reactor Charging	30101805	9303
+03947	EU-3r - Reactor Condensation	Reactor Condensation	30101805	9303
+03948	EU-3r - Reator Polymerization	Reator Polymerization	30101805	9303
+03949	EU-3r - Reactor Distillation	Reactor Distillation	30101805	9303
+03950	EU-3r - Resin Storage	Resin Storage	30101805	9303
+03951	EU-3r - Equipment Leaks - HCOH Service	Equipment Leaks - HCOH Service	30101805	9303
+03952	EU-3r - Equipment Leaks - MeOH Service	Equipment Leaks - MeOH Service	30101805	9303
+03953	EU-3r - Equipment Leaks - Phenol Service	Equipment Leaks - Phenol Service	30101805	9303
+03954	EU-3t - R3485 Resin - Tank Truck	R3485 Resin - Tank Truck	30101805	9303
+03955	EU-3t - R3175 Resin - Tank Truck	R3175 Resin - Tank Truck	30101805	9303
+03956	EU-3t - CB92 Resin #52	CB92 Resin #52	30101805	9303
+03957	EU-3t - MD3000 Resin #51 & #50	MD3000 Resin #51 & #50	30101805	9303
+03958	EU-3t - R3160 Resin #55 - Tank Truck	R3160 Resin #55 - Tank Truck	30101805	9303
+03959	EU-3t - Phenol #32	Phenol #32	30101805	9303
+03960	EU-3t - Formalin #40	Formalin #40	30101805	9303
+03961	EU-2L3	Natural Gas Combustion in RTO	39000699	9303
+03962	EU-4B1, 4B2	Natural Gas Fired Main & Standby Boiler	10200602	9303
+03963	EU-3esc	Evaporator slab coating line component	30701399	9303
+03964	EU-2L3 Fugitive	Fugitives from coater/primer applicator	30701399	9303
+03965	EU-3cu	Evaporator slab clean-up operations	30701399	9303
+03966	EU-3t - Glycol Ether PM #18	Glycol Ether PM #18	30101805	9303
+03983	TS-2110 Chloride Zinc Tank	Zinc electroplating	NA	9303
+03984	TS-2412 Acid Copper	Acid Copper electroplating	NA	9303
+03985	TS-2414 Cyanide Copper Strike	Cyanide Copper electroplating	NA	9303
+03986	TS-2415 Black Nickel	Nickel electroplating	NA	9303
+03987	TS-2416 Sulfamate Nickel	Nickel electroplating	NA	9303
+03988	TS-2611 Acid Copper	Acid Copper electroplating	NA	9303
+03989	TS-2612 North #1 Satin Nickel	Nickel electroplating	NA	9303
+03990	TS-2613 South #2 Satin Nickel	Nickel electroplating	NA	9303
+03991	TS-2619 Bright Nickel	Nickel electroplating	NA	9303
+03992	TS-2620 Nickel Strike	Nickel electroplating	NA	9303
+03993	TS-2621 Brite Chrome	Decorative Chrome electroplating	NA	9303
+03994	TS-2624 Cyanide Copper	Cyanide Copper electroplating	NA	9303
+03995	TS-2809 Silver Strike	Silver Cyanide electroplating	NA	9303
+03996	TS-2810 #1 Silver	Silver Cyanide electroplating	NA	9303
+03997	TS-2821 Watts Nickel Strike	Nickel electroplating	NA	9303
+03998	TS-2830 #2 Silver	Silver Cyanide electroplating	NA	9303
+03999	Abrasive Blasting	Abrasive Blasting	30900205	9303
+04000	Main Manufacturing Plant - Metal sanding and Grinding	7" X 36 GRIT CUBITRON II SANDING DISC	30903004	9303
+04001	Main Manufacturing Plant - Metal sanding and Grinding	7" X 1/4 X 5/8-11 GRIND WHEEL	30903004	9303
+04002	Main Manufacturing Plant - Metal sanding and Grinding	FLEXOVIT 4 X 1/8 X 3/8 GRIND WHEEL	30903004	9303
+04003	Main Manufacturing Plant - Metal sanding and Grinding	FLEXOVIT 4 X 1/4 X 3/8 GRIND WHEEL	30903004	9303
+04004	Main Manufacturing Plant - Metal sanding and Grinding	FLEXOVIT 4 X 1/4 X5/8 GRIND WHEEL	30903004	9303
+04005	Main Manufacturing Plant - Metal sanding and Grinding	WALTER 4 X 1/8 X 5/8 GRIND WHEEL	30903004	9303
+04006	PDC Area Sanding and Grinding	7" X 36 GRIT CUBITRON II SANDING DISCPDC Sanding - 3M	30903004	9303
+04007	Hastings Booth Natural Gas Burner	Natural Gas Combustion	10500206	9303
+04008	Main Manufacturing Welding Area	Welding FCAW E100T1-K3C	30905300	9303
+04009	Main Manufacturing Welding Area	Welding GMAW ER70S-6	30905254	9303
+04010	Main Manufacturing Welding Area	Welding FCAW E70C-6M	30905300	9303
+04011	Main Manufacturing Welding Area	Welding FCAW E70T1; AWS 5.36	30905354	9303
+04012	Main Manufacturing Welding Area	Welding FCAW EM12K	30905300	9303
+04013	Main Manufacturing Welding Area	Welding GMAW ER70S-6	30905254	9303
+04014	Main Manufacturing Welding Area	Welding SAW EM12K	30905400	9303
+04015	Main Manufacturing Welding Area	Welding FCAW E70T1	30905354	9303
+04016	PDC Area Welding	Welding FCAW E100T1-K3C	30905300	9303
+04017	PDC Area Welding	Welding FCAW E70C-6M	30905300	9303
+04018	PDC Area Welding	Welding FCAW E70T1; AWS 5.36	30905354	9303
+04041	HTR #9-EU	Heater for Dehydrator #9	30600103	9303
+04042	HTR #10-EU	Heater for Dehydrator #10	30600103	9303
+04043	HTR #11-EU	Heater for Dehydrator #11	30600103	9303
+04044	BLR1-EU	Boiler #1	30600103	9303
+04045	CNDR-EU	Condenser	30600603	9303
+04046	TV-EU	Storage Tank Venting	30630007	9303
+04047	RKT	Rocket Filtration Sys	30610001	9303
+04048	SWS-EU	Sour Water Scrubber	30610001	9303
+04049	WFE-EU	Wiped Film Evaporator	30610001	9303
+04050	Boiler	Steam Generation	NA	9303
+04053	EU 1	Convertors	30500110	9303
+04054	EU 2	Natural Gas Combustion	10200603	9303
+04055	EU 3.1	Tank #1	NA	9303
+04056	EU 3.2	Tank #2	NA	9303
+04057	EU 3.2	Tank #2	NA	9303
+04058	EU 4.1	Tank #3	NA	9303
+04059	EU 4.2	Tank #4	NA	9303
+04060	EU 4.4	Tank #6	NA	9303
+04061	EU 5.1	Tank #7	NA	9303
+04062	EU 5.1	Tank #7	NA	9303
+04063	EU 5.2	Tank #8	NA	9303
+04064	EU 5.3	Tank #9	NA	9303
+04065	EU 5.4	Tank #10	NA	9303
+04066	EU 5.4	Tank #10	NA	9303
+04067	EU 5.5	Tank #12	NA	9303
+04068	EU 5.6	Tank #13	NA	9303
+04069	EU 5.7	Tank #14	NA	9303
+04070	EU 5.8	Tank #15	NA	9303
+04071	EU 5.9	Tank #16	NA	9303
+04072	EU 5.10	Tank #17	NA	9303
+04073	EU 7.1	Truck Loading Rack #1	NA	9303
+04074	EU 7.1	Truck Loading Rack #1	NA	9303
+04075	EU 7.1	Truck Loading Rack #1	NA	9303
+04076	EU 7.2	Truck Loading Rack #2	NA	9303
+04077	EU 7.2	Truck Loading Rack #2	NA	9303
+04078	EU 7.2	Truck Loading Rack #2	NA	9303
+04079	EU 7.3	Truck Loading Rack #3	NA	9303
+04080	EU 7.3	Truck Loading Rack #3	NA	9303
+04081	EU 7.3	Truck Loading Rack #3	NA	9303
+04082	EU 8.1	Pouring Shed	NA	9303
+04089	Irid System - Muriatic Acid Use	Iridization of Glass	None	9303
+04090	Irid System - Stannous Chloride Use	Iridization of Glass	None	9303
+04091	Colored Art Glass Manufacturing in Controlled Furnaces	Colored Art Glass Raw Materials Containing Cadmium	30501401	9303
+04092	Colored Art Glass Manufacturing in Controlled Furnaces	Colored Art Glass Raw Materials Containing Cobalt	30501401	9303
+04093	Colored Art Glass Manufacturing in Controlled Furnaces	Colored Art Glass Raw Materials Containing Nickel	30501401	9303
+04094	Colored Art Glass Manufacturing in Controlled Furnaces	Colored Art Glass Raw Materials Containing Lead	30501401	9303
+04095	Colored Art Glass Manufacturing in Controlled Furnaces	Colored Art Glass Raw Materials Containing Selenium	30501401	9303
+04096	Colored Art Glass Manufacturing in Controlled Furnaces	Colored Art Glass Raw Materials Containing Manganese	30501401	9303
+04097	Colored Art Glass Manufacturing in Controlled Furnaces	Colored Art Glass Raw Materials Containing Arsenic	30501401	9303
+04098	Colored Art Glass Manufacturing in Controlled Furnaces	Colored Art Glass Raw Materials Containing Antimony	30501401	9303
+04099	Furnace T-7 Controlled by BH-1	Colored Art Glass Raw Materials Containing Chromium	30501401	9303
+04100	Colored Art Glass Manufacturing in Uncontrolled Furnaces	Colored Art Glass Raw Materials Containing Chromium	30501401	9303
+04101	Colored Art Glass Manufacturing Furnaces in Uncontrolled Furnaces	Colored Art Glass Raw Materials Containing Fluorine	30501401	9303
+04102	Colored Art Glass Manufacturing Furnaces in Controlled Furnaces	Colored Art Glass Raw Materials Containing Fluorine	30501401	9303
+04103	Batch Room Baghouse	Raw Material Handling - Non-Chromium	30501410	9303
+04104	Batch Room Baghouse	Raw Material Handling - Chromium	30501410	9303
+04105	Tekna Furnaces	Glass Raw Material Containing Antimony	30501401	9303
+04106	Colored Art Glass Manufacturing in Controlled Furnaces	Colored Art Glass Raw Materials Containing Aluminum	30501401	9303
+04107	Colored Art Glass Manufacturing in Controlled Furnaces	Colored Art Glass Raw Materials Containing Copper	30501401	9303
+04108	Colored Art Glass Manufacturing in Controlled Furnaces	Colored Art Glass Raw Materials Containing Zinc	30501401	9303
+04109	Colored Art Glass Manufacturing in Controlled Furnaces	Colored Art Glass Raw Materials Containing Barium	30501401	9303
+04110	Colored Art Glass Manufacturing in Controlled Furnaces	Colored Art Glass Raw Materials Containing Silver	30501401	9303
+04111	Colored Art Glass Manufacturing in Controlled Furnaces	Colored Art Glass Raw Materials Containing Molybdenum Trioxide	30501401	9303
+04112	Tekna Furnaces	Glass Raw Materials Containing Aluminum	30501401	9303
+04113	Tekna Furnaces	Glass Raw Materials Containing Copper	30501401	9303
+04114	Tekna Furnaces	Glass Raw Materials Containing Zinc	30501401	9303
+04115	Tekna Furnaces	Glass Raw Materials Containing Barium	30501401	9303
+04116	Furnace combustion	NG combustion	NA	9303
+04117	CUB	Central Utility Boiler	1-02-004-02, 1-02-006-02	9303
+04118	BWT	Ballast Water Treatment Plant	4-07-146-98	9303
+04119	ROL	Reclaimed Oil Load Out	4-06-001-97	9303
+04120	ROT	Reclaimed Oil Tanks	4-07-016	9303
+04121	WELD	308/308L Electrode	NA	9303
+04122	WELD	309/309L Electrode	NA	9303
+04123	WELD	316/316L Electrode	NA	9303
+04124	WELD	6010 Electrode	NA	9303
+04125	WELD	7018 Electrode	NA	9303
+04126	WELD	8018 Electrode	NA	9303
+04127	WELD	Arc Gouging Rod	NA	9303
+04128	WELD	Copper Clad Electrode	NA	9303
+04129	WELD	Dual Shield II 101H4M	NA	9303
+04130	WELD	E71T-1C/9C Electrode	NA	9303
+04131	WELD	E71T-1M Electrode	NA	9303
+04132	WELD	EM12K Electrode	NA	9303
+04133	WELD	ER4043 Electrode	NA	9303
+04134	WELD	ER70S Electrode	NA	9303
+04135	WELD	ER70S-2 Electrode	NA	9303
+04136	WELD	ER70S-6 Electrode	NA	9303
+04137	WELD	ERNiCu-7 Electrode	NA	9303
+04138	WELD	ERNiCu Electrode	NA	9303
+04139	WELD	FM61 Techalloy 208 Welding Rod	NA	9303
+04140	WELD	Lincoln 71 Elite Electrode	NA	9303
+04141	WELD	Silicon Bronze Welding Rod	NA	9303
+04142	WELD	Stoody 121-G Electrode	NA	9303
+04143	WELD	Ultracore HD-C Electrode	NA	9303
+04144	SBI	Blast Grit Indoor	NA	9303
+04145	SBO	Blast Grit Outdoor	NA	9303
+04512	GEN-8471 Lean Burn	Cogenerator Engine #1	20300703	9303
+04513	GEN-8472 Lean Burn	Cogenerator Engine #2	20300703	9303
+04514	B-LO1	Boiler	102000603	9303
+04515	Waste Gas Flare	Waste Gas Flare	50100789	9303
+04516	Emission Unit 1	Batch Production 	Part B 57	9303
+04517	Emission Unit 2	Industrial Chem Manf. 	Part B 57	9303
+04518	Emission Unit 3	Drying Building	Part B 57	9303
+04519	NG combustion	Boilers	NA	9303
+04520	Emergency Generator 1	Bldg 1, 1,456 hp, 1988 install	2-02-001-02	9303
+04521	Emergency Generator 2	Bldg 1, 1,456 hp, 1988 install	2-02-001-02	9303
+04522	Emergency Generator 3	Bldg 2, 1,582 hp, 1996 install	2-02-001-02	9303
+04523	Emergency Generator 4	Bldg 2, 1,582 hp, 1996 install	2-02-001-02	9303
+04524	Emergency Generator 5	Bldg 2, 1,582 hp, 1996 install	2-02-001-02	9303
+04525	Fire Pump	NA	2-02-001-02	9303
+04526	Boiler 1 Fab 4-1 NG	Natural gas (primary fuel type)	1-02-006-02	9303
+04527	Boiler 2 Fab 4-1 NG	Natural gas (primary fuel type)	1-02-006-02	9303
+04528	Boiler 3 Fab 4-1 NG	Natural gas (primary fuel type)	1-02-006-02	9303
+04529	Boiler 1 Fab 4-2 NG	Natural gas (primary fuel type)	1-02-006-02	9303
+04530	Boiler 2 Fab 4-2 NG	Natural gas (primary fuel type)	1-02-006-02	9303
+04531	Boiler 3 Fab 4-2 NG	Natural gas (primary fuel type)	1-02-006-02	9303
+04532	Boilers 1-6 Diesel	Diesel dual fire mode	1-02-005-02	9303
+04533	RCTO Natural Gas	Natural gas	1-02-006-02	9303
+04534	BOE Use (NH3 Emissions)	NA	3-13-065-13	9303
+04535	BOE Use (HF Emissions)	NA	3-13-065-13	9303
+04536	Amitrole Use	CMP Slurry	3-13-065-01	9303
+04537	Ammonia Use	NA	3-13-065-22	9303
+04538	Isopropanol - Wipe Cleaning	NA	3-13-065-14	9303
+04539	Nitric Acid Use (Process 1)	NA	3-13-065-17	9303
+04540	Nitric Acid Use (Process 2)	NA	3-13-065-17	9303
+04541	Phosphoric Acid Use	NA	3-13-065-18	9303
+04542	Silver Nitrate Use	NA	3-13-065-19	9303
+04543	Sodium Hydroxide Wk Sol'n Use	NA	3-13-065-20	9303
+04544	Sulfuric Acid Use	NA	3-13-065-21	9303
+04545	Boron Trichloride Use (Al2O3)	NA	3-13-065-25	9303
+04546	Silane Use	NA	3-13-065-71	9303
+04547	Dichlorosilane	NA	3-13-065-72	9303
+04548	Phosphine Use (Process 1)	NA	3-13-065-73	9303
+04549	Phosphine Use (Process 2)	NA	3-13-065-74	9303
+04550	Phosphine Use (Process 3)	NA	3-13-065-75	9303
+04551	HMDS Oxidation in RCTO	NA	3-13-065-78	9303
+04552	Silicon Tetrafluoride Use (SiO2 Emissions)	NA	3-13-065-81	9303
+04553	Silicon Tetrafluoride Use (HF Emissions)	NA	3-13-065-80	9303
+04554	HCl Storage Tank	6,900 gal	3-01-870-98	9303
+04555	Acrylic Acid Use	Organic Liquid for Photolithograpy or Cleaning	3-13-065-00	9303
+04556	Cresols Use	Organic Liquid for Photolithograpy or Cleaning	3-13-065-04	9303
+04557	M-Cresol Use	Organic Liquid for Photolithograpy or Cleaning	3-13-065-05	9303
+04558	1,4-Dioxane Use	Organic Liquid for Photolithograpy or Cleaning	3-13-065-06	9303
+04559	n-Butyl Alcohol use	NA	NA	9303
+04560	Ethylene Glycol Use	Organic Liquid for Photolithograpy or Cleaning	3-13-065-07	9303
+04561	Hydrochloric Acid Use	NA	3-13-065-10	9303
+04562	Hydrofluoric Acid Wk Soln Use	NA	3-13-065-11	9303
+04563	Hydrofluoric Acid 50% Soln Use	NA	3-13-065-12	9303
+04564	Methanol Use	NA	3-13-065-16	9303
+04565	Arsine Use	NA	3-13-065-23	9303
+04566	Boron Trichloride Use (HCl)	NA	3-13-065-25	9303
+04567	Chlorine Use	NA	3-13-065-27	9303
+04568	Boron Trifluoride Use	NA	3-13-065-29	9303
+04569	Difluoromethane Use	NA	3-13-065-31	9303
+04570	Fluorine Use	NA	3-13-065-33	9303
+04571	Hexafluoroethane Use	NA	3-13-065-38	9303
+04572	<html>HF Byproduct from C<sub>2</sub>F<sub>6 </sub>and CF<sub>4</sub> combustion in POU abatement devices</html>	NA	3-13-065-40	9303
+04573	Nitrogen Trifluoride Use (Process 1)	NA	3-13-065-44	9303
+04574	Nitrogen Trifluoride Use (Process 2)	NA	3-13-065-46	9303
+04575	Octafluorocyclobutane Use	NA	3-13-065-50	9303
+04576	Octafluorocyclopentene Use	NA	3-13-065-52	9303
+04577	Octafluoropropane Use	NA	3-13-065-54	9303
+04578	<html>HF Byproduct from C<sub>3</sub>F<sub>8</sub> and CF<sub>4</sub> combustion in POU abatement devices</html>	NA	3-13-065-56	9303
+04579	Sulfur Hexafluoride Use	NA	3-13-065-58	9303
+04580	Tetrafluoromethane (CF4) (Process 1)	NA	3-13-065-62	9303
+04581	<html>HF Byproduct from CF<sub>4</sub></html>	NA	3-13-065-64	9303
+04582	Tetrafluoromethane (CF4) (Process 2)	NA	3-13-065-66	9303
+04583	Trifluoromethane	NA	3-13-065-68	9303
+04584	Tungsten Hexafluoride	NA	3-13-065-70	9303
+04585	Hydrogen Chloride Gas Use	NA	3-13-065-79	9303
+04586	Hydrogen Bromide use	NA	NA	9303
+04594	HVAC1	Air make-up unit	10500106	9303
+04595	HVAC2	Air make-up unit	10500106	9303
+04596	Natural Gas Oven 1	Horizontal Paint Line Cure Oven	40201001	9303
+04597	Natural Gas Oven 2	Moisture Dry Off Oven	40201001	9303
+04598	Natural Gas Oven 3	Vertical Paint Line Cure Oven	40201001	9303
+04599	Natural Gas TRTO Burner	Heat Source for RTO	40201001	9303
+04600	HV Pretreatment-Spray	Metal Surface Treatment	NA	9303
+04601	HV Pretreatment-Dip Tank	Metal Surface Treatment	NA	9303
+04602	Pretreat Heater 1	Tank Heaters	40202502	9303
+04603	Pretreat Heater 2	Tank Heaters	40202502	9303
+05085	165-ECOM	2.250 MMBTU/HR Comfort Boiler	10200603	9303
+05086	255-ECOM	2.700 MMBTU/HR Comfort Boiler	10200603	9303
+05087	IWP2115614820	MUN - 50 CAL. - OUTDOOR RANGE (A525)	NA	9303
+05088	IWP2115614821	MUN - 12 GA. - OUTDOOR RANGE (A011)	NA	9303
+05089	IWP1433698401M7	MUN - M7 BLASTING CAP - OUTDOOR	NA	9303
+05090	IWP1433698403C4	MUN - C4 - OUTDOOR	NA	9303
+05091	IWP1433698404TIMEFUS	MUN - TIME FUSE - OUTDOOR 	NA	9303
+05092	IET1584614455	Engine Test Cell - F100-PW-220 (Idle, 1,084 lb/hr)	NA	9303
+05093	IET1584614455	Engine Test Cell - F100-PW-220 (Military, 9,679 lb/hr )	NA	9303
+05094	IET1584614455	Engine Test Cell - F100-PW-220 (Afterburner, 41,682 lb/hr)	NA	9303
+05267	TDI Slabstock 	Polyurethane Foam manufacturing	30101885	9303
+05269	EU 001	Diesel Emergency Generator	2-01-001-02	9303
+05270	EU 002	Diesel Emergency Generator	2-01-001-02	9303
+05271	EU 003	Diesel Emergency Generator	2-01-001-02	9303
+05272	EU 004	Diesel Emergency Generator	2-01-001-02	9303
+05273	Rotary Dryer	Rotary Dryer - Natural Gas Combustion	30500606	9303
+05274	Rotary Dryer	Rotary Dryer - Particulate Emissions	30500606	9303
+05275	Silo Baghouse	Silo Baghouse - Particulate Emissions	30500699	9303
+05276	Silo	Cement Silo Filling	30501107	9303
+05277	Silo	Cement Supplement Silo Filling	30501117	9303
+05278	Central Mix Batching	Central Mix Batching	30500612	9303
+05279	Sand/Aggregate Delivery	Sand/Aggregate Delivery	30501104, 30501105	9303
+05280	Internal combustion engines	Internal combustion engines	20100102	9303
+05281	Boilers	Boilers	10100602	9303
+05603	Landfill Flare	LFG Flare	50100406	9303
+05604	Landfill Vacuum Pump Discharge	LFG Vacuum Pump	50100422	9303
+05605	Landfill Condensate Evaporator	LFG Evaporator	50100422	9303
+05606	E70T	Total Flux Cored Arc Welding (FCAW) - E70T	3-09-05354	9303
+05607	E71T	Total Flux Cored Arc Welding - E71T	3-09-05355	9303
+05608	ER70S	Gas Metal Arc Welding - Hobart HB-28	3-09-05254	9303
+05620	GMAW - ER70S-6	Mig Welding	30905254	9303
+05622	PSC Generator	DSG Engine	20100102	9303
+05623	PSC Generator	DSG Engine	20100102	9303
+05631	RTO_NG	RTO	NA	9303
+05632	D1_NG	Press Oven 1	NA	9303
+05633	D2_NG	Press Oven 2	NA	9303
+05683	 Natural Gas	 Natural Gas	NA	9303
+05717	EU-02	Natural Gas Space Heaters	NA	9303
+05850	Boilers & Dryers	Boiler Natural Gas	NA	9303
+05851	Natural Gas	NG	NA	9303
+05860	10A	Solar Mars T14000 SoLoNOx	2-02-002-01	9303
+05861	10B	Cooper Rolls Coberra 125 (Avon)	2-02-002-01	9303
+05862	10C	Solar Titan SoLoNOx	2-02-002-01	9303
+05863	Guascor Engine	Digester gas fueled genset	20100802	9303
+05864	Flare	Digester gas fueled flare	20190099	9303
+05865	BLRS	Boilers	NA	9303
+05866	BLRS	Boilers	NA	9303
+05867	F6	Dry Kiln - Hemlock	30799998	9303
+05868	B1	Hogged Fuel Boiler	10100902	9303
+05869	Truck Shop Heaters >0.4 MMBtu	Distillate Oil Combustion in Heaters	39000599	9303
+05870	Guascor Engine	Digester gas fueled genset	20100802	9303
+05871	Flare	Digester gas fueled flare	20190099	9303
+05872	HF_BLRS	Total hogged wood/bark-fired boiler	10200903	9303
+05873	KILN_DF	Kilns Douglas Fir	30700831	9303
+05874	KILN_HL	Kilns Hemlock Fir	30700831	9303
+05875	KILN_SP	Kilns Spruce	30700831	9303
+05878	Welding	Welding Rods	30900500	9303
+05879	Welding	Welding Wire	30900500	9303
+05915	Welding	Chassis Welding	30905254	9303
+05917	B2	Boiler 2 (Natural Gas-Fired)	10200602	9303
+05918	K1_7	Kilns	3-07-008-30	9303
+05921	Emergency Generators, CAT 750 kW	Emergency Generators, CAT 750 kW	20200401	9303
+05922	 Emergency Generators, CAT 800 kW	 Emergency Generators, CAT 800 kW	20200401	9303
+05923	 Emergency Generators,CAT 1000 kW	 Emergency Generators,CAT 1000 kW	20200401	9303
+05924	 Emergency Generators, CAT 2000 KW	 Emergency Generators, CAT 2000 KW	20200401	9303
+05925	 Emergency Generators, CAT 2500 KW	 Emergency Generators, CAT 2500 KW	20200401	9303
+05926	 Emergency Generators, Cummins 2500 kW	 Emergency Generators, Cummins 2500 kW	20200401	9303
+05927	 Emergency Generators, CAT 1825 KW	 Emergency Generators, CAT 1825 KW	20200401	9303
+05928	BLRS	Boiler 1	1-02-009-02	9303
+05929	RDRY1_NG	Rotary Dryer (natural gas)	3-07-006-31	9303
+05930	K1_LP	Kiln (Lodgepole Pine)	3-07-008-31	9303
+05931	K1_DF	Kiln (Fir)	3-07-008-31	9303
+05932	K1_PP	Kiln (Ponderosa Pine)	3-07-008-31	9303
+05933	NG Combustion	Combustion	NA	9303
+05934	Boilers 1&2	Burn natural gas	30290003	9303
+05935	Dryer 1	Burn natural gas	30290003	9303
+05936	Oven	Burn natural gas	30290003	9303
+05937	Fryer 1	Continuous deep fat fryer: french fries	30203601	9303
+05938	Fryer 2	Continuous deep fat fryer: french fries	30203601	9303
+05939	Fryer 3	Continuous deep fat fryer: french fries	30203601	9303
+05940	Dryer 1	Drying Potato Matter	30203600	9303
+05941	Boiler	Boiler Natural Gas	10200603	9303
+05942	Solar Centaur T-4500 Turbine 1	Turbine	20300202	9303
+05943	Solar Centaur T-4500 Turbine 2	Turbine	20300202	9303
+05944	Emergency Generator	Generator Natural Gas	20300201	9303
+05946	1	Gas Turbine Emission Unit 1	20200203	9303
+05947	2	Gas Turbine Emission Unit 2	20200203	9303
+05948	3	Test Run Emergency Diesel Fire Pump	20400402	9303
+05951	CTG1\HRSG1	natural gas combustion	20200203	9303
+05952	CTG1\HRSG1	natural gas combustion	20200203	9303
+05953	CTG2\HRSG2	natural gas combustion	20200203	9303
+05954	CTG2\HRSG2	natural gas combustion	20200203	9303
+05955	Dryers (3) Bulk Ear Corn Single Pass	NA	3-02-005-27	9303
+05956	L1B_NG	Line 1 Boiler	10200602	9303
+05957	L2B_NG	Line 2 Boiler	10201902	9303
+05958	RDRY_NG	Total Rotary Dryer	30700671	9303
+05959	GFD_NG	Green Furnish Dryer + RTO	30700677	9303
+05960	TCO_NG	TCO	30700699	9303
+05961	L2B_S	Line 2 Boiler	10201902	9303
+05962	GFD_S	Green Furnish Dryer	30700677	9303
+05963	RDRY_WD	Total Rotary Dryer	30700671	9303
+05964	GFD_WD	Green Furnish Dryer	30700677	9303
+05965	PRESS	Line 1 and Line 2 Press	30700651	9303
+05966	BC	Line 1 and Line 2 Board Cooler	30700661	9303
+05967	L1S	Line 1 Sander	30700667	9303
+05968	L2S	Line 2 Sander	30700667	9303
+05969	REFINER	Line 1 and Line 2 Refiner	30700663	9303
+05970	BLENDER	Line 1 and Line 2 Blender	30700648	9303
+05971	FORMER	Line 1 and Line 2 Former	30700641	9303
+05972	SAW	Line 1 Jenkins Saw and Line 2 Trim Saw	30700691	9303
+05979	BLRS	Total Boiler 1 and 2 Heat Input	10200911	9303
+05980	VENEER	Veneer Dryer - heated section	30700762	9303
+05981	VENEER	Veneer Dryer - cooling section	30700763	9303
+05982	PRESS	Press	30700783	9303
+05983	KILN	Kiln	30700831	9303
+05984	LOGVAT	Log Vat Steaming	30700731	9303
+05985	SAW	Softwood Plywood Sawing	30700710	9303
+05986	SANDER	Sander	30700702	9303
+05994	B1	Boiler 1 (Natural Gas-Fired)	10200602	9303
+05995	KILN	Kilns 1-4	3-07-008-30	9303
+06000	FM-BY	Formaldehyde plant exhaust bypass	30112005	9303
+06001	FM-FUG	Formaldehyde plant fugitives	30112007	9303
+06002	FM	Formaldehyde plant tail gas - Boiler 1	30112005	9303
+06003	BO1&2-NG	Boiler 1 and 2 - natural gas	10200602	9303
+06004	BO2-FO	Boiler 2 - fuel oil	10200502	9303
+06005	Storage-FM	Formadehyde storage	30183001	9303
+06006	Loading-FM	Formaldehyde loading	30183001	9303
+06007	Production-TZ	Triazine production	30101832	9303
+06008	Loading-TZ	Triazine loading	30101816	9303
+06009	Storage-TZ	Triazine storage	30101840	9303
+06010	Production-UF	UF resin production	30101832	9303
+06011	Storage-UF	UF resin storage	30101840	9303
+06012	Loading-UF	UF resin loading	30101816	9303
+06013	Production-PF	PF resin production	30101805	9303
+06014	Storage-PF	PF resin storage	30101840	9303
+06015	Loading-PF	PF resin loading	30101816	9303
+06016	Storage-ME	Methanol storage	30183001	9303
+06017	Loading-ME	Methanol loading	30183001	9303
+06018	Storage-PH	LPE/Phenol Storage	30183001	9303
+06019	Storage-GL	Glycerin Storage	30183001	9303
+06020	PAD	Resin drying pad	30188801	9303
+06021	Storage-UW	UF washwater storage	30183001	9303
+06022	Storage-PW	PF washwater storage	30183001	9303
+06023	PIT	Washwater pit	30188801	9303
+06024	Storage-SW	Seal water storage	30183001	9303
+06025	Storage-TEA	Triethylamine storage	30183001	9303
+06026	Storage-DS	UF Distillate storage	30183001	9303
+06027	Storage-FS	Formaldehyde distillate storage	30183001	9303
+06028	Tilt Holding Furnace Line 1 & 2	B-3c. 1 & 2	30490033	9303
+06029	Tilt Holding Furnace Line 1 & 2	B-3c. 1 & 2	30490033	9303
+06030	Induction Furnace 1, 2, 3, & 4	B-4a. 1	30400137	9303
+06031	Casthouse fluxing	B-3	NA	9303
+06032	Homogenizing Furnace 1A, 1B, 2A, & 2B	B-3d. 1, 2, 3, 4	30490033	9303
+06033	Saw chips and butts	Saws 1-10	--	9303
+06039	BLR_NG_HAP	Boiler No. 2 Natural Gas Usage	1-02-006-02	2993
+06040	BLR_OIL_HAP	Boiler No. 2 Distillate Fuel Oil Usage	1-02-006-02	2993
+06041	LEAKS	Fugitive Source - Equipment Leaks	3-07-005-01	2993
+06042	RETORT	Point Source - Retort Doors	3-07-005-80	2993
+06043	VACUUM	Point Source - Vacuum System	3-07-005-01	2993
+06044	STORAGE	Fugitive Source - Storage Yard	3-07-005-90	2993
+06045	WASTEWATER	Fugitive Source - Wastewater Treatment System	3-01-820-10	2993
+06046	INSIGNIFICANT	Fugitive Source - Insignificant Activities	3-07-005-01	2993
+06049	LFG-01	Fugitive Landfill Gas	50300402	9303
+06050	ENG-01	Engine - Tipper	50400201	9303
+06051	LEA-01	Landfill Leachate	50300602	9303
+06052	PSC-01	Petroleum Contaminated Soils	50100407	9303
+06053	ULSD Emergency Generator Engine Sets	Diesel Combustion	20200102	9303
+06054	Natural Gas Emergency Generator Engine	Natural Gas Combustion in Emergency Generator Engine	20200254	9303
+06055	FLARE	Flare	50300601	9303
+06056	LF Fug	Landfill Fugitives	50100402	9303
+06057	Tippers	Waste Tippers	20200102	9303
+06058	Tub Grinder	Tub Grinder	NA	9303
+06059	Kettle	NA	NA	9303
+06060	Sulfuric Acid Process Tanks	NA	NA	9303
+06061	Combustion	Kettle & Boiler	NA	9303
+06064	Abrasive Blasting	abrasive blasting	30900201	9303
+06094	Boiler	NA	NA	9303
+06095	Ink use- bag	NA	NA	9303
+06096	Ink use- box	NA	NA	9303
+06097	Adhesive use- box (962)	NA	NA	9303
+06098	Adhesive use- box (976A)	NA	NA	9303
+06099	Ink Production	NA	NA	9303
+06100	SA4-EG-1	CZ Emergency Generator #1	39990011	9303
+06101	SA4-EG-2	CZ Emergency Generator #2	39990011	9303
+06102	SA3-EG	PW Emergency Generator	39990011	9303
+06103	SA1-EG-1	EC Emergency Generator #1	39990011	9303
+06104	SA1-EG-2	EC Emergency Generator #2	39990011	9303
+06105	FP-N	Emergency Fire Water Pump North	39990011	9303
+06106	FP-S	Emergency Fire Water Pump South	39990011	9303
+06107	B-1	Boiler #1	39990013	9303
+06108	B-2	Boiler #2	39990013	9303
+06109	B-3	Boiler #3	39990013	9303
+06110	COMB	Other Natural Gas Combustion Sources	39990013	9303
+06111	TK-SULF	Sulfuric Acid Storage Tanks	30102201	9303
+06112	Diffusion - POCl3	NA	NA	9303
+06122	Sandblasting 1&2	NA	NA	9303
+06130	RTO NG usage	NG combustion	NA	9303
+06134	Cl2	Chlorine use	31306531	9303
+06135	PRA	Photoresist A use	31306505	9303
+06136	PRB	Photoresist B use	31306505	9303
+06137	EG	Ethylene Glycol use	31306501	9303
+06138	HCl	Hydrochloric Acid use	31306530	9303
+06139	TR	Tin Reagent Use	31306500	9303
+06140	BOE	Buffered Oxide Etch (BOE) use	31306530	9303
+06141	HF	Hydrofluoric Acid use	31306530	9303
+06142	C2F6	Hexafluoroethane (C2F6) use	31306502/31306531	9303
+06143	SF6	Sulfur Hexafluoride (SF6) use	31306502/31306531	9303
+06144	CF4	Carbon Tetrafluoride (CF4) use	31306502/31306531	9303
+06145	NF3	Nitrogen Trifluoride (NF3) use	31306502/31306531	9303
+06146	SiF4	Silicon Tetrafluoride (SiF4) use	31306510	9303
+06147	ICP	GaAs wafer etching	31306530	9303
+06148	BE	Bead Blast	31306500	9303
+06149	Boiler	Natural Gas Combustion	10100602	9303
+06150	NH3 	fab operations	31306520	9303
+06151	CHX	fab operations	31306505	9303
+06152	GLTR	wastewater treatment	31306599	9303
+06153	PGME1	fab operations	31306505	9303
+06154	PGME2	fab operations	31306505	9303
+06155	PGME3	fab operations	31306505	9303
+06156	PGMEA1	fab operations	31306505	9303
+06157	PGMEA2	fab operations	31306505	9303
+06158	PGMEA3	fab operations	31306505	9303
+06159	PGMEA4	fab operations	31306505	9303
+06160	PGMEA5	fab operations	31306505	9303
+06161	IPA1	fab operations	31306500	9303
+06162	IPA2	fab operations	31306501	9303
+06163	IPA3	fab operations	31306501	9303
+06164	IPA4	fab operations	31306505	9303
+06165	IPA5	fab operations	31306500	9303
+06166	IPA6	fab operations	31306501	9303
+06167	HNO3	fab operations	31306530	9303
+06168	H2SO41	fab operations	31306530	9303
+06169	H2SO42	wastewater treatment	31306599	9303
+06170	H2SO43	fab operations	31306530	9303
+06171	THiO	fab operations	31306500	9303
+06172	TMB1	fab operations	31306505	9303
+06173	TMB2	fab operations	31306505	9303
+06174	TMB3	fab operations	31306505	9303
+06175	NH4OH1	fab operations	31306530	9303
+06176	Ovens (2)	curing ovens	NA	9303
+06211	Flexographic Printing Press Ink	Print Stations 1-9	40500301	9303
+06212	Printing Press Dryers	CI / Tunnel / Varn Dryers	10200603	9303
+06213	Diesel generators	Diesel fuel	20200102	9303
+06214	Boilers	Natural gas boilers	10200602	9303
+06215	Abatement systems	POU Abatement system	39000699	9303
+06363	Kilns	Natural Gas Fired Kilns	30500314	9303
+06364	Afterburners	Natural Gas Afterburners	30500314	9303
+06368	Bright Nickel AL6	Nickel electroplating	NA	9303
+06369	Bright Nickel ST13	Nickel electroplating	NA	9303
+06370	Black Nickel AL19	Nickel electroplating	NA	9303
+06371	Sulfamate Nickel AL5	Nickel electroplating	NA	9303
+06372	Sulfamate Nickel EN5	Nickel electroplating	NA	9303
+06373	Sulfamate Nickel ST11	Nickel electroplating	NA	9303
+06374	Woods Nickel EN21	Nickel electroplating	NA	9303
+06375	Silver Strike CN3	Silver cyanide electroplating	NA	9303
+06376	Copper CN2	Copper Cyanide electroplating	NA	9303
+06377	Zinc Rack ZN2	Zinc electroplating	NA	9303
+06378	Zinc Barrel ZN9	Zinc electroplating	NA	9303
+06379	Zinc Barrel ZN10	Zinc electroplating	NA	9303
+06389	Avery Generator	DSG Engine	20100102	9303
+06390	Welding	E70S	NA	9303
+06391	Welding	E308	NA	9303
+06392	Welding	E71T	NA	9303
+06393	Welding	E71T	NA	9303
+06420	ST-57 (Harrington Scrubber)	HCl Tanks	30101199	9303
+06421	Clean East	HF Tanks	30101211	9303
+06422	Clean West (Harrington Scrubber)	HF Tanks	30101211	9303
+06423	Quartz Diffusion (Tri-Mer Scrubber)	HF Tanks	30101211	9303
+06424	Quartz Diffusion (HEE-Duall Scrubber)	HF Tanks	30101211	9303
+06425	Ethylene Glycol	Tantalum Strip	2495000195	9303
+06426	Clean West (Harrington Scrubber)	Phosphoric Acid	31306501	9303
+06427	Clean East	Sulfuric Acid	31306501	9303
+06428	Clean East	Nitric Acid	31306501	9303
+06429	Clean West (Harrington Scrubber)	Nitric Acid	31306501	9303
+06430	Quartz Diffusion (Tri-Mer Scrubber)	Nitric Acid	31306501	9303
+06431	Quartz Diffusion (HEE-Duall Scrubber)	Nitric Acid	31306501	9303
+06432	TWAS	Aluminum Coating	30904001	9303
+06435	Generator 1	Back-up Utility Power	2270006005	9303
+06436	Generator 2	Back-up Utility Power	2270006005	9303
+06437	Generator 3	Back-up Utility Power	2270006005	9303
+06438	Generator R1	Back-up Utility Power	2270006005	9303
+06439	Generator S1	Back-up Utility Power	2270006005	9303
+06440	Geneator LS	Back-up Utility Power	2270006005	9303
+06441	BLR_ESP	Boiler controlled by ESP	10200903	9303
+06442	BLR_SCR	Boiler controlled by Scrubber	10200903	9303
+06443	KILN_DF	Kiln - Doug Fir	30700831	9303
+06444	KILN_HL	Kiln - Western Hemlock	30700831	9303
+06445	PRESS	Press	30701444	9303
+06446	RF12	Refiner	30701414	9303
+06447	FORMER	Former	30701486	9303
+06448	FDRYER	Fuel Dryer	30701427	9303
+06453	GDF	Gasoline Dispensing Facility	40600403	9303
+06458	Engine Generator #1	Electrical co-generation	20300702	9303
+06459	Engine Generator #2	Electrical co-generation	20300702	9303
+06460	Digester Boilers	Digester heating	10300701	9303
+06461	Unit Heaters	Space heaters	10500206	9303
+06462	Plant Boiler	Space heating	10300603	9303
+06463	Flares	digester gas destruction	50100789	9303
+06464	Entire plant	POTW	50100701	9303
+06465	Entire plant	POTW	50100701	9303
+06466	Entire plant	POTW	50100701	9303
+06467	B13 Generator	B13 Generator - Biodiesel (B2)	2-01-001-02	9303
+06468	B19 Generator	B19 Generator Biodiesel	2-01-001-02	9303
+06469	B28 Generator	B28 Generator Biodiesel (B2)	2-01-001-02	9303
+06470	B39-1 Generator	B39-1 Generator Biodiesel (B2)	2-01-001-02	9303
+06471	B39-2 Generator	B39-2 Generator Biodiesel (B2)	2-01-001-02	9303
+06472	B48 Generator	B48 Generator Biodiesel (B2)	2-01-001-02	9303
+06473	B50 Generator	B50 Generator - Biodiesel (B2)	2-01-001-02	9303
+06474	B55 Generator	B55 Generator Biodiesel (B2)	2-01-001-02	9303
+06475	B58 Generator	B58 Generator Biodiesel (B2)	2-01-001-02	9303
+06476	B22 Generator	B22 Emergency Generator 3000 kWh	2-01-007-02	9303
+06477	B22, B38 High Bay Heaters	B22 High Bay Heaters  Biodiesel (B2)	3-99-900-03	9303
+06478	Boiler 8A	Boiler 8A_Gas	1-02-006-02	9303
+06479	Boiler 9A	Boiler 9A_Gas	1-02-006-02	9303
+06480	MDI - VOC emissions	NA	3-99-999-94	9303
+06482	Phototooling	Film Developing	31303001	9303
+06483	IL DES	Cupric Chloride Etching	31303061	9303
+06484	Plating	Electroless Copper Deposition	31303001	9303
+06485	Plating	Electroplating	30901048	9303
+06486	OL SES	Alkaline Etching	31303062	9303
+06487	Soldermask	Solvent Cleaning	40200922	9303
+06488	Soldermask	McEtch Surface Prep	31303001	9303
+06489	OSP	Organic Surface Coating 	31303001	9303
+06490	Analytical Lab	Standard Preparation and Sample Analysis	31303001	9303
+06491	Natural Gas-fired water boilers and & hot oil heating units.	(2) 4.18 BTU/hr natural gas water boilers and & (2) hot oil heating units.	NA	9303
+06492	Drilling/Routing	Drilling/Routing	31303001	9303
+06493	Electroless Nickel Gold	Electroless Ni/Au	31303001	9303
+06494	Soldermask	Soldermask Coating	31303001	9303
+06495	Analytical Lab	Solderability	31303001	9303
+06496	Print/Board	Cleaning	40200922	9303
+06497	Inspection	Cleaning	40200922	9303
+06499	EU-Process	Semiconductor manufacturing process emission	NA	9303
+06500	EU-NG-1 Combustion	Emission from natural gas combustion.	NA	9303
+06501	EU-NG-2 Combustion	Emission from natural gas combustion.	NA	9303
+06502	EU-RICE-1	Emission from diesel combustion (emergency generators and fire pumps)	NA	9303
+06503	EU-RICE-2	Emission from diesel combustion (emergency generators and fire pumps)	NA	9303
+06505	Engine Generator #1 	Electrical generation	20300702	9303
+06506	Engine Generator #2 	Electrical generation	20300702	9303
+06507	Boilers 1,2&3	Space and process heating	10300701	9303
+06508	Boilers 4&5 (NG)	Space and process heating	10300603	9303
+06509	Boilers 4&5 (DG)	Space and process heating	10300701	9303
+06510	Tunnel heaters	Space heating	10500206	9303
+06511	Flares	Digester gas destruction	50100789	9303
+06512	Treatment Processes	POTW	50100701	9303
+06513	Treatment Processes	POTW	50100701	9303
+06514	Treatment Processes	POTW	50100701	9303
+06515	Treatment Processes	POTW	50100701	9303
+06516	Treatment Processes	POTW	50100701	9303
+06536	Printers (5)	Inks/Coatings	NA	9303
+06552	BO-1 to BO-4, CO	Natural Gas Combustion	10300603	9303
+06553	Boiler	Natural Gas Combustion	10300603	9303
+06554	BO-1	Bread and Bun Oven	30203201, 30203202	9303
+06555	BO-2	Roll Oven	30203202	9303
+06556	BO-3	Muffin Oven	30203202	9303
+06557	BO-4	Bread Oven	30203201, 30203202	9303
+06563	NG combustion	NA	NA	9303
+06564	WWTP	NA	NA	9303
+06566	Boilers (300 HP, 12.2 MM BTU/hr)	Natural Gas Boilers	10201401	9303
+06567	CVD process	NA	NA	9303
+06568	Plasma Etch	NA	NA	9303
+06569	Diffusion/Implant	NA	NA	9303
+06570	Diffusion/Implant	NA	NA	9303
+06571	Diffusion/Implant	NA	NA	9303
+06573	NAT GAS COMBUSTION	Boilers / Munters	10200602	9303
+06574	DIESEL COMBUSTION	Emergency Generators	20100102	9303
+06613	Boilers	Boilers	10200601	9303
+06614	Fermentation Tanks	Fermentation Tanks	30125010	9303
+06615	Equipment Leaks	Equipment Leaks	30280001	9303
+06616	Ethanol Storage Tanks (ES01 and ES02)	Ethanol Storage Tanks (ES01 and ES02)	40700809	9303
+06617	Ethanol Storage Tanks (ES03 and ES04)	Ethanol Storage Tanks (ES03 and ES04)	40700809	9303
+06618	Denaturant Storage Tank (DT01)	Denaturant Storage Tank (DT01)	40700809	9303
+06619	Denaturant Tank Filling	Denaturant Tank Filling	40880001	9303
+06620	E95 Loading - Trucks	E95 Loading - Trucks	40880001	9303
+06621	Wetcake Production/Storage	Wetcake Production/Storage	30125010	9303
+06622	R-07001	Pyrolysis Reactor Unit Process	30101818	9303
+06623	GN-01001	Feed Shredder	30106501	9303
+06624	EX-01001	Hot Melt Densifier	30101809	9303
+06625	TK-12001	Product Storage Tank	30106502	9303
+06626	ECD-19101	Environmental Control Device	30190013	9303
+06628	Welding  Mild Steel MIG	Welding ER 70S	GMAW	9303
+06636	FLR1	Flare	50300601	9303
+06637	ENG1	LFG Engines	50100421	9303
+06638	LF Fug	Landfill Fugitives	50100402	9303
+06639	Tippers	Waste Tippers	20200102	9303
+06640	Welding	Chassis Welding	30905254	9303
+06642	Welding  Mild Steel	Welding L-61 (EM 12K)	SAW	9303
+06643	Welding  Stainless	Welding ER 316L / 2209	SAW	9303
+06644	Welding  Mild Steel	Welding ER 70S-6	GMAW	9303
+06645	Welding  Stainless	Welding ER 316L / 2209	GMAW	9303
+06646	Welding  Mild Steel	Welding ER 70S-6	GTAW	9303
+06647	Welding  Stainless	Welding ER 316 / 2209	GTAW	9303
+06652	Boiler Natural Gas	Boiler Natural Gas	3069, 3053	9303
+06653	Gelcoat Application	Dura Colored Gelcoats	30800718	9303
+06655	EU-1 BH1	Melt Shop	3-04-003-04	9303
+06656	EU-1 BH1A	Melt Shop	3-04-003-04	9303
+06657	EU-1 BH2	Melt Shop	3-04-003-04	9303
+06658	EU-3	Roof Monitor & Other Openings	3-04-003-04	9303
+06659	EU-5	Slag Handling	NA	9303
+06660	EU-10	Billet Cutting	3-04-003-60	9303
+06661	EU-6&7	Reheat furnace	NA	9303
+06662	EU-6	Rolling Mill	3-04-003-14	9303
+06663	EU-7	Rod & Bar Mill	3-04-003-14	9303
+06664	Other Natural Gas Use	Other Natural Gas Use	NA	9303
+06665	WWEVAP	Wastewater Evaporation	30201960	9303
+06666	Penta 	Pentachlorophenol Treated Wood 	30700541	9303
+06667	CuNap	CuNap Treated Wood	30700542	9303
+06668	Boilers	Natural Gas Boilers	10200603	9303
+06669	kilns	Log drying	NA	9303
+06683	Dry Kilns	Dry Kiln - Doug Fir	30799998	9303
+06684	BLR1	Natural Gas Fired Boiler	10200602	9303
+06685	GDF	Gasoline Dispensing Facility	40600403	9303
+06690	Boiler	biomass boiler generates steam for vats	10200910	9303
+06691	Auxiliary Burner	Supplemental heat to boiler	--	9303
+06692	Vats	Condition log blocks	30700731	9303
+06694	Emergency Generator	electric power generation for emergency use	4911	9303
+06695	Dehydration Unit - Wood dried	dry wood for compost production	2875	9303
+06696	Dehydration Unit - Wood combusted	combustion	NA	9303
+06697	Stanfield	Solar Saturn T1602	2-02-002-01	9303
+06698	GC-200-B 	Nat.Gas Compressor Fuel	20200253	9303

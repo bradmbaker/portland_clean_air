@@ -1,0 +1,107 @@
+OBJID,Source_Number,Source_Name,Site_Address,City,Operating_Status,Assigned_Inspector,Contact_Name,Phone_Number,SIC_Codes,NAICS_Codes,Permit_Number,Last_Inspection,Last_Inspector,Permit_Type
+1,03-0001,"American Metal Specialties, Inc. ",5226 SE INTERNATIONAL WAY,"MILWAUKIE, OR 97222-4604",Active,Tina Leppaluoto,Chris Hayter,(503) 352-1861,3479,325510,03-0001-BS-01,3/5/2015,Tina Leppaluoto,BS
+2,03-0002,"Oldcastle Precast, Inc. Utility Vault Company, Inc.",28499 SW Boberg Rd,"WILSONVILLE, OR 97070-0323",Active,Daniel Murphy,Tyler Stein,503-682-2844,3271,327331,03-0002-09-01,,,G
+3,03-0003,"S.R. Smith, LLC ",1017 SW BERG PKWY,"CANBY, OR 97013",Active,David Kauth,Don Jeskey,(503) 266-0217,3089,326199,03-0003-TV-01,8/4/2015,David Kauth,TV
+4,03-0004,"Fred Meyer, Inc. Clackamas Bakery",16253 SE 122ND AVE,"CLACKAMAS, OR 97015-9136",Active,Gregg Dahmen,Tim Markworth,503-557-2506,"2051, 2095","311812, 311920",03-0004-ST-01,,,ST
+5,03-0007,"Glacier Northwest, Inc. Clackamas Readymix",11340 SE JENNIFER ST,"CLACKAMAS, OR 97015",Active,Daniel Murphy,Mike Fields,503-650-2837,3273,327320,03-0007-09-01,,,G
+6,03-0009,"Atlas Industrial Coating, Inc. A.I.C. Inc.",17555 SW 63RD AVE,"LAKE OSWEGO, OR 97035-5209",Active,Tina Leppaluoto,Cody McDonnell,(503) 635-3609,7690,811310,03-0009-SI-01,2/12/2015,Tina Leppaluoto,SI
+7,03-0010,Clackamas County Water Environment Services Kellogg Creek,11525 SE MCLOUGHLIN BLVD,"MILWAUKIE, OR 97222",Active,Louis Bivins,Doug Rumpel,(503) 794-8050,"4952, 4961","221320, 221330",03-0010-SI-01,,,SI
+8,03-0011,Clackamas County Tri-City Service District,15941 AGNES AVE,"OREGON CITY, OR 97045-1003",Active,Louis Bivins,Michael Trent,503-557-2804,4952,221320,03-0011-SI-01,,,SI
+9,03-0013,"Hardchrome, Inc. ",1152 NW COMMERCE CT,"Estacada, OR 97023",Active,Tina Leppaluoto,Roger Evans,(503) 630-4333,3471,332813,"03-0013-01-01, 03-0013-26-01",3/19/2015,Tina Leppaluoto,G
+10,03-0016,"Wolf Steel Foundry, Inc. ",6160 S WHISKEY HILL RD,"HUBBARD, OR 97032-9408",Active,Louis Bivins,Neil McNew,503-651-3400,3325,331513,03-0016-SI-01,3/26/2015,Louis Bivins,SI
+11,03-0017,"Shaw's Fiberglass and Plastics, Inc. ",19402 SE FOSTER ROAD,"DAMASCUS, OR 97089",Active,David Kauth,Christopher Shaw,(503) 658-7429,3089,326199,03-0017-TV-01,8/27/2015,David Kauth,TV
+12,03-0020,"PCC Structurals, Inc. Deer Creek Campus",13350 SE JOHNSON RD,"MILWAUKIE, OR 97222-1289",Active,Gregory Grunow,Sherry Uchytil,(503) 777-7683,"3297, 3324, 3269","327120, 331512",03-0020-ST-01,4/2/2015,Gregory Grunow,ST
+13,03-0023,Bowers Forest Products Corporation ,17770 S SCHMIDT RD,"BEAVER CREEK, OR 97004",Active,Daniel Defehr,Justin McGeehee,971 263 4316,2421,321113,03-0023-10-01,,,G
+14,03-0027,Technical Finishes & Coatings Inc. ,9120 SE 64TH AVE,"PORTLAND, OR 97206-9506",Active,Tina Leppaluoto,Martha Johnson,(503) 7710969,3471,332813,03-0027-26-01,6/26/2015,Tina Leppaluoto,G
+15,03-0030,"Dravon Medical, Inc. ",11465 SE HWY 212,"CLACKAMAS, OR 97015",Active,Gregg Dahmen,Richard Parker,503-656-6600,3841,339112,03-0030-SI-01,9/24/2014,Johnny Baumgartner,SI
+16,03-0034,"Glacier Northwest, Inc Estacada Readymix",29400 SE RIVER MILL ROAD,"ESTACADA, OR 97023",Active,Daniel Defehr,Mike Fields,503-650-2837,3273,327320,03-0034-09-01,,,G
+17,03-0035,"Excel Finishing, Inc. ",1765 RED SOILS COURT,"OREGON CITY, OR 97045",Active,Gregg Dahmen,Joe Robinson,(503) 655-1880,3479,332812,03-0035-SI-01,5/22/2015,Louis Bivins,SI
+18,03-0037,J and D Fertilizer Ltd. ,9205 S KRAXBERGER RD,"CANBY, OR 97013-9317",Active,Gregg Dahmen,Shane Stutzman,(503) 266-4610,2873,325311,03-0037-SI-01,9/24/2014,Johnny Baumgartner,SI
+19,03-0040,North Clackamas County Water Commission Sunrise Water Auth.Filt.P,14275 S. CLACKAMAS RIVER DRIVE,"OREGON CITY, OR 97045",Active,Louis Bivins,Dave Davis,503-723-3505,4911,"221112, 221310",03-0040-18-01,,,G
+20,03-0041,"McClure Industries, Inc. ",9051 SE 55TH AVE,"PORTLAND, OR 97206-0605",Active,Louis Bivins,Richard Michael,(503) 777-2821,3089,325211,03-0041-SI-01,4/10/2015,Louis Bivins,SI
+21,03-0043,Sunrise Water Facility Mather Road site,10560 SE Mather Rd,"Clackamas, OR 97015-8243",Active,Louis Bivins,Tim Jannsen,(503) 761-0220,4911,221112,03-0043-18-01,,,G
+22,03-0045,"Thermo Fluids, Inc. Clackamas Site",12533 SE CARPENTER DR,"CLACKAMAS, OR 97015-8988",Active,Tina Leppaluoto,Johnny Smith,503-788-4616,"2992, 5093","324191, 423930",03-0045-ST-02,,,ST
+23,03-0048,Kaiser Permanente Kaiser Sunnyside Med.Ctr.,10180 SE SUNNYSIDE RD,"CLACKAMAS, OR 97015",Active,Louis Bivins,Jim DeLong,(503) 571-4944,"4911, 8062","221112, 622110",03-0048-18-01,,,G
+24,03-0050,Xerox Corporation ,27063 SW Canyon Creek Rd,"WILSONVILLE, OR 97070-9246",Active,Louis Bivins,Ashley Threlfall,(503) 685-2123,"4911, 3861, 2893","221112, 333315, 325910","03-0050-18-01, 03-0050-30-01",,,G
+25,03-0051,Kaiser Permanente Sunnyside Medical Center,10180 SE SUNNYSIDE RD,"CLACKAMAS, OR 97015-8970",Active,Daniel Murphy,Jim DeLong,(503) 571-4944,4961,221330,03-0051-BS-01,,,BS
+26,03-0052,"Pesznecker Brothers, Inc. ",15500 SE 102ND AVE,"CLACKAMAS, OR 97015-9151",Active,Gregg Dahmen,Tim McPhee,503-522-0146,3499,332999,03-0052-25-01,6/20/2014,Johnny Baumgartner,G
+27,03-0053,Automotive Innovation Inc MAACO Collision Repair,15679 SE 135th Ave,"Clackamas, OR 97015",Active,Daniel Murphy,William Prentice,503-656-2320,7532,811121,03-0053-27-01,,,G
+28,03-0054,"Leader Technologies, Inc. LeadTek",27555 SW BOONES FERRY RD,"WILSONVILLE, OR 97071",Active,Tina Leppaluoto,Mehdi Shafiee,503.682.4410,3471,332813,03-0054-26-01,,,G
+29,03-0057,"AGC Heat Transfer, Inc. Western Factory",9109 SE 64TH AVE,"PORTLAND, OR 97206-9505",Active,Gregg Dahmen,George Tholl,(503) 774-7342,3499,332999,03-0057-25-01,,,G
+30,03-0060,"Oregon Pacific Metal Fabrication, LLC ",14351 S UNION HALL RD,"MULINO, OR 97042-9619",Active,Gregg Dahmen,William Comm,(503) 632-5253,3441,332312,03-0060-29-01,6/24/2015,Johnny Baumgartner,G
+31,03-0061,"Sunstone Circuits, LLC Sunstone Circuits, LLC",13626 S FREEMAN RD,"MULINO, OR 97042",Active,Tina Leppaluoto,Edward Graham,503-759-2182,3672,334412,03-0061-26-01,,,G
+32,03-0062,Champion Collision Inc. ,16639 CHAMPION WAY,"SANDY, OR 97055-7270",Active,Daniel Murphy,John Kallen,503.668.1026,7532,811121,03-0062-27-01,,,G
+33,03-0064,"Wishart Welding & General Fabrication, Inc. ",12670 SE CAPPS RD,"CLACKAMAS, OR 97015",Active,Gregg Dahmen,Tom Wishart,(503) 655-4478,3441,236210,03-0064-29-01,6/24/2015,Johnny Baumgartner,G
+34,03-0065,"Conveyco Mfg, Co. ",15151 SE INDUSTRIAL WAY,"CLACKAMAS, OR 97015-9372",Active,Gregg Dahmen,Jim Warman,(971) 204-4262,3462,339999,03-0065-25-01,,,G
+35,03-0066,"Wright Manufacturing, LLC ",7474 SE JOHNSON CREEK BLVD,"PORTLAND, OR 97206-9328",Active,Gregg Dahmen,Brian Cayson,503-774-9689,3429,332510,03-0066-29-01,,,G
+36,03-0069,"J. V. Northwest, Inc. JVNW, Inc.",390 S REDWOOD ST,"CANBY, OR 97013-2459",Active,Gregg Dahmen,Micah Westlund,(503) 263-2858  x 106,3499,332999,03-0069-25-01,,,G
+37,03-0070,"G.T.E. Metal Fabricators, Inc. ",24530 S. CASS ROAD,"CANBY, OR 97013-9112",Active,Gregg Dahmen,Sid Gunter,(503) 266-6433,3441,238120,03-0070-25-01,,,G
+38,03-0072,"Dan Enterprises, Inc. MCI Welding",15942 S. PARK PLACE CT,"OREGON CITY, OR 97045-1146",Active,Gregg Dahmen,Merle Webster,(503) 656-6724,3499,336214,03-0072-29-01,,,G
+39,03-0073,"Quality Tank & Construction Co., Inc. ",16911 SE 362ND DR,"SANDY, OR 97055-9295",Active,Gregg Dahmen,Dennis Gilroy,(503) 668-5583,3443,332313,03-0073-25-01,,,G
+40,03-0077,"Austen's Body Shop, Inc. ",801 NE 4TH AVE,"CANBY, OR 97013-2308",Active,Daniel Murphy,Eric Pottratz,503.266.2354,7532,811121,03-0077-27-01,,,G
+41,03-0080,Swan Cleaners and Tailors ,19121 BEAVERCREEK RD,"OREGON CITY, OR 97045-9539",Active,Tina Leppaluoto,Jae Do Park,(503) 650-4844,7216,812310,03-0080-06-01,,,G
+42,03-0081,Columbia Body Manufacturing ,10037 SE MATHER,"CLACKAMAS, OR 97015",Active,Daniel Murphy,Brian Newcomer,503.656.3775,7532,811121,03-0081-27-01,,,G
+43,03-0082,Oregon Trail School District Sandy High School,37400 BELL ST,"SANDY, OR 97055",Active,Louis Bivins,Jim Seipel,503-758-2012,"4911, 8211","221112, 611110",03-0082-18-01,,,G
+44,03-0083,Ulven Forging Inc. Skookum,6160 S WHISKEY HILL RD,"HUBBARD, OR 97032-9408",Active,Gregg Dahmen,Mike Kyle,503-651-2101,3462,333923,03-0083-29-01,3/26/2015,Louis Bivins,G
+45,03-0085,Canby Cleaners LLC ,329 SE 1ST AVE,"CANBY, OR 97013-3805",Active,Tina Leppaluoto,Bridgett Herman,503-266-9414,7216,812320,03-0085-06-01,,,G
+46,03-0087,Clackamas County Service District No 1 ,13425 SE JOHNSON RD,"MILWAUKIE, OR 97222-1237",Active,Daniel Murphy,Dewayne Kliewer,(503) 742-4572,4911,221112,03-0087-18-01,9/14/2015,Daniel Murphy,G
+47,03-0088,Wilbur Ellis Company ,12530 SE JENNIFER ST,"CLACKAMAS, OR 97015-9011",Active,Daniel Murphy,Craig Inman,(503) 655-0092,2048,311119,03-0088-14-01,11/10/2015,Daniel Murphy,G
+48,03-0089,Steel Tech Enterprises Inc. ,1420 S TOWNSHIP RD,"CANBY, OR 97013-7758",Active,Gregg Dahmen,Jerry Cooksey,503-592-9600,3499,332999,03-0089-29-01,,,G
+49,03-0091,"US Crane & Hoist, Inc. ",29375 SW KINSMAN RD,"WILSONVILLE, OR 97070-8701",Active,Gregg Dahmen,Tony Darcy,503-682-5881,3531,238990,03-0091-29-01,,,G
+50,03-0092,Clackamas River Water ,9100 SE MANGAN DR,"CLACKAMAS, OR 97015",Active,Daniel Defehr,Adam Bjornstedt,503-722-9220,4911,,03-0092-18-01,,,G
+51,03-0093,Dave's Killer Bread ,5209 SE INTERNATIONAL WAY,"MILWAUKIE, OR 97222-4603",Active,Louis Bivins,Rob Clamp,503-329-8028,2051,311812,03-0093-SI-01,8/12/2015,Louis Bivins,SI
+52,03-0098,"PECO, Inc, PECO Inc,, an Astronics Company",11241 SE HWY 212,"CLACKAMAS, OR 97015",Active,Tina Leppaluoto,Keith Dahlheimer,(503) 233-6401,"3089, 3363, 3471","332813, 331523, 326199",03-0098-SI-01,8/14/2015,Tina Leppaluoto,SI
+53,03-0099,Portland General Electric Company Carver Readiness Center,16782 SE 130TH AVE,"CLACKAMAS, OR 97015",Active,Gregg Dahmen,Elysia Treanor,(503) 464-8528,4911,221112,03-0099-SI-01,4/22/2015,Johnny Baumgartner,SI
+54,03-0100,"CarMax Auto Superstores West Coast, Inc. CarMax 7285",13750 SE JOHNSON RD,"MILWAUKIE, OR 97222-1240",Active,Daniel Murphy,Johanna Griscik,804-747-0422 ext 6115,7532,811121,"03-0100-22-01, 03-0100-27-01",,,G
+55,03-0110,Vigor Works LLC dba Oregon Iron Works,9700 SE LAWNFIELD RD,"CLACKAMAS, OR 97015-7636",Active,Gregg Dahmen,Nathan Shepherd,503-653-6300 x1278,3441,332312,03-0110-25-01,,,G
+56,03-1778,Estacada Lumber Company RSG Forest Products,760 NW HWY 224,"ESTACADA, OR 97023",Temporarily Closed,Daniel Murphy,Sam Sanders,360-673-2825,2421,321113,03-1778-10-01,,,G
+57,03-1791,"Sanders Wood Products, Inc. RSG Forest Products, Inc.",28890 HWY 213,"LIBERAL, OR 97038",Active,Tina Leppaluoto,Justin Pounds,(971) 544-2139,2421,321113,03-1791-ST-01,6/24/2014,Tina Leppaluoto,ST
+58,Mar-24,Lake-Shore Concrete Co. ,100 SW FOOTHILLS RD,"LAKE OSWEGO, OR 97034",Active,Daniel Murphy,Mike Haftorson,503-636-4513,3273,327320,03-1924-09-01,,,G
+59,Mar-34,"Estacada Rock Products, Inc. River Mill Road site",29400 RIVER MILL RD,"ESTACADA, OR 97023",Active,Daniel Murphy,Dave Coffin,503/630-4223,"1442, 3273","212321, 327320",03-1934-08-01,,,G
+60,Mar-32,Canby Sand & Gravel Co. ,24420 S HWY 99E,"CANBY, OR 97013",Active,Daniel Murphy,Duane Johnson,503-266-5522,1442,212321,03-2032-08-01,,,G
+61,Mar-45,West Linn Paper Company ,4800 MILL ST,"WEST LINN, OR 97068-3357",Active,George Davis,Penny Machinski,(503) 557-6687,2621,322121,03-2145-TV-01,6/22/2016,George Davis,TV
+62,Mar-75,J & A Fuel LLC Wilsonville Concrete Products,30625 SW Industrial Way,"WILSONVILLE, OR 97070",Active,Daniel Defehr,George Adams,(503) 682-2525,"3273, 5541","327320, 447190","03-2475-09-01, 03-2475-22-01",,,G
+63,Mar-05,"Orchid Orthopedic Solutions Oregon, Inc ",13963 S FIR ST,"OREGON CITY, OR 97045-8299",Active,David Kauth,Kira Spane,503-722-3777,3369,331528,03-2505-SI-01,,,SI
+64,Mar-33,Interfor US Inc. Interfor US Inc - Molalla Division,15555 HWY 211 S,"MOLALLA, OR 97038",Active,David Kauth,Jerry Holmes,(503) 829-9131,"2421, 4961","221330, 321113, 321918",03-2533-TV-01,9/25/2014,David Kauth,TV
+65,Mar-68,Providence Willamette Falls Medical Center ,1500 DIVISION ST,"OREGON CITY, OR 97045",Active,Daniel Defehr,Brett Hill,(503) 545-0264,4961,221330,03-2568-11-01,,,G
+66,Mar-70,"Glacier Northwest, Inc. Sandy Plant",20200 SE FIRWOOD RD,"SANDY, OR 97055",Active,Daniel Defehr,Mike Fields,503-650-2837,3273,327320,03-2570-09-01,,,G
+67,Mar-24,Oregon Cutting Systems Blount International Inc.,4909 SE INTERNATIONAL WAY,"MILWAUKIE, OR 97222-0080",Active,Tina Leppaluoto,Jason Smith,(503) 653-4228,"3471, 3425, 3325","332813, 332213, 331513",03-2624-SI-01,5/12/2016,Gregory Grunow,SI
+68,Mar-31,Eagle Foundry Co. ,23123 SE EAGLE CREEK RD,"EAGLE CREEK, OR 97022",Active,David Kauth,Jack Scott,503-637-3048,"3321, 3325","331511, 331513",03-2631-ST-01,,,ST
+69,Mar-34,"Johnson Controls Battery Group, Inc. ",800 NW 3RD AVE,"CANBY, OR 97013",Active,Louis Bivins,Brian P. Krytenberg,(503) 266-2051 x6640,3691,335911,03-2634-ST-01,3/11/2015,Louis Bivins,ST
+70,Mar-57,"WCP, Inc ",31200 SW Industrial Way,"WILSONVILLE, OR 97070",Active,Daniel Defehr,George Adams,(503) 682-2525,1442,212321,03-2657-08-01,3/28/2016,Unknown,G
+71,Mar-61,"Willamette Egg Farms, LLC ",29300 S MOLALLA AVE,"MOLALLA, OR 97038",Active,Daniel Defehr,Terry Arndt,(503) 829-6881,2048,"311119, 311611",03-2661-14-01,,,G
+72,Mar-68,"Eagle Creek Gravel, Inc. ",25375 SE TALON RD,"EAGLE CREEK, OR 97022",Active,Daniel Murphy,Sharron James,(503) 200-4620,1442,212321,03-2668-08-01,,,G
+73,Mar-74,"PCC Structurals, Inc. ",13340 SE 84TH,"CLACKAMAS, OR 97015",Active,Gregory Grunow,Sherry Uchytil,(503) 777-7683,"3324, 3369","331512, 331529",03-2674-ST-01,,,ST
+74,Mar-19,"Georgia Pacific Gypsum, LLC Georgia Pacific Gypsum Firedoor",505 NE 3RD ST,"CANBY, OR 97013",Active,Gregg Dahmen,Craig Haworth,503-266-1933 x 13,3275,327420,03-2719-SI-01,,,SI
+75,Mar-24,"Carson Oil Co., Inc. ",9911 SE ELON ST,"CLACKAMAS, OR 97015",Active,Daniel Murphy,Marti Sharp,503-471-4305,"5171, 5541","424710, 447190","03-2724-17-02, 03-2724-22-01",,,G
+76,Mar-29,Northwest Pipeline LLC Oregon City Compressor Station,15124 S SPRINGWATER RD,"OREGON CITY, OR 97045",Active,Patricia Jacobs,Caleb Vickery,(801) 584-6933,4922,486210,03-2729-TV-01,8/14/2014,Patricia Jacobs,TV
+77,Mar-38,"Consolidated Metco, Inc ",10448 HWY 212,"CLACKAMAS, OR 97015",Active,David Kauth,Ernie Nimister,360-828-2636,3363,331521,03-2738-SI-01,2/2/2016,David Kauth,SI
+78,Mar-54,"Safeway, Inc. ",9450 SE MANGAN DR,"CLACKAMAS, OR 97015-9576",Active,Gregg Dahmen,Jeff Wingert,(503) 557-4118,2051,311812,03-2754-ST-01,3/13/2015,Louis Bivins,ST
+79,Mar-63,"Stutzman Environmental Products, Inc. ",410 INDUSTRIAL,"MOLALLA, OR 97038",Active,Gregg Dahmen,Shane Stutzman,503.680.7531,2679,"322211, 322222, 322231, 322299",03-2763-SI-01,8/14/2012,Daniel Murphy,SI
+80,Mar-73,"Molalla Redi-Mix & Rock Products, Inc. ",32900 MOLALLA FOREST,"MOLALLA, OR 97038",Active,Daniel Defehr,Mitch Jorgensen,503-829-5555x15,3273,327320,03-2773-09-01,,,G
+81,Mar-77,"Miles Fiberglass & Plastics, Inc. ",1516 MAIN ST,"OREGON CITY, OR 97045-1063",Active,David Kauth,Lori Olund,(503) 775-7755,3089,325991,03-2777-TV-01,6/1/2015,David Kauth,TV
+82,Mar-78,"Miles Fiberglass & Plastics, Inc. Miles Fiberglass & Composites",8855 SE OTTY RD,"Happy Valley, OR 97086",Active,David Kauth,Lori Olund,(503) 775-7755,3089,325991,03-2778-TV-01,6/1/2015,David Kauth,TV
+83,Mar-07,NW Natural Molalla Gate Station,10405 SOUTH BARNARDS ROAD,"MOLALLA, OR 97038",Active,Louis Bivins,Mike Hayward,(503) 226-4211x 4327,4923,486210,03-9507-SI-01,,,SI
+84,Mar-08,"Privates with Dignity, Inc. Clackamas Facility",15484 SE 94TH AVE,"CLACKAMAS, OR 97015",Active,Daniel Murphy,Mary Powell,(503) 503-772-4521,7261,812220,03-9508-12-01,,,G
+85,Mar-09,"Bob's Red Mill Natural Foods, Inc. ",13521 SE PHEASANT CT,"PORTLAND, OR 97222-1248",Active,Daniel Murphy,Brian Miller,(503) 654-3215,2041,311211,03-9509-14-01,12/4/2014,Daniel Murphy,G
+86,Mar-11,"Universal Recycling Technologies, LLC ",10151 SE JENNIFER ST,"CLACKAMAS, OR 97015-9509",Active,Tina Leppaluoto,Gary Thompson,(503) 722-2236 x404,5093,423930,03-9511-SI-01,,,SI
+87,Mar-13,"Ernie Graham Oil, Inc. ",601 SW 1ST AVE,"CANBY, OR 97013-3821",Active,Daniel Murphy,Brian Olson,503-266-3321,5171,424710,03-9513-17-01,,,G
+88,Mar-14,Hobart Oil Company LLC Dixon Ave,112 DIXON AVE,"MOLALLA, OR 97038",Active,Daniel Murphy,Lloyd Hobart,503-829-2122,"5171, 5541","424710, 447190","03-9514-17-01, 03-9514-22-01",,,G
+89,Mar-17,"AB Mauri Food, Inc. AB Mauri Fleischmann's",26994 SE 95TH AVENUE,"WILSONVILLE, OR 97070",Active,Gregg Dahmen,Kyle Christensen,503-570-7501,2099,311999,03-9517-SI-01,8/27/2015,Gregg Dahmen,SI
+90,Mar-22,Valet Cleaners ,15020 SE MCLOUGHLIN BLVD,"MILWAUKIE, OR 97267-2825",Active,Tina Leppaluoto,Sang Lee,(503) 659-3218,7216,812320,03-9522-06-01,,,G
+91,Mar-25,Mt. Hood Cleaners ,38862 PROCTOR BLVD,"SANDY, OR 97055",Active,Tina Leppaluoto,Debbi Schneider,503-793-3011,7216,812320,03-9525-06-01,12/10/2015,Tina Leppaluoto,G
+92,Mar-30,Diana's Cleaner ,16066 BOONES FERRY RD,"LAKE OSWEGO (OSWEGO), OR 97035-4356",Active,Tina Leppaluoto,Jin Yun,503-697-9416,7216,812320,03-9530-06-01,,,G
+93,Mar-31,Cash's Drapery Inc. ,2366 SE OCHOCO ST,"MILWAUKIE, OR 97222-7320",Active,Tina Leppaluoto,Mike Cach,503-654-3939,7216,812320,03-9531-06-01,,,G
+94,Mar-32,Abe's Royal Cleaners ,1839 MOLALLA AVE STE D,"OREGON CITY, OR 97045-4071",Active,Tina Leppaluoto,Peter Malashenok,503-657-3711,7216,812320,03-9532-06-01,,,G
+95,Mar-33,Canby Station Cleaners Canby Station Cleaners,106 N IVY ST,"CANBY, OR 97206",Active,Tina Leppaluoto,Mal Yi,503-266-2774,7216,812320,03-9533-06-01,,,G
+96,Mar-64,Bright Cleaners ,480 PORTLAND AVE STE A,"GLADSTONE, OR 97027-2465",Active,Tina Leppaluoto,Zlatko Bozic,503-723-4361,7216,"333312, 812320",03-9664-06-01,11/5/2015,Tina Leppaluoto,G
+97,Mar-68,Promise Cleaners ,12300 SE SUNNYSIDE RD,"CLACKAMAS, OR 97015-9320",Active,Tina Leppaluoto,Kenneth Ohta,503-698-6047,7216,812320,03-9668-06-01,,,G
+98,Mar-69,Tomorrow Cleaners ,14626 SE MCLOUGHLIN BLVD,"MILWAUKIE , OR 97267-1415",Active,Tina Leppaluoto,Bo S. Kim,503-654-2927,7216,812320,03-9669-06-01,,,G
+99,Mar-70,Chris & Jessie's Cleaners ,417 1ST ST,"LAKE OSWEGO (OSWEGO), OR 97034-3271",Active,Tina Leppaluoto,Jin Ku Kim,503-697-4879,7216,812320,03-9670-06-01,,,G
+100,Mar-73,"Carousel Laundry and Cleaners, Inc. ",927 MOLALLA AVE,"OREGON CITY, OR 97045",Active,Tina Leppaluoto,Gail Kearns,503-656-9704,7216,812320,03-9673-06-01,,,G
+101,Mar-75,"Champion Enterprises, LLC Style Cleaners",29911 SW BOONES FERRY RD,"WILSONVILLE, OR 97070-8239",Active,Tina Leppaluoto,Ramiro Diaz,(503) 682-1365,7216,812320,03-9675-06-01,,,G
+102,Mar-77,Clackamas Community College ,19600 MOLALLA AVE,"OREGON CITY, OR 97045-8980",Active,Daniel Murphy,Bob Cochran,503-594-6790,4961,221330,03-9677-BS-01,,,BS
+103,Mar-81,Harmony Cleaners ,6335 SE HARMONY RD,"MILWAUKIE, OR 97222-2239",Active,Tina Leppaluoto,Anh Nguyen,503-659-6012,7216,812320,03-9681-R2-02,,,G
+104,Mar-82,Thomas Joseph Inc. dba Thomas Joseph Personalized Dry Cleaning,16060 SE 82ND DR,"CLACKAMAS, OR 97015-9567",Active,Tina Leppaluoto,Thomas Joseph,503-655-5334,7216,812320,03-9682-R2-02,,,G
+105,Mar-87,Oak Lodge Sanitary District ,13750 SE RENTON AVE,"MILWAUKIE, OR 97222-8098",Active,Louis Bivins,Rich Ludlow,(503) 653-1653 xt124,4911,,03-9687-18-01,4/3/2015,Louis Bivins,G
+106,34-0002,Legacy Meridian Park Hospital ,19300 SW 65TH AVE,"TUALATIN, OR 97062-7706",Active,Daniel Defehr,Bob Ingber,(503) 692-2196,4961,"221330, 622110",34-0002-11-01,,,G

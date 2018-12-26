@@ -1,0 +1,24 @@
+The number of columns of data in a file can vary from line to line and each line would be linked to a corresponding line in another file through a shared ID. This set up closely matches a database with primary and foreign keys except that not all tables have primary keys as we don't expect to be rewriting this data. So, in effect, each file is a separate database table. Data from only two sheets were extracted; '2. Emission Units & Activities' and '3. Material Balance.'
+
+Headers for tab separated cols
+2016_co_details.txt
+company source number, Hash with key|values "addr"=>[file_name, company_name, st address, city address, zip], "emi" => [true/false data present in sheet 2. Emission Units, CAS formula if any], "mat" => (same as emi but for sheet 3. Material balance)
+
+2016_[emi | mat]_agg.txt
+the columns present depend on the particular sheet that the company submitted (this is variable and headers are found in corresponding entry in 2016_units.txt using the units_ID)
+row_ID, 1st aggregate data column, 2nd aggregate data column, ..., units_ID
+
+2016_[emi | mat]_desc.txt
+the columns present depend on the particular sheet that the company submitted (this is variable and headers are found in corresponding entry in 2016_units.txt using the units_ID)
+row_ID, 1st descriptor column, 2nd descriptor column, ..., units_ID
+
+2016_[emi | mat]_chem.txt
+The columns in this file include all columns associated with a particular chemical (either associated with a CAS number or occaisionally, no CAS number was provided but a grouping description was used). In most instances, there are three columns for a particular entry (line) and others there is just one (% weight). So, there is no link (foreign key) to the 2016_units.txt. The first column is row_ID and the second column is the Excel column header (eg 'A').
+
+2016_row_lookup.txt
+row_ID, row number on sheet, sheet_key ("emi | mat"), company source number, file name
+
+2016_units.txt
+This file holds column headers for the columns associated with both sheets
+units_ID, [all column headers up to but not including CAS columns held in an array], number for last descriptor column
+For example a 3 present in this last column would indicate that for this sheet columns 1 - 3 are descriptors [data found in 2016_[emi | mat]_desc.txt] and remaining columns are headers for aggregate data [data found in 2016_[emi | mat]_agg.txt]. The same outcome can be obtained by looking at the number of columns in a row of 2016_[emi | mat]_desc.txt and knowing that the first columns in the corresponding units row in 2016_units.txt would apply, while the remaining columns would apply to the corresponding 2016_[emi | mat]_agg.txt.
