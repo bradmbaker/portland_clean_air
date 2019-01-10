@@ -1,22 +1,23 @@
 "company_name","address","key","in_deq","in_storage"
 "Precision Equipment, Inc. ","8440 N KERBY AVE, PORTLAND, OR 97217","26-0051",1,1
-"Donaldson & Landry Machine Shop ","8916 NE VANCOUVER WAY, PORTLAND, OR 97211","26-9841",1,NA
+"Donaldson & Landry Machine Shop ","8916 NE VANCOUVER WAY, PORTLAND, OR 97211","26-9841",1,1
+"West Coast Wire Rope & Rigging, Inc. ","2900 NW 29TH AVE, PORTLAND, OR 97210","26-0067",1,1
 "K F Jacobsen & Co., Inc. ","1208 N RIVER ST, PORTLAND, OR 97227","26-1764",1,1
 "Porter W. Yett Company ","5949 NE CULLY BLVD, PORTLAND, OR 97218","26-1767",1,NA
-"Lakeside Industries Front Avenue Fac.","4850 NW FRONT AVE, PORTLAND, OR 97240","26-3242",1,NA
+"Lakeside Industries Front Avenue Fac.","4850 NW FRONT AVE, PORTLAND, OR 97240","26-3242",1,1
 "Lakeside Industries, Inc. 100th Ave-Foster  Road Asphalt Plant","6637 SE 100TH AVE, PORTLAND, OR 97266","26-3305",1,NA
-"Environmentally Conscious Recycling, Inc ","12409 NE SAN RAFAEL ST, PORTLAND, OR 97230","26-0086",1,NA
-"Lakeside Industries Front Avenue","4850 NW FRONT AVE, PORTLAND, OR 97240","26-0109",1,NA
+"Environmentally Conscious Recycling, Inc ","12409 NE SAN RAFAEL ST, PORTLAND, OR 97230","26-0086",1,1
+"Lakeside Industries Front Avenue","4850 NW FRONT AVE, PORTLAND, OR 97240","26-0109",1,1
 "Porter W. Yett Company ","5949 NE CULLY BLVD, PORTLAND, OR 97218","26-0110",1,NA
-"Morse Bros., Inc. dba Knife River Knife River Gresham Crusher","1339 NE EASTWOOD, GRESHAM, OR 97030","26-0129",1,NA
+"Morse Bros., Inc. dba Knife River Knife River Gresham Crusher","1339 NE EASTWOOD, GRESHAM, OR 97030","26-0129",1,1
 "Portland Sand & Gravel Company ","10717 SE DIVISION ST, PORTLAND, OR 97266","26-1917",1,NA
 "Ross Island Sand & Gravel Co. Hardtack Island","HARDTACK ISLAND - WILLAMETTE RIVER, PORTLAND, OR 972HH","26-1941",1,NA
 "Brooks Products Newcastle Precast","10404 NE MARX ST, PORTLAND, OR 97220","26-0052",1,1
 "City of Portland Bureau of Water Works","1900 N INTERSTATE AVE, PORTLAND, OR 97227","26-0071",1,NA
 "Morse Bros., Inc. ","5700 NE SUNDIAL RD, TROUTDALE, OR 97060","26-0101",1,1
 "Oldcastle Precast, Inc Oldcastle Precast - Portland","755 NE COLUMBIA BLVD, PORTLAND, OR 97211","26-0112",1,NA
-"Willamette Graystone, Inc. ","2405 NE 244TH AVE, WOOD VILLAGE, OR 97060","26-0253",1,NA
-"Troutdale Sand & Gravel Co. ","2205 NE 244TH, TROUTDALE, OR 97060","26-1939",1,NA
+"Willamette Graystone, Inc. ","2405 NE 244TH AVE, WOOD VILLAGE, OR 97060","26-0253",1,1
+"Troutdale Sand & Gravel Co. ","2205 NE 244TH, TROUTDALE, OR 97060","26-1939",1,1
 "Ross Island Sand & Gravel Co. Vanport","1835 N MARINE DR, PORTLAND, OR 97217","26-1944",1,1
 "Ross Island Sand & Gravel Co. Albina Ready Mix Plant","1208 N RIVER ST, PORTLAND, OR 97227","26-1946",1,1
 "Glacier Northwest, Inc. NW Front","5034 NW FRONT AVE, PORTLAND, OR 97210","26-3265",1,1
@@ -35,7 +36,7 @@
 "Portland State University ","630 SW Mill St, PORTLAND, OR 97207","26-0241",1,NA
 "Legacy Health Systems, Holladay Park Medical Center ","1225 NE 2ND AVE, PORTLAND, OR 97232","26-1799",1,NA
 "Legacy Emanuel Hospital & Health Center ","2801 N GANTENBEIN AVE, PORTLAND, OR 97227","26-1803",1,NA
-"Providence Portland Medical Center ","4805 NE GLISAN ST, PORTLAND, OR 97213","26-1804",1,NA
+"Providence Portland Medical Center ","4805 NE GLISAN ST, PORTLAND, OR 97213","26-1804",1,1
 "Marquis Care at Mt. Tabor ","6040 SE BELMONT ST, PORTLAND, OR 97215","26-2210",1,NA
 "CAPREF Lloyd Center LLC ","2201 LLOYD CTR, PORTLAND, OR 97232","26-2400",1,NA
 "David Douglas Sr Hs Bldg ","1500 SE 130TH AVE, PORTLAND, OR 97233","26-2426",1,NA
@@ -43,10 +44,10 @@
 "Benson High School ","546 NE 12TH AVE, PORTLAND, OR 97232","26-2713",1,1
 "Lewis & Clark College ","0615 SW PALATINE HILL RD, PORTLAND, OR 97219","26-2778",1,1
 "The Reed Institute ","3203 SE WOODSTOCK BLVD, PORTLAND, OR 97202","26-2784",1,1
-"Legacy Good Samaritan Hospital and Medical Center ","1015 NW 22ND AVE, PORTLAND, OR 97210","26-2926",1,NA
+"Legacy Good Samaritan Hospital and Medical Center ","1015 NW 22ND AVE, PORTLAND, OR 97210","26-2926",1,1
 "Portland Community College Sylvania Campus","12000 SW 49TH AVE, PORTLAND, OR 97219","26-2971",1,1
 "Darigold, Inc. ","2720 SE 6TH AVE, PORTLAND, OR 97202","26-3253",1,1
-"Oregon Health Sciences University ","3181 SW SAM JACKSON PARK RD, PORTLAND, OR 97239","26-0042",1,NA
+"Oregon Health Sciences University ","3181 SW SAM JACKSON PARK RD, PORTLAND, OR 97239","26-0042",1,1
 "Omega Cremation & Burial Service, Inc. ","223 SE 122ND AVE, PORTLAND, OR 97233","26-0125",1,NA
 "Portland Cremation Center, LLC ","17819 NE Riverside Pkwy Ste A, Portland, OR 97230","26-0151",1,NA
 "Family Animal Services, Inc. Riverside Parkway","17819 NE Riverside Pkwy Ste B, Portland, OR 97230","26-0155",1,NA
@@ -62,12 +63,12 @@
 "Land O'Lakes Purina Feed LLC ","15840 N SIMMONS RD, PORTLAND, OR 97203","26-3062",1,1
 "Wilbur-Ellis Company ","9945 N Burgard Way, Portland, OR 97203","26-3217",1,NA
 "Tyree Oil, Inc. ","2429 N BORTHWICK AVE, PORTLAND, OR 97227","26-3075",1,NA
-"Tata Communications (US) Inc. ","1225 W BURNSIDE ST, PORTLAND, OR 97209","26-0040",1,NA
+"Tata Communications (US) Inc. ","1225 W BURNSIDE ST, PORTLAND, OR 97209","26-0040",1,1
 "PCC Structurals LBO power generator","4600 SE HARNEY DR, PORTLAND, OR 97206","26-0130",1,1
 "SunGard Availability Services, LP ","1233 NW 12TH AVE, PORTLAND, OR 97209","26-0132",1,NA
 "Skyline Tower, LLC KGW","1501 SW JEFFERSON ST, PORTLAND, OR 97201","26-0133",1,NA
-"Providence Health & Services - Oregon dba Providence Portland Medical Center","4805 NE GLISAN ST, PORTLAND, OR 97213","26-0136",1,NA
-"City of Portland, Bureau of Environmental Services Columbia Boulevard Wastewater Treatment Plant","5001 N. COLUMBIA BLVD., PORTLAND, OR 97203","26-0172",1,NA
+"Providence Health & Services - Oregon dba Providence Portland Medical Center","4805 NE GLISAN ST, PORTLAND, OR 97213","26-0136",1,1
+"City of Portland, Bureau of Environmental Services Columbia Boulevard Wastewater Treatment Plant","5001 N. COLUMBIA BLVD., PORTLAND, OR 97203","26-0172",1,1
 "Multnomah County East County Courthouse","18480 SE STARK ST, GRESHAM, OR 97223","26-0229",1,NA
 "Multnomah County Facilities & Prop. Mng. ","14355 N BYBEE LAKE CT, PORTLAND, OR 97203","26-0243",1,NA
 "Multnomah County Facilities & Prop. Mng. ","1401 NE 68TH AVE, PORTLAND, OR 97213","26-0244",1,NA
@@ -79,7 +80,7 @@
 "Rikar Enterprises Inc. Pioneer Trailer and Fabrication","7559 NE 33RD DRIVE, PORTLAND, OR 97211","26-0179",1,NA
 "American Metal Products Company AMPCO","1532 SE 3RD AVENUE, PORTLAND, OR 97214","26-0184",1,NA
 "CH Murphy/Clark-Ulman, Inc. ","5565 N DOLPHIN ST, PORTLAND, OR 97217","26-0187",1,NA
-"Transco Industries, Inc. ","5534 NE 122ND AVE, PORTLAND, OR 97230","26-0218",1,NA
+"Transco Industries, Inc. ","5534 NE 122ND AVE, PORTLAND, OR 97230","26-0218",1,1
 "The Lynch Company, Inc. ","4706 SE 18TH AVE, PORTLAND, OR 97202","26-0251",1,NA
 "East Side Plating, Inc. Plant #4","310 SE STEPHENS ST, PORTLAND, OR 97214","26-0171",1,1
 "Apex Anodizing, Inc. Apex Anodizing, Inc.","7116 SE 92ND AVE, PORTLAND, OR 97266","26-0189",1,1
@@ -105,30 +106,31 @@
 "Vanquish Investment Group Pacific Service Center","4030 NE BUFFALO ST, PORTLAND, OR 97211","26-0219",1,NA
 "Horizon Air Industries ","8070 NE AIRTRANS WAY, PORTLAND, OR 97218","26-0248",1,NA
 "Manheim Portland Manheim","3000 N HAYDEN ISLAND DR, PORTLAND, OR 97217","26-9546",1,NA
+"Timby's Too LLC Timby's Dipstrip","7510 N DELAWARE AVE, PORTLAND, OR 97217","26-0232",1,NA
 "Aarons Custom Metal Fab, Inc. ","4709 NE 148TH AVE, PORTLAND, OR 97230","26-0167",1,NA
 "Metal Enterprises, Inc. ","2425 NW 23RD PL, PORTLAND, OR 97210","26-0197",1,NA
 "EVRAZ Inc, NA ","14400 N RIVERGATE BLVD, PORTLAND, OR 97203","26-1865",1,1
-"Owens-Brockway Glass Container Inc. ","9710 NE Glass Plant Road, PORTLAND, OR 97220","26-1876",1,NA
-"Arc Terminals Holdings, LLC Willbridge Asphalt Refinery","5501 NW FRONT AVE, PORTLAND, OR 97210","26-2025",1,NA
+"Owens-Brockway Glass Container Inc. ","9710 NE Glass Plant Road, PORTLAND, OR 97220","26-1876",1,1
+"Arc Terminals Holdings, LLC Willbridge Asphalt Refinery","5501 NW FRONT AVE, PORTLAND, OR 97210","26-2025",1,1
 "Chevron Products Company ","5531 NW DOANE AVE, PORTLAND, OR 97210","26-2027",1,NA
-"Kinder Morgan Liquids Terminals LLC Willbridge Terminal","5880 NW ST HELENS RD, PORTLAND, OR 97210","26-2028",1,NA
+"Kinder Morgan Liquids Terminals LLC Willbridge Terminal","5880 NW ST HELENS RD, PORTLAND, OR 97210","26-2028",1,1
 "Shore Terminals LLC Nustar","9420 NW SAINT HELENS RD, PORTLAND, OR 97231","26-2029",1,NA
 "BP West Coast Products, LLC ","9930 NW SAINT HELENS RD, PORTLAND, OR 97231","26-2030",1,NA
-"Oregon Health Sciences University ","3181 SW SAM JACKSON PARK RD, PORTLAND, OR 97239","26-2050",1,NA
+"Oregon Health Sciences University ","3181 SW SAM JACKSON PARK RD, PORTLAND, OR 97239","26-2050",1,1
 "ESCO Corporation ","2141 NW 25TH AVE, PORTLAND, OR 97210","26-2068",1,1
 "Daimler Trucks North America, LLC Western Star Truck Plant Portland","6936 N FATHOM ST, PORTLAND, OR 97217","26-2197",1,1
 "Northwest Pipe Company ","12005 N BURGARD WAY, PORTLAND, OR 97203","26-2492",1,NA
 "Graphic Packaging International, Inc ","3400 N MARINE DR, PORTLAND, OR 97217","26-2777",1,1
-"Gunderson LLC ","4700 NW FRONT AVE, PORTLAND, OR 97210","26-2944",1,NA
+"Gunderson LLC ","4700 NW FRONT AVE, PORTLAND, OR 97210","26-2944",1,1
 "Arclin Surfaces, Inc. Portland Operations","2301 N COLUMBIA BLVD, PORTLAND, OR 97217","26-3009",1,1
 "Owens Corning Roofing and Asphalt, LLC ","11910 NW SAINT HELENS RD, PORTLAND, OR 97231","26-3067",1,NA
-"Vigor Industrial, LLC ","5555 N CHANNEL AVE BLDG 71, PORTLAND, OR 97217","26-3224",1,NA
+"Vigor Industrial, LLC ","5555 N CHANNEL AVE BLDG 71, PORTLAND, OR 97217","26-3224",1,1
 "Metropolitan Service District St Johns Landfill","9363 N COLUMBIA BLVD, PORTLAND, OR 97203","26-3310",1,NA
-"Owens Corning Foam Insulation, LLC Owens Corning-Gresham Plant","18456 NE WILKES RD, GRESHAM, OR 97230","26-9537",1,NA
-"Rodda Paint Co. ","6123 N MARINE DR, PORTLAND, OR 97203","26-0026",1,NA
+"Owens Corning Foam Insulation, LLC Owens Corning-Gresham Plant","18456 NE WILKES RD, GRESHAM, OR 97230","26-9537",1,1
+"Rodda Paint Co. ","6123 N MARINE DR, PORTLAND, OR 97203","26-0026",1,1
 "SemiConductor Components Industries, LLC ON Semiconductor","23400 NE GLISAN ST, GRESHAM, OR 97030","26-0027",1,1
-"Columbia Structural Tubing Inc. Evraz Oregon Steel Structural Tubing","8735 N HARBORGATE ST, PORTLAND, OR 97203","26-0054",1,1
-"City of Portland,Bureau of Environmental Columbia Blvd WWTP","5001 N. COLUMBIA BLVD., PORTLAND, OR 97203","26-0100",1,NA
+"Columbia Structural Tubing Inc. Evraz Oregon Steel Structural Tubing","8735 N HARBORGATE ST, PORTLAND, OR 97203","26-0054",1,NA
+"City of Portland,Bureau of Environmental Columbia Blvd WWTP","5001 N. COLUMBIA BLVD., PORTLAND, OR 97203","26-0100",1,1
 "Bushwacker, Inc. ","9269 N BRADFORD ST, PORTLAND, OR 97203","26-0123",1,NA
 "Waste Management of Oregon, Inc. WM Agilyx Wastech","701 N HUNT ST, PORTLAND, OR 97217","26-0170",1,NA
 "Troutdale Energy Center LLC Troutdale Energy Center","TROUTDALE REYNOLDS INDUSTRIAL PK LOT 3, TOUTDALE, OR 97060","26-0235",1,NA
@@ -136,16 +138,16 @@
 "Owens Corning Roofing and Asphalt, LLC Trumbull Asphalt","3750 NW YEON AVE, PORTLAND, OR 97210","26-1815",1,NA
 "PCC Structurals, Inc. ","4600 SE HARNEY DR, PORTLAND, OR 97206","26-1867",1,1
 "Columbia Steel Casting Co Inc. ","10425 N BLOSS AVE, PORTLAND, OR 97203","26-1869",1,1
-"J. R. Simplot Company Rivergate Terminal","14003 N RIVERGATE BLVD, PORTLAND, OR 97203","26-1889",1,NA
+"J. R. Simplot Company Rivergate Terminal","14003 N RIVERGATE BLVD, PORTLAND, OR 97203","26-1889",1,1
 "Ash Grove Cement Company ","13939 N RIVERGATE BLVD, PORTLAND, OR 97203","26-1891",1,1
-"R. R. Donnelley Norwest, Inc. ","17401 NE HALSEY ST, PORTLAND, OR 97230","26-1892",1,NA
+"R. R. Donnelley Norwest, Inc. ","17401 NE HALSEY ST, PORTLAND, OR 97230","26-1892",1,1
 "Herbert Malarkey Roofing Company ","3131 N COLUMBIA BLVD, PORTLAND, OR 97217","26-1894",1,1
 "LD Commodities, Northwest Facility, LLC O'Dock - Facility","900 N THUNDERBIRD WAY, PORTLAND, OR 97227","26-2000",1,NA
 "Temco, LLC A Limited Liability Company of Delaware ","800 N RIVER ST., PORTLAND, OR 97227","26-2003",1,NA
 "Phillips 66 Company Phillips 66 Portland Terminal","5528 NW DOANE AVE, PORTLAND, OR 97210","26-2026",1,NA
 "CertainTeed Corporation ","6350 NW FRONT AVE, PORTLAND, OR 97210","26-2043",1,1
 "Boeing Company (The) ","19000 NE SANDY BLVD, PORTLAND, OR 97230","26-2204",1,1
-"Equilon Enterprises LLC dba Shell Oil Products US","3800 NW ST HELENS RD, PORTLAND, OR 97210","26-2478",1,NA
+"Equilon Enterprises LLC dba Shell Oil Products US","3800 NW ST HELENS RD, PORTLAND, OR 97210","26-2478",1,1
 "Container Management Services, LLC ","3000 NW SAINT HELENS RD, PORTLAND, OR 97210","26-2572",1,NA
 "Columbia Export Terminal, LLC ","15660 N LOMBARD ST, PORTLAND, OR 97203","26-2807",1,NA
 "Kinder Morgan Bulk Terminals, Inc. Terminal 4 - Pier 4","11040 N LOMBARD ST, PORTLAND, OR 97203","26-2909",1,1
@@ -156,11 +158,11 @@
 "Siltronic Corporation ","7200 NW FRONT AVE, PORTLAND, OR 97210","26-3002",1,1
 "American Petroleum Environmental Services, Inc. ","11535 N FORCE AVE, PORTLAND, OR 97217","26-3021",1,NA
 "Myers Containers, LLC ","8435 NE KILLINGSWORTH ST, PORTLAND, OR 97220","26-3035",1,NA
-"Cascade Corporation ","2201 NE 201ST AVE, FAIRVIEW, OR 97024","26-3038",1,NA
+"Cascade Corporation ","2201 NE 201ST AVE, FAIRVIEW, OR 97024","26-3038",1,1
 "Oregonian Publishing Co. ","1621 SW TAYLOR, PORTLAND, OR 97205","26-3045",1,1
 "Oil Re-Refining Company Inc. ","4150 N SUTTLE RD, PORTLAND, OR 97217","26-3048",1,NA
 "QG Printing II Corp. ","6031 NE 92ND DR, PORTLAND, OR 97220","26-3110",1,1
-"Bullseye Glass Co. ","3722 SE 21ST AVE, PORTLAND, OR 97202","26-3135",1,NA
+"Bullseye Glass Co. ","3722 SE 21ST AVE, PORTLAND, OR 97202","26-3135",1,1
 "Microchip Technology, Inc. ","21015 SE STARK ST, GRESHAM, OR 97030","26-3240",1,1
 "Sapa, Inc. ","5325 NE SKYPORT WAY, PORTLAND, OR 97218","26-3241",1,1
 "Oregon Air National Guard ","6801 NE CORNFOOT RD, PORTLAND, OR 97218","26-3254",1,1
@@ -169,13 +171,13 @@
 "Silver Eagle Manufacturing Co. ","5825 NE SKYPORT WAY, PORTLAND, OR 97218","26-3317",1,1
 "CBG Portland, LLC ","6849 NE COLUMBIA BLVD, PORTLAND, OR 97218","26-9820",1,NA
 "Flint Group North America Flint Ink","2985 N MARINE DR, PORTLAND, OR 97217","26-0076",1,1
-"Mutual Materials Company ","2300 SE HOGAN ROAD, GRESHAM, OR 97080","26-0088",1,NA
+"Mutual Materials Company ","2300 SE HOGAN ROAD, GRESHAM, OR 97080","26-0088",1,1
 "Journal Graphics, Inc. ","2840 NW 35TH AVE, PORTLAND, OR 97210","26-0103",1,1
 "Pierce Pacific Manufacturing ","4424 NE 158TH AVE, PORTLAND, OR 97230","26-0143",1,1
 "Ash Grove Cement Company Cement Distribution Ctr","3737 N PORT CENTER WAY, PORTLAND, OR 97217","26-0146",1,NA
 "EZFlow, Limited Partnership ","3004 N Wygant St, Portland, OR 97217","26-0157",1,NA
 "SoloPower, Inc. ","6308 N. MARINE DRIVE, PORTLAND, OR 97203","26-0207",1,NA
-"Morgan Truck Body LLC Morgan Corporation","4436 NE 158TH AVE, PORTLAND, OR 97230","26-0236",1,1
+"Morgan Truck Body LLC Morgan Corporation","4436 NE 158TH AVE, PORTLAND, OR 97230","26-0236",1,NA
 "Rose City Printing and Publishing, Inc. Rose City Printing and Packaging","18683 NE SANDY BLVD, GRESHAM, OR 97230","26-0238",1,NA
 "Glass to Glass LLC ECOI","866 N COLUMBIA BLVD, PORTLAND, OR 97217","26-0242",1,NA
 "Galvanizers Company ","2406 NW 30TH AVE, PORTLAND, OR 97210","26-1885",1,1
@@ -183,12 +185,12 @@
 "Cardinal Aluminum ","6800 NE 59TH PL, PORTLAND, OR 97218","26-2435",1,1
 "Eco Services Operations, LLC ","4429 N SUTTLE RD, PORTLAND, OR 97217","26-2548",1,1
 "Portland State University Fourth Avenue Building","1900 SW 4th Ave, PORTLAND, OR 97201","26-2832",1,NA
-"Koppers, Inc. ","7540 NW ST. HELENS RD., PORTLAND, OR 97210","26-2930",1,NA
+"Koppers, Inc. ","7540 NW ST. HELENS RD., PORTLAND, OR 97210","26-2930",1,1
 "Ross Island Sand & Gravel Co. Tait Dry Mix & Redimix Plant","2611 SE 4TH AVE, PORTLAND, OR 97202","26-3006",1,NA
 "International Paper Company ","1601 NE 192ND AVE, PORTLAND, OR 97230","26-3051",1,1
 "SSA Pacific, Inc. Portland BulkTerminal 5","15550 N LOMBARD ST, PORTLAND, OR 97203","26-3071",1,NA
 "Olympic Pipe Line Co. Portland Delivery Facilit","9420 NW ST HELENS RD, PORTLAND, OR 97231","26-3072",1,NA
-"RUSCO, Inc Dura Industries","4466 NW YEON AVE, PORTLAND, OR 97210","26-3112",1,NA
+"RUSCO, Inc Dura Industries","4466 NW YEON AVE, PORTLAND, OR 97210","26-3112",1,1
 "City Of Gresham Wastewater Treatment Plnt","20015 NE SANDY BLVD, GRESHAM, OR 97030","26-3228",1,NA
 "Lacamas Laboratories ","3625 N SUTTLE RD, PORTLAND, OR 97217","26-3230",1,1
 "Hickory Springs Of California, LLC HSM Solutions","3900 NE 158TH AVE, PORTLAND, OR 97230","26-3266",1,NA
@@ -215,8 +217,8 @@
 "Pacific Rock Products, LLC Tualatin Plant","18610 SW PACIFIC DR., SHERWOOD, OR 97140","34-2583",1,NA
 "Wilsonville Concrete Products Beaverton Site","6700 SW 110TH AVE, BEAVERTON, OR 97008","34-2640",1,NA
 "Baker Rock Resources ","21880 SW FARMINGTON RD, BEAVERTON, OR 97007","34-2737",1,1
-"Glacier Northwest, Inc. Hillsboro Readymix","21480 NW AMBERWOOD DR, HILLSBORO, OR 97124","34-2769",1,NA
-"Fox Lumber Sales, Inc. Fox Lumber - Gaston Operations","49800 SW SCOGGINS VALLEY RD, GASTON, OR 97119","34-0104",1,NA
+"Glacier Northwest, Inc. Hillsboro Readymix","21480 NW AMBERWOOD DR, HILLSBORO, OR 97124","34-2769",1,1
+"Fox Lumber Sales, Inc. Fox Lumber - Gaston Operations","49800 SW SCOGGINS VALLEY RD, GASTON, OR 97119","34-0104",1,1
 "Banks Lumber Co. ","42060 NW SUNSET AVE, BANKS, OR 97106","34-2565",1,NA
 "Woodfold Mfg., Inc. ","1811 18TH ST, FOREST GROVE, OR 97116","34-2584",1,NA
 "Oregon-Canadian Forest Products, Inc. ","31450 NW COMMERCIAL AVE, NORTH PLAINS, OR 97133","34-2688",1,NA
@@ -236,12 +238,12 @@
 "TriQuint Semiconductor, Inc. Electric Generator","2300 NE BROOKWOOD PKWY, HILLSBORO, OR 97124","34-0080",1,1
 "Viawest , Inc. ","3935 NE ALOCLEK PL., HILLSBORO, OR 97124","34-0083",1,NA
 "Clean Water Services Dawson Creek Pump Station","SW CORNER OF NE CORNELL & BROOKWOOD PKWY, HILLSBORO, OR 97124","34-0096",1,NA
-"Kaiser Foundation Health Plan of the Northwest dba Kaiser Permanente Kaiser Westside Medical Center","19301 NW VENETIAN DR, HILLSBORO, OR 97124","34-0133",1,1
+"Kaiser Foundation Health Plan of the Northwest dba Kaiser Permanente Kaiser Westside Medical Center","19301 NW VENETIAN DR, HILLSBORO, OR 97124","34-0133",1,NA
 "Clean Water Services ","9835 NW 307TH AVE, NORTH PLAINS, OR 97133","34-0139",1,NA
 "City of Hillsboro Water Dept","30575 NW EVERGREEN RD, HILLSBORO, OR 97124","34-0142",1,NA
-"City of Hillsboro Hillsboro WWTP","4475 SW FERN HILL RD, FOREST GROVE, OR 97116","34-0164",1,NA
-"ViaWest, Inc. ","23605 NW HUFFMAN ST, HILLSBORO, OR 97124","34-0165",1,NA
-"SolarWorld Industries America LP ","25300 NW EVERGREEN BLVD, HILLSBORO, OR 97214","34-9508",1,NA
+"City of Hillsboro Hillsboro WWTP","4475 SW FERN HILL RD, FOREST GROVE, OR 97116","34-0164",1,1
+"ViaWest, Inc. ","23605 NW HUFFMAN ST, HILLSBORO, OR 97124","34-0165",1,1
+"SolarWorld Industries America LP ","25300 NW EVERGREEN BLVD, HILLSBORO, OR 97214","34-9508",1,1
 "Helser Industries, Inc. ","10750 SW TUALATIN RD, TUALATIN, OR 97062","34-0003",1,NA
 "McClister, Inc. Lifetime Gate Co.","18155 SW TETON AVE, TUALATIN, OR 97062","34-0102",1,NA
 "Ammcon Corp. ","21450 NW WEST UNION RD, HILLSBORO, OR 97124","34-0113",1,NA
@@ -252,40 +254,40 @@
 "Copper Knot Metal Finishing LLC ","1184 N FREMONT LN, CORNELIUS, OR 97113","34-0156",1,NA
 "Anodizing Solutions, LLC ","12620 SW LEVETON DR, TUALATIN, OR 97062","34-0166",1,NA
 "Pacific Truck Colors, Inc. ","19225 SW 125TH CT, TUALATIN, OR 97062","34-0015",1,NA
-"Landmark Ford, Inc. ","12000 SW 66TH AVE, TIGARD, OR 97223","34-0101",1,NA
+"Landmark Ford, Inc. ","12000 SW 66TH AVE, TIGARD, OR 97223","34-0101",1,1
 "Russ Auto Sales & Service, Inc. ","11880 SW Pacific Hwy, Tigard, OR 97223","34-0105",1,NA
 "Evers Auto Body and Painting ","155 SW FREEMAN AVE, HILLSBORO, OR 97123","34-0112",1,NA
 "Oregon Collision Center ","1213 GALES CREEK RD, FOREST GROVE, OR 97116","34-0114",1,NA
 "Kramer's Auto Body & Car Stereo ","2632 19TH AVE, FOREST GROVE, OR 97116","34-0115",1,NA
-"Strategic Printing and Manufacturing Solutions, Inc. ","9673 SW TUALATIN SHERWOOD RD, TUALATIN, OR 97062","34-0116",1,NA
+"Strategic Printing and Manufacturing Solutions, Inc. ","9673 SW TUALATIN SHERWOOD RD, TUALATIN, OR 97062","34-0116",1,1
 "Aero Air, LLC ","2050 NE 25TH AVE, HILLSBORO, OR 97124","34-0117",1,NA
 "Beaverton Auto Body & Paint LLC ","4330 SW 142ND AVE, BEAVERTON, OR 97005","34-0121",1,NA
 "Kindred & Son, Inc. ","25599 SW 95TH AVE, WILSONVILLE, OR 97070","34-0123",1,NA
-"Ace Car Reconditioning, LLC ","15785 SW 72ND AVE, TIGARD, OR 97224","34-0124",1,NA
+"Ace Car Reconditioning, LLC ","15785 SW 72ND AVE, TIGARD, OR 97224","34-0124",1,1
 "Meyer Sign Co. of Oregon ","15205 SW 74TH AVE, TIGARD, OR 97224","34-0125",1,NA
 "Reedville Body & Paint Co. ","21600 SW TUALATIN VALLEY HWY, ALOHA, OR 97006","34-0126",1,NA
 "Hurford Industries, Inc. Matrix Industries","16650 SW SHAW ST, BEAVERTON, OR 97007","34-0111",1,NA
 "Northwest Structural Services, Inc. ","18201 SW BOONES FERRY RD, PORTLAND, OR 97224","34-0120",1,NA
-"Stimson Lumber Company ","49800 SW SCOGGINS VALLEY RD, GASTON, OR 97119","34-2066",1,NA
+"Stimson Lumber Company ","49800 SW SCOGGINS VALLEY RD, GASTON, OR 97119","34-2066",1,1
 "DMH, Inc. ","3802 & 3804 24TH AVE, FOREST GROVE, OR 97116","34-2756",1,NA
-"Hillsboro Landfill, Inc. ","3205 SE MINTER BRIDGE ROAD, HILLSBORO, OR 97123","34-0004",1,NA
+"Hillsboro Landfill, Inc. ","3205 SE MINTER BRIDGE ROAD, HILLSBORO, OR 97123","34-0004",1,1
 "Fought & Company, Inc. ","14255 SW 72ND AVE, TIGARD, OR 97224","34-0007",1,1
 "Oorvo-TriQuint Semiconductor Oorvo-TriQuint Semiconductor","2300 NE BROOKWOOD PKWY, HILLSBORO, OR 97124","34-0055",1,1
 "Willbanks International, Inc dba CoorsTek, Inc.","555 NE 53RD, HILLSBORO, OR 97124","34-0067",1,NA
 "Lakeside Lumber Company ","10600 SW TUALATIN SHERWOOD RD, TUALATIN, OR 97062","34-0081",1,NA
 "Baker Rock Crushing Co. dba Baker Rock Resources","21880 SW FARMINGTON RD, BEAVERTON, OR 97007","34-2021",1,1
-"Clean Water Services Durham WWTP","16580 SW 85TH AVE, TIGARD, OR 97224","34-2623",1,NA
+"Clean Water Services Durham WWTP","16580 SW 85TH AVE, TIGARD, OR 97224","34-2623",1,1
 "Tektronix, Inc. ","14150 SW KARL BRAUN DR, BEAVERTON, OR 97077","34-2638",1,NA
-"Intel Corporation Aloha and Ronler Campuses","3585 SW 198TH AVE, ALOHA, OR 97007","34-2681",1,NA
+"Intel Corporation Aloha and Ronler Campuses","3585 SW 198TH AVE, ALOHA, OR 97007","34-2681",1,1
 "Allied Systems Company ","21433 SW OREGON ST, SHERWOOD, OR 97140","34-2684",1,1
-"Clean Water Services Rock Creek WWTP","3235 SW RIVER ROAD, HILLSBORO, OR 97123","34-2753",1,NA
+"Clean Water Services Rock Creek WWTP","3235 SW RIVER ROAD, HILLSBORO, OR 97123","34-2753",1,1
 "Oregon Sandblasting & Coating, Inc ","10000 SW HERMAN RD, TUALATIN, OR 97062","34-2778",1,1
-"Bimbo Bakeries USA ","10750 SW 5TH ST, BEAVERTON, OR 97005","34-2783",1,NA
+"Bimbo Bakeries USA ","10750 SW 5TH ST, BEAVERTON, OR 97005","34-2783",1,1
 "Maxim Integrated Products, Inc. Maxim Fab North","14320 SW JENKINS RD, BEAVERTON, OR 97005","34-2804",1,1
-"Jireh Semiconductor, Inc. ","3131 NE BROOKWOOD PKWY, HILLSBORO, OR 97124","34-2813",1,NA
-"Summit Natural Energy Corporation ","535 N. 4TH AVE, CORNELIUS, OR 97113","34-9510",1,NA
+"Jireh Semiconductor, Inc. ","3131 NE BROOKWOOD PKWY, HILLSBORO, OR 97124","34-2813",1,1
+"Summit Natural Energy Corporation ","535 N. 4TH AVE, CORNELIUS, OR 97113","34-9510",1,1
 "Valmont Coatings Pacific States Galvaniz ","9700 SW HERMAN RD, TUALATIN, OR 97062","34-0005",1,1
-"Plasti-Fab, Inc. ","9665 SW TUALATIN-SHERWOOD RD, TUALATIN, OR 97062","34-0006",1,NA
+"Plasti-Fab, Inc. ","9665 SW TUALATIN-SHERWOOD RD, TUALATIN, OR 97062","34-0006",1,1
 "International Paper Company International Paper","5500, 5570, & 5800 SW WESTERN AVE, BEAVERTON, OR 97005","34-0009",1,NA
 "SolarWorld Industries America LP ","25300 NW EVERGREEN RD, HILLSBORO, OR 97124","34-0010",1,1
 "AGC Electronics America ","4375 NW 235TH AVE, HILLSBORO, OR 97124","34-0016",1,1
@@ -295,45 +297,45 @@
 "Lam Research Corporation ","11155 SW LEVETON DR, TUALATIN, OR 97062","34-0063",1,1
 "Cascade Coil Drapery, Inc. ","19505 SW 90TH CT, TUALATIN, OR 97062","34-0087",1,NA
 "West Oregon Wood Products, Inc. ","162 Commerce St, Banks, OR 97106","34-0089",1,NA
-"Ardent Mills, LLC ","21151 SW 115TH AVE, TUALATIN, OR 97062","34-0134",1,NA
+"Ardent Mills, LLC ","21151 SW 115TH AVE, TUALATIN, OR 97062","34-0134",1,1
 "Davis Tool, Inc. ","3740 NW ALOCLEK PL, HILLSBORO, OR 97124","34-0144",1,NA
 "Portland General Electric Company Avery Regional Service Center","10800 SW AVERY ST, TUALATIN, OR 97062","34-0149",1,1
 "QuantumClean QuantumClean","21421 NW JACOBSON RD, HILLSBORO, OR 97124","34-0152",1,1
 "T5@Portland.LLC ","3145 NE BROOKWOOD PKWY, HILLSBORO, OR 97124","34-0157",1,NA
 "Permapost Products Co. ","4066 SE TUALATIN VALLEY HWY, HILLSBORO, OR 97123","34-2580",1,NA
 "Viasystems Technologies Corp, L.L.C ","1521 POPLAR LN, FOREST GROVE, OR 97116","34-2678",1,1
-"Bonita Packaging Products, Inc. Bonita Pioneer Packaging Products","7333 SW BONITA RD, TIGARD, OR 97224","34-2762",1,NA
-"Tokyo Ohka Kogyo America, Inc. TOK America Oregon Plant/HQ","4625 NW Brookwood Parkway, HILLSBORO, OR 97124","34-2790",1,NA
-"Agilyx Corporation ","7904 SW Huntziker, Tigard, OR 97223","34-9514",1,NA
+"Bonita Packaging Products, Inc. Bonita Pioneer Packaging Products","7333 SW BONITA RD, TIGARD, OR 97224","34-2762",1,1
+"Tokyo Ohka Kogyo America, Inc. TOK America Oregon Plant/HQ","4625 NW Brookwood Parkway, HILLSBORO, OR 97124","34-2790",1,1
+"Agilyx Corporation ","7904 SW Huntziker, Tigard, OR 97223","34-9514",1,1
 "Wilson sporting Goods Co. DeMarini Sports","6850 NE CAMPUS WAY, HILLSBORO, OR 97124","34-0122",1,NA
-"Milgard Doors and Windows ","20789 SW 115TH AVE, TUALATIN, OR 97062","34-0140",1,NA
+"Milgard Doors and Windows ","20789 SW 115TH AVE, TUALATIN, OR 97062","34-0140",1,1
 "Linde LLC Linde - Hillsboro ASU Plant","4655 NW 235TH AVE, HILLSBORO, OR 97124","34-0150",1,1
 "NW Natural ","20285 SW CIPOLE RD, SHERWOOD, OR 97140","34-0154",1,1
-"Genentech, Inc. ","4625 NW Brookwood Parkway, HILLSBORO, OR 97124","34-9507",1,NA
-"Resers Fine Foods, Inc. ","15570 SW Jenkins Rd., BEAVERTON, OR 97006","34-9515",1,NA
+"Genentech, Inc. ","4625 NW Brookwood Parkway, HILLSBORO, OR 97124","34-9507",1,1
+"Resers Fine Foods, Inc. ","15570 SW Jenkins Rd., BEAVERTON, OR 97006","34-9515",1,1
 "Tarr Acquisition, LLC ","601 BASELINE ST, CORNELIUS, OR 97113","34-0049",1,NA
 "Bretthauer Oil Company ","453 SW WASHINGTON ST, HILLSBORO, OR 97123","34-0065",1,NA
-"Bretthauer Oil Company ","6800 SW 110TH AVE, BEAVERTON, OR 97005","34-2651",1,NA
+"Bretthauer Oil Company ","6800 SW 110TH AVE, BEAVERTON, OR 97005","34-2651",1,1
 "American Metal Specialties, Inc. ","5226 SE INTERNATIONAL WAY, MILWAUKIE, OR 97222","03-0001",1,NA
-"Oldcastle Precast, Inc. Utility Vault Company, Inc.","28499 SW Boberg Rd, WILSONVILLE, OR 97070","03-0002",1,NA
-"S.R. Smith, LLC ","1017 SW BERG PKWY, CANBY, OR 97013","03-0003",1,NA
-"Fred Meyer, Inc. Clackamas Bakery","16253 SE 122ND AVE, CLACKAMAS, OR 97015","03-0004",1,NA
-"Glacier Northwest, Inc. Clackamas Readymix","11340 SE JENNIFER ST, CLACKAMAS, OR 97015","03-0007",1,NA
-"Atlas Industrial Coating, Inc. A.I.C. Inc.","17555 SW 63RD AVE, LAKE OSWEGO, OR 97035","03-0009",1,NA
-"Clackamas County Water Environment Services Kellogg Creek","11525 SE MCLOUGHLIN BLVD, MILWAUKIE, OR 97222","03-0010",1,NA
-"Clackamas County Tri-City Service District","15941 AGNES AVE, OREGON CITY, OR 97045","03-0011",1,NA
-"Hardchrome, Inc. ","1152 NW COMMERCE CT, Estacada, OR 97023","03-0013",1,NA
-"Wolf Steel Foundry, Inc. ","6160 S WHISKEY HILL RD, HUBBARD, OR 97032","03-0016",1,NA
-"Shaw's Fiberglass and Plastics, Inc. ","19402 SE FOSTER ROAD, DAMASCUS, OR 97089","03-0017",1,NA
-"PCC Structurals, Inc. Deer Creek Campus","13350 SE JOHNSON RD, MILWAUKIE, OR 97222","03-0020",1,NA
+"Oldcastle Precast, Inc. Utility Vault Company, Inc.","28499 SW Boberg Rd, WILSONVILLE, OR 97070","03-0002",1,1
+"S.R. Smith, LLC ","1017 SW BERG PKWY, CANBY, OR 97013","03-0003",1,1
+"Fred Meyer, Inc. Clackamas Bakery","16253 SE 122ND AVE, CLACKAMAS, OR 97015","03-0004",1,1
+"Glacier Northwest, Inc. Clackamas Readymix","11340 SE JENNIFER ST, CLACKAMAS, OR 97015","03-0007",1,1
+"Atlas Industrial Coating, Inc. A.I.C. Inc.","17555 SW 63RD AVE, LAKE OSWEGO, OR 97035","03-0009",1,1
+"Clackamas County Water Environment Services Kellogg Creek","11525 SE MCLOUGHLIN BLVD, MILWAUKIE, OR 97222","03-0010",1,1
+"Clackamas County Tri-City Service District","15941 AGNES AVE, OREGON CITY, OR 97045","03-0011",1,1
+"Hardchrome, Inc. ","1152 NW COMMERCE CT, Estacada, OR 97023","03-0013",1,1
+"Wolf Steel Foundry, Inc. ","6160 S WHISKEY HILL RD, HUBBARD, OR 97032","03-0016",1,1
+"Shaw's Fiberglass and Plastics, Inc. ","19402 SE FOSTER ROAD, DAMASCUS, OR 97089","03-0017",1,1
+"PCC Structurals, Inc. Deer Creek Campus","13350 SE JOHNSON RD, MILWAUKIE, OR 97222","03-0020",1,1
 "Bowers Forest Products Corporation ","17770 S SCHMIDT RD, BEAVER CREEK, OR 97004","03-0023",1,NA
-"Technical Finishes & Coatings Inc. ","9120 SE 64TH AVE, PORTLAND, OR 97206","03-0027",1,NA
+"Technical Finishes & Coatings Inc. ","9120 SE 64TH AVE, PORTLAND, OR 97206","03-0027",1,1
 "Dravon Medical, Inc. ","11465 SE HWY 212, CLACKAMAS, OR 97015","03-0030",1,NA
 "Glacier Northwest, Inc Estacada Readymix","29400 SE RIVER MILL ROAD, ESTACADA, OR 97023","03-0034",1,NA
 "Excel Finishing, Inc. ","1765 RED SOILS COURT, OREGON CITY, OR 97045","03-0035",1,NA
 "J and D Fertilizer Ltd. ","9205 S KRAXBERGER RD, CANBY, OR 97013","03-0037",1,NA
-"North Clackamas County Water Commission Sunrise Water Auth.Filt.P","14275 S. CLACKAMAS RIVER DRIVE, OREGON CITY, OR 97045","03-0040",1,NA
-"McClure Industries, Inc. ","9051 SE 55TH AVE, PORTLAND, OR 97206","03-0041",1,NA
+"North Clackamas County Water Commission Sunrise Water Auth.Filt.P","14275 S. CLACKAMAS RIVER DRIVE, OREGON CITY, OR 97045","03-0040",1,1
+"McClure Industries, Inc. ","9051 SE 55TH AVE, PORTLAND, OR 97206","03-0041",1,1
 "Sunrise Water Facility Mather Road site","10560 SE Mather Rd, Clackamas, OR 97015","03-0043",1,NA
 "Thermo Fluids, Inc. Clackamas Site","12533 SE CARPENTER DR, CLACKAMAS, OR 97015","03-0045",1,NA
 "Kaiser Permanente Kaiser Sunnyside Med.Ctr.","10180 SE SUNNYSIDE RD, CLACKAMAS, OR 97015","03-0048",1,NA
@@ -342,9 +344,9 @@
 "Pesznecker Brothers, Inc. ","15500 SE 102ND AVE, CLACKAMAS, OR 97015","03-0052",1,NA
 "Automotive Innovation Inc MAACO Collision Repair","15679 SE 135th Ave, Clackamas, OR 97015","03-0053",1,NA
 "Leader Technologies, Inc. LeadTek","27555 SW BOONES FERRY RD, WILSONVILLE, OR 97071","03-0054",1,NA
-"AGC Heat Transfer, Inc. Western Factory","9109 SE 64TH AVE, PORTLAND, OR 97206","03-0057",1,NA
+"AGC Heat Transfer, Inc. Western Factory","9109 SE 64TH AVE, PORTLAND, OR 97206","03-0057",1,1
 "Oregon Pacific Metal Fabrication, LLC ","14351 S UNION HALL RD, MULINO, OR 97042","03-0060",1,NA
-"Sunstone Circuits, LLC Sunstone Circuits, LLC","13626 S FREEMAN RD, MULINO, OR 97042","03-0061",1,NA
+"Sunstone Circuits, LLC Sunstone Circuits, LLC","13626 S FREEMAN RD, MULINO, OR 97042","03-0061",1,1
 "Champion Collision Inc. ","16639 CHAMPION WAY, SANDY, OR 97055","03-0062",1,NA
 "Wishart Welding & General Fabrication, Inc. ","12670 SE CAPPS RD, CLACKAMAS, OR 97015","03-0064",1,NA
 "Conveyco Mfg, Co. ","15151 SE INDUSTRIAL WAY, CLACKAMAS, OR 97015","03-0065",1,NA
@@ -355,54 +357,54 @@
 "Quality Tank & Construction Co., Inc. ","16911 SE 362ND DR, SANDY, OR 97055","03-0073",1,NA
 "Austen's Body Shop, Inc. ","801 NE 4TH AVE, CANBY, OR 97013","03-0077",1,NA
 "Swan Cleaners and Tailors ","19121 BEAVERCREEK RD, OREGON CITY, OR 97045","03-0080",1,NA
-"Columbia Body Manufacturing ","10037 SE MATHER, CLACKAMAS, OR 97015","03-0081",1,NA
+"Columbia Body Manufacturing ","10037 SE MATHER, CLACKAMAS, OR 97015","03-0081",1,1
 "Oregon Trail School District Sandy High School","37400 BELL ST, SANDY, OR 97055","03-0082",1,NA
-"Ulven Forging Inc. Skookum","6160 S WHISKEY HILL RD, HUBBARD, OR 97032","03-0083",1,NA
+"Ulven Forging Inc. Skookum","6160 S WHISKEY HILL RD, HUBBARD, OR 97032","03-0083",1,1
 "Canby Cleaners LLC ","329 SE 1ST AVE, CANBY, OR 97013","03-0085",1,NA
 "Clackamas County Service District No 1 ","13425 SE JOHNSON RD, MILWAUKIE, OR 97222","03-0087",1,NA
-"Wilbur Ellis Company ","12530 SE JENNIFER ST, CLACKAMAS, OR 97015","03-0088",1,NA
+"Wilbur Ellis Company ","12530 SE JENNIFER ST, CLACKAMAS, OR 97015","03-0088",1,1
 "Steel Tech Enterprises Inc. ","1420 S TOWNSHIP RD, CANBY, OR 97013","03-0089",1,NA
 "US Crane & Hoist, Inc. ","29375 SW KINSMAN RD, WILSONVILLE, OR 97070","03-0091",1,NA
-"Clackamas River Water ","9100 SE MANGAN DR, CLACKAMAS, OR 97015","03-0092",1,NA
+"Clackamas River Water ","9100 SE MANGAN DR, CLACKAMAS, OR 97015","03-0092",1,1
 "Dave's Killer Bread ","5209 SE INTERNATIONAL WAY, MILWAUKIE, OR 97222","03-0093",1,NA
-"PECO, Inc, PECO Inc,, an Astronics Company","11241 SE HWY 212, CLACKAMAS, OR 97015","03-0098",1,NA
+"PECO, Inc, PECO Inc,, an Astronics Company","11241 SE HWY 212, CLACKAMAS, OR 97015","03-0098",1,1
 "Portland General Electric Company Carver Readiness Center","16782 SE 130TH AVE, CLACKAMAS, OR 97015","03-0099",1,NA
 "CarMax Auto Superstores West Coast, Inc. CarMax 7285","13750 SE JOHNSON RD, MILWAUKIE, OR 97222","03-0100",1,NA
-"Vigor Works LLC dba Oregon Iron Works","9700 SE LAWNFIELD RD, CLACKAMAS, OR 97015","03-0110",1,NA
-"Estacada Lumber Company RSG Forest Products","760 NW HWY 224, ESTACADA, OR 97023","03-1778",1,NA
-"Sanders Wood Products, Inc. RSG Forest Products, Inc.","28890 HWY 213, LIBERAL, OR 97038","03-1791",1,NA
-"Lake-Shore Concrete Co. ","100 SW FOOTHILLS RD, LAKE OSWEGO, OR 97034","Mar-24",1,NA
+"Vigor Works LLC dba Oregon Iron Works","9700 SE LAWNFIELD RD, CLACKAMAS, OR 97015","03-0110",1,1
+"Estacada Lumber Company RSG Forest Products","760 NW HWY 224, ESTACADA, OR 97023","03-1778",1,1
+"Sanders Wood Products, Inc. RSG Forest Products, Inc.","28890 HWY 213, LIBERAL, OR 97038","03-1791",1,1
+"Lake-Shore Concrete Co. ","100 SW FOOTHILLS RD, LAKE OSWEGO, OR 97034","Mar-24",1,1
 "Estacada Rock Products, Inc. River Mill Road site","29400 RIVER MILL RD, ESTACADA, OR 97023","Mar-34",1,NA
-"Canby Sand & Gravel Co. ","24420 S HWY 99E, CANBY, OR 97013","Mar-32",1,NA
-"West Linn Paper Company ","4800 MILL ST, WEST LINN, OR 97068","Mar-45",1,NA
+"Canby Sand & Gravel Co. ","24420 S HWY 99E, CANBY, OR 97013","Mar-32",1,1
+"West Linn Paper Company ","4800 MILL ST, WEST LINN, OR 97068","Mar-45",1,1
 "J & A Fuel LLC Wilsonville Concrete Products","30625 SW Industrial Way, WILSONVILLE, OR 97070","Mar-75",1,NA
-"Orchid Orthopedic Solutions Oregon, Inc ","13963 S FIR ST, OREGON CITY, OR 97045","Mar-05",1,NA
-"Interfor US Inc. Interfor US Inc - Molalla Division","15555 HWY 211 S, MOLALLA, OR 97038","Mar-33",1,NA
+"Orchid Orthopedic Solutions Oregon, Inc ","13963 S FIR ST, OREGON CITY, OR 97045","Mar-05",1,1
+"Interfor US Inc. Interfor US Inc - Molalla Division","15555 HWY 211 S, MOLALLA, OR 97038","Mar-33",1,1
 "Providence Willamette Falls Medical Center ","1500 DIVISION ST, OREGON CITY, OR 97045","Mar-68",1,NA
-"Glacier Northwest, Inc. Sandy Plant","20200 SE FIRWOOD RD, SANDY, OR 97055","Mar-70",1,NA
-"Oregon Cutting Systems Blount International Inc.","4909 SE INTERNATIONAL WAY, MILWAUKIE, OR 97222","Mar-24",1,NA
-"Eagle Foundry Co. ","23123 SE EAGLE CREEK RD, EAGLE CREEK, OR 97022","Mar-31",1,NA
-"Johnson Controls Battery Group, Inc. ","800 NW 3RD AVE, CANBY, OR 97013","Mar-34",1,NA
-"WCP, Inc ","31200 SW Industrial Way, WILSONVILLE, OR 97070","Mar-57",1,NA
+"Glacier Northwest, Inc. Sandy Plant","20200 SE FIRWOOD RD, SANDY, OR 97055","Mar-70",1,1
+"Oregon Cutting Systems Blount International Inc.","4909 SE INTERNATIONAL WAY, MILWAUKIE, OR 97222","Mar-24",1,1
+"Eagle Foundry Co. ","23123 SE EAGLE CREEK RD, EAGLE CREEK, OR 97022","Mar-31",1,1
+"Johnson Controls Battery Group, Inc. ","800 NW 3RD AVE, CANBY, OR 97013","Mar-34",1,1
+"WCP, Inc ","31200 SW Industrial Way, WILSONVILLE, OR 97070","Mar-57",1,1
 "Willamette Egg Farms, LLC ","29300 S MOLALLA AVE, MOLALLA, OR 97038","Mar-61",1,NA
 "Eagle Creek Gravel, Inc. ","25375 SE TALON RD, EAGLE CREEK, OR 97022","Mar-68",1,NA
-"PCC Structurals, Inc. ","13340 SE 84TH, CLACKAMAS, OR 97015","Mar-74",1,NA
-"Georgia Pacific Gypsum, LLC Georgia Pacific Gypsum Firedoor","505 NE 3RD ST, CANBY, OR 97013","Mar-19",1,NA
+"PCC Structurals, Inc. ","13340 SE 84TH, CLACKAMAS, OR 97015","Mar-74",1,1
+"Georgia Pacific Gypsum, LLC Georgia Pacific Gypsum Firedoor","505 NE 3RD ST, CANBY, OR 97013","Mar-19",1,1
 "Carson Oil Co., Inc. ","9911 SE ELON ST, CLACKAMAS, OR 97015","Mar-24",1,NA
 "Northwest Pipeline LLC Oregon City Compressor Station","15124 S SPRINGWATER RD, OREGON CITY, OR 97045","Mar-29",1,NA
-"Consolidated Metco, Inc ","10448 HWY 212, CLACKAMAS, OR 97015","Mar-38",1,NA
+"Consolidated Metco, Inc ","10448 HWY 212, CLACKAMAS, OR 97015","Mar-38",1,1
 "Safeway, Inc. ","9450 SE MANGAN DR, CLACKAMAS, OR 97015","Mar-54",1,NA
 "Stutzman Environmental Products, Inc. ","410 INDUSTRIAL, MOLALLA, OR 97038","Mar-63",1,NA
-"Molalla Redi-Mix & Rock Products, Inc. ","32900 MOLALLA FOREST, MOLALLA, OR 97038","Mar-73",1,NA
-"Miles Fiberglass & Plastics, Inc. ","1516 MAIN ST, OREGON CITY, OR 97045","Mar-77",1,NA
-"Miles Fiberglass & Plastics, Inc. Miles Fiberglass & Composites","8855 SE OTTY RD, Happy Valley, OR 97086","Mar-78",1,NA
+"Molalla Redi-Mix & Rock Products, Inc. ","32900 MOLALLA FOREST, MOLALLA, OR 97038","Mar-73",1,1
+"Miles Fiberglass & Plastics, Inc. ","1516 MAIN ST, OREGON CITY, OR 97045","Mar-77",1,1
+"Miles Fiberglass & Plastics, Inc. Miles Fiberglass & Composites","8855 SE OTTY RD, Happy Valley, OR 97086","Mar-78",1,1
 "NW Natural Molalla Gate Station","10405 SOUTH BARNARDS ROAD, MOLALLA, OR 97038","Mar-07",1,NA
 "Privates with Dignity, Inc. Clackamas Facility","15484 SE 94TH AVE, CLACKAMAS, OR 97015","Mar-08",1,NA
 "Bob's Red Mill Natural Foods, Inc. ","13521 SE PHEASANT CT, PORTLAND, OR 97222","Mar-09",1,NA
 "Universal Recycling Technologies, LLC ","10151 SE JENNIFER ST, CLACKAMAS, OR 97015","Mar-11",1,NA
 "Ernie Graham Oil, Inc. ","601 SW 1ST AVE, CANBY, OR 97013","Mar-13",1,NA
 "Hobart Oil Company LLC Dixon Ave","112 DIXON AVE, MOLALLA, OR 97038","Mar-14",1,NA
-"AB Mauri Food, Inc. AB Mauri Fleischmann's","26994 SE 95TH AVENUE, WILSONVILLE, OR 97070","Mar-17",1,NA
+"AB Mauri Food, Inc. AB Mauri Fleischmann's","26994 SE 95TH AVENUE, WILSONVILLE, OR 97070","Mar-17",1,1
 "Valet Cleaners ","15020 SE MCLOUGHLIN BLVD, MILWAUKIE, OR 97267","Mar-22",1,NA
 "Mt. Hood Cleaners ","38862 PROCTOR BLVD, SANDY, OR 97055","Mar-25",1,NA
 "Diana's Cleaner ","16066 BOONES FERRY RD, LAKE OSWEGO (OSWEGO), OR 97035","Mar-30",1,NA
@@ -412,575 +414,690 @@
 "Bright Cleaners ","480 PORTLAND AVE STE A, GLADSTONE, OR 97027","Mar-64",1,NA
 "Promise Cleaners ","12300 SE SUNNYSIDE RD, CLACKAMAS, OR 97015","Mar-68",1,NA
 "Tomorrow Cleaners ","14626 SE MCLOUGHLIN BLVD, MILWAUKIE , OR 97267","Mar-69",1,NA
-"Chris & Jessie's Cleaners ","417 1ST ST, LAKE OSWEGO (OSWEGO), OR 97034","Mar-70",1,NA
+"Chris & Jessie's Cleaners ","417 1ST ST, LAKE OSWEGO (OSWEGO), OR 97034","Mar-70",1,1
 "Carousel Laundry and Cleaners, Inc. ","927 MOLALLA AVE, OREGON CITY, OR 97045","Mar-73",1,NA
 "Champion Enterprises, LLC Style Cleaners","29911 SW BOONES FERRY RD, WILSONVILLE, OR 97070","Mar-75",1,NA
 "Clackamas Community College ","19600 MOLALLA AVE, OREGON CITY, OR 97045","Mar-77",1,NA
 "Harmony Cleaners ","6335 SE HARMONY RD, MILWAUKIE, OR 97222","Mar-81",1,NA
 "Thomas Joseph Inc. dba Thomas Joseph Personalized Dry Cleaning","16060 SE 82ND DR, CLACKAMAS, OR 97015","Mar-82",1,NA
-"Oak Lodge Sanitary District ","13750 SE RENTON AVE, MILWAUKIE, OR 97222","Mar-87",1,NA
+"Oak Lodge Sanitary District ","13750 SE RENTON AVE, MILWAUKIE, OR 97222","Mar-87",1,1
 "Legacy Meridian Park Hospital ","19300 SW 65TH AVE, TUALATIN, OR 97062","34-0002",1,1
-"METRO REGIONAL GOVERNMENT","2001 WASHINGTON ST, OREGON CITY, OR 97045","onsite_storage_23592",NA,1
-"METRO SOUTH TRANSFER STATION","2001 WASHINGTON ST, OREGON CITY, OR 97045","onsite_storage_74665",NA,1
-"VERNONIA CITY OF","1625 N WASHINGTON ST, VERNONIA, OR 97064","onsite_storage_16789",NA,1
-"NORPAC FOODS INC","930 W WASHINGTON ST, STAYTON, OR 97383","onsite_storage_6560",NA,1
-"CASCADE FLOORS INC","1527 W WASHINGTON UNIT F, STAYTON, OR 97383","onsite_storage_28850",NA,1
-"DONALDSON & LANDRY INC","8916 NE VANCOUVER WAY BLDG B-C, PORTLAND, OR 97211","onsite_storage_77445",NA,1
-"DENNIS SEVEN DEES LANDSCAPING","7355 SE JOHNSON CREEK BLVD, PORTLAND, OR 97206","onsite_storage_43219",NA,1
-"WESTERN ABRASIVES INC","1170 NE 63RD AVE, PORTLAND, OR 97213","onsite_storage_4797",NA,1
-"CAMERON GREAT LAKES INC","2335 NW 29TH AVE, PORTLAND, OR 97210","onsite_storage_4981",NA,1
-"CAMERON GREAT LAKE INC","2323 NW 29TH AVE, PORTLAND, OR 97210","onsite_storage_77571",NA,1
-"PENSKE TRUCK LEASING","18900 NE SAN RAFAEL, PORTLAND, OR 97230","onsite_storage_18973",NA,1
-"OREGON SOAP COMPANY","12785 NE WHITAKER WAY, PORTLAND, OR 97230","onsite_storage_77755",NA,1
-"DS SERVICES OF AMERICA INC","13233 NE JARRETT ST, PORTLAND, OR 97230","onsite_storage_93266",NA,1
-"ROSE QUARTER DIALYSIS CENTER","4905 NE MLK BLVD, PORTLAND, OR 97211","onsite_storage_92566",NA,1
-"HOLLYWOOD KIDNEY CENTER","2824 NE WASCO ST, PORTLAND, OR 97232","onsite_storage_92571",NA,1
-"PORTLAND PARKS & REC","6437 SE DIVISION, PORTLAND, OR 97206","onsite_storage_17050",NA,1
-"PGE","1705 E BURNSIDE AVE, GRESHAM, OR 97030","onsite_storage_17359",NA,1
-"ARDEN OLSON BUILDING INC","28930 SE POWELL VALLEY RD, GRESHAM, OR 97080","onsite_storage_77554",NA,1
-"GREEN STREET DETAILS INC","8900 NE VANCOUVER WAY, PORTLAND, OR 97211","onsite_storage_45815",NA,1
-"WIDMER BROS BREWING CO","924 N RUSSELL ST, PORTLAND, OR 97227","onsite_storage_60166",NA,1
-"PACIFICORP","8111 NE COLUMBIA BLVD, PORTLAND, OR 97218","onsite_storage_17230",NA,1
-"BRIDGEPORT BREWING CO","1318 NW NORTHRUP ST, PORTLAND, OR 97209","onsite_storage_45416",NA,1
-"OTA FAMILY TOFU","812 SE STARK, PORTLAND, OR 97214","onsite_storage_4894",NA,1
-"ODOT","1100 N COLUMBIA BLVD, PORTLAND, OR 97217","onsite_storage_6037",NA,1
-"ODOT","5315 NE 101ST, PORTLAND, OR 97220","onsite_storage_6036",NA,1
-"MULTNOMAH COUNTY","1620 SE 190TH AVE, PORTLAND, OR 97233","onsite_storage_17128",NA,1
-"LEATHERMAN TOOL GROUP","12106 NE AINSWORTH CIR, PORTLAND, OR 97220","onsite_storage_45070",NA,1
-"DACON INDUSTRIES COMPANY","10661 N LOMBARD ST, PORTLAND, OR 97203","onsite_storage_43602",NA,1
-"GRESHAM GOLF LLC","2155 NE DIVISION, GRESHAM, OR 97030","onsite_storage_43256",NA,1
-"MULTNOMAH CO-VECTOR CONT","5235 N COLUMBIA BLVD, PORTLAND, OR 97203","onsite_storage_17132",NA,1
-"A B FINISHING TECH","6724 NE 46TH AVE, PORTLAND, OR 97218","onsite_storage_47186",NA,1
-"PORT OF PORTLAND","5750 NE MARINE DR, PORTLAND, OR 97218","onsite_storage_17924",NA,1
-"BPA","905 NE 11TH AVE, PORTLAND, OR 97232","onsite_storage_18737",NA,1
-"PORT OF PORTLAND","7111 NE ALDERWOOD, PORTLAND, OR 97218","onsite_storage_17925",NA,1
-"PORT OF PORTLAND","9699 N RIVERGATE BLVD, PORTLAND, OR 97203","onsite_storage_17926",NA,1
-"PORT OF PORTLAND","10801 N LOMBARD, PORTLAND, OR 97203","onsite_storage_17927",NA,1
-"CASCADE GENERAL INC","5555 N CHANNEL AVE, PORTLAND, OR 97217","onsite_storage_17930",NA,1
-"TROUTDALE CITY OF","1820 NW GRAHAM RD, TROUTDALE, OR 97060","onsite_storage_17932",NA,1
-"TRAILBLAZER FOODS INC","17900 NE SAN RAFAEL, GRESHAM, OR 97230","onsite_storage_5303",NA,1
-"PROGRASS INC","5330 NE 105TH, PORTLAND, OR 97220","onsite_storage_17945",NA,1
-"ODFW","70543 NE HERMAN LOOP, CASCADE LOCKS, OR 97014","onsite_storage_5766",NA,1
-"PENSKE TRUCK LEASING","1 NE COLUMBIA BLVD, PORTLAND, OR 97211","onsite_storage_44180",NA,1
-"PORTLAND CITY OF","4800 NE 122ND AVE, PORTLAND, OR 97230","onsite_storage_18745",NA,1
-"PORTLAND CITY OF","5001 N COLUMBIA BLVD, PORTLAND, OR 97203","onsite_storage_17918",NA,1
-"NORTHWEST PIPE COMPANY","12005 N BURGARD RD, PORTLAND, OR 97203","onsite_storage_5267",NA,1
-"VA MEDICAL CENTER PORTLAND","3710 SW US VETS HOSP RD, PORTLAND, OR 97239","onsite_storage_18659",NA,1
-"UNIVERSAL APPLICATORS INC","10111 NE 6TH DR, PORTLAND, OR 97211","onsite_storage_59655",NA,1
-"COLUMBIA FORGE & MACHINE","8424 N CRAWFORD ST, PORTLAND, OR 97203","onsite_storage_5730",NA,1
-"ODA","1207 NW NAITO PKWY STE 204, PORTLAND, OR 97209","onsite_storage_17993",NA,1
-"GLACIER NORTHWEST INC","2172 NW MARINE DR, TROUTDALE, OR 97060","onsite_storage_80753",NA,1
-"SIMONDS INTERNATIONAL","2700 SE TACOMA ST, PORTLAND, OR 97202","onsite_storage_5722",NA,1
-"PORTLAND SCHOOL DISTRICT 1J","1151 SW VERMONT ST, PORTLAND, OR 97219","onsite_storage_17483",NA,1
-"CH MURPHY-CLARK-ULLMAN","5458 N CHANNEL AVE, PORTLAND, OR 97217","onsite_storage_80782",NA,1
-"GOOD SAMARITAN HOSP & MED CTR","1015 NW 22ND AVE R 350, PORTLAND, OR 97210","onsite_storage_17558",NA,1
-"REYNOLDS SCHOOL DISTRICT 7","1698 SW CHERRY PARK RD, PORTLAND, OR 97230","onsite_storage_17572",NA,1
-"VEOLIA WATER N AMERICA","20015 NE SANDY BLVD, PORTLAND, OR 97230","onsite_storage_17581",NA,1
-"TUBULAR SOLUTIONS INC","2690 NW NICOLAI ST, PORTLAND, OR 97210","onsite_storage_92290",NA,1
-"PORTLAND SPECIALTY BAKING LLC","3423 NE 172ND PL, PORTLAND, OR 97230","onsite_storage_44212",NA,1
-"B & B METAL","11309 NE HOLMAN ST, PORTLAND, OR 97220","onsite_storage_5516",NA,1
+"CHICK A DEE GARDEN NURSERY INC","24485 BOONES FERRY RD, AURORA, OR 97002","onsite_storage_023564",NA,1
+"WARN INDUSTRIES","12900 SE CAPPS RD, CLACKAMAS, OR 97015","onsite_storage_021464",NA,1
+"P & A METAL FAB INC","13009 SE JENNIFER ST STE 101, CLACKAMAS, OR 97015","onsite_storage_021379",NA,1
+"BPA-MCNARY SUBSTATION","SUBSTN ELECTRIC RELY, SUBSTATION, OR 97000","onsite_storage_023444",NA,1
+"AUTO-CHLOR SYSTEM OF OREGON","26300 SW 95TH AVE STE 100, WILSONVILLE, OR 97070","onsite_storage_095073",NA,1
+"WILSONVILLE CITY OF","10350 SW ARROWHEAD CRK LN, WILSONVILLE, OR 97070","onsite_storage_095125",NA,1
+"MARKS METAL TECHNOLOGY","10300 SE JENNIFER ST, CLACKAMAS, OR 97015","onsite_storage_023807",NA,1
+"METRO REGIONAL GOVERNMENT","2001 WASHINGTON ST, OREGON CITY, OR 97045","onsite_storage_023592",NA,1
+"WEST LINN CITY OF","4100 NORFOLK ST, WEST LINN, OR 97068","onsite_storage_016569",NA,1
+"ESTACADA CITY OF","800 NW EVERGREEN RD, ESTACADA, OR 97023","onsite_storage_021663",NA,1
+"MACKAYMITCHELL ENVELOPE CO","2515 SE MAILWELL DR, MILWAUKIE, OR 97222","onsite_storage_087583",NA,1
+"EVER FRESH FRUIT COMPANY","35855 SE KELSO RD, BORING, OR 97009","onsite_storage_022334",NA,1
+"WILLAMETTE NATL CEMETERY","11800 SE MT SCOTT BLVD, PORTLAND, OR 97086","onsite_storage_017052",NA,1
+"MILWAUKIEE ELECTRONICS","1140 NW 3RD AVE, CANBY, OR 97013","onsite_storage_087491",NA,1
+"BPA","10000 SW RIDDER RD, WILSONVILLE, OR 97070","onsite_storage_023130",NA,1
+"MURPHYS CLASSIC LAWN CARE","17260 S BECKMAN RD, OREGON CITY, OR 97045","onsite_storage_087967",NA,1
+"PCC STRUCTURALS INC","6465 SE CROSSWHITE, MILWAUKIE, OR 97206","onsite_storage_022288",NA,1
+"OREGON GOLF CLUB THE","25700 SW PETES MOUNTAIN RD, WEST LINN, OR 97068","onsite_storage_023261",NA,1
+"FOX EROSION CONTROL&LANDSCAPE","11901 HWY 212, CLACKAMAS, OR 97015","onsite_storage_087819",NA,1
+"FAIRDALE NURSERY","13200 SW WILSONVILLE RD, WILSONVILLE, OR 97070","onsite_storage_022655",NA,1
+"VIOC","895 MOLALLA AVE, OREGON CITY, OR 97045","onsite_storage_092684",NA,1
+"YOSHITOMI BROTHERS INC","31919 SW PEACH COVE RD, WEST LINN, OR 97068","onsite_storage_022504",NA,1
+"CLACKAMAS COUNTY DTD","902 ABERNETHY RD, OREGON CITY, OR 97045","onsite_storage_018073",NA,1
+"RESORT AT THE MOUNTAIN THE","26688 E WELCHES RD, WELCHES, OR 97067","onsite_storage_018139",NA,1
+"SANDY CITY OF","52500 HWY 26, SANDY, OR 97055","onsite_storage_019128",NA,1
+"PORTLAND WATER BUREAU","50105 SE ROCK CUT RD, CORBETT, OR 97019","onsite_storage_019528",NA,1
+"SANDY CITY OF","33400 SE JARL RD, BORING, OR 97009","onsite_storage_019129",NA,1
+"KAISER PERMANENTE","10200 SE SUNNYSIDE RD, CLACKAMAS, OR 97015","onsite_storage_019081",NA,1
+"ODOT","2440 SE STUBB ST, MILWAUKIE, OR 97222","onsite_storage_019077",NA,1
+"CASCADE POOLS","6775 SW MCEWAN, LAKE OSWEGO, OR 97035","onsite_storage_020090",NA,1
+"CLACKAMAS COUNTY DTD","19009 BARTON PARK RD, BORING, OR 97009","onsite_storage_018038",NA,1
+"OREGON ARMY NATIONAL GUARD","15300 SE MINUTEMAN WAY, CLACKAMAS, OR 97015","onsite_storage_017640",NA,1
+"FRESENIUS MEDICAL CARE","13560 SE 97TH AVE, CLACKAMAS, OR 97015","onsite_storage_092572",NA,1
+"PGE","33831 SE HWY 224, ESTACADA, OR 97023","onsite_storage_017374",NA,1
+"LAKE OSWEGO CITY OF","4260 SW KENTHORPE WAY, WEST LINN, OR 97068","onsite_storage_017907",NA,1
+"PCC STRUCTURALS INC","6667 SE JOHNSON CREEK BLVD, MILWAUKIE, OR 97206","onsite_storage_020707",NA,1
+"CLACKAMAS COMMUNITY COLLEGE","19600 MOLALLA AVE, OREGON CITY, OR 97405","onsite_storage_021372",NA,1
+"MOLALLA CITY OF","12424 W TOLIVER RD, MOLALLA, OR 97038","onsite_storage_017974",NA,1
+"DOW AGROSCIENCES","32905 S MORCOM RD, WOODBURN, OR 97071","onsite_storage_091633",NA,1
+"VEOLIA WATER NA","591 N CEDAR ST, CANBY, OR 97013","onsite_storage_017904",NA,1
+"LAKE OSWEGO SCHOOL DISTRICT 7J","2400 SW HAZEL RD, LAKE OSWEGO, OR 97034","onsite_storage_020753",NA,1
+"PGE","209 WARNER MILNE RD, OREGON CITY, OR 97045","onsite_storage_017736",NA,1
+"COHERENT INC","27650 SW 95TH AVE, WILSONVILLE, OR 97070","onsite_storage_055809",NA,1
+"REXIUS FOREST BY-PRODUCTS INC","17550 SW 63RD, LAKE OSWEGO, OR 97035","onsite_storage_057645",NA,1
+"OSWEGO ROOFING","17350 BOONES FERRY RD, LAKE OSWEGO, OR 97035","onsite_storage_056583",NA,1
+"BRYSTAL LAWN & TREE INC","8747 S HEINZ RD, CANBY, OR 97013","onsite_storage_050685",NA,1
+"BECKS BOTANICAL INC","4400 SW ADVANCE RD, WILSONVILLE, OR 97070","onsite_storage_050267",NA,1
+"CANBY TRANSFER & RECYCLING","1600 SE 4TH AVE, CANBY, OR 97013","onsite_storage_073697",NA,1
+"OREGON CITY CITY OF","220 S JOHN ADAMS ST, OREGON CITY, OR 97045","onsite_storage_073704",NA,1
+"OREGON CITY CITY OF","206 S JOHN ADAMS ST, OREGON CITY, OR 97045","onsite_storage_073705",NA,1
+"OREGON CITY CITY OF","1211 JACKSON ST, OREGON CITY, OR 97045","onsite_storage_073710",NA,1
+"DOWERS WATERPROOFING INC","16631 SE 232ND DR, DAMASCUS, OR 97089","onsite_storage_052237",NA,1
+"F A BARTLETT TREE EXPERT COMPANY THE","11814 SE JENNIFER ST, CLACKAMAS, OR 97015","onsite_storage_051397",NA,1
+"CASCADE SKI CLUB INC","30510 E BLOSSOM TRL, GOVERNMENT CAMP, OR 97028","onsite_storage_051025",NA,1
+"CLARKE MANUFACTURING CO INC","13388 S MOLALLA FOREST RD, MOLALLA, OR 97038","onsite_storage_068983",NA,1
+"SAME DAY AUTO SERVICE","16009 SE 106TH ST, CLACKAMAS, OR 97015","onsite_storage_069762",NA,1
+"PRECISION METAL FINISHING","9201 S KRAXBERGER RD, CANBY, OR 97013","onsite_storage_064900",NA,1
+"BRENTWOOD CORP","453 INDUSTRIAL WAY, MOLALLA, OR 97038","onsite_storage_069195",NA,1
+"WEST LINN CITY OF","5095 MAPELTON DR, WEST LINN, OR 97068","onsite_storage_067963",NA,1
+"CLACKAMAS COUNTY SHERIFFS DEPT","12700 SE 82ND, CLACKAMAS, OR 97015","onsite_storage_067717",NA,1
+"ANDERSON POOLWORKS","9500 SW BOECKMAN RD, WILSONVILLE, OR 97070","onsite_storage_067304",NA,1
+"LEADER TECHNOLOGIES INC","27555 SW BOONES FERRY RD, WILSONVILLE, OR 97070","onsite_storage_067820",NA,1
+"WILSONVILLE CITY OF","9275 TAUCHMAN ST, WILSONVILLE, OR 97070","onsite_storage_068401",NA,1
+"SHIMADZU USA MANUFACTURING INC","1900 SE 4TH AVE, CANBY, OR 97013","onsite_storage_064252",NA,1
+"WOLF INDUSTRIES INC","6541 SE JOHNSON CREEK BLVD, PORTLAND, OR 97206","onsite_storage_060288",NA,1
+"TRI COUNTY CONSTRUCTION CO","1363 SW BORLAND RD, WEST LINN, OR 97068","onsite_storage_059459",NA,1
+"SOUTH FORK WATER BOARD","15962 S HUNTER AVE, OREGON CITY, OR 97045","onsite_storage_058558",NA,1
+"GREEN AIR PRODUCTS","29299 SE WHEELER RD, BORING, OR 97009","onsite_storage_032423",NA,1
+"SEUBERT MACHINING & FAB INC","1075 NW PARK AVE, ESTACADA, OR 97023","onsite_storage_032382",NA,1
+"PACIFIC NORTHWEST ENVIRONMENTAL LLC","19645 SE SUNNYSIDE RD, DAMASCUS, OR 97089","onsite_storage_029408",NA,1
+"MAXWELL MOLD & MACHINE","960 82ND DR, GLADSTONE, OR 97027","onsite_storage_031495",NA,1
+"MOON SHADOWS ETCHERS OF OREGON","37300 RUBIN LN, SANDY, OR 97055","onsite_storage_031116",NA,1
+"ZOCHERT FENCE COMPANY","8205 SE GRAY ST, HAPPY VALLEY, OR 97086","onsite_storage_029536",NA,1
+"K B RECYCLING INC","9602 SE CLACKAMAS RD, CLACKAMAS, OR 97015","onsite_storage_033788",NA,1
+"BPA","16885 S EADEN RD, OREGON CITY, OR 97045","onsite_storage_024663",NA,1
+"CLACKAMAS FIRE DISTRICT #1","28655 SE HWY 212, BORING, OR 97015","onsite_storage_024020",NA,1
+"MOLALLA RIVER SCHOOL DIST 35","412 S SWEIGLE, MOLALLA, OR 97038","onsite_storage_023962",NA,1
+"NEPTUNE SWIMMING POOL CO","13785 SE AMBLER RD, CLACKAMAS, OR 97015","onsite_storage_029340",NA,1
+"HESTIA INC AKA HEARTH CLASSICS","37470 RUBEN LN, SANDY, OR 97055","onsite_storage_085087",NA,1
+"HALS CONSTRUCTION","20666 S HWY 213, OREGON CITY, OR 97045","onsite_storage_026079",NA,1
+"PROGRASS INC","29895 SW KINSMAN RD, WILSONVILLE, OR 97070","onsite_storage_025418",NA,1
+"TRUGREEN LP","5655 SW WILLOW LN, LAKE OSWEGO, OR 97035","onsite_storage_025385",NA,1
+"CHANGING LANDSCAPES INC","26267 SW 45TH DR, WILSONVILLE, OR 97070","onsite_storage_025099",NA,1
+"JIM CALCAGNO STUDIO","27400 SW HWY 212, BORING, OR 97009","onsite_storage_085292",NA,1
+"PRECISION POWDER COATING INC","11719 SE 40TH AVE, MILWAUKIE, OR 97222","onsite_storage_085395",NA,1
+"WAVERLEY COUNTRY CLUB","1100 SE WAVERLEY DR, PORTLAND, OR 97222","onsite_storage_045148",NA,1
+"SKYLINE NW CORP","117 FOOTHILLS RD, LAKE OSWEGO, OR 97034","onsite_storage_043668",NA,1
+"METRO SOUTH TRANSFER STATION","2001 WASHINGTON ST, OREGON CITY, OR 97045","onsite_storage_074665",NA,1
+"PENSKE TRUCK LEASING CO  LP","15975 SE 130TH AVE, CLACKAMAS, OR 97015","onsite_storage_048770",NA,1
+"DYNO NOBEL INC","19070 S LYONS RD, OREGON CITY, OR 97045","onsite_storage_048743",NA,1
+"PHILLIPS SOIL PRODUCTS INC","26050 S HWY 170, CANBY, OR 97013","onsite_storage_048227",NA,1
+"LAMINATIONS CORP","9750 SW HILLMAN CT STE 100, WILSONVILLE, OR 97070","onsite_storage_048217",NA,1
+"NORTHWEST TECHNOLOGIES INC","1150 NW PARK AVE, ESTACADA, OR 97023","onsite_storage_081794",NA,1
+"COLTON SCHOOL DISTRICT 53","30205 S WALL ST, COLTON, OR 97017","onsite_storage_042131",NA,1
+"CANBY CITY OF","1480 N TERRITORIAL, CANBY, OR 97013","onsite_storage_082079",NA,1
+"SYSCO PORTLAND INC","26250 SW PARKWAY CTR DR, WILSONVILLE, OR 97070","onsite_storage_039438",NA,1
+"OLDCASTLE ENCLOSURE SOLUTIONS","155 SE HAZEL DELL WAY, CANBY, OR 97013","onsite_storage_043576",NA,1
+"NORTH CLACKAMAS PARK & REC","7300 SE HARMONY RD, MILWAUKIE, OR 97222","onsite_storage_043398",NA,1
+"WALKER EMULSIONS INC","4401 SE JOHNSON CREEK BLVD, PORTLAND, OR 97222","onsite_storage_005214",NA,1
+"ENOCH PRECISION MACHINING","9085 SE ENOCH CT, CLACKAMAS, OR 97015","onsite_storage_005246",NA,1
+"MOLALLA REDI-MIX & ROCK PRODUCTS INC","13050 S MOLALLA FOREST RD, MOLALLA, OR 97038","onsite_storage_103453",NA,1
+"EARTH SCIENCE PRODUCTS CORP","23735 NE AIRPORT RD, AURORA, OR 97002","onsite_storage_007973",NA,1
+"ROCKWELL COLLINS AEROSPACE&ELE","27300 SW PARKWAY AVE, WILSONVILLE, OR 97070","onsite_storage_002535",NA,1
+"PRECISION INTERCONNECT","10025 SW FREEMAN CT, WILSONVILLE, OR 97070","onsite_storage_004502",NA,1
+"PCC STRUCTURALS INC","2770 SE MAILWELL DR, MILWAUKIE, OR 97222","onsite_storage_106559",NA,1
+"PCC STRUCTURALS INC","5001 SE JOHNSON CREEK BLVD, MILWAUKIE, OR 97222","onsite_storage_005154",NA,1
+"SSI SHREDDING SYSTEM INC","9760 SW FREEMAN DR, WILSONVILLE, OR 97070","onsite_storage_008407",NA,1
+"CEMEX","515 S BERG PKWY, CANBY, OR 97013","onsite_storage_095639",NA,1
+"WILLAMETTE EGG FARMS","31348 S HWY 170, CANBY, OR 97013","onsite_storage_002812",NA,1
+"STANLEY HYDRAULIC TOOLS","3810 SE NAEF RD, MILWAUKIE, OR 97267","onsite_storage_002811",NA,1
+"OREGON IRON WORKS","9889 SE MATHER RD, CLACKAMAS, OR 97015","onsite_storage_095614",NA,1
+"ODFW","24500 S ENTRANCE RD, ESTACADA, OR 97023","onsite_storage_005758",NA,1
+"TECHNICAL INDUSTRIAL SALES INC","18574 S HWY 99 E, OREGON CITY, OR 97045","onsite_storage_015534",NA,1
+"ANDERSON DIE & MFG CO","2425 SE MOORES ST, MILWAUKIE, OR 97222","onsite_storage_001509",NA,1
+"EVERETT MFG INC","5700 WILLOW LN, LAKE OSWEGO, OR 97035","onsite_storage_006784",NA,1
+"ADVANCED PLASTICS INC","37570 RUBEN LN STE B, SANDY, OR 97055","onsite_storage_006766",NA,1
+"TRI-LETT INDUSTRIES INC","13530 S REDLAND RD, OREGON CITY, OR 97045","onsite_storage_001560",NA,1
+"NORTH AMERICAN SUBSTATION SERVICES, LLC","3701 NAEF RD, MILWAUKIE, OR 97267","onsite_storage_103290",NA,1
+"BLUE SKY FILTERS INC","16600 SE KENS CT, MILWAUKIE, OR 97267","onsite_storage_015005",NA,1
+"LISANATTI FOODS INC","1815 RED SOILS CT, OREGON CITY, OR 97045","onsite_storage_002033",NA,1
+"XEROX CORPORATION","26600 SW PARKWAY AVE, WILSONVILLE, OR 97070","onsite_storage_005687",NA,1
+"NEEDY BRICK & TILE","6401 S MILLER, HUBBARD, OR 97032","onsite_storage_001974",NA,1
+"LARSENS CREAMERY INC","16940 SE 130TH AVE, CLACKAMAS, OR 97015","onsite_storage_001969",NA,1
+"INTERSTATE MEAT DIST INC","9550 SE LAST RD, CLACKAMAS, OR 97015","onsite_storage_007371",NA,1
+"TOWN & COUNTRY FENCE CO OF ORE","8810 SE HERBERT CT, CLACKAMAS, OR 97015","onsite_storage_012095",NA,1
+"MET-TEK INC","15651 SE 125TH CT, CLACKAMAS, OR 97015","onsite_storage_004928",NA,1
+"GROVTEC U S INC","13529 SE JOHNSON RD, MILWAUKIE, OR 97222","onsite_storage_105525",NA,1
+"COLUMBIA RUBBER LLC","14800 SE 82ND DR, CLACKAMAS, OR 97015","onsite_storage_004929",NA,1
+"COLUMBIA RUBBER,","14830 SE 82ND DR, CLACKAMAS, OR 97015","onsite_storage_004931",NA,1
+"LANDSCAPE EAST & WEST INC","15601 SE 90TH, CLACKAMAS, OR 97015","onsite_storage_011095",NA,1
+"MUTUAL MATERIALS CO","16800 SE 130TH, CLACKAMAS, OR 97015","onsite_storage_004336",NA,1
+"S A PIAZZA & ASSOCIATES LLC","15815 SE PIAZZA AVE, CLACKAMAS, OR 97015","onsite_storage_004751",NA,1
+"DEBLOCK LANDSCAPING","2384 SE OCHOCO, MILWAUKIE, OR 97222","onsite_storage_011044",NA,1
+"WARN INDUSTRIES","13270 SE PHEASANT CT, MILWAUKIE, OR 97222","onsite_storage_004799",NA,1
+"OREGON CITY CITY OF","122 S CENTER ST, OREGON CITY, OR 97045","onsite_storage_011139",NA,1
+"BUREAU OF ENVIRON SVCS","195 FOOTHILLS RD, LAKE OSWEGO, OR 97034","onsite_storage_009937",NA,1
+"OREGON GLASS COMPANY","10450 SW RIDDER RD, WILSONVILLE, OR 97070","onsite_storage_008530",NA,1
+"CONVEYCO MFG","15151 SE MINUTEMAN WAY, CLACKAMAS, OR 97015","onsite_storage_002381",NA,1
+"OECO LLC","4607 SE INTERNATIONAL WAY, MILWAUKIE, OR 97222","onsite_storage_005090",NA,1
+"WEST AUTOMOTIVE PRODUCTS LLC","405 S REDWOOD ST, CANBY, OR 97013","onsite_storage_097292",NA,1
+"TEMCO ENGINEERED PRODUCTS INC","10240 SE MATHER RD, CLACKAMAS, OR 97015","onsite_storage_003450",NA,1
+"CASCADE DRILLING LP","13600 SE AMBLER RD, CLACKAMAS, OR 97015","onsite_storage_099312",NA,1
+"FULLER BROS INC","11507 SE HWY 212, CLACKAMAS, OR 97015","onsite_storage_003496",NA,1
+"POTTERS INDUSTRIES LLC","350 NW BAKER DR, CANBY, OR 97013","onsite_storage_000975",NA,1
+"COORSTEK MEDICAL","221 COMMERCIAL PKWY, MOLALLA, OR 97038","onsite_storage_101065",NA,1
+"PLASTIMAYD CORPORATION","14151 FIR ST, OREGON CITY, OR 97045","onsite_storage_006207",NA,1
+"PACKAGE CONTAINERS INC","777 NE 4TH AVE, CANBY, OR 97013","onsite_storage_001005",NA,1
+"WEYERHAEUSER NR CO","6051 S LONE ELDER RD, AURORA, OR 97002","onsite_storage_016461",NA,1
+"COCA-COLA REFRESHMENTS","9750 SW BARBER ST, WILSONVILLE, OR 97070","onsite_storage_016371",NA,1
+"CHEMSTATION OF OREGON","26100 SW 95TH AVE STE 202, WILSONVILLE, OR 97070","onsite_storage_101069",NA,1
+"CORNELL PUMP CO","16261 SE 130TH AVE, CLACKAMAS, OR 97015","onsite_storage_000400",NA,1
+"TAYLOR MADE LABELS INC","17252 SW PILKINGTON RD, LAKE OSWEGO, OR 97035","onsite_storage_006340",NA,1
+"OREGON WILBERT VAULT CO","15520 SE 102ND, CLACKAMAS, OR 97015","onsite_storage_001216",NA,1
+"CANBY EXCAVATING INC","294 S WALNUT ST, CANBY, OR 97013","onsite_storage_100239",NA,1
+"SPEEDY SEPTIC","12055 SE 282ND AVE, BORING, OR 97009","onsite_storage_120825",NA,1
+"RB FAB WORKS LLC","375 S REDWOOD ST, CANBY, OR 97013","onsite_storage_121278",NA,1
+"FISHEAD CUSTOM PRINTING INC","16069 SE 98TH AVE, CLACKAMAS, OR 97015","onsite_storage_118494",NA,1
+"SKYDIVE OREGON INC","12150 S HWY 211, MOLALLA, OR 97038","onsite_storage_119016",NA,1
+"STREAM GLOBAL SERVICES INTERNATIONAL","9275 SW PEYTON LN, WILSONVILLE, OR 97070","onsite_storage_120965",NA,1
+"BRICKMAN GROUP","20395 STAFFORD RD SW, TUALATIN, OR 97062","onsite_storage_110336",NA,1
+"WILSONVILLE CONCRETE","16051 SE HWY 224, DAMASCUS, OR 97015","onsite_storage_113581",NA,1
+"GREENBLADE LAWNCARE INC","2320 WILLAMETTEFALL DR, WEST LINN, OR 97068","onsite_storage_120523",NA,1
+"LAKE OSWEGO CORP","16901 MAPLE CIR, LAKE OSWEGO, OR 97034","onsite_storage_120927",NA,1
+"LAKE OSWEGO CORP","OAK TERRACE DR TXLT 1411, LAKE OSWEGO, OR 97034","onsite_storage_120926",NA,1
+"LAKE OSWEGO CORP","18089 BRYANT RD, LAKE OSWEGO, OR 97034","onsite_storage_120931",NA,1
+"PCC STRUCTURALS INC","13521 JOHNSON RD, MILWAUKIE, OR 97222","onsite_storage_114161",NA,1
+"LAKE OSWEGO CORP","CANAL RD, LAKE OSWEGO, OR 97034","onsite_storage_120930",NA,1
+"LAKE OSWEGO CORP","698 MCVEY AVE, LAKE OSWEGO, OR 97034","onsite_storage_120929",NA,1
+"LAKE OSWEGO CORP","645 NORTH SHORE RD, LAKE OSWEGO, OR 97034","onsite_storage_120928",NA,1
+"PORTLAND CITY OF - STREETCAR","1516 NW NORTHRUP ST, PORTLAND, OR 97209","onsite_storage_092613",NA,1
+"DENNIS SEVEN DEES LANDSCAPING","7355 SE JOHNSON CREEK BLVD, PORTLAND, OR 97206","onsite_storage_043219",NA,1
+"WESTERN ABRASIVES INC","1170 NE 63RD AVE, PORTLAND, OR 97213","onsite_storage_004797",NA,1
+"CAMERON GREAT LAKES INC","2335 NW 29TH AVE, PORTLAND, OR 97210","onsite_storage_004981",NA,1
+"CAMERON GREAT LAKE INC","2323 NW 29TH AVE, PORTLAND, OR 97210","onsite_storage_077571",NA,1
+"PENSKE TRUCK LEASING","18900 NE SAN RAFAEL, PORTLAND, OR 97230","onsite_storage_018973",NA,1
+"OREGON SOAP COMPANY","12785 NE WHITAKER WAY, PORTLAND, OR 97230","onsite_storage_077755",NA,1
+"DS SERVICES OF AMERICA INC","13233 NE JARRETT ST, PORTLAND, OR 97230","onsite_storage_093266",NA,1
+"ROSE QUARTER DIALYSIS CENTER","4905 NE MLK BLVD, PORTLAND, OR 97211","onsite_storage_092566",NA,1
+"HOLLYWOOD KIDNEY CENTER","2824 NE WASCO ST, PORTLAND, OR 97232","onsite_storage_092571",NA,1
+"PORTLAND PARKS & REC","6437 SE DIVISION, PORTLAND, OR 97206","onsite_storage_017050",NA,1
+"PGE","1705 E BURNSIDE AVE, GRESHAM, OR 97030","onsite_storage_017359",NA,1
+"ARDEN OLSON BUILDING INC","28930 SE POWELL VALLEY RD, GRESHAM, OR 97080","onsite_storage_077554",NA,1
+"WIDMER BROS BREWING CO","924 N RUSSELL ST, PORTLAND, OR 97227","onsite_storage_060166",NA,1
+"PACIFICORP","8111 NE COLUMBIA BLVD, PORTLAND, OR 97218","onsite_storage_017230",NA,1
+"KAISER PERMANENTE","3500 N INTERSTATE AVE, PORTLAND, OR 97227","onsite_storage_019083",NA,1
+"BRIDGEPORT BREWING CO","1318 NW NORTHRUP ST, PORTLAND, OR 97209","onsite_storage_045416",NA,1
+"OTA FAMILY TOFU","812 SE STARK, PORTLAND, OR 97214","onsite_storage_004894",NA,1
+"ODOT","1100 N COLUMBIA BLVD, PORTLAND, OR 97217","onsite_storage_006037",NA,1
+"P J FOOD SERVICE INC","15011 N LOMBARD ST STE A, PORTLAND, OR 97203","onsite_storage_104016",NA,1
+"ODOT","5315 NE 101ST, PORTLAND, OR 97220","onsite_storage_006036",NA,1
+"MULTNOMAH COUNTY","1620 SE 190TH AVE, PORTLAND, OR 97233","onsite_storage_017128",NA,1
+"LEATHERMAN TOOL GROUP","12106 NE AINSWORTH CIR, PORTLAND, OR 97220","onsite_storage_045070",NA,1
+"DACON INDUSTRIES COMPANY","10661 N LOMBARD ST, PORTLAND, OR 97203","onsite_storage_043602",NA,1
+"GRESHAM GOLF LLC","2155 NE DIVISION, GRESHAM, OR 97030","onsite_storage_043256",NA,1
+"MULTNOMAH CO-VECTOR CONT","5235 N COLUMBIA BLVD, PORTLAND, OR 97203","onsite_storage_017132",NA,1
+"A B FINISHING TECH","6724 NE 46TH AVE, PORTLAND, OR 97218","onsite_storage_047186",NA,1
+"PORT OF PORTLAND","5750 NE MARINE DR, PORTLAND, OR 97218","onsite_storage_017924",NA,1
+"BPA","905 NE 11TH AVE, PORTLAND, OR 97232","onsite_storage_018737",NA,1
+"PORT OF PORTLAND","7111 NE ALDERWOOD, PORTLAND, OR 97218","onsite_storage_017925",NA,1
+"PORT OF PORTLAND","9699 N RIVERGATE BLVD, PORTLAND, OR 97203","onsite_storage_017926",NA,1
+"PORT OF PORTLAND","10801 N LOMBARD, PORTLAND, OR 97203","onsite_storage_017927",NA,1
+"TROUTDALE CITY OF","1820 NW GRAHAM RD, TROUTDALE, OR 97060","onsite_storage_017932",NA,1
+"TRAILBLAZER FOODS INC","17900 NE SAN RAFAEL, GRESHAM, OR 97230","onsite_storage_005303",NA,1
+"PROGRASS INC","5330 NE 105TH, PORTLAND, OR 97220","onsite_storage_017945",NA,1
+"ODFW","70543 NE HERMAN LOOP, CASCADE LOCKS, OR 97014","onsite_storage_005766",NA,1
+"PENSKE TRUCK LEASING","1 NE COLUMBIA BLVD, PORTLAND, OR 97211","onsite_storage_044180",NA,1
+"PORTLAND CITY OF","4800 NE 122ND AVE, PORTLAND, OR 97230","onsite_storage_018745",NA,1
+"NORTHWEST PIPE COMPANY","12005 N BURGARD RD, PORTLAND, OR 97203","onsite_storage_005267",NA,1
+"IMPERIAL PAINT CO","2526 NW YEON AVE, PORTLAND, OR 97210","onsite_storage_005714",NA,1
+"VA MEDICAL CENTER PORTLAND","3710 SW US VETS HOSP RD, PORTLAND, OR 97239","onsite_storage_018659",NA,1
+"UNIVERSAL APPLICATORS INC","10111 NE 6TH DR, PORTLAND, OR 97211","onsite_storage_059655",NA,1
+"COLUMBIA FORGE & MACHINE","8424 N CRAWFORD ST, PORTLAND, OR 97203","onsite_storage_005730",NA,1
+"ODA","1207 NW NAITO PKWY STE 204, PORTLAND, OR 97209","onsite_storage_017993",NA,1
+"GLACIER NORTHWEST INC","2172 NW MARINE DR, TROUTDALE, OR 97060","onsite_storage_080753",NA,1
+"SIMONDS INTERNATIONAL","2700 SE TACOMA ST, PORTLAND, OR 97202","onsite_storage_005722",NA,1
+"PORTLAND SCHOOL DISTRICT 1J","1151 SW VERMONT ST, PORTLAND, OR 97219","onsite_storage_017483",NA,1
+"CH MURPHY-CLARK-ULLMAN","5458 N CHANNEL AVE, PORTLAND, OR 97217","onsite_storage_080782",NA,1
+"REYNOLDS SCHOOL DISTRICT 7","1698 SW CHERRY PARK RD, PORTLAND, OR 97230","onsite_storage_017572",NA,1
+"VEOLIA WATER N AMERICA","20015 NE SANDY BLVD, PORTLAND, OR 97230","onsite_storage_017581",NA,1
+"TUBULAR SOLUTIONS INC","2690 NW NICOLAI ST, PORTLAND, OR 97210","onsite_storage_092290",NA,1
+"B & B METAL","11309 NE HOLMAN ST, PORTLAND, OR 97220","onsite_storage_005516",NA,1
 "TCI AMERICA","13135 N WOODRUSH WAY, PORTLAND, OR 97203","onsite_storage_103497",NA,1
-"LLOYD CENTER ICE CHALET","953 LLOYD CENTER, PORTLAND, OR 97232","onsite_storage_92402",NA,1
-"PORTLAND SCHOOL DISTRICT 1J","6801 SE 60TH, PORTLAND, OR 97206","onsite_storage_17460",NA,1
-"BRIDGETOWN CORES INC","900 N COLUMBIA BLVD, PORTLAND, OR 97217","onsite_storage_78745",NA,1
-"MULTNOMAH COUNTY","1620 SE 190TH AVE, PORTLAND, OR 97233","onsite_storage_18919",NA,1
+"LLOYD CENTER ICE CHALET","953 LLOYD CENTER, PORTLAND, OR 97232","onsite_storage_092402",NA,1
+"CENTURYLINK","707 SW WASHINGTON STE E400, PORTLAND, OR 97205","onsite_storage_078559",NA,1
+"PORTLAND SCHOOL DISTRICT 1J","6801 SE 60TH, PORTLAND, OR 97206","onsite_storage_017460",NA,1
+"BRIDGETOWN CORES INC","900 N COLUMBIA BLVD, PORTLAND, OR 97217","onsite_storage_078745",NA,1
+"MULTNOMAH COUNTY","1620 SE 190TH AVE, PORTLAND, OR 97233","onsite_storage_018919",NA,1
 "KNIFE RIVER","12222 NW MARINA WAY, PORTLAND, OR 97231","onsite_storage_103363",NA,1
-"AMERICAN METAL CLEANING INC","9940 N VANCOUVER WAY, PORTLAND, OR 97217","onsite_storage_18818",NA,1
-"KAISER PERMANENTE","3715 N INTERSTATE AVE, PORTLAND, OR 97227","onsite_storage_72459",NA,1
+"AMERICAN METAL CLEANING INC","9940 N VANCOUVER WAY, PORTLAND, OR 97217","onsite_storage_018818",NA,1
+"KAISER PERMANENTE","3715 N INTERSTATE AVE, PORTLAND, OR 97227","onsite_storage_072459",NA,1
 "JALISCO AUTO SERVICE","2368 NW BURNSIDE RD, GRESHAM, OR 97030","onsite_storage_102901",NA,1
-"HERON LAKES GOLF COURSE","3500 N VICTORY BLVD, PORTLAND, OR 97217","onsite_storage_43257",NA,1
-"PACIFICA INC","3135 NW INDUSTRIAL ST, PORTLAND, OR 97210","onsite_storage_72515",NA,1
-"BOYD COFFEE CO","19730 NE SANDY BLVD, PORTLAND, OR 97230","onsite_storage_5221",NA,1
-"FRED MEYER STORES INC","3800 SE 22ND, PORTLAND, OR 97202","onsite_storage_17715",NA,1
-"TEENY FOODS","3434 NE 170TH PL, PORTLAND, OR 97230","onsite_storage_7454",NA,1
-"MCQUIGGINS INC","4505 SE 23RD, PORTLAND, OR 97222","onsite_storage_55514",NA,1
-"MCTAVISH COMPANY INC","10234 NE GLISAN, PORTLAND, OR 97220","onsite_storage_55515",NA,1
-"PERSIMMON COUNTRY CLUB","1414 SE BUTLER, GRESHAM, OR 97080","onsite_storage_50384",NA,1
-"TRILLIUM LUMBER CO","9089 N DENVER AVE, PORTLAND, OR 97217","onsite_storage_7628",NA,1
-"ANDERSON ROOFING CO INC","5885 NW ST HELENS RD, PORTLAND, OR 97210","onsite_storage_13064",NA,1
-"METRO SAFETY & FIRE INC","14324 SE STARK ST, PORTLAND, OR 97233","onsite_storage_55635",NA,1
-"YMCA CAMP COLLINS","3001 SE OXBOW PKWY, GRESHAM, OR 97080","onsite_storage_95647",NA,1
-"GREAT WESTERN INK INC","2100 NW 22ND AVE, PORTLAND, OR 97210","onsite_storage_6873",NA,1
-"TROUTDALE SAND & GRAVEL","2205 NE 244TH, WOOD VILLAGE, OR 97060","onsite_storage_6838",NA,1
-"APOLLO CHEMICAL & EQUIPMENT CO","6647 NE 47TH AVE, PORTLAND, OR 97218","onsite_storage_7104",NA,1
-"SAPA PROFILES INC","7933 NE 21ST AVE, PORTLAND, OR 97211","onsite_storage_7099",NA,1
-"A & B SHEET METAL WORKS LLC","5410 NE 109TH AVE, PORTLAND, OR 97220","onsite_storage_49203",NA,1
-"MOUNT HOOD MEDICAL CENTER","24800 SE STARK ST, GRESHAM, OR 97030","onsite_storage_55871",NA,1
-"GRESHAM OUTLOOK","1190 NE DIVISION, GRESHAM, OR 97030","onsite_storage_6886",NA,1
-"MOUNT HOOD COMMUNITY COLLEGE","26000 SE STARK ST, GRESHAM, OR 97030","onsite_storage_6899",NA,1
-"UNIFIRST CORP LOC 335","14321 NE WHITTAKER WAY, PORTLAND, OR 97230","onsite_storage_10076",NA,1
-"DAIMLER TRUCKS NORTH AMERICA","5115 N LAGOON, PORTLAND, OR 97217","onsite_storage_10204",NA,1
-"DANNON COMPANY THE","5858 NE 87TH AVE, PORTLAND, OR 97220","onsite_storage_54136",NA,1
-"DU TRUCK SERVICE INC","8900 N VANCOUVER AVE, PORTLAND, OR 97217","onsite_storage_98745",NA,1
-"MACS RADIATOR & REPAIR INC","6147 SE FOSTER RD, PORTLAND, OR 97206","onsite_storage_9610",NA,1
-"HOGAN FAB INC","5722 SE JOHNSON CREEK BLVD, PORTLAND, OR 97206","onsite_storage_53875",NA,1
-"PORTLAND SCHOOL DISTRICT 1J","501 DIXON, PORTLAND, OR 97227","onsite_storage_9682",NA,1
-"CITY RADIATOR INC","1420 NW EVERETT ST, PORTLAND, OR 97209","onsite_storage_9778",NA,1
-"TUBE FORGINGS OF AMERICA INC","5200 NW FRONT, PORTLAND, OR 97210","onsite_storage_8312",NA,1
-"OPTI-CRAFT INC","17311 NE HALSEY ST, PORTLAND, OR 97230","onsite_storage_8107",NA,1
-"LAKESIDE INDUSTRIES INC","4850 NW FRONT AVE, PORTLAND, OR 97210","onsite_storage_12337",NA,1
-"SCHOOL SPECIALTY CO OF OREGON","1035 SE 3RD AVE, PORTLAND, OR 97214","onsite_storage_8510",NA,1
-"HICKORY SPRINGS OF CALIFORNIA","3900 NE 158TH ST, PORTLAND, OR 97230","onsite_storage_8501",NA,1
-"EDGEFIELD BREWERY","2126 SW HALSEY ST, TROUTDALE, OR 97060","onsite_storage_52387",NA,1
-"KNIFE RIVER","14545 NW ST HELENS RD, PORTLAND, OR 97231","onsite_storage_11254",NA,1
-"BULLSEYE GLASS CO","3743 SE 21ST ST, PORTLAND, OR 97202","onsite_storage_99338",NA,1
-"WESTERN INTEGRATED TECHNOLGIES","8900 N RAMSEY BLVD, PORTLAND, OR 97203","onsite_storage_8398",NA,1
-"PORTLAND CITY OF","2929 N KERBY AVE, PORTLAND, OR 97227","onsite_storage_11500",NA,1
-"WILLIAMS FORM ENGINEERING","7601 N COLUMBIA BLVD, PORTLAND, OR 97203","onsite_storage_11450",NA,1
-"ART CRAFT SILVERSMITH","3111 SE 13TH AVE STE 500, PORTLAND, OR 97202","onsite_storage_47602",NA,1
-"ODOT","9637 SW 35TH DR, PORTLAND, OR 97219","onsite_storage_6126",NA,1
-"FXI INC","19241 NE SAN RAFAEL ST, PORTLAND, OR 97230","onsite_storage_48137",NA,1
-"NEW SYSTEM LAUNDRY","432 NE 10TH AVE, PORTLAND, OR 97232","onsite_storage_48248",NA,1
-"SUPERIOR TANK WASH INC","5741 NE 92ND DR, PORTLAND, OR 97220","onsite_storage_76826",NA,1
-"KOPPERS INC","7540 NW ST HELENS RD, PORTLAND, OR 97210","onsite_storage_6202",NA,1
-"COCA-COLA COMPANY THE","2710 NE DAVIS ST, PORTLAND, OR 97232","onsite_storage_16372",NA,1
-"GAMBLIN ARTISTS COLORS CO","323 SE DIVISION PL, PORTLAND, OR 97202","onsite_storage_48129",NA,1
-"CINTAS CORPORATION","9045 N RAMSEY BLVD, PORTLAND, OR 97203","onsite_storage_46922",NA,1
-"BELTSERVICE CORP","13327 N WOODRUSH WAY, PORTLAND, OR 97203","onsite_storage_6213",NA,1
-"GANS INK & SUPPY CO","3448 NW YEON AVE, PORTLAND, OR 97210","onsite_storage_46389",NA,1
-"GALVANIZERS","2427 NW 30TH AVE, PORTLAND, OR 97210","onsite_storage_46015",NA,1
+"WOOD-KOTE PRODUCTS INC","8000 NE 14TH PL, PORTLAND, OR 97211","onsite_storage_005603",NA,1
+"HERON LAKES GOLF COURSE","3500 N VICTORY BLVD, PORTLAND, OR 97217","onsite_storage_043257",NA,1
+"PACIFICA INC","3135 NW INDUSTRIAL ST, PORTLAND, OR 97210","onsite_storage_072515",NA,1
+"DSU-PETERBILT & GMC INC","5555 N LAGOON AVE, PORTLAND, OR 97217","onsite_storage_017939",NA,1
+"BOYD COFFEE CO","19730 NE SANDY BLVD, PORTLAND, OR 97230","onsite_storage_005221",NA,1
+"FRED MEYER STORES INC","3800 SE 22ND, PORTLAND, OR 97202","onsite_storage_017715",NA,1
+"KAISER PERMANENTE","7201 N INTERSTATE AVE, PORTLAND, OR 97217","onsite_storage_072460",NA,1
+"TEENY FOODS","3434 NE 170TH PL, PORTLAND, OR 97230","onsite_storage_007454",NA,1
+"MCQUIGGINS INC","4505 SE 23RD, PORTLAND, OR 97222","onsite_storage_055514",NA,1
+"TRILLIUM LUMBER CO","9089 N DENVER AVE, PORTLAND, OR 97217","onsite_storage_007628",NA,1
+"DREW PAINTS INC","1525 NW 23RD AVE, PORTLAND, OR 97210","onsite_storage_007964",NA,1
+"METRO SAFETY & FIRE INC","14324 SE STARK ST, PORTLAND, OR 97233","onsite_storage_055635",NA,1
+"YMCA CAMP COLLINS","3001 SE OXBOW PKWY, GRESHAM, OR 97080","onsite_storage_095647",NA,1
+"GREAT WESTERN INK INC","2100 NW 22ND AVE, PORTLAND, OR 97210","onsite_storage_006873",NA,1
+"APOLLO CHEMICAL & EQUIPMENT CO","6647 NE 47TH AVE, PORTLAND, OR 97218","onsite_storage_007104",NA,1
+"SAPA PROFILES INC","7933 NE 21ST AVE, PORTLAND, OR 97211","onsite_storage_007099",NA,1
+"A & B SHEET METAL WORKS LLC","5410 NE 109TH AVE, PORTLAND, OR 97220","onsite_storage_049203",NA,1
+"MOUNT HOOD MEDICAL CENTER","24800 SE STARK ST, GRESHAM, OR 97030","onsite_storage_055871",NA,1
+"MOUNT HOOD COMMUNITY COLLEGE","26000 SE STARK ST, GRESHAM, OR 97030","onsite_storage_006899",NA,1
+"UNIFIRST CORP LOC 335","14321 NE WHITTAKER WAY, PORTLAND, OR 97230","onsite_storage_010076",NA,1
+"DAIMLER TRUCKS NORTH AMERICA","5115 N LAGOON, PORTLAND, OR 97217","onsite_storage_010204",NA,1
+"DANNON COMPANY THE","5858 NE 87TH AVE, PORTLAND, OR 97220","onsite_storage_054136",NA,1
+"ABBYS AUTO BODY SHOP INC","7835 SW 37TH AVE, PORTLAND, OR 97219","onsite_storage_010488",NA,1
+"DU TRUCK SERVICE INC","8900 N VANCOUVER AVE, PORTLAND, OR 97217","onsite_storage_098745",NA,1
+"MACS RADIATOR & REPAIR INC","6147 SE FOSTER RD, PORTLAND, OR 97206","onsite_storage_009610",NA,1
+"HOGAN FAB INC","5722 SE JOHNSON CREEK BLVD, PORTLAND, OR 97206","onsite_storage_053875",NA,1
+"PORTLAND SCHOOL DISTRICT 1J","501 DIXON, PORTLAND, OR 97227","onsite_storage_009682",NA,1
+"CITY RADIATOR INC","1420 NW EVERETT ST, PORTLAND, OR 97209","onsite_storage_009778",NA,1
+"TUBE FORGINGS OF AMERICA INC","5200 NW FRONT, PORTLAND, OR 97210","onsite_storage_008312",NA,1
+"SCHOOL SPECIALTY CO OF OREGON","1035 SE 3RD AVE, PORTLAND, OR 97214","onsite_storage_008510",NA,1
+"HICKORY SPRINGS OF CALIFORNIA","3900 NE 158TH ST, PORTLAND, OR 97230","onsite_storage_008501",NA,1
+"EDGEFIELD BREWERY","2126 SW HALSEY ST, TROUTDALE, OR 97060","onsite_storage_052387",NA,1
+"BULLSEYE GLASS CO","3743 SE 21ST ST, PORTLAND, OR 97202","onsite_storage_099338",NA,1
+"WESTERN INTEGRATED TECHNOLGIES","8900 N RAMSEY BLVD, PORTLAND, OR 97203","onsite_storage_008398",NA,1
+"PORTLAND CITY OF","2929 N KERBY AVE, PORTLAND, OR 97227","onsite_storage_011500",NA,1
+"WILLIAMS FORM ENGINEERING","7601 N COLUMBIA BLVD, PORTLAND, OR 97203","onsite_storage_011450",NA,1
+"ART CRAFT SILVERSMITH","3111 SE 13TH AVE STE 500, PORTLAND, OR 97202","onsite_storage_047602",NA,1
+"ENERSYS","4226 NE 161ST AVE STE A, PORTLAND, OR 97230","onsite_storage_047480",NA,1
+"ODOT","9637 SW 35TH DR, PORTLAND, OR 97219","onsite_storage_006126",NA,1
+"FXI INC","19241 NE SAN RAFAEL ST, PORTLAND, OR 97230","onsite_storage_048137",NA,1
+"NEW SYSTEM LAUNDRY","432 NE 10TH AVE, PORTLAND, OR 97232","onsite_storage_048248",NA,1
+"SUPERIOR TANK WASH INC","5741 NE 92ND DR, PORTLAND, OR 97220","onsite_storage_076826",NA,1
+"COCA-COLA COMPANY THE","2710 NE DAVIS ST, PORTLAND, OR 97232","onsite_storage_016372",NA,1
+"GAMBLIN ARTISTS COLORS CO","323 SE DIVISION PL, PORTLAND, OR 97202","onsite_storage_048129",NA,1
+"CINTAS CORPORATION","9045 N RAMSEY BLVD, PORTLAND, OR 97203","onsite_storage_046922",NA,1
+"BELTSERVICE CORP","13327 N WOODRUSH WAY, PORTLAND, OR 97203","onsite_storage_006213",NA,1
+"GANS INK & SUPPY CO","3448 NW YEON AVE, PORTLAND, OR 97210","onsite_storage_046389",NA,1
+"GALVANIZERS","2427 NW 30TH AVE, PORTLAND, OR 97210","onsite_storage_046015",NA,1
+"INTEGRA TELECOM INC","400 SW 6TH AVE STE 500, PORTLAND, OR 97204","onsite_storage_093595",NA,1
 "ADVANCED POWDER COATING INC","8969 SE 58TH, PORTLAND, OR 97206","onsite_storage_101198",NA,1
-"BRANDWATCH TECHNOLOGIES INC","5921 N MARINE DR, PORTLAND, OR 97203","onsite_storage_93714",NA,1
+"BRANDWATCH TECHNOLOGIES INC","5921 N MARINE DR, PORTLAND, OR 97203","onsite_storage_093714",NA,1
 "COLLIER MANUFACTURING LLC","1891 NW COMMERCE CT, TROUTDALE, OR 97060","onsite_storage_101154",NA,1
-"COLUMBIA EDGEWATER COUNTRY CLUB","2220 NE MARINE DR, PORTLAND, OR 97211","onsite_storage_45861",NA,1
-"MORASCH MEATS INC","4050 NE 158TH AVE, PORTLAND, OR 97230","onsite_storage_46526",NA,1
-"KING CYCLE GROUP","2801 NW NELA ST, PORTLAND, OR 97210","onsite_storage_94420",NA,1
-"USACE","150 I-84 EXIT 40, CASCADE LOCKS, OR 97014","onsite_storage_16652",NA,1
-"HYDRA-POWER SYSTEMS INC","5445 NE 122ND AVE, PORTLAND, OR 97230","onsite_storage_6657",NA,1
-"CASCADE CORPORATION","2201 NE 201ST, GRESHAM, OR 97024","onsite_storage_6650",NA,1
-"PERMACOLD ENGINEERING INC","3005 NE ARGYLE ST, PORTLAND, OR 97211","onsite_storage_48681",NA,1
-"MULTNOMAH COUNTY TRANSPORT DIV","1403 SE WATER, PORTLAND, OR 97233","onsite_storage_48652",NA,1
-"NW BRASS & ALUM FOUNDRY","10707 SE KNIGHT ST, PORTLAND, OR 97266","onsite_storage_56183",NA,1
-"CASCADE CORPORATION","2207 NE 201ST, FAIRVIEW, OR 97024","onsite_storage_48760",NA,1
-"KANTO CORPORATION INC","13424 N WOODRUSH WAY, PORTLAND, OR 97203","onsite_storage_48518",NA,1
-"ENVIRONMENTALLY CONSCIOUS RECYCLING","12409 NE SAN RAFAEL, PORTLAND, OR 97230","onsite_storage_16015",NA,1
-"ALS TRIBOLOBY","4943 NW FRONT AVE, PORTLAND, OR 97210","onsite_storage_48391",NA,1
-"PELLA VINYL","18722 NE WILKES RD, PORTLAND, OR 97230","onsite_storage_95378",NA,1
-"NORTHWEST RETREADERS","19004 NE SAN RAFAEL ST, PORTLAND, OR 97230","onsite_storage_15898",NA,1
-"GRESHAM-BARLOW SCHOOL DIST 10J","5105 SE 302ND, GRESHAM, OR 97080","onsite_storage_48594",NA,1
-"REED ELECTRIC COMPANY","2539 NW VAUGHN, PORTLAND, OR 97210","onsite_storage_6476",NA,1
-"USACE","8010 NW ST HELENS RD, PORTLAND, OR 97210","onsite_storage_48620",NA,1
-"GRESHAM-BARLOW SCHOOL DIST 10J","1200 N MAIN AVE, GRESHAM, OR 97030","onsite_storage_48595",NA,1
-"STACK METALLURGICAL SERVICES","5938 N BASIN AVE, PORTLAND, OR 97217","onsite_storage_48537",NA,1
-"ODOT","12348 N CENTER AVE, PORTLAND, OR 97217","onsite_storage_6441",NA,1
-"OHSU","3181 SW SAM JACKSON PK RD, PORTLAND, OR 97239","onsite_storage_6472",NA,1
-"REJUVENATION INC","2550 NW NICOLAI ST, PORTLAND, OR 97210","onsite_storage_68652",NA,1
-"HIGH-TEMP NW INC","14025 N RIVERGATE BLVD, PORTLAND, OR 97203","onsite_storage_3506",NA,1
-"BULLSEYE GLASS CO","3722 SE 21ST ST, PORTLAND, OR 97202","onsite_storage_2163",NA,1
-"JOHNSON CONCRETE PRODUCTS","6500 JOHNSON CREEK BLVD, PORTLAND, OR 97206","onsite_storage_3480",NA,1
-"TROUTDALE TRANSFER STATION","869 NW EASTWIND DR, TROUTDALE, OR 97060","onsite_storage_66099",NA,1
-"PENSKE TRUCK LEASING","2800 NW NELA ST, PORTLAND, OR 97210","onsite_storage_68701",NA,1
-"PORTLAND HOSPITAL SERVICE","18440 NE PORTAL WAY, PORTLAND, OR 97230","onsite_storage_37567",NA,1
-"ALSCO AMERICAN LINEN","1755 NE ARGYLE, PORTLAND, OR 97211","onsite_storage_68480",NA,1
-"WRIGHT BUSINESS GRAPHICS","18440 NE SAN RAFAEL ST, PORTLAND, OR 97230","onsite_storage_2126",NA,1
-"M & N PLASTICS","38 SE 97TH, PORTLAND, OR 97216","onsite_storage_2141",NA,1
-"BLACKLINE INC","2425 NW ST HELENS RD, PORTLAND, OR 97210","onsite_storage_31969",NA,1
-"PORTLAND CITY OF","SUBSTN SEWAGE PMP STN, SUBSTATION, OR 97000","onsite_storage_66051",NA,1
-"HEXION INC","10915 N LOMBARD ST, PORTLAND, OR 97203","onsite_storage_3333",NA,1
-"AAA PRECIOUS METALS","9908 SE ASH ST, PORTLAND, OR 97216","onsite_storage_3461",NA,1
-"PROVIDENCE PORTLAND MED CENTER","4805 NE GLISAN, PORTLAND, OR 97213","onsite_storage_20933",NA,1
-"GUTTERMANS SUPPLY CORP OF AMER","1620 NE ARGYLE DR, PORTLAND, OR 97211","onsite_storage_22303",NA,1
-"GUNDERSON LLC","4350 NW FRONT AVE, PORTLAND, OR 97210","onsite_storage_2314",NA,1
-"IMPERIAL BROWN INC","2271 NE 194TH AVE, PORTLAND, OR 97230","onsite_storage_3437",NA,1
-"DIVERSIFIED MARINE INC","1801 N MARINE DR, PORTLAND, OR 97217","onsite_storage_22914",NA,1
-"B C GRAPHIC","3155 NW YEON AVE, PORTLAND, OR 97210","onsite_storage_22901",NA,1
-"PORTLAND BOLT & MFG CO","3441 NW GUAM, PORTLAND, OR 97210","onsite_storage_3786",NA,1
-"BILLINGS & CRONN CO","2340 SE GLADSTONE ST STE 100, PORTLAND, OR 97202","onsite_storage_22915",NA,1
-"TECHNICAL FINISHES & COATINGS","9120 SE 64TH, PORTLAND, OR 97206","onsite_storage_22802",NA,1
-"PORTLAND COMMUNITY COLLEGE","705 N KILLINGSWORTH, PORTLAND, OR 97217","onsite_storage_20736",NA,1
-"CLOUDBURST RECYCLING INC","2223 N RANDOLPH, PORTLAND, OR 97227","onsite_storage_22828",NA,1
-"ROCKTENN CP LLC","9930 N BURGARD WAY, PORTLAND, OR 97203","onsite_storage_3929",NA,1
-"CARL DIEBOLD LUMBER CO INC","725 NW DUNBAR AVE, TROUTDALE, OR 97060","onsite_storage_29279",NA,1
-"EASTMORELAND GOLF COURSE","2659 SE TACOMA, PORTLAND, OR 97202","onsite_storage_41787",NA,1
-"CORBETT WATER DISTRICT","48000 SE DONAHUE RD, CORBETT, OR 97019","onsite_storage_62264",NA,1
-"EVONIK CORPORATION","19250 NE PORTAL WAY, PORTLAND, OR 97230","onsite_storage_81907",NA,1
-"BROADMOOR GOLF COURSE","3509 NE COLUMBIA BLVD, PORTLAND, OR 97211","onsite_storage_41835",NA,1
-"COMCAST CABLE COMMUNICATIONS","540 SW HALSEY, TROUTDALE, OR 97060","onsite_storage_81741",NA,1
-"ERVIN ENVIRONMENTAL OPERATIONS","MULTNOMAH FLLS WWTP I84EXIT 31, CORBETT, OR 97010","onsite_storage_82116",NA,1
-"FLEETWASH INC","5430 COLUMBIA CT, PORTLAND, OR 97203","onsite_storage_29588",NA,1
-"A-1 RENTAL","6412 NE SANDY BLVD, PORTLAND, OR 97213","onsite_storage_62346",NA,1
-"MOUNTAIN VIEW PRODUCTS LLC","464 NE 219TH AVE, GRESHAM, OR 97030","onsite_storage_66257",NA,1
-"INK SYSTEMS INC","2901 NW FRONT AVE STE G, PORTLAND, OR 97210","onsite_storage_31399",NA,1
-"PCC STRUCTURALS INC","9169 SE 67TH, PORTLAND, OR 97206","onsite_storage_22287",NA,1
-"AMERICAN INKS AND COATINGS CO","2669 NE RIVERSIDE WAY, PORTLAND, OR 97211","onsite_storage_31401",NA,1
-"BLOCK GRAPHICS INC","5822 NE SKYPORT WAY, PORTLAND, OR 97218","onsite_storage_3769",NA,1
-"MOUNT HOOD SOLUTIONS","14546 N LOMBARD ST, PORTLAND, OR 97203","onsite_storage_3764",NA,1
-"OWENS-BROCKWAY GLASS CONTAINER INC","9710 NE GLASS PLANT RD, PORTLAND, OR 97220","onsite_storage_1919",NA,1
-"LATITUDES","2425 NE RIVERSIDE WAY, PORTLAND, OR 97211","onsite_storage_29755",NA,1
-"VEOLIA ENERGY PORTLAND LLC","1225 W BURNSIDE, PORTLAND, OR 97209","onsite_storage_87742",NA,1
-"KNIFE RIVER","1339 NW EASTWOOD AVE, GRESHAM, OR 97030","onsite_storage_21752",NA,1
-"UNITED RENTALS NORTHWEST INC","5111 NE 82ND AVE, PORTLAND, OR 97220","onsite_storage_35143",NA,1
-"PELLA VINYL","18600 NE WILKES RD, PORTLAND, OR 97230","onsite_storage_2621",NA,1
-"M & N PLASTICS","49 SE 97TH AVE, PORTLAND, OR 97216","onsite_storage_87691",NA,1
-"BODEN STORE FIXTURES INC","10733 NE MARX BLDG 8, PORTLAND, OR 97220","onsite_storage_2649",NA,1
-"ESSENTIAL WHOLESALE","2211 NW NICOLAI ST, PORTLAND, OR 97210","onsite_storage_89183",NA,1
-"CONTAINER MANAGEMENT SERVICES","10103 NE MARX, PORTLAND, OR 97220","onsite_storage_3001",NA,1
-"WEST COAST WIRE ROPE & RI","2900 NW 29TH AVE, PORTLAND, OR 97210","onsite_storage_34595",NA,1
-"SCENIC FRUIT COMPANY","7510 SE ALTMAN RD, GRESHAM, OR 97080","onsite_storage_4795",NA,1
-"PORTLAND CITY OF","3600 N HAYDEN ISLAND DR, PORTLAND, OR 97203","onsite_storage_89696",NA,1
-"ESCO CORPORATION","2211 NW BREWER ST, PORTLAND, OR 97210","onsite_storage_3222",NA,1
-"HERTZ CORP","4939 NE COLUMBIA BLVD, PORTLAND, OR 97218","onsite_storage_21052",NA,1
-"DANNER SHOE MFG CO","18201 NE PORTAL WAY STE 101, PORTLAND, OR 97230","onsite_storage_2359",NA,1
-"ROCKWOOD WATER PUD","19601 NE HALSEY, PORTLAND, OR 97230","onsite_storage_33717",NA,1
-"OHSU","3181 SW SAM JACKSON PK RD, PORTLAND, OR 97239","onsite_storage_21057",NA,1
-"WIDMER BROTHERS BREWING CO","1 N CENTER CT, PORTLAND, OR 97208","onsite_storage_65511",NA,1
-"BUSHWACKER INC","6710 N CATLIN ST, PORTLAND, OR 97203","onsite_storage_3221",NA,1
-"DEGESCH AMERICA INC","14024 NE AIRPORT WAY, PORTLAND, OR 97230","onsite_storage_21363",NA,1
-"STENNO CARBON CO INC","6600 N ST LOUIS AVE, PORTLAND, OR 97203","onsite_storage_2549",NA,1
-"BRIDGEPORT BREWING","4468 NW YEON, PORTLAND, OR 97210","onsite_storage_89391",NA,1
-"GRESHAM SANITARY SERVICE","2131 NW BIRDSDALE AVE, GRESHAM, OR 97030","onsite_storage_33837",NA,1
-"WILLAMETTE FENCE CO INC","11304 NE MARX, PORTLAND, OR 97220","onsite_storage_70503",NA,1
-"PORT OF PORTLAND","11040 N LOMBARD, PORTLAND, OR 97203","onsite_storage_21382",NA,1
-"SEARS","12402 NE MARX ST BLDG 3, PORTLAND, OR 97230","onsite_storage_84195",NA,1
-"DEL MONTE FRESH PRODUCE NA INC","9243 N RIVERGATE BLVD, PORTLAND, OR 97203","onsite_storage_24812",NA,1
-"FOUR DECADES JEWELRY MFG","534 SW 3RD STE 602, PORTLAND, OR 97204","onsite_storage_363",NA,1
-"OWENS CORNING ROOFING AND ASPHALT LLC","3750 NW YEON & 3605 NW, PORTLAND, OR 97210","onsite_storage_384",NA,1
-"BERG CHRISTIAN ENTERPRISES","4525 SE 63RD AVE, PORTLAND, OR 97206","onsite_storage_4544",NA,1
-"MUTUAL MATERIALS CO","2300 SE HOGAN RD, GRESHAM, OR 97080","onsite_storage_24776",NA,1
-"PORTLAND BOTTLING COMPANY","1321 NE COUCH ST, PORTLAND, OR 97232","onsite_storage_20132",NA,1
-"SAPA PROFILES INC","2210 NE RIVER SIDE WAY, PORTLAND, OR 97211","onsite_storage_24044",NA,1
-"UROBOROS GLASS STUDIOS","2139 N KERBY AVE, PORTLAND, OR 97227","onsite_storage_4489",NA,1
-"COLUMBIA CROSSINGS LLC","1940 N JANTZEN AVE, PORTLAND, OR 97217","onsite_storage_61910",NA,1
-"RIVERSIDE GOLF & COUNTRY CLUB","2521 NE ELROD, PORTLAND, OR 97211","onsite_storage_24070",NA,1
-"PORTLAND FOUNDRY INC","7715 NE 21ST AVE BLDG C, PORTLAND, OR 97211","onsite_storage_24067",NA,1
-"METRO REGIONAL GOVERNMENT","6161 NW 61ST AVE, PORTLAND, OR 97210","onsite_storage_24770",NA,1
-"POLY FLOW LLC","2668 NE RIVERSIDE WAY, PORTLAND, OR 97211","onsite_storage_86849",NA,1
-"SUNSHINE DAIRY","801 NE 21ST, PORTLAND, OR 97232","onsite_storage_61",NA,1
-"OSMOSE UTILITIES SERVICES INC","10747 NE SIMPSON AVE, PORTLAND, OR 97220","onsite_storage_24600",NA,1
-"OWENS CORNING ROOFING AND ASPHALT LLC","11910 NW ST HELENS RD, PORTLAND, OR 97231","onsite_storage_19133",NA,1
-"TUBE SPECIALTIES CO","1459 NW SUNDIAL RD, TROUTDALE, OR 97060","onsite_storage_4780",NA,1
-"COLOR FX","7561 NE 33RD DR, PORTLAND, OR 97211","onsite_storage_86246",NA,1
-"PORTLAND COMMUNITY COLLEGE","2315 SE 82ND AVE, PORTLAND, OR 97215","onsite_storage_42825",NA,1
-"KAISER PERMANENTE","3600 N INTERSTATE AVE, PORTLAND, OR 97227","onsite_storage_24",NA,1
-"PORTLAND CITY OF","6445 SE SALMON ST, PORTLAND, OR 97215","onsite_storage_19529",NA,1
-"PORTLAND CITY OF","2521 SW MURRAY, PORTLAND, OR 97201","onsite_storage_19531",NA,1
-"ROSS ISLAND SAND & GRAVEL","4315 SE MCLOUGHLIN BLVD, PORTLAND, OR 97202","onsite_storage_4698",NA,1
-"PENTAGON TECHNOLOGIES GROUP INC","5830 NE 112TH AVE, PORTLAND, OR 97220","onsite_storage_86671",NA,1
-"PYRAMID BREWING INC","2730 NW 31ST AVE, PORTLAND, OR 97210","onsite_storage_24339",NA,1
-"BLUE BEACON OF PORTLAND","10244 N VANCOUVER WAY, PORTLAND, OR 97217","onsite_storage_24334",NA,1
-"PORTLAND CITY OF","16400 NE AIRPORT WAY, PORTLAND, OR 97230","onsite_storage_19526",NA,1
-"PORTLAND CITY OF","3150 N MISSISSIPPI, PORTLAND, OR 97227","onsite_storage_19560",NA,1
-"ROSS ISLAND SAND & GRAVEL CO","4315 SE MCLOUGHLIN BLVD, PORTLAND, OR 97202","onsite_storage_4702",NA,1
-"MULTNOMAH UNIVERSITY","8435 NE GLISAN, PORTLAND, OR 97220","onsite_storage_42792",NA,1
-"UNIVERSITY OF PORTLAND","5000 N WILLAMETTE BLVD, PORTLAND, OR 97203","onsite_storage_42786",NA,1
-"PORTLAND CITY OF","1221 SW 1ST AVE, PORTLAND, OR 97204","onsite_storage_24424",NA,1
-"JL INDUSTRIES INC","802 SE 199TH AVE, PORTLAND, OR 97233","onsite_storage_195",NA,1
-"ROSS ISLAND SAND & GRAVEL CO","2611 SE 4TH AVE, PORTLAND, OR 97214","onsite_storage_4700",NA,1
-"PORTLAND WATERBUREAU","6704 SE COTTRELL RD, GRESHAM, OR 97080","onsite_storage_19525",NA,1
-"PARDUE RESTORATION","3427 SE 22ND, PORTLAND, OR 97202","onsite_storage_67019",NA,1
-"BRIDGETOWN PRINTING CO","5300 N CHANNEL AVE, PORTLAND, OR 97217","onsite_storage_1207",NA,1
-"FLINT GROUP NORTH AMERICA","10653 N LOMBARD ST, PORTLAND, OR 97203","onsite_storage_4211",NA,1
-"WILL H KNOX CO INC","6034 NE 60TH AVE, PORTLAND, OR 97218","onsite_storage_26908",NA,1
-"ROSE HEATING COMPANY","9945 NE 6TH DR, PORTLAND, OR 97211","onsite_storage_27093",NA,1
-"INTEGRATED POWER SERVICES LLC","2315 NW 21ST PL, PORTLAND, OR 97210","onsite_storage_1301",NA,1
-"PACIFIC PAPER TUBE INC","8611 N COLUMBIA BLVD, PORTLAND, OR 97203","onsite_storage_84882",NA,1
-"WIDMER BROS BREWING CO","929 N RUSSELL ST, PORTLAND, OR 97227","onsite_storage_4250",NA,1
-"TCI AMERICA","9222 N HARBORGATE ST, PORTLAND, OR 97203","onsite_storage_20389",NA,1
-"SHELL CORE SPECIALTIES","2516 NW 29TH AVE BLDG 8, PORTLAND, OR 97210","onsite_storage_1009",NA,1
-"PORTLAND POWDER COATING INC","4740 SE 25TH AVE, PORTLAND, OR 97202","onsite_storage_27502",NA,1
-"LANDCARE","22901 NE SANDY BLVD, FAIRVIEW, OR 97024","onsite_storage_20536",NA,1
-"GRIFFITH RUBBER MILLS","2625 NW INDUSTRIAL, PORTLAND, OR 97210","onsite_storage_4033",NA,1
-"SUNSHINE DAIRY","8440 NE HALSEY, PORTLAND, OR 97220","onsite_storage_23276",NA,1
-"R R DONNELLEY NORWEST INC","17401 NE HALSEY, PORTLAND, OR 97230","onsite_storage_4183",NA,1
-"TRIMET","4400 SE 17TH AVE, PORTLAND, OR 97202","onsite_storage_20460",NA,1
-"TRIMET","9800 SE POWELL BLVD, PORTLAND, OR 97266","onsite_storage_20461",NA,1
-"TRIMET","2222 NW ELEVEN MILE AVE, GRESHAM, OR 97030","onsite_storage_20465",NA,1
-"GENERAL GLASS COMPANY INC","6763 NE 59TH PL STE 7, PORTLAND, OR 97218","onsite_storage_62134",NA,1
-"MACS RADIATOR","4332 SE 62ND RD, PORTLAND, OR 97206","onsite_storage_62154",NA,1
-"OVERHEAD DOOR CORP","5511 SE 26TH, PORTLAND, OR 97202","onsite_storage_4161",NA,1
-"NU-WAY PRINTING & ENV CO","306 SE 8TH AVE, PORTLAND, OR 97214","onsite_storage_1154",NA,1
-"NRC ENVIRONMENTAL SERVICES INC","6211 N ENSIGN ST, PORTLAND, OR 97217","onsite_storage_23870",NA,1
-"PORT OF PORTLAND","999 NW FRONTAGE RD, TROUTDALE, OR 97060","onsite_storage_20276",NA,1
-"WILLAMETTE GRAYSTONE INC","2405 NE 244TH, WOOD VILLAGE, OR 97060","onsite_storage_713",NA,1
-"VENTURA FOODS LLC","9000 NE MARX DR, PORTLAND, OR 97220","onsite_storage_724",NA,1
-"DAVEY TREE EXPERT CO","5838 NE COLUMBIA, PORTLAND, OR 97218","onsite_storage_25498",NA,1
-"DARLING INGREDIENTS INC","9901 HURST AVE, PORTLAND, OR 97217","onsite_storage_87112",NA,1
-"ANDERSEN CONSTRUCTION CO INC","6712 N CUTTER CIR, PORTLAND, OR 97217","onsite_storage_25956",NA,1
-"TOYO TANSO USA INC","2575 NW GRAHAM CIR, TROUTDALE, OR 97060","onsite_storage_20214",NA,1
-"SHRINERS HOSPITALS","3101 SW SAM JACKSON PK RD, PORTLAND, OR 97239","onsite_storage_23788",NA,1
-"TRIMET","2800 NW NELA AVE, PORTLAND, OR 97210","onsite_storage_23929",NA,1
-"GRESHAM CITY OF","2123 SE HOGAN RD, GRESHAM, OR 97080","onsite_storage_24860",NA,1
+"SAFELITE AUTO GLASS","5119 NE 158TH AVE, PORTLAND, OR 97230","onsite_storage_046774",NA,1
+"MORASCH MEATS INC","4050 NE 158TH AVE, PORTLAND, OR 97230","onsite_storage_046526",NA,1
+"KING CYCLE GROUP","2801 NW NELA ST, PORTLAND, OR 97210","onsite_storage_094420",NA,1
+"USACE","150 I-84 EXIT 40, CASCADE LOCKS, OR 97014","onsite_storage_016652",NA,1
+"HYDRA-POWER SYSTEMS INC","5445 NE 122ND AVE, PORTLAND, OR 97230","onsite_storage_006657",NA,1
+"PERMACOLD ENGINEERING INC","3005 NE ARGYLE ST, PORTLAND, OR 97211","onsite_storage_048681",NA,1
+"WESTERN GROUP THE","4025 NW EXPRESS AVE, PORTLAND, OR 97210","onsite_storage_006525",NA,1
+"MULTNOMAH COUNTY TRANSPORT DIV","1403 SE WATER, PORTLAND, OR 97233","onsite_storage_048652",NA,1
+"NW BRASS & ALUM FOUNDRY","10707 SE KNIGHT ST, PORTLAND, OR 97266","onsite_storage_056183",NA,1
+"CASCADE CORPORATION","2207 NE 201ST, FAIRVIEW, OR 97024","onsite_storage_048760",NA,1
+"KANTO CORPORATION INC","13424 N WOODRUSH WAY, PORTLAND, OR 97203","onsite_storage_048518",NA,1
+"ALS TRIBOLOBY","4943 NW FRONT AVE, PORTLAND, OR 97210","onsite_storage_048391",NA,1
+"PELLA VINYL","18722 NE WILKES RD, PORTLAND, OR 97230","onsite_storage_095378",NA,1
+"NORTHWEST RETREADERS","19004 NE SAN RAFAEL ST, PORTLAND, OR 97230","onsite_storage_015898",NA,1
+"GRESHAM-BARLOW SCHOOL DIST 10J","5105 SE 302ND, GRESHAM, OR 97080","onsite_storage_048594",NA,1
+"REED ELECTRIC COMPANY","2539 NW VAUGHN, PORTLAND, OR 97210","onsite_storage_006476",NA,1
+"GRESHAM-BARLOW SCHOOL DIST 10J","1200 N MAIN AVE, GRESHAM, OR 97030","onsite_storage_048595",NA,1
+"STACK METALLURGICAL SERVICES","5938 N BASIN AVE, PORTLAND, OR 97217","onsite_storage_048537",NA,1
+"ODOT","12348 N CENTER AVE, PORTLAND, OR 97217","onsite_storage_006441",NA,1
+"TIDEE-DIDEE DIAPER SERVICE","6011 SE 92ND AVE, PORTLAND, OR 97266","onsite_storage_037951",NA,1
+"REJUVENATION INC","2550 NW NICOLAI ST, PORTLAND, OR 97210","onsite_storage_068652",NA,1
+"JOHNSON CONCRETE PRODUCTS","6500 JOHNSON CREEK BLVD, PORTLAND, OR 97206","onsite_storage_003480",NA,1
+"TROUTDALE TRANSFER STATION","869 NW EASTWIND DR, TROUTDALE, OR 97060","onsite_storage_066099",NA,1
+"PENSKE TRUCK LEASING","2800 NW NELA ST, PORTLAND, OR 97210","onsite_storage_068701",NA,1
+"PORTLAND HOSPITAL SERVICE","18440 NE PORTAL WAY, PORTLAND, OR 97230","onsite_storage_037567",NA,1
+"ALSCO AMERICAN LINEN","1755 NE ARGYLE, PORTLAND, OR 97211","onsite_storage_068480",NA,1
+"WRIGHT BUSINESS GRAPHICS","18440 NE SAN RAFAEL ST, PORTLAND, OR 97230","onsite_storage_002126",NA,1
+"M & N PLASTICS","38 SE 97TH, PORTLAND, OR 97216","onsite_storage_002141",NA,1
+"PORTLAND CITY OF","SUBSTN SEWAGE PMP STN, SUBSTATION, OR 97000","onsite_storage_066051",NA,1
+"LEVEL 3 COMMUNICATIONS INC","1335 NW NORTHRUP, PORTLAND, OR 97209","onsite_storage_082693",NA,1
+"HEXION INC","10915 N LOMBARD ST, PORTLAND, OR 97203","onsite_storage_003333",NA,1
+"AAA PRECIOUS METALS","9908 SE ASH ST, PORTLAND, OR 97216","onsite_storage_003461",NA,1
+"GUTTERMANS SUPPLY CORP OF AMER","1620 NE ARGYLE DR, PORTLAND, OR 97211","onsite_storage_022303",NA,1
+"IMPERIAL BROWN INC","2271 NE 194TH AVE, PORTLAND, OR 97230","onsite_storage_003437",NA,1
+"UNITED AIRLINES","8121 NE AIRPORT WAY, PORTLAND, OR 97218","onsite_storage_062392",NA,1
+"DIVERSIFIED MARINE INC","1801 N MARINE DR, PORTLAND, OR 97217","onsite_storage_022914",NA,1
+"B C GRAPHIC","3155 NW YEON AVE, PORTLAND, OR 97210","onsite_storage_022901",NA,1
+"PORTLAND BOLT & MFG CO","3441 NW GUAM, PORTLAND, OR 97210","onsite_storage_003786",NA,1
+"PORTLAND COMMUNITY COLLEGE","705 N KILLINGSWORTH, PORTLAND, OR 97217","onsite_storage_020736",NA,1
+"ROCKTENN CP LLC","9930 N BURGARD WAY, PORTLAND, OR 97203","onsite_storage_003929",NA,1
+"EASTMORELAND GOLF COURSE","2659 SE TACOMA, PORTLAND, OR 97202","onsite_storage_041787",NA,1
+"CORBETT WATER DISTRICT","48000 SE DONAHUE RD, CORBETT, OR 97019","onsite_storage_062264",NA,1
+"EVONIK CORPORATION","19250 NE PORTAL WAY, PORTLAND, OR 97230","onsite_storage_081907",NA,1
+"BROADMOOR GOLF COURSE","3509 NE COLUMBIA BLVD, PORTLAND, OR 97211","onsite_storage_041835",NA,1
+"GLENDOVEER GOLF LLC","14015 NE GLISAN ST, PORTLAND, OR 97230","onsite_storage_041833",NA,1
+"COMCAST CABLE COMMUNICATIONS","540 SW HALSEY, TROUTDALE, OR 97060","onsite_storage_081741",NA,1
+"ERVIN ENVIRONMENTAL OPERATIONS","MULTNOMAH FLLS WWTP I84EXIT 31, CORBETT, OR 97010","onsite_storage_082116",NA,1
+"FLEETWASH INC","5430 COLUMBIA CT, PORTLAND, OR 97203","onsite_storage_029588",NA,1
+"A-1 RENTAL","6412 NE SANDY BLVD, PORTLAND, OR 97213","onsite_storage_062346",NA,1
+"MOUNTAIN VIEW PRODUCTS LLC","464 NE 219TH AVE, GRESHAM, OR 97030","onsite_storage_066257",NA,1
+"INK SYSTEMS INC","2901 NW FRONT AVE STE G, PORTLAND, OR 97210","onsite_storage_031399",NA,1
+"PCC STRUCTURALS INC","9169 SE 67TH, PORTLAND, OR 97206","onsite_storage_022287",NA,1
+"AMERICAN INKS AND COATINGS CO","2669 NE RIVERSIDE WAY, PORTLAND, OR 97211","onsite_storage_031401",NA,1
+"BLOCK GRAPHICS INC","5822 NE SKYPORT WAY, PORTLAND, OR 97218","onsite_storage_003769",NA,1
+"MOUNT HOOD SOLUTIONS","14546 N LOMBARD ST, PORTLAND, OR 97203","onsite_storage_003764",NA,1
+"LATITUDES","2425 NE RIVERSIDE WAY, PORTLAND, OR 97211","onsite_storage_029755",NA,1
+"UNITED RENTALS NORTHWEST INC","5111 NE 82ND AVE, PORTLAND, OR 97220","onsite_storage_035143",NA,1
+"OREGON AIRE INC","7715 NE 33RD DR STE A, PORTLAND, OR 97211","onsite_storage_069148",NA,1
+"PELLA VINYL","18600 NE WILKES RD, PORTLAND, OR 97230","onsite_storage_002621",NA,1
+"M & N PLASTICS","49 SE 97TH AVE, PORTLAND, OR 97216","onsite_storage_087691",NA,1
+"BODEN STORE FIXTURES INC","10733 NE MARX BLDG 8, PORTLAND, OR 97220","onsite_storage_002649",NA,1
+"ESSENTIAL WHOLESALE","2211 NW NICOLAI ST, PORTLAND, OR 97210","onsite_storage_089183",NA,1
+"CONTAINER MANAGEMENT SERVICES","10103 NE MARX, PORTLAND, OR 97220","onsite_storage_003001",NA,1
+"AMERICAN HEATING","5035 SE 24TH AVE, PORTLAND, OR 97202","onsite_storage_088946",NA,1
+"DITCHWITCH NORTHWEST","7909 N UPLAND DR, PORTLAND, OR 97203","onsite_storage_034901",NA,1
+"PPV INC","4927 NW FRONT AVE, PORTLAND, OR 97210","onsite_storage_088364",NA,1
+"MACS RADIATOR & REPAIR","4320 SE 62ND, PORTLAND, OR 97206","onsite_storage_088332",NA,1
+"MOVENTAS INC","8823 N HARBORGATE, PORTLAND, OR 97203","onsite_storage_088230",NA,1
+"SCENIC FRUIT COMPANY","7510 SE ALTMAN RD, GRESHAM, OR 97080","onsite_storage_004795",NA,1
+"NORTHWEST CASTING SERVICE INC","11618 NE SUMNER ST, PORTLAND, OR 97220","onsite_storage_087866",NA,1
+"PORTLAND CITY OF","3600 N HAYDEN ISLAND DR, PORTLAND, OR 97203","onsite_storage_089696",NA,1
+"ESCO CORPORATION","2211 NW BREWER ST, PORTLAND, OR 97210","onsite_storage_003222",NA,1
+"HERTZ CORP","4939 NE COLUMBIA BLVD, PORTLAND, OR 97218","onsite_storage_021052",NA,1
+"DANNER SHOE MFG CO","18201 NE PORTAL WAY STE 101, PORTLAND, OR 97230","onsite_storage_002359",NA,1
+"ROCKWOOD WATER PUD","19601 NE HALSEY, PORTLAND, OR 97230","onsite_storage_033717",NA,1
+"WIDMER BROTHERS BREWING CO","1 N CENTER CT, PORTLAND, OR 97208","onsite_storage_065511",NA,1
+"BUSHWACKER INC","6710 N CATLIN ST, PORTLAND, OR 97203","onsite_storage_003221",NA,1
+"DEGESCH AMERICA INC","14024 NE AIRPORT WAY, PORTLAND, OR 97230","onsite_storage_021363",NA,1
+"STENNO CARBON CO INC","6600 N ST LOUIS AVE, PORTLAND, OR 97203","onsite_storage_002549",NA,1
+"BRIDGEPORT BREWING","4468 NW YEON, PORTLAND, OR 97210","onsite_storage_089391",NA,1
+"GRESHAM SANITARY SERVICE","2131 NW BIRDSDALE AVE, GRESHAM, OR 97030","onsite_storage_033837",NA,1
+"WILLAMETTE FENCE CO INC","11304 NE MARX, PORTLAND, OR 97220","onsite_storage_070503",NA,1
+"SEARS","12402 NE MARX ST BLDG 3, PORTLAND, OR 97230","onsite_storage_084195",NA,1
+"DEL MONTE FRESH PRODUCE NA INC","9243 N RIVERGATE BLVD, PORTLAND, OR 97203","onsite_storage_024812",NA,1
+"FOUR DECADES JEWELRY MFG","534 SW 3RD STE 602, PORTLAND, OR 97204","onsite_storage_000363",NA,1
+"OWENS CORNING ROOFING AND ASPHALT LLC","3750 NW YEON & 3605 NW, PORTLAND, OR 97210","onsite_storage_000384",NA,1
+"DAIMLER TRUCKS NORTH AMERICA","4730 N LAGOON, PORTLAND, OR 97217","onsite_storage_104253",NA,1
+"BERG CHRISTIAN ENTERPRISES","4525 SE 63RD AVE, PORTLAND, OR 97206","onsite_storage_004544",NA,1
+"TEC EQUIPMENT","750 NE COLUMBIA BLVD, PORTLAND, OR 97211","onsite_storage_024283",NA,1
+"PORTLAND BOTTLING COMPANY","1321 NE COUCH ST, PORTLAND, OR 97232","onsite_storage_020132",NA,1
+"SAPA PROFILES INC","2210 NE RIVER SIDE WAY, PORTLAND, OR 97211","onsite_storage_024044",NA,1
+"UROBOROS GLASS STUDIOS","2139 N KERBY AVE, PORTLAND, OR 97227","onsite_storage_004489",NA,1
+"COLUMBIA CROSSINGS LLC","1940 N JANTZEN AVE, PORTLAND, OR 97217","onsite_storage_061910",NA,1
+"RIVERSIDE GOLF & COUNTRY CLUB","2521 NE ELROD, PORTLAND, OR 97211","onsite_storage_024070",NA,1
+"PORTLAND FOUNDRY INC","7715 NE 21ST AVE BLDG C, PORTLAND, OR 97211","onsite_storage_024067",NA,1
+"METRO REGIONAL GOVERNMENT","6161 NW 61ST AVE, PORTLAND, OR 97210","onsite_storage_024770",NA,1
+"VERIZON BUSINESS","707 SW WASHINGTON ST STE 300, PORTLAND, OR 97205","onsite_storage_020014",NA,1
+"POLY FLOW LLC","2668 NE RIVERSIDE WAY, PORTLAND, OR 97211","onsite_storage_086849",NA,1
+"SUNSHINE DAIRY","801 NE 21ST, PORTLAND, OR 97232","onsite_storage_000061",NA,1
+"OSMOSE UTILITIES SERVICES INC","10747 NE SIMPSON AVE, PORTLAND, OR 97220","onsite_storage_024600",NA,1
+"OWENS CORNING ROOFING AND ASPHALT LLC","11910 NW ST HELENS RD, PORTLAND, OR 97231","onsite_storage_019133",NA,1
+"TUBE SPECIALTIES CO","1459 NW SUNDIAL RD, TROUTDALE, OR 97060","onsite_storage_004780",NA,1
+"COLOR FX","7561 NE 33RD DR, PORTLAND, OR 97211","onsite_storage_086246",NA,1
+"PORTLAND COMMUNITY COLLEGE","2315 SE 82ND AVE, PORTLAND, OR 97215","onsite_storage_042825",NA,1
+"KAISER PERMANENTE","3600 N INTERSTATE AVE, PORTLAND, OR 97227","onsite_storage_000024",NA,1
+"PORTLAND CITY OF","6445 SE SALMON ST, PORTLAND, OR 97215","onsite_storage_019529",NA,1
+"PORTLAND CITY OF","2521 SW MURRAY, PORTLAND, OR 97201","onsite_storage_019531",NA,1
+"ROSS ISLAND SAND & GRAVEL","4315 SE MCLOUGHLIN BLVD, PORTLAND, OR 97202","onsite_storage_004698",NA,1
+"PENTAGON TECHNOLOGIES GROUP INC","5830 NE 112TH AVE, PORTLAND, OR 97220","onsite_storage_086671",NA,1
+"PYRAMID BREWING INC","2730 NW 31ST AVE, PORTLAND, OR 97210","onsite_storage_024339",NA,1
+"BLUE BEACON OF PORTLAND","10244 N VANCOUVER WAY, PORTLAND, OR 97217","onsite_storage_024334",NA,1
+"PORTLAND CITY OF","16400 NE AIRPORT WAY, PORTLAND, OR 97230","onsite_storage_019526",NA,1
+"PORTLAND CITY OF","3150 N MISSISSIPPI, PORTLAND, OR 97227","onsite_storage_019560",NA,1
+"ROSS ISLAND SAND & GRAVEL CO","4315 SE MCLOUGHLIN BLVD, PORTLAND, OR 97202","onsite_storage_004702",NA,1
+"MULTNOMAH UNIVERSITY","8435 NE GLISAN, PORTLAND, OR 97220","onsite_storage_042792",NA,1
+"UNIVERSITY OF PORTLAND","5000 N WILLAMETTE BLVD, PORTLAND, OR 97203","onsite_storage_042786",NA,1
+"PORTLAND CITY OF","1221 SW 1ST AVE, PORTLAND, OR 97204","onsite_storage_024424",NA,1
+"JL INDUSTRIES INC","802 SE 199TH AVE, PORTLAND, OR 97233","onsite_storage_000195",NA,1
+"ROSS ISLAND SAND & GRAVEL CO","2611 SE 4TH AVE, PORTLAND, OR 97214","onsite_storage_004700",NA,1
+"PORTLAND WATERBUREAU","6704 SE COTTRELL RD, GRESHAM, OR 97080","onsite_storage_019525",NA,1
+"PARDUE RESTORATION","3427 SE 22ND, PORTLAND, OR 97202","onsite_storage_067019",NA,1
+"BRIDGETOWN PRINTING CO","5300 N CHANNEL AVE, PORTLAND, OR 97217","onsite_storage_001207",NA,1
+"FLINT GROUP NORTH AMERICA","10653 N LOMBARD ST, PORTLAND, OR 97203","onsite_storage_004211",NA,1
+"WILL H KNOX CO INC","6034 NE 60TH AVE, PORTLAND, OR 97218","onsite_storage_026908",NA,1
+"ROSE HEATING COMPANY","9945 NE 6TH DR, PORTLAND, OR 97211","onsite_storage_027093",NA,1
+"INTEGRATED POWER SERVICES LLC","2315 NW 21ST PL, PORTLAND, OR 97210","onsite_storage_001301",NA,1
+"PACIFIC PAPER TUBE INC","8611 N COLUMBIA BLVD, PORTLAND, OR 97203","onsite_storage_084882",NA,1
+"WIDMER BROS BREWING CO","929 N RUSSELL ST, PORTLAND, OR 97227","onsite_storage_004250",NA,1
+"TCI AMERICA","9222 N HARBORGATE ST, PORTLAND, OR 97203","onsite_storage_020389",NA,1
+"SHELL CORE SPECIALTIES","2516 NW 29TH AVE BLDG 8, PORTLAND, OR 97210","onsite_storage_001009",NA,1
+"MILLER PAINT COMPANY INC","12730 NE WHITAKER WAY, PORTLAND, OR 97230","onsite_storage_001198",NA,1
+"PORTLAND POWDER COATING INC","4740 SE 25TH AVE, PORTLAND, OR 97202","onsite_storage_027502",NA,1
+"LANDCARE","22901 NE SANDY BLVD, FAIRVIEW, OR 97024","onsite_storage_020536",NA,1
+"GRIFFITH RUBBER MILLS","2625 NW INDUSTRIAL, PORTLAND, OR 97210","onsite_storage_004033",NA,1
+"SUNSHINE DAIRY","8440 NE HALSEY, PORTLAND, OR 97220","onsite_storage_023276",NA,1
+"TRIMET","4400 SE 17TH AVE, PORTLAND, OR 97202","onsite_storage_020460",NA,1
+"TRIMET","9800 SE POWELL BLVD, PORTLAND, OR 97266","onsite_storage_020461",NA,1
+"TRIMET","2222 NW ELEVEN MILE AVE, GRESHAM, OR 97030","onsite_storage_020465",NA,1
+"GENERAL GLASS COMPANY INC","6763 NE 59TH PL STE 7, PORTLAND, OR 97218","onsite_storage_062134",NA,1
+"MACS RADIATOR","4332 SE 62ND RD, PORTLAND, OR 97206","onsite_storage_062154",NA,1
+"CHRISTENSON OIL","16200 SW 72ND AVE, PORTLAND, OR 97224","onsite_storage_023853",NA,1
+"NRC ENVIRONMENTAL SERVICES INC","6211 N ENSIGN ST, PORTLAND, OR 97217","onsite_storage_023870",NA,1
+"PORT OF PORTLAND","999 NW FRONTAGE RD, TROUTDALE, OR 97060","onsite_storage_020276",NA,1
+"VENTURA FOODS LLC","9000 NE MARX DR, PORTLAND, OR 97220","onsite_storage_000724",NA,1
+"DAVEY TREE EXPERT CO","5838 NE COLUMBIA, PORTLAND, OR 97218","onsite_storage_025498",NA,1
+"DARLING INGREDIENTS INC","9901 HURST AVE, PORTLAND, OR 97217","onsite_storage_087112",NA,1
+"ANDERSEN CONSTRUCTION CO INC","6712 N CUTTER CIR, PORTLAND, OR 97217","onsite_storage_025956",NA,1
+"TOYO TANSO USA INC","2575 NW GRAHAM CIR, TROUTDALE, OR 97060","onsite_storage_020214",NA,1
+"SHRINERS HOSPITALS","3101 SW SAM JACKSON PK RD, PORTLAND, OR 97239","onsite_storage_023788",NA,1
+"TRIMET","2800 NW NELA AVE, PORTLAND, OR 97210","onsite_storage_023929",NA,1
+"DIESEL CAST WEST INC","8100 NE 14TH PL, PORTLAND, OR 97211","onsite_storage_024881",NA,1
 "RIP CITY MANAGEMENT","1 N CENTER COURT DR STE 200, PORTLAND, OR 97227","onsite_storage_112054",NA,1
 "HOUSE SPIRITS DISTILLERY LLC","65 SE WASHINGTON ST, PORTLAND, OR 97214","onsite_storage_111973",NA,1
 "ARCHITECTURAL CASTINGS","4701 SE 24TH AVE, PORTLAND, OR 97202","onsite_storage_119644",NA,1
-"ENCORE OILS LLC","3333 NW 35TH AVE BLDG D, PORTLAND, OR 97210","onsite_storage_119959",NA,1
 "SOTELO LAWNCARE COMPANY","6620 N RICHMOND ST, PORTLAND, OR 97203","onsite_storage_109375",NA,1
-"HARRIS REBAR SEATTLE INC","2727 NW 35TH AVE, PORTLAND, OR 97210","onsite_storage_109190",NA,1
 "ARCTIC GLACIER USA INC","909 N COLUMBIA BLVD STE C, PORTLAND, OR 97217","onsite_storage_112672",NA,1
 "REUSABLE CONTAINER COMPANY LLC","7543 N UPLAND DR, PORTLAND, OR 97203","onsite_storage_120558",NA,1
 "MARYS HARVEST FRESH FOODS INC","2705 NE ARGYLE ST, PORTLAND, OR 97211","onsite_storage_120539",NA,1
 "NATURE SAFE LAND CARE INC","18321 SE GIESE RD, GRESHAM, OR 97030","onsite_storage_120311",NA,1
 "TROUTDALE WEST WAREHOUSE","463 PERIMETER WAY DOOR 7, TROUTDALE, OR 97060","onsite_storage_112376",NA,1
-"NW NATURAL GAS CO","7900 NW ST. HELENS RD, PORTLAND, OR 97210","onsite_storage_120964",NA,1
 "EXPEDITORS INTERNATIONAL OF WA INC","2530 N MARINE DR BLDG C, PORTLAND, OR 97217","onsite_storage_110582",NA,1
 "LAKESIDE INDUSTRIES","6400 SE 101ST AVE, PORTLAND, OR 97266","onsite_storage_110850",NA,1
 "PRESSURE SAFE LLC","23365 NE HALSEY ST, WOOD VILLAGE, OR 97294","onsite_storage_120913",NA,1
 "INDUSTRIAL FUMIGANT COMPANY LLC","21414 NE SANDY BLVD, FAIRVIEW, OR 97024","onsite_storage_120970",NA,1
-"ARCHER DANIELS MIDLAND CO","13940 N RIVERGATE BLVD, PORTLAND, OR 97203","onsite_storage_120748",NA,1
+"AIRPORT TERMINAL SVC INC","7780 NE AIR CARGO RD, PORTLAND, OR 97218","onsite_storage_111143",NA,1
 "OREGON SOAP CO","12773 NE WHITAKER WAY, PORTLAND, OR 97230","onsite_storage_120856",NA,1
 "ARNPRIOR AEROSPACE PORTLAND INC","17383 NE SACRAMENTO ST, PORTLAND, OR 97230","onsite_storage_120841",NA,1
 "COLORCENTRIC CORPORATION","4152 NE 185TH DR, GRESHAM, OR 97230","onsite_storage_118029",NA,1
 "ADVANCED PRECISION ANODIZING INC","2233 NE 244TH AVE, WOOD VILLAGE, OR 97060","onsite_storage_118329",NA,1
 "GALVANIZERS COMPANY","2455 NW 29TH AVE, PORTLAND, OR 97210","onsite_storage_114191",NA,1
 "RECOLOGY OREGON RECOVERY INC","6161 NW 61ST AVE, PORTLAND, OR 97210","onsite_storage_118041",NA,1
+"METRO","4825 N BASIN AVE, PORTLAND, OR 97217","onsite_storage_118059",NA,1
 "OREGON CRYSTAL TECHNOLOGIES","17905 NE SANDY BLVD, GRESHAM, OR 97230","onsite_storage_119028",NA,1
-"OWENS CORNING FOAM INSULATION","18456 NE WILKES RD, PORTLAND, OR 97230","onsite_storage_115944",NA,1
 "PORTLAND BOTTLING COMPANY","234 NE 12TH AVE, PORTLAND, OR 97232","onsite_storage_118105",NA,1
 "PORT OF PORTLAND","6440 NE 82ND AVE, PORTLAND, OR 97208","onsite_storage_114159",NA,1
 "BLAST ALL FINISHING LLC","3900 NE BRYANT ST, PORTLAND, OR 97211","onsite_storage_120070",NA,1
-"NATIAN BREWERY","1321 NE COUCH ST, PORTLAND, OR 97232","onsite_storage_118106",NA,1
-"VIGOR FAB LLC","5555 N CHANNEL AVE, PORTLAND, OR 97217","onsite_storage_108192",NA,1
+"ACRYLIC TECHNOLOGIES INC","8914 NE ALDERWOOD RD, PORTLAND, OR 97220","onsite_storage_115350",NA,1
 "PORTLAND CHIMNEY INC","1439 SE 122ND AVE, PORTLAND, OR 97233","onsite_storage_117231",NA,1
-"C F PLASTICS INC","2630B SE 39TH LOOP, HILLSBORO, OR 97123","onsite_storage_3863",NA,1
-"INTEL CORPORATION","23225 NW EVERGREEN PKWY, HILLSBORO, OR 97124","onsite_storage_81739",NA,1
-"HINES GROWERS INC","45296 SW RITCHEY RD, FOREST GROVE, OR 97116","onsite_storage_20488",NA,1
-"CASCADE MICROTECH","9100 SW GEMINI, BEAVERTON, OR 97008","onsite_storage_62263",NA,1
-"HINES GROWERS INC","RT 2 DOBER RD, CORNELIUS, OR 97113","onsite_storage_20491",NA,1
-"TIGARD-TUALATIN SCHOOL DIST23J","9000 SW DURHAM RD, TIGARD, OR 97224","onsite_storage_41897",NA,1
-"INTEL CORPORATION","2501 229TH AVE NW, HILLSBORO, OR 97124","onsite_storage_62201",NA,1
-"HINES GROWERS INC","37710 SW NURSERY RD, CORNELIUS, OR 97113","onsite_storage_20490",NA,1
-"TRUGREEN LANDCARE","26020 NW EVERGREEN, HILLSBORO, OR 97124","onsite_storage_20504",NA,1
-"SHOWPLACE LANDSCAPE SVCS INC","25925 SW GRAHAMS FERRY RD, SHERWOOD, OR 97140","onsite_storage_63097",NA,1
-"GRASS AUTHORITY INC THE","15575 SW 74TH AVE STE 3, TIGARD, OR 97224","onsite_storage_63347",NA,1
-"MCKAY CREEK GOLF COURSE INC","1416 NW JACKSON ST, HILLSBORO, OR 97124","onsite_storage_62862",NA,1
-"KAISER PERMANENTE","19185 SW 90TH, TUALATIN, OR 97062","onsite_storage_82085",NA,1
-"PRO-GRO MIXES INC","26045 SW GRAHAMS FERRY RD, SHERWOOD, OR 97140","onsite_storage_3783",NA,1
-"PORT OF PORTLAND","1040 NE 25TH, HILLSBORO, OR 97214","onsite_storage_20813",NA,1
-"BARRIER CORPORATION","9908 SW TIGARD ST, TIGARD, OR 97223","onsite_storage_3667",NA,1
-"TEKTRONIX INC","13600 SW KARL BRAUN DR, BEAVERTON, OR 97077","onsite_storage_20854",NA,1
-"MERIWETHER NATIONAL GOLF","5200 SW ROOD BRIDGE RD, HILLSBORO, OR 97123","onsite_storage_41783",NA,1
-"TRIMET","16130 SW MERLO RD, BEAVERTON, OR 97006","onsite_storage_39678",NA,1
-"GROUNDS MAINTENANCE OF OR INC","23050 SW 82ND AVE, TUALATIN, OR 97062","onsite_storage_9385",NA,1
-"TUALATIN HILLS PARK & REC","3500 SW 78TH, PORTLAND, OR 97225","onsite_storage_19090",NA,1
-"TUALATIN HILLS PARK & REC","18300 NW PARKVIEW BLVD, PORTLAND, OR 97229","onsite_storage_19089",NA,1
-"PROFESSIONAL GROUNDS MGMT","28335 NW EVERGREEN RD, HILLSBORO, OR 97124","onsite_storage_60669",NA,1
-"TUALATIN COUNTRY CLUB","9145 SW TUALATIN RD, TUALATIN, OR 97062","onsite_storage_43236",NA,1
-"PORTLAND GOLF CLUB","5900 SW SCHOLLS FERRY RD, PORTLAND, OR 97225","onsite_storage_43233",NA,1
-"CASCADE SYSTEMS TECHNOLOGY INC","23176 NW BENNETT ST, HILLSBORO, OR 97124","onsite_storage_43081",NA,1
-"TUALATIN HILLS PARK & REC","15707 SW WALKER RD, BEAVERTON, OR 97006","onsite_storage_19093",NA,1
-"TEKTRONIX INC","13955 SW TERMAN DR, BEAVERTON, OR 97077","onsite_storage_19110",NA,1
-"TUALATIN HILLS PARK & REC","7300 SW SCHOLLS FERRY RD, BEAVERTON, OR 97008","onsite_storage_19094",NA,1
-"TEKTRONIX INC","13900 SW KARL BRAUN DR, BEAVERTON, OR 97007","onsite_storage_19108",NA,1
-"TEKTRONIX INC","13700 SW KARL BRAUN DR, BEAVERTON, OR 97005","onsite_storage_19107",NA,1
-"PACIFIC FOODS OF OREGON INC","9735 SW TUALATIN SHRWD RD, TUALATIN, OR 97062","onsite_storage_80776",NA,1
-"PACIFIC FOODS OF OREGON INC","19300 SW TETON AVE, TUALATIN, OR 97062","onsite_storage_80777",NA,1
-"OHSU","505 NW 185TH AVE, BEAVERTON, OR 97006","onsite_storage_18856",NA,1
-"HILLSBORO CITY OF","953 SE MAPLE ST, HILLSBORO, OR 97123","onsite_storage_80899",NA,1
-"FOREST HILLS GOLF COURSE","36260 SW TONGUE LN, CORNELIUS, OR 97113","onsite_storage_43255",NA,1
-"OREGON BERRY PACKING INC","6000 SW MINTER BRIDGE RD, HILLSBORO, OR 97123","onsite_storage_18977",NA,1
-"KING CITY GOLF COURSE","16060 SW KING CHARLES, PORTLAND, OR 97224","onsite_storage_43259",NA,1
-"QUAIL VALLEY GOLF COURSE","12565 NW AERTS RD, BANKS, OR 97106","onsite_storage_43263",NA,1
-"BPA","4123 NW RICKEY TERR, HILLSBORO, OR 97124","onsite_storage_19182",NA,1
-"JAE OREGON INC","11555 SW LEVETON DR, TUALATIN, OR 97062","onsite_storage_20025",NA,1
+"C F PLASTICS INC","2630B SE 39TH LOOP, HILLSBORO, OR 97123","onsite_storage_003863",NA,1
+"INTEL CORPORATION","23225 NW EVERGREEN PKWY, HILLSBORO, OR 97124","onsite_storage_081739",NA,1
+"HINES GROWERS INC","45296 SW RITCHEY RD, FOREST GROVE, OR 97116","onsite_storage_020488",NA,1
+"CASCADE MICROTECH","9100 SW GEMINI, BEAVERTON, OR 97008","onsite_storage_062263",NA,1
+"TIGARD-TUALATIN SCHOOL DIST23J","9000 SW DURHAM RD, TIGARD, OR 97224","onsite_storage_041897",NA,1
+"INTEL CORPORATION","2501 229TH AVE NW, HILLSBORO, OR 97124","onsite_storage_062201",NA,1
+"MCKAY CREEK GOLF COURSE INC","1416 NW JACKSON ST, HILLSBORO, OR 97124","onsite_storage_062862",NA,1
+"KAISER PERMANENTE","19185 SW 90TH, TUALATIN, OR 97062","onsite_storage_082085",NA,1
+"PRO-GRO MIXES INC","26045 SW GRAHAMS FERRY RD, SHERWOOD, OR 97140","onsite_storage_003783",NA,1
+"PORT OF PORTLAND","1040 NE 25TH, HILLSBORO, OR 97214","onsite_storage_020813",NA,1
+"BARRIER CORPORATION","9908 SW TIGARD ST, TIGARD, OR 97223","onsite_storage_003667",NA,1
+"TEKTRONIX INC","13600 SW KARL BRAUN DR, BEAVERTON, OR 97077","onsite_storage_020854",NA,1
+"TRIMET","16130 SW MERLO RD, BEAVERTON, OR 97006","onsite_storage_039678",NA,1
+"GROUNDS MAINTENANCE OF OR INC","23050 SW 82ND AVE, TUALATIN, OR 97062","onsite_storage_009385",NA,1
+"TUALATIN HILLS PARK & REC","3500 SW 78TH, PORTLAND, OR 97225","onsite_storage_019090",NA,1
+"TUALATIN HILLS PARK & REC","18300 NW PARKVIEW BLVD, PORTLAND, OR 97229","onsite_storage_019089",NA,1
+"PROFESSIONAL GROUNDS MGMT","28335 NW EVERGREEN RD, HILLSBORO, OR 97124","onsite_storage_060669",NA,1
+"TUALATIN COUNTRY CLUB","9145 SW TUALATIN RD, TUALATIN, OR 97062","onsite_storage_043236",NA,1
+"PORTLAND GOLF CLUB","5900 SW SCHOLLS FERRY RD, PORTLAND, OR 97225","onsite_storage_043233",NA,1
+"CASCADE SYSTEMS TECHNOLOGY INC","23176 NW BENNETT ST, HILLSBORO, OR 97124","onsite_storage_043081",NA,1
+"TOSOH QUARTZ","14380 NW SCIENCE PARK DR, PORTLAND, OR 97229","onsite_storage_004767",NA,1
+"TUALATIN HILLS PARK & REC","15707 SW WALKER RD, BEAVERTON, OR 97006","onsite_storage_019093",NA,1
+"TEKTRONIX INC","13955 SW TERMAN DR, BEAVERTON, OR 97077","onsite_storage_019110",NA,1
+"TUALATIN HILLS PARK & REC","7300 SW SCHOLLS FERRY RD, BEAVERTON, OR 97008","onsite_storage_019094",NA,1
+"TEKTRONIX INC","13900 SW KARL BRAUN DR, BEAVERTON, OR 97007","onsite_storage_019108",NA,1
+"TEKTRONIX INC","13700 SW KARL BRAUN DR, BEAVERTON, OR 97005","onsite_storage_019107",NA,1
+"PACIFIC FOODS OF OREGON INC","9735 SW TUALATIN SHRWD RD, TUALATIN, OR 97062","onsite_storage_080776",NA,1
+"PACIFIC FOODS OF OREGON INC","19300 SW TETON AVE, TUALATIN, OR 97062","onsite_storage_080777",NA,1
+"OHSU","505 NW 185TH AVE, BEAVERTON, OR 97006","onsite_storage_018856",NA,1
+"HILLSBORO CITY OF","953 SE MAPLE ST, HILLSBORO, OR 97123","onsite_storage_080899",NA,1
+"FOREST HILLS GOLF COURSE","36260 SW TONGUE LN, CORNELIUS, OR 97113","onsite_storage_043255",NA,1
+"OREGON BERRY PACKING INC","6000 SW MINTER BRIDGE RD, HILLSBORO, OR 97123","onsite_storage_018977",NA,1
+"KING CITY GOLF COURSE","16060 SW KING CHARLES, PORTLAND, OR 97224","onsite_storage_043259",NA,1
+"BPA","4123 NW RICKEY TERR, HILLSBORO, OR 97124","onsite_storage_019182",NA,1
+"JAE OREGON INC","11555 SW LEVETON DR, TUALATIN, OR 97062","onsite_storage_020025",NA,1
 "SUBURBAN PLATING LLC","13019 SW HERMAN RD, TUALATIN, OR 97062","onsite_storage_104456",NA,1
-"BONITA PIONEER","7333 SW BONITA RD, PORTLAND, OR 97224","onsite_storage_20210",NA,1
-"GRIFFITH POLYMERS INC","10500 SW MANHASSET DR, TUALATIN, OR 97062","onsite_storage_4173",NA,1
+"WESTERN INDUST CERAMICS","10725 SW TUALATIN SHRWD RD, TUALATIN, OR 97062","onsite_storage_004486",NA,1
+"GRIFFITH POLYMERS INC","10500 SW MANHASSET DR, TUALATIN, OR 97062","onsite_storage_004173",NA,1
 "KNIFE RIVER","699 SW WOOD ST, HILLSBORO, OR 97123","onsite_storage_104705",NA,1
-"TRIMET","16250 SW JENKINS RD, BEAVERTON, OR 97006","onsite_storage_62117",NA,1
-"PACIFIC FOODS OF OREGON INC","19550 SW 97TH AVE, TUALATIN, OR 97062","onsite_storage_62084",NA,1
-"TUALATIN VALLEY WATER DISTRICT","9500 SW INGLEWOOD, BEAVERTON, OR 97225","onsite_storage_19497",NA,1
-"TUALATIN VALLEY WATER DISTRICT","11285 SW CENTER ST, BEAVERTON, OR 97005","onsite_storage_19498",NA,1
-"MORSE BROTHERS INC","12000 SW TONQUIN RD, SHERWOOD, OR 97140","onsite_storage_4543",NA,1
-"GREENSCAPES LAWN TREE & PLANT","8900 SW BURNHAM ST STE E105, TIGARD, OR 97223","onsite_storage_81290",NA,1
-"RESERVE VINEYARDS GOLF CRS THE","4805 SW 229TH AVE, ALOHA, OR 97007","onsite_storage_61816",NA,1
-"ALLIANCE PACKAGING","23035 NW JACOBSON DR, HILLSBORO, OR 97124","onsite_storage_4620",NA,1
-"H W METAL PRODUCTS","19480 SW 118TH, TUALATIN, OR 97062","onsite_storage_4602",NA,1
-"TVT DIE CASTING & MFG INC","7330 SW LANDMARK LN, PORTLAND, OR 97224","onsite_storage_1476",NA,1
-"BEAVERTON CITY OF","9600 SW ALLEN BLVD, BEAVERTON, OR 97005","onsite_storage_63743",NA,1
-"SUBSURFACE TECHNOLOGIES","11100 NW GORDON RD, NORTH PLAINS, OR 97133","onsite_storage_29455",NA,1
-"ROCKMORE INTERNATIONAL INC","10065 SW COMMERCE CIR, WILSONVILLE, OR 97070","onsite_storage_1199",NA,1
-"POWDER TECH INC","9900 SW HERMAN RD, TUALATIN, OR 97062","onsite_storage_68051",NA,1
-"TRANE OREGON SERVICE CO","7257 SW KABLE LN, PORTLAND, OR 97224","onsite_storage_26672",NA,1
-"TUALATIN VALLEY WATER DISTRICT","2787 SW 75TH, HILLSBORO, OR 97123","onsite_storage_68104",NA,1
-"WILSONVILLE CONCRETE PROD","6700 SW 110TH CT, BEAVERTON, OR 97005","onsite_storage_31636",NA,1
-"WILLAMETTE RESOURCES INC","10295 SW RIDDER RD, WILSONVILLE, OR 97070","onsite_storage_22834",NA,1
-"SUNBURST PRODUCTS INC","10054 SW ARCTIC DR, BEAVERTON, OR 97005","onsite_storage_31364",NA,1
-"ELECTRO SCIENTIFIC INDUSTRIES","13900 NW SCIENCE PARK DR, PORTLAND, OR 97229","onsite_storage_68495",NA,1
-"GM NAMEPLATE","13725 SW MILLIKAN WAY, BEAVERTON, OR 97005","onsite_storage_31458",NA,1
-"INTERNATIONAL PAPER","5800 SW WESTERN, BEAVERTON, OR 97005","onsite_storage_30561",NA,1
-"INSERTA FITTINGS CO","3707 24TH AVE, FOREST GROVE, OR 97116","onsite_storage_31728",NA,1
-"OROWEAT","10750 SW 5TH, BEAVERTON, OR 97005","onsite_storage_2049",NA,1
-"ALBINA PIPE BENDING CO","12080 SW MYSLONY, TUALATIN, OR 97062","onsite_storage_1835",NA,1
-"CHICK A DEE GARDENS NURSERY INC","24130 SW GRAHAMS FERRY RD, SHERWOOD, OR 97140","onsite_storage_22617",NA,1
-"AIR LIQUIDE AMERICA","10450 SW TUALATIN SHRWD RD, TUALATIN, OR 97062","onsite_storage_1795",NA,1
-"R & S NURSERY INC","28159 SW RAYNARD RD, HILLSBORO, OR 97123","onsite_storage_22519",NA,1
-"GOLD HILL NURSERY LLC","24700 SW TILE FLAT RD, HILLSBORO, OR 97123","onsite_storage_22518",NA,1
-"OLIGOS ETC INC","9775 SW COMMERCE CIR STE C-6, WILSONVILLE, OR 97070","onsite_storage_22514",NA,1
-"STANDARD MULTIWALL BAG MFG CO","1800 SW MERLO, BEAVERTON, OR 97006","onsite_storage_30558",NA,1
-"FUJIMI CORPORATION","11200 SW LEVETON DR, TUALATIN, OR 97062","onsite_storage_66267",NA,1
-"BONITA PIONEER PACKAGING","7400 SW LANDMARK LN, PORTLAND, OR 97224","onsite_storage_24003",NA,1
-"RELIABLE TRANSMISSION","3695 SW 185TH AVE, ALOHA, OR 97078","onsite_storage_23967",NA,1
-"ARCIS CORP","10680 NW 289TH PL, NORTH PLAINS, OR 97133","onsite_storage_85152",NA,1
-"GENERAL TREE SERVICE","6795 SW 111TH AVE, BEAVERTON, OR 97008","onsite_storage_25656",NA,1
-"PGE","2213 SW 153RD DR, BEAVERTON, OR 97006","onsite_storage_67071",NA,1
-"LANDDCARE","7920 SW HUNZIKER ST, TIGARD, OR 97223","onsite_storage_25036",NA,1
-"COFFEE CREEK CORRECTIONAL FACILITY","24499 SW GRAHAMS FERRY RD, WILSONVILLE, OR 97070","onsite_storage_87091",NA,1
-"TUALATIN VALLEY WATER DISTRICT","4735 CORNELIUS PASS RD, HILLSBORO, OR 97124","onsite_storage_85183",NA,1
-"BARRIER CORPORATION","9814 SW TIGARD ST, TIGARD, OR 97223","onsite_storage_84614",NA,1
-"BANKS MANUFACTURING LLC","13662 NW COMMERCE ST, BANKS, OR 97106","onsite_storage_1018",NA,1
-"HILLSBORO CITY OF","4475 SW FERNHILL RD, FOREST GROVE, OR 97116","onsite_storage_24895",NA,1
-"JIFFY LUBE","15930 SW TUALATIN SHRWD RD, SHERWOOD, OR 97140","onsite_storage_86956",NA,1
-"CLEAN WATER SERVICES","2025 SW MERLO CT, BEAVERTON, OR 97006","onsite_storage_23586",NA,1
-"TOKYO OHKA KOGYO AMERICA INC","4600 NW BROOKWOOD PKWY, HILLSBORO, OR 97124","onsite_storage_24897",NA,1
-"NORTEK AIR SOLUTIONS","19855 SW 124TH AVE, TUALATIN, OR 97062","onsite_storage_85414",NA,1
-"TUFCOAT","12345 SW MYSLONY ST, TUALATIN, OR 97062","onsite_storage_862",NA,1
-"AMMCON CORP","21450 W UNION RD, HILLSBORO, OR 97124","onsite_storage_889",NA,1
-"OREGON COLLEGE OF ART & CRAFT","8245 SW BARNES RD, PORTLAND, OR 97225","onsite_storage_87052",NA,1
-"TEREX SERVICES","12805 SW 77TH PL, TIGARD, OR 97223","onsite_storage_35089",NA,1
-"DEQ","3150 NW 229TH AVE STE 150, HILLSBORO, OR 97124","onsite_storage_2842",NA,1
-"PRINTGRAPHICS INC","10950 SW 5TH ST STE 310, BEAVERTON, OR 97005","onsite_storage_3024",NA,1
-"BANKS CITY OF","41700 BANKS RD, BANKS, OR 97106","onsite_storage_21570",NA,1
-"SUMITOMO ELECTRIC SEMICONDUCT","7230 NW EVERGREEN PKWY, HILLSBORO, OR 97124","onsite_storage_83176",NA,1
-"COLUMBIA CORRUGATED BOX CO INC","12777 SW TUALATIN SHRWD RD, TUALATIN, OR 97062","onsite_storage_3238",NA,1
-"INTERNATIONAL PAPER","5500 SW WESTERN AVE, BEAVERTON, OR 97005","onsite_storage_21384",NA,1
-"PACIFIC FOODS OF OREGON INC","9693 SW TUALATIN SHRWD RD, TUALATIN, OR 97062","onsite_storage_106152",NA,1
-"TEUFEL PRODUCTS COMPANY","31615 NW SCOTCH CHURCH RD, HILLSBORO, OR 97124","onsite_storage_36761",NA,1
-"TOKAI CARBON USA INC","4495 NW 235TH AVE, HILLSBORO, OR 97124","onsite_storage_63742",NA,1
-"BEAVERTON CITY OF","14600 SW SEXTON MTN DR, BEAVERTON, OR 97005","onsite_storage_63679",NA,1
-"COORSTEK","555 NE 53RD AVE, HILLSBORO, OR 97124","onsite_storage_3097",NA,1
-"TRIAX METAL PRODUCTS","1880 SW MERLO DR, BEAVERTON, OR 97006","onsite_storage_3043",NA,1
-"NIKE INC","ONE BOWERMAN DR, BEAVERTON, OR 97005","onsite_storage_21339",NA,1
-"TIGARD-TUALATIN SCHOOL DIST23J","14650 SW 97TH AVE, TIGARD, OR 97224","onsite_storage_89465",NA,1
-"TIGARD-TUALATIN SCHOOL DIST23J","22300 SW BOONES FERRY RD, TUALATIN, OR 97062","onsite_storage_89462",NA,1
-"GLACIER NORTHWEST INC","19585 SW 118TH AVE, TUALATIN, OR 97062","onsite_storage_65722",NA,1
-"WADE MFG CO","9995 SW AVERY ST, TUALATIN, OR 97062","onsite_storage_2379",NA,1
-"PROTOCO ENTERPRISES LLC","28757 NW WEST UNION RD, NORTH PLAINS, OR 97133","onsite_storage_2433",NA,1
-"PACIFIC LANDSCAPE MGMT INC","21555 NW AMBERWOOD DR, HILLSBORO, OR 97124","onsite_storage_84207",NA,1
-"CATLIN GABEL SCHOOL THE","8825 SW BARNES RD, PORTLAND, OR 97225","onsite_storage_70179",NA,1
-"VANGUARD EMS INC","3725 SW HOCKEN AVE, BEAVERTON, OR 97005","onsite_storage_32508",NA,1
-"YEAROUND LAWN CARE","2920 SE 74TH AVE, HILLSBORO, OR 97123","onsite_storage_89932",NA,1
-"NORTHWEST EARTHMOVERS INC","13600 SW GALBREATH DR, SHERWOOD, OR 97140","onsite_storage_68547",NA,1
-"SPECIALIZED PAVEMENT MARKING","11095 SW INDUSTRIAL WAY BLDG B, TUALATIN, OR 97062","onsite_storage_68609",NA,1
-"JEWELL ATTACHMENTS LLC","18135 SW BOONES FERRY RD, PORTLAND, OR 97224","onsite_storage_32061",NA,1
-"BARRIER CORPORATION","9820 SW TIGARD ST, TIGARD, OR 97223","onsite_storage_84613",NA,1
-"P-M INDUSTRIES INC","14305 SW MILLIKAN, BEAVERTON, OR 97005","onsite_storage_2224",NA,1
-"DAVIS TOOL INC","780 SW BAILEY AVE, HILLSBORO, OR 97123","onsite_storage_32108",NA,1
-"LEUPOLD & STEVENS INC","14400 NW GREENBRIER PKWY, BEAVERTON, OR 97006","onsite_storage_2614",NA,1
-"FUJIMI CORPORATION","9949 SW COMMERCE CIR, WILSONVILLE, OR 97070","onsite_storage_21657",NA,1
-"CARTER 2 SYSTEMS INC","2750 SE 39TH AVE, HILLSBORO, OR 97123","onsite_storage_34667",NA,1
-"ADVANCED COLOR SYSTEMS INC","10350 SW TUALATIN RD, TUALATIN, OR 97062","onsite_storage_87764",NA,1
-"STIMSON LUMBER COMPANY","49800 SW SCOGGINS VALLY RD, GASTON, OR 97119","onsite_storage_2725",NA,1
-"R & D MFG INC","160 SW FREEMAN AVE, HILLSBORO, OR 97123","onsite_storage_65181",NA,1
-"HILLSBORO SCHOOL DISTRICT 1J","1220 SW WALNUT ST, HILLSBORO, OR 97123","onsite_storage_87604",NA,1
-"HILLSBORO LANDFILL-T V WASTE RECOVERY","3205 SE MINTER BRIDGE RD, HILLSBORO, OR 97123","onsite_storage_33826",NA,1
-"SURE POWER INC","10189 SW AVERY ST, TUALATIN, OR 97062","onsite_storage_2122",NA,1
-"ALOHA SANITARY SERVICE","8600 SW HILLSBORO HWY, HILLSBORO, OR 97123","onsite_storage_33930",NA,1
-"R & S NURSERY CO","11715 SW HILLSBORO HWY, HILLSBORO, OR 97123","onsite_storage_21893",NA,1
-"WASHINGTON COUNTY","215 SW ADAMS, HILLSBORO, OR 97123","onsite_storage_87633",NA,1
-"ARDENT MILLS INNOVATIVE BAKERY RESOURCES","21151 SW 115TH, TUALATIN, OR 97062","onsite_storage_69191",NA,1
-"POLY-CAST INC","14140 SW 72ND AVE STE 100, TIGARD, OR 97224","onsite_storage_6757",NA,1
+"PACIFIC FOODS OF OREGON INC","19550 SW 97TH AVE, TUALATIN, OR 97062","onsite_storage_062084",NA,1
+"TUALATIN VALLEY WATER DISTRICT","9500 SW INGLEWOOD, BEAVERTON, OR 97225","onsite_storage_019497",NA,1
+"TUALATIN VALLEY WATER DISTRICT","11285 SW CENTER ST, BEAVERTON, OR 97005","onsite_storage_019498",NA,1
+"MORSE BROTHERS INC","12000 SW TONQUIN RD, SHERWOOD, OR 97140","onsite_storage_004543",NA,1
+"ALLIANCE PACKAGING","23035 NW JACOBSON DR, HILLSBORO, OR 97124","onsite_storage_004620",NA,1
+"H W METAL PRODUCTS","19480 SW 118TH, TUALATIN, OR 97062","onsite_storage_004602",NA,1
+"TVT DIE CASTING & MFG INC","7330 SW LANDMARK LN, PORTLAND, OR 97224","onsite_storage_001476",NA,1
+"BEAVERTON CITY OF","9600 SW ALLEN BLVD, BEAVERTON, OR 97005","onsite_storage_063743",NA,1
+"ROCKMORE INTERNATIONAL INC","10065 SW COMMERCE CIR, WILSONVILLE, OR 97070","onsite_storage_001199",NA,1
+"POWDER TECH INC","9900 SW HERMAN RD, TUALATIN, OR 97062","onsite_storage_068051",NA,1
+"TRANE OREGON SERVICE CO","7257 SW KABLE LN, PORTLAND, OR 97224","onsite_storage_026672",NA,1
+"TUALATIN VALLEY WATER DISTRICT","2787 SW 75TH, HILLSBORO, OR 97123","onsite_storage_068104",NA,1
+"BALZER PAINTING INC","19405 SW 125TH CT, TUALATIN, OR 97062","onsite_storage_027749",NA,1
+"WILLAMETTE RESOURCES INC","10295 SW RIDDER RD, WILSONVILLE, OR 97070","onsite_storage_022834",NA,1
+"SUNBURST PRODUCTS INC","10054 SW ARCTIC DR, BEAVERTON, OR 97005","onsite_storage_031364",NA,1
+"ELECTRO SCIENTIFIC INDUSTRIES","13900 NW SCIENCE PARK DR, PORTLAND, OR 97229","onsite_storage_068495",NA,1
+"THERM-TEC INC","20525 CIPOLE RD, SHERWOOD, OR 97140","onsite_storage_001925",NA,1
+"GM NAMEPLATE","13725 SW MILLIKAN WAY, BEAVERTON, OR 97005","onsite_storage_031458",NA,1
+"INTERNATIONAL PAPER","5800 SW WESTERN, BEAVERTON, OR 97005","onsite_storage_030561",NA,1
+"INSERTA FITTINGS CO","3707 24TH AVE, FOREST GROVE, OR 97116","onsite_storage_031728",NA,1
+"HAZELNUT GROWERS WESTNUT LLC","401 N 26TH AVE, CORNELIUS, OR 97113","onsite_storage_029683",NA,1
+"CHICK A DEE GARDENS NURSERY INC","24130 SW GRAHAMS FERRY RD, SHERWOOD, OR 97140","onsite_storage_022617",NA,1
+"AIR LIQUIDE AMERICA","10450 SW TUALATIN SHRWD RD, TUALATIN, OR 97062","onsite_storage_001795",NA,1
+"R & S NURSERY INC","28159 SW RAYNARD RD, HILLSBORO, OR 97123","onsite_storage_022519",NA,1
+"GOLD HILL NURSERY LLC","24700 SW TILE FLAT RD, HILLSBORO, OR 97123","onsite_storage_022518",NA,1
+"OLIGOS ETC INC","9775 SW COMMERCE CIR STE C-6, WILSONVILLE, OR 97070","onsite_storage_022514",NA,1
+"STANDARD MULTIWALL BAG MFG CO","1800 SW MERLO, BEAVERTON, OR 97006","onsite_storage_030558",NA,1
+"FUJIMI CORPORATION","11200 SW LEVETON DR, TUALATIN, OR 97062","onsite_storage_066267",NA,1
+"BONITA PIONEER PACKAGING","7400 SW LANDMARK LN, PORTLAND, OR 97224","onsite_storage_024003",NA,1
+"RELIABLE TRANSMISSION","3695 SW 185TH AVE, ALOHA, OR 97078","onsite_storage_023967",NA,1
+"WOODFOLD MFG INC","1811 18TH AVE, FOREST GROVE, OR 97116","onsite_storage_000522",NA,1
+"ARCIS CORP","10680 NW 289TH PL, NORTH PLAINS, OR 97133","onsite_storage_085152",NA,1
+"GENERAL TREE SERVICE","6795 SW 111TH AVE, BEAVERTON, OR 97008","onsite_storage_025656",NA,1
+"PGE","2213 SW 153RD DR, BEAVERTON, OR 97006","onsite_storage_067071",NA,1
+"COFFEE CREEK CORRECTIONAL FACILITY","24499 SW GRAHAMS FERRY RD, WILSONVILLE, OR 97070","onsite_storage_087091",NA,1
+"TUALATIN VALLEY WATER DISTRICT","4735 CORNELIUS PASS RD, HILLSBORO, OR 97124","onsite_storage_085183",NA,1
+"BARRIER CORPORATION","9814 SW TIGARD ST, TIGARD, OR 97223","onsite_storage_084614",NA,1
+"BANKS MANUFACTURING LLC","13662 NW COMMERCE ST, BANKS, OR 97106","onsite_storage_001018",NA,1
+"JIFFY LUBE","15930 SW TUALATIN SHRWD RD, SHERWOOD, OR 97140","onsite_storage_086956",NA,1
+"CLEAN WATER SERVICES","2025 SW MERLO CT, BEAVERTON, OR 97006","onsite_storage_023586",NA,1
+"NORTEK AIR SOLUTIONS","19855 SW 124TH AVE, TUALATIN, OR 97062","onsite_storage_085414",NA,1
+"TUFCOAT","12345 SW MYSLONY ST, TUALATIN, OR 97062","onsite_storage_000862",NA,1
+"AMMCON CORP","21450 W UNION RD, HILLSBORO, OR 97124","onsite_storage_000889",NA,1
+"OREGON COLLEGE OF ART & CRAFT","8245 SW BARNES RD, PORTLAND, OR 97225","onsite_storage_087052",NA,1
+"DEQ","3150 NW 229TH AVE STE 150, HILLSBORO, OR 97124","onsite_storage_002842",NA,1
+"PRINTGRAPHICS INC","10950 SW 5TH ST STE 310, BEAVERTON, OR 97005","onsite_storage_003024",NA,1
+"SUMITOMO ELECTRIC SEMICONDUCT","7230 NW EVERGREEN PKWY, HILLSBORO, OR 97124","onsite_storage_083176",NA,1
+"COLUMBIA CORRUGATED BOX CO INC","12777 SW TUALATIN SHRWD RD, TUALATIN, OR 97062","onsite_storage_003238",NA,1
+"INTERNATIONAL PAPER","5500 SW WESTERN AVE, BEAVERTON, OR 97005","onsite_storage_021384",NA,1
+"TEUFEL PRODUCTS COMPANY","31615 NW SCOTCH CHURCH RD, HILLSBORO, OR 97124","onsite_storage_036761",NA,1
+"TOKAI CARBON USA INC","4495 NW 235TH AVE, HILLSBORO, OR 97124","onsite_storage_063742",NA,1
+"BEAVERTON CITY OF","14600 SW SEXTON MTN DR, BEAVERTON, OR 97005","onsite_storage_063679",NA,1
+"COORSTEK","555 NE 53RD AVE, HILLSBORO, OR 97124","onsite_storage_003097",NA,1
+"NIKE INC","ONE BOWERMAN DR, BEAVERTON, OR 97005","onsite_storage_021339",NA,1
+"TIGARD-TUALATIN SCHOOL DIST23J","14650 SW 97TH AVE, TIGARD, OR 97224","onsite_storage_089465",NA,1
+"GLACIER NORTHWEST INC","19585 SW 118TH AVE, TUALATIN, OR 97062","onsite_storage_065722",NA,1
+"WADE MFG CO","9995 SW AVERY ST, TUALATIN, OR 97062","onsite_storage_002379",NA,1
+"PROTOCO ENTERPRISES LLC","28757 NW WEST UNION RD, NORTH PLAINS, OR 97133","onsite_storage_002433",NA,1
+"PACIFIC LANDSCAPE MGMT INC","21555 NW AMBERWOOD DR, HILLSBORO, OR 97124","onsite_storage_084207",NA,1
+"CORNELIUS QUAKER STATE","736 BASELINE ST, CORNELIUS, OR 97113","onsite_storage_084338",NA,1
+"VANGUARD EMS INC","3725 SW HOCKEN AVE, BEAVERTON, OR 97005","onsite_storage_032508",NA,1
+"YEAROUND LAWN CARE","2920 SE 74TH AVE, HILLSBORO, OR 97123","onsite_storage_089932",NA,1
+"NORTHWEST EARTHMOVERS INC","13600 SW GALBREATH DR, SHERWOOD, OR 97140","onsite_storage_068547",NA,1
+"SPECIALIZED PAVEMENT MARKING","11095 SW INDUSTRIAL WAY BLDG B, TUALATIN, OR 97062","onsite_storage_068609",NA,1
+"JEWELL ATTACHMENTS LLC","18135 SW BOONES FERRY RD, PORTLAND, OR 97224","onsite_storage_032061",NA,1
+"BARRIER CORPORATION","9820 SW TIGARD ST, TIGARD, OR 97223","onsite_storage_084613",NA,1
+"P-M INDUSTRIES INC","14305 SW MILLIKAN, BEAVERTON, OR 97005","onsite_storage_002224",NA,1
+"DAVIS TOOL INC","780 SW BAILEY AVE, HILLSBORO, OR 97123","onsite_storage_032108",NA,1
+"LEUPOLD & STEVENS INC","14400 NW GREENBRIER PKWY, BEAVERTON, OR 97006","onsite_storage_002614",NA,1
+"FUJIMI CORPORATION","9949 SW COMMERCE CIR, WILSONVILLE, OR 97070","onsite_storage_021657",NA,1
+"CARTER 2 SYSTEMS INC","2750 SE 39TH AVE, HILLSBORO, OR 97123","onsite_storage_034667",NA,1
+"ADVANCED COLOR SYSTEMS INC","10350 SW TUALATIN RD, TUALATIN, OR 97062","onsite_storage_087764",NA,1
+"R & D MFG INC","160 SW FREEMAN AVE, HILLSBORO, OR 97123","onsite_storage_065181",NA,1
+"HILLSBORO SCHOOL DISTRICT 1J","1220 SW WALNUT ST, HILLSBORO, OR 97123","onsite_storage_087604",NA,1
+"SURE POWER INC","10189 SW AVERY ST, TUALATIN, OR 97062","onsite_storage_002122",NA,1
+"ALOHA SANITARY SERVICE","8600 SW HILLSBORO HWY, HILLSBORO, OR 97123","onsite_storage_033930",NA,1
+"R & S NURSERY CO","11715 SW HILLSBORO HWY, HILLSBORO, OR 97123","onsite_storage_021893",NA,1
 "ANTHRO CORP","10630 SW MANHASSET DR, TUALATIN, OR 97062","onsite_storage_100250",NA,1
-"OAK HILLS HOMEOWNERS ASSOC","2085 NW 153RD AVE, BEAVERTON, OR 97006","onsite_storage_56337",NA,1
-"MONTINORE VINEYARDS","3663 SW DILLEY RD, FOREST GROVE, OR 97116","onsite_storage_48693",NA,1
-"OAK KNOLL WINERY","29700 SW BURKHALTER RD, HILLSBORO, OR 97123","onsite_storage_56338",NA,1
-"NEW SEASON FOODS","2329 YEW ST, FOREST GROVE, OR 97116","onsite_storage_6637",NA,1
-"MORGAN INDUSTRIAL INC","23810 NW HUFFMAN ST, HILLSBORO, OR 97124","onsite_storage_55840",NA,1
-"BEYNON SPORT SURFACES","19600 SW 129TH AVE STE A, TUALATIN, OR 97062","onsite_storage_7120",NA,1
-"TUALATIN HILLS PARK & REC","9985 SW 125TH, BEAVERTON, OR 97006","onsite_storage_74634",NA,1
-"PLASTI-FAB INC","9665 SW TUALATIN SHRWD RD, TUALATIN, OR 97062","onsite_storage_6306",NA,1
-"CLEAN WATER SERVICES","16580 SW 85TH, TIGARD, OR 97224","onsite_storage_16444",NA,1
-"WESTMARK INDUSTRIES INC","6701 SW MCEWAN RD, LAKE OSWEGO, OR 97035","onsite_storage_48213",NA,1
-"BEAVERTON CITY OF","13520 SW HANSON RD, BEAVERTON, OR 97005","onsite_storage_16508",NA,1
+"OAK HILLS HOMEOWNERS ASSOC","2085 NW 153RD AVE, BEAVERTON, OR 97006","onsite_storage_056337",NA,1
+"MONTINORE VINEYARDS","3663 SW DILLEY RD, FOREST GROVE, OR 97116","onsite_storage_048693",NA,1
+"NEW SEASON FOODS","2329 YEW ST, FOREST GROVE, OR 97116","onsite_storage_006637",NA,1
+"BEYNON SPORT SURFACES","19600 SW 129TH AVE STE A, TUALATIN, OR 97062","onsite_storage_007120",NA,1
+"AXIOM INDUSTRIES INC","18300 SW BOONES FERRY, DURHAM, OR 97224","onsite_storage_007131",NA,1
+"AIRGAS USA LLC","16325 SW UPR BOONES FRY RD, TIGARD, OR 97224","onsite_storage_014451",NA,1
+"TUALATIN HILLS PARK & REC","9985 SW 125TH, BEAVERTON, OR 97006","onsite_storage_074634",NA,1
+"AIRGAS USA LLC","20001 SW TETON AVE, TUALATIN, OR 97062","onsite_storage_016327",NA,1
+"WESTMARK INDUSTRIES INC","6701 SW MCEWAN RD, LAKE OSWEGO, OR 97035","onsite_storage_048213",NA,1
+"BEAVERTON CITY OF","13520 SW HANSON RD, BEAVERTON, OR 97005","onsite_storage_016508",NA,1
 "HILLSBORO CITY OF","CHERRY GROVE PUMP STA, GASTON, OR 97119","onsite_storage_100526",NA,1
-"INTERNATIONAL PAPER COMPANY","5570 SW WESTERN AVE, BEAVERTON, OR 97005","onsite_storage_16469",NA,1
-"CLEAN WATER SERVICES","3235 SW RIVER RD, HILLSBORO, OR 97123","onsite_storage_16445",NA,1
-"FOREST GROVE CITY OF","501 WATERCREST, FOREST GROVE, OR 97116","onsite_storage_16513",NA,1
-"CONTECH ENGINEERED SOLUTIONS LLC","710 SW ARMCO AVE, HILLSBORO, OR 97123","onsite_storage_6443",NA,1
-"INTEL CORPORATION","2111 NE 25TH AVE, HILLSBORO, OR 97124","onsite_storage_6453",NA,1
-"INTEL CORPORATION","3585 SW 198TH, ALOHA, OR 97007","onsite_storage_6455",NA,1
-"GLACIER NORTHWEST INC","21480 NW AMBERWOOD DR, HILLSBORO, OR 97123","onsite_storage_48459",NA,1
-"PACIFIC MODULAR INC","6190 SW ARCTIC DR, BEAVERTON, OR 97005","onsite_storage_56693",NA,1
-"PACIFIC FOODS OF OREGON INC","19480 SW 97TH AVE, TUALATIN, OR 97062","onsite_storage_56659",NA,1
-"SCOTTS LAWNSERVICE","13565 SW TUALATIN SHRWD BLVD, SHERWOOD, OR 97140","onsite_storage_99276",NA,1
-"CASCADE WINDOWS","10255 SW SPOKANE CT, TUALATIN, OR 97062","onsite_storage_52466",NA,1
-"TIGARD SAND & GRAVEL LLC","21455 SW 120TH, TUALATIN, OR 97062","onsite_storage_8606",NA,1
-"LIEB FOODS LLC","2550 23RD AVE, FOREST GROVE, OR 97116","onsite_storage_54231",NA,1
-"MACS RADIATOR & REPAIR","631 SW BASELINE, HILLSBORO, OR 97123","onsite_storage_11727",NA,1
-"WILLAMETTE LANDSCAPE SERVICES","18480 SW PACIFIC DR, TUALATIN, OR 97062","onsite_storage_52253",NA,1
-"USHER PRECISION MANUFACTURING INC","3863 24TH AVE, FOREST GROVE, OR 97116","onsite_storage_8371",NA,1
-"PARKS METAL PRODUCTS INC","19460 SW SHAW, ALOHA, OR 97078","onsite_storage_8680",NA,1
-"PARTNERS ON DEMAND INC","13955 SW MILLIKAN WAY 100, BEAVERTON, OR 97005","onsite_storage_98581",NA,1
-"GARRON GROUNDS MAN INC","11277 SW CLAY ST STE D, SHERWOOD, OR 97140","onsite_storage_53206",NA,1
-"CHINICK LANDSCAPING & NURSERY","21300 NW WEST UNION RD, HILLSBORO, OR 97123","onsite_storage_52849",NA,1
-"PACKAGING RESOURCES CO","12555 SW TUALATIN SHRWD RD, TUALATIN, OR 97062","onsite_storage_8723",NA,1
-"BOB CARLSON INC","560 SW MAPLE ST, HILLSBORO, OR 97123","onsite_storage_10139",NA,1
-"MILGARD MFG CO","20789 SW 115TH ST, TUALATIN, OR 97062","onsite_storage_10074",NA,1
-"PRECISION WIRE COMPONENTS LLC","10230 SW SPOKANE CT, TUALATIN, OR 97062","onsite_storage_52947",NA,1
-"BRIDGEPORT DISTRIBUTION INC","16520 SW 72ND AVE BLDG 7, TIGARD, OR 97224","onsite_storage_13332",NA,1
-"TAPP LABEL CO LLC","11000 SW 11TH ST STE 400-D, BEAVERTON, OR 97005","onsite_storage_7820",NA,1
-"DMH INC","3802 24TH AVE, FOREST GROVE, OR 97116","onsite_storage_7651",NA,1
-"INTEL CORPORATION","5200 NE ELAM YOUNG PKWY, HILLSBORO, OR 97124","onsite_storage_6454",NA,1
-"ACUMED INC","5885 NW CORNELIUS PASS RD, HILLSBORO, OR 97124","onsite_storage_49417",NA,1
-"RESERS FINE FOODS INC","11150 SW ALLEN BLVD, BEAVERTON, OR 97005","onsite_storage_7404",NA,1
-"LGINTERNATIONAL","6700 SW BRADBURY CT, PORTLAND, OR 97224","onsite_storage_7883",NA,1
-"RELIABLE TRANSMISSION","144 SE OAK ST, HILLSBORO, OR 97123","onsite_storage_13750",NA,1
-"OREGON HOLIDAY PRODUCTS LLC","2331 23RD AVE, FOREST GROVE, OR 97116","onsite_storage_74492",NA,1
-"AXIOM ELECTRONICS","19545 NW VON NEUMANN DR, HILLSBORO, OR 97006","onsite_storage_8247",NA,1
-"ELECTRONIC MFG SERVICES","10950 SW 5TH ST STE 180, BEAVERTON, OR 97005","onsite_storage_8264",NA,1
-"LEXUS OF PORTLAND LLC","8840 SW CANYON RD, PORTLAND, OR 97225","onsite_storage_55035",NA,1
-"JB INSULATION","14255 SW GALBREATH DR, SHERWOOD, OR 97140","onsite_storage_96678",NA,1
-"HILLSBORO CITY OF","142 SE MAPLE ST, HILLSBORO, OR 97123","onsite_storage_17864",NA,1
+"INTERNATIONAL PAPER COMPANY","5570 SW WESTERN AVE, BEAVERTON, OR 97005","onsite_storage_016469",NA,1
+"FOREST GROVE CITY OF","501 WATERCREST, FOREST GROVE, OR 97116","onsite_storage_016513",NA,1
+"CONTECH ENGINEERED SOLUTIONS LLC","710 SW ARMCO AVE, HILLSBORO, OR 97123","onsite_storage_006443",NA,1
+"INTEL CORPORATION","2111 NE 25TH AVE, HILLSBORO, OR 97124","onsite_storage_006453",NA,1
+"NW FIRE SUPPRESSION INC","1800 NW 169TH PL STE C700, BEAVERTON, OR 97006","onsite_storage_076195",NA,1
+"PACIFIC MODULAR INC","6190 SW ARCTIC DR, BEAVERTON, OR 97005","onsite_storage_056693",NA,1
+"PACIFIC FOODS OF OREGON INC","19480 SW 97TH AVE, TUALATIN, OR 97062","onsite_storage_056659",NA,1
+"SCOTTS LAWNSERVICE","13565 SW TUALATIN SHRWD BLVD, SHERWOOD, OR 97140","onsite_storage_099276",NA,1
+"CASCADE WINDOWS","10255 SW SPOKANE CT, TUALATIN, OR 97062","onsite_storage_052466",NA,1
+"TIGARD SAND & GRAVEL LLC","21455 SW 120TH, TUALATIN, OR 97062","onsite_storage_008606",NA,1
+"LIEB FOODS LLC","2550 23RD AVE, FOREST GROVE, OR 97116","onsite_storage_054231",NA,1
+"MACS RADIATOR & REPAIR","631 SW BASELINE, HILLSBORO, OR 97123","onsite_storage_011727",NA,1
+"WILLAMETTE LANDSCAPE SERVICES","18480 SW PACIFIC DR, TUALATIN, OR 97062","onsite_storage_052253",NA,1
+"USHER PRECISION MANUFACTURING INC","3863 24TH AVE, FOREST GROVE, OR 97116","onsite_storage_008371",NA,1
+"PARTNERS ON DEMAND INC","13955 SW MILLIKAN WAY 100, BEAVERTON, OR 97005","onsite_storage_098581",NA,1
+"GARRON GROUNDS MAN INC","11277 SW CLAY ST STE D, SHERWOOD, OR 97140","onsite_storage_053206",NA,1
+"CHINICK LANDSCAPING & NURSERY","21300 NW WEST UNION RD, HILLSBORO, OR 97123","onsite_storage_052849",NA,1
+"PACKAGING RESOURCES CO","12555 SW TUALATIN SHRWD RD, TUALATIN, OR 97062","onsite_storage_008723",NA,1
+"BOB CARLSON INC","560 SW MAPLE ST, HILLSBORO, OR 97123","onsite_storage_010139",NA,1
+"PRECISION WIRE COMPONENTS LLC","10230 SW SPOKANE CT, TUALATIN, OR 97062","onsite_storage_052947",NA,1
+"BRIDGEPORT DISTRIBUTION INC","16520 SW 72ND AVE BLDG 7, TIGARD, OR 97224","onsite_storage_013332",NA,1
+"TAPP LABEL CO LLC","11000 SW 11TH ST STE 400-D, BEAVERTON, OR 97005","onsite_storage_007820",NA,1
+"DMH INC","3802 24TH AVE, FOREST GROVE, OR 97116","onsite_storage_007651",NA,1
+"INTEL CORPORATION","5200 NE ELAM YOUNG PKWY, HILLSBORO, OR 97124","onsite_storage_006454",NA,1
+"ACUMED INC","5885 NW CORNELIUS PASS RD, HILLSBORO, OR 97124","onsite_storage_049417",NA,1
+"RESERS FINE FOODS INC","11150 SW ALLEN BLVD, BEAVERTON, OR 97005","onsite_storage_007404",NA,1
+"LGINTERNATIONAL","6700 SW BRADBURY CT, PORTLAND, OR 97224","onsite_storage_007883",NA,1
+"RELIABLE TRANSMISSION","144 SE OAK ST, HILLSBORO, OR 97123","onsite_storage_013750",NA,1
+"AXIOM ELECTRONICS","19545 NW VON NEUMANN DR, HILLSBORO, OR 97006","onsite_storage_008247",NA,1
+"ELECTRONIC MFG SERVICES","10950 SW 5TH ST STE 180, BEAVERTON, OR 97005","onsite_storage_008264",NA,1
+"LEXUS OF PORTLAND LLC","8840 SW CANYON RD, PORTLAND, OR 97225","onsite_storage_055035",NA,1
+"JB INSULATION","14255 SW GALBREATH DR, SHERWOOD, OR 97140","onsite_storage_096678",NA,1
+"HILLSBORO CITY OF","142 SE MAPLE ST, HILLSBORO, OR 97123","onsite_storage_017864",NA,1
+"TWIN OAKS DIALYSIS CENTER","15201 NW GREENBRIER PKWY STE C-2, BEAVERTON, OR 97006","onsite_storage_092562",NA,1
 "BLASTZONE SANDBLASTING","8260 SW OLD HWY 47, GASTON, OR 97119","onsite_storage_102380",NA,1
-"VISION PLASTICS","26000 SW PARKWAY CTR DR, WILSONVILLE, OR 97070","onsite_storage_43616",NA,1
-"FOREST GROVE SCHOOL DIST 15","2701 TAYLOR WAY, FOREST GROVE, OR 97116","onsite_storage_80569",NA,1
-"JAMES KING & CO INC","19939 SW CIPOLE, SHERWOOD, OR 97041","onsite_storage_5454",NA,1
-"VIOC","6900 SW NYBERG ST, TUALATIN, OR 97062","onsite_storage_92682",NA,1
-"WASHINGTON COUNTY","1400 SW WALNUT ST, HILLSBORO, OR 97123","onsite_storage_17343",NA,1
+"VISION PLASTICS","26000 SW PARKWAY CTR DR, WILSONVILLE, OR 97070","onsite_storage_043616",NA,1
+"FOREST GROVE SCHOOL DIST 15","2701 TAYLOR WAY, FOREST GROVE, OR 97116","onsite_storage_080569",NA,1
+"JAMES KING & CO INC","19939 SW CIPOLE, SHERWOOD, OR 97041","onsite_storage_005454",NA,1
+"VIOC","6900 SW NYBERG ST, TUALATIN, OR 97062","onsite_storage_092682",NA,1
+"PENSKE TRUCK LEASING CO LP","9255 SW RIDDER RD, WILSONVILLE, OR 97070","onsite_storage_044179",NA,1
+"BEAVERTON DIALYSIS","2715 SW 153RD DR, BEAVERTON, OR 97006","onsite_storage_101730",NA,1
+"WASHINGTON COUNTY","1400 SW WALNUT ST, HILLSBORO, OR 97123","onsite_storage_017343",NA,1
 "PACIFIC SPORTS TURF INC","12725 SW HERMAN RD, TUALATIN, OR 97062","onsite_storage_101984",NA,1
-"VIOC","15410 SW PACIFIC HWY, TIGARD, OR 97224","onsite_storage_92681",NA,1
-"SIGNATURE LANDSCAPE CARE","23275 SW 82ND AVE, TUALATIN, OR 97062","onsite_storage_58407",NA,1
-"MAGNO HUMPHRIES INC","8800 SW COMMERCIAL ST, TIGARD, OR 97223","onsite_storage_5502",NA,1
-"MAXTEK COMPONENTS CORP","2905 SW HOCKEN AVE, BEAVERTON, OR 97005","onsite_storage_43651",NA,1
-"TIGARD CITY OF","8955 SW ASH AVE, TIGARD, OR 97223","onsite_storage_17672",NA,1
-"CLEAN WATER SERVICES","SUBSTN STORM PUMP STN, SUBSTATION, OR 97000","onsite_storage_17512",NA,1
-"TIGARD-TUALATIN AQUATIC DISTRICT","22380 SW BOONES FERRY RD, TUALATIN, OR 97062","onsite_storage_92304",NA,1
-"FISKARS BRANDS INC","14200 SW 72ND AVE, PORTLAND, OR 97224","onsite_storage_5909",NA,1
-"TUALATIN VALLEY WATER DISTRICT","1850 SW 170TH, BEAVERTON, OR 97006","onsite_storage_18374",NA,1
-"JIREH SEMICONDUCTOR INCORPORAT","3131 NW BROOKWOOD PKWY, HILLSBORO, OR 97124","onsite_storage_44197",NA,1
-"ACLARYN PLASTICS INC","5405 SE ALEXANDER ST STE L, HILLSBORO, OR 97123","onsite_storage_59390",NA,1
-"TIGARD-TUALATIN AQUATIC DISTRICT","8680 SW DURHAM RD, TIGARD, OR 97224","onsite_storage_59259",NA,1
-"EPSON PORTLAND INC","3950 NW ALOCLEK PL, HILLSBORO, OR 97124","onsite_storage_18761",NA,1
-"COPYTRONIX","16640 SW 72ND AVE, PORTLAND, OR 97224","onsite_storage_18753",NA,1
-"TUALATIN HILLS PARK & REC","18650 SW KINNAMAN RD, ALOHA, OR 97007","onsite_storage_18226",NA,1
-"ANTHRO CORP","10450 SW MANHASSET DR, TUALATIN, OR 97062","onsite_storage_43760",NA,1
-"PSALM 1 LANDSCAPE INC","11440 NW HWY 47, FOREST GROVE, OR 97116","onsite_storage_57319",NA,1
-"BEAVERTON CITY OF","3300 SW 209TH AVE, ALOHA, OR 97007","onsite_storage_95124",NA,1
-"PERMAPOST PRODUCTS","4066 SE TV HWY, HILLSBORO, OR 97123","onsite_storage_5314",NA,1
-"TUALATIN HILLS PARK & REC","12850 SW THIRD, BEAVERTON, OR 97005","onsite_storage_18228",NA,1
-"TUALATIN HILLS PARK & REC","13707 NW SCIENCE PARK DR, PORTLAND, OR 97229","onsite_storage_18231",NA,1
-"VERIS INDUSTRIES LLC","12345 SW LEVETON DR, TUALATIN, OR 97062","onsite_storage_59786",NA,1
-"ODOT","48400 NW SUNSET HWY, BANKS, OR 97106","onsite_storage_6060",NA,1
-"CARLSON TESTING","8430 SW HUNZIKER ST, TIGARD, OR 97223","onsite_storage_18605",NA,1
-"VIOC","7570 SW BASELINE RD, HILLSBORO, OR 97123","onsite_storage_92683",NA,1
-"FOREST GROVE CITY OF","2551-A 23RD AVE, FOREST GROVE, OR 97116","onsite_storage_17910",NA,1
-"GRABHORN INC","14930 SW VANDERMOST RD, BEAVERTON, OR 97007","onsite_storage_43347",NA,1
-"TVT DIE CASTING & MFG INC","7340 SW LANDMARK LN, PORTLAND, OR 97224","onsite_storage_90715",NA,1
-"ENSTROM LANDSCAPE MANAGEMENT L","13300 SW GALBREATH DR, SHERWOOD, OR 97140","onsite_storage_79420",NA,1
-"RESERS FINE FOODS INC","15570 SW JENKINS AVE, BEAVERTON, OR 97006","onsite_storage_57630",NA,1
-"FOREST GROVE CITY OF","2300 SUNSET DR, FOREST GROVE, OR 97116","onsite_storage_17146",NA,1
+"VIOC","15410 SW PACIFIC HWY, TIGARD, OR 97224","onsite_storage_092681",NA,1
+"SIGNATURE LANDSCAPE CARE","23275 SW 82ND AVE, TUALATIN, OR 97062","onsite_storage_058407",NA,1
+"MAXTEK COMPONENTS CORP","2905 SW HOCKEN AVE, BEAVERTON, OR 97005","onsite_storage_043651",NA,1
+"TIGARD-TUALATIN AQUATIC DISTRICT","22380 SW BOONES FERRY RD, TUALATIN, OR 97062","onsite_storage_092304",NA,1
+"ORACLE AMERICA INC","3295 NW 211TH TERR, HILLSBORO, OR 97124","onsite_storage_092313",NA,1
+"TUALATIN VALLEY WATER DISTRICT","1850 SW 170TH, BEAVERTON, OR 97006","onsite_storage_018374",NA,1
+"ACLARYN PLASTICS INC","5405 SE ALEXANDER ST STE L, HILLSBORO, OR 97123","onsite_storage_059390",NA,1
+"TIGARD-TUALATIN AQUATIC DISTRICT","8680 SW DURHAM RD, TIGARD, OR 97224","onsite_storage_059259",NA,1
+"RE-NU CHEM CO","2020 NW ALOCLEK DR STE 124, HILLSBORO, OR 97124","onsite_storage_016872",NA,1
+"EPSON PORTLAND INC","3950 NW ALOCLEK PL, HILLSBORO, OR 97124","onsite_storage_018761",NA,1
+"PUMPKIN RIDGE GOLF CLUB","12930 NW OLD PUMPKN RDG RD, NORTH PLAINS, OR 97133","onsite_storage_043950",NA,1
+"COPYTRONIX","16640 SW 72ND AVE, PORTLAND, OR 97224","onsite_storage_018753",NA,1
+"TUALATIN HILLS PARK & REC","18650 SW KINNAMAN RD, ALOHA, OR 97007","onsite_storage_018226",NA,1
+"ANTHRO CORP","10450 SW MANHASSET DR, TUALATIN, OR 97062","onsite_storage_043760",NA,1
+"PSALM 1 LANDSCAPE INC","11440 NW HWY 47, FOREST GROVE, OR 97116","onsite_storage_057319",NA,1
+"BEAVERTON CITY OF","3300 SW 209TH AVE, ALOHA, OR 97007","onsite_storage_095124",NA,1
+"PERMAPOST PRODUCTS","4066 SE TV HWY, HILLSBORO, OR 97123","onsite_storage_005314",NA,1
+"TUALATIN HILLS PARK & REC","12850 SW THIRD, BEAVERTON, OR 97005","onsite_storage_018228",NA,1
+"TUALATIN HILLS PARK & REC","13707 NW SCIENCE PARK DR, PORTLAND, OR 97229","onsite_storage_018231",NA,1
+"VERIS INDUSTRIES LLC","12345 SW LEVETON DR, TUALATIN, OR 97062","onsite_storage_059786",NA,1
+"ODOT","48400 NW SUNSET HWY, BANKS, OR 97106","onsite_storage_006060",NA,1
+"VIOC","7570 SW BASELINE RD, HILLSBORO, OR 97123","onsite_storage_092683",NA,1
+"FOREST GROVE CITY OF","2551-A 23RD AVE, FOREST GROVE, OR 97116","onsite_storage_017910",NA,1
+"GRABHORN INC","14930 SW VANDERMOST RD, BEAVERTON, OR 97007","onsite_storage_043347",NA,1
+"TVT DIE CASTING & MFG INC","7340 SW LANDMARK LN, PORTLAND, OR 97224","onsite_storage_090715",NA,1
+"ENSTROM LANDSCAPE MANAGEMENT L","13300 SW GALBREATH DR, SHERWOOD, OR 97140","onsite_storage_079420",NA,1
+"FOREST GROVE CITY OF","2300 SUNSET DR, FOREST GROVE, OR 97116","onsite_storage_017146",NA,1
 "KINETICS DYNACAST INC","10085 SW COMMERCE CIR, WILSONVILLE, OR 97070","onsite_storage_108017",NA,1
 "BEAVERTON TOYOTA CO","4355 SW 142ND, BEAVERTON, OR 97005","onsite_storage_108726",NA,1
 "PACIFIC FOODS OF OREGON INC","19400 SW TETON AVE, TUALATIN, OR 97062","onsite_storage_120703",NA,1
-"BANKS CITY OF","20105 SELLERS RD, BANKS, OR 97106","onsite_storage_120655",NA,1
 "HILLSBORO CITY OF","450 NE 53RD AVE, HILLSBORO, OR 97124","onsite_storage_120666",NA,1
-"THERMAL MODIFICATION TECHNOLOGIES","19830 SW TETON AVE, TUALATIN, OR 97062","onsite_storage_120732",NA,1
-"SHOWPLACE LANDSCAPE SERVICE INC","10870 SW 289TH PL, NORTH PLAINS, OR 97133","onsite_storage_109368",NA,1
 "RESERS FINE FOODS INC","6999 NW CENTURY BLVD, HILLSBORO, OR 97124","onsite_storage_121559",NA,1
 "LANDSCAPE UNLIMITED LLC","3400 SW 209TH AVE, ALOHA, OR 97007","onsite_storage_120957",NA,1
 "GREEN ENERGY SOLUTIONS","23515 NW CLARA LN STE 150, HILLSBORO, OR 97124","onsite_storage_121075",NA,1
 "SUMMIT FOODS","1840 B STREET, FOREST GROVE, OR 97116","onsite_storage_121211",NA,1
-"GENENTECH INC","4625 NW BROOKWOOD PKWY, HILLSBORO, OR 97124","onsite_storage_112051",NA,1
 "TUALATIN VALLEY WATER DISTRICT","7975 SW GRABHORN, BEAVERTON, OR 97007","onsite_storage_114118",NA,1
 "PACIFIC FOODS OF OREGON","9955 SW POTANO, TUALATIN, OR 97062","onsite_storage_114139",NA,1
 "NORTHWEST CIRCUIT BOARD","2900 SW CORNELIUS PASS RD STE 864, HILLSBORO, OR 97123","onsite_storage_113617",NA,1
-"AGILYX CORPORATION","7904 SW HUNZIKER ST, TIGARD, OR 97223","onsite_storage_115284",NA,1
 "PRECISION WIRE COMPONENTS","10280 SW SPOKANE CT, TUALATIN, OR 97062","onsite_storage_112626",NA,1
 "BEAVER NURSERY","12773 SW CAMPBELL RD, HILLSBORO, OR 97123","onsite_storage_113677",NA,1
 "SUMMIT FOODS INC","32155 NW COTTAGE ST, NORTH PLAINS, OR 97133","onsite_storage_113357",NA,1
-"PACIFIC MOTION LLC","21249 SW 115TH AVE, TUALATIN, OR 97062","onsite_storage_113386",NA,1
 "TOKYO ELECTRON AMERICA INC","1800 NE 25TH AVE STES 2-10, HILLSBORO, OR 97124","onsite_storage_113526",NA,1
 "FOREVER GREEN LANDSCAPES LLC","16069 SW HILLSBORO HWY, HILLSBORO, OR 97123","onsite_storage_117384",NA,1
 "LANDGRAPHICS INC","21255 SW CHERRY LN, HILLSBORO, OR 97124","onsite_storage_110430",NA,1
-"GREEN ART LANDSCAPING COMPANY LLC","8335 NW CORNELIUS PASS RD, HILLSBORO, OR 97124","onsite_storage_116355",NA,1
+"ALL PEST CONTROL COMPANY","9388 SW TIGARD ST, TIGARD, OR 97223","onsite_storage_111040",NA,1
+"DAVITA TOTAL RENAL CARE INC","2500 NW 229TH AVE BLD E-300, HILLSBORO, OR 97124","onsite_storage_116431",NA,1
 "BEAVERTON CITY OF","13450 SW HANSON RD ASR 4, BEAVERTON, OR 97005","onsite_storage_110372",NA,1
-"SUMMIT NATURAL ENERGY CORP","535 N 4TH AVE, CORNELIUS, OR 97113","onsite_storage_116617",NA,1

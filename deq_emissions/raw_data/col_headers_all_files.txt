@@ -1,0 +1,24 @@
+The number of columns of data in a file can vary from line to line and each line would be linked to a corresponding line in another file through a shared ID. This set up closely matches a database with primary and foreign keys except that not all tables have different primary keys (unique across all files). So, in effect, each file is a separate database table. Data from only two sheets were extracted; '2. Emission Units & Activities' and '3. Material Balance.'
+
+Headers for tab separated cols
+2016_co_details.tsv
+company source number, Hash with key|values "addr"=>[file_name, company_name, st address, city address, zip], "emi" => [true/false data present in sheet 2. Emission Units, CAS formula if any], "mat" => (same as emi but for sheet 3. Material balance)
+
+2016_[emi | mat]_agg.tsv
+the columns present depend on the particular sheet that the company submitted (this is variable and headers are found in corresponding entry in 2016_units.tsv using the units_ID)
+row_ID, 1st aggregate data column, 2nd aggregate data column, ..., units_ID
+
+2016_[emi | mat]_desc.tsv
+the columns present depend on the particular sheet that the company submitted (this is variable and headers are found in corresponding entry in 2016_units.tsv using the units_ID)
+row_ID, 1st descriptor column, 2nd descriptor column, ..., units_ID
+
+2016_[emi | mat]_chem.tsv
+The number of columns in a row from this file depends on the type of data in the original Excel file. Generally, there are two patterns, 3 columns of data or 1 column of data. The units and data (in that order) for those data are contained in the last columns of a particular row. Preceeding that is the chem_ID key, the row_ID key, the Excel col header, CAS number (if present), Chemical common name. There is no link (foreign key) to the 2016_units.tsv as those units correspond to the agg and desc files data.
+
+2016_row_lookup.tsv
+row_ID, row number on Excel sheet, [array of each chem_ID found on this row], sheet_key ("EMI | MAT"), company source number, file name
+
+2016_units.tsv
+This file holds column headers for the columns associated with both sheets but limited to only the left-most columns associated with everything other than the CAS data.
+units_ID, [all column headers up to but not including CAS columns held in an array], number for last descriptor column
+For example a 3 present in this last column would indicate that for this sheet columns 1 - 3 are descriptors [data found in 2016_[emi | mat]_desc.tsv] and remaining columns are headers for aggregate data [data found in 2016_[emi | mat]_agg.tsv]. The same outcome can be obtained by looking at the number of columns in a row of 2016_[emi | mat]_desc.tsv and knowing that the first columns in the corresponding units row in 2016_units.tsv would apply, while the remaining columns would apply to the corresponding 2016_[emi | mat]_agg.tsv.
