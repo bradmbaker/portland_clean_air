@@ -426,10 +426,8 @@
 00725	Fugitive emissions	Glass crushing, handling, cleaning	NA	5069
 00726	Baghouse	Dust collection	NA	5069
 00727	EU02/03/23/28b - HVLC System	Entire HVLC System (see EU02, EU03, EU23, and EU28b) - Venting/Bypass	30700102	5069
-00728	EU02 - BSW	HVLC System - Brownstock Washer Hoods and Associated Filtrate Tanks	30700102
-30700111	5069
-00729	EU02 - Deckers	HVLC System - Rewashers (Deckers) and Associated Filtrate Tanks	30700130
-30700111	5069
+00728	EU02 - BSW	HVLC System - Brownstock Washer Hoods and Associated Filtrate Tanks	30700102	30700111	5069
+00729	EU02 - Deckers	HVLC System - Rewashers (Deckers) and Associated Filtrate Tanks	30700130	30700111	5069
 00730	EU02 - Knotters	HVLC System - Brownstock Knotters	30700131	5069
 00731	EU03	HVLC System - Weak Black Liquor Tanks #1 and #2 (2)	30700124	5069
 00732	EU03 - Emergency	HVLC System - Weak Black Liquor Tank #3	30700124	5069

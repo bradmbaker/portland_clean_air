@@ -28,7 +28,7 @@ emi_agg <- read.csv("prejoined_data/2016_emi_agg.tsv", sep = "\t", fill = T,
                     col.names = c("row_id", "units_id", 
                                   "emi_agg_amt_1", "emi_agg_unit_1", "emi_agg_unit_1_desc",
                                   "emi_agg_amt_2", "emi_agg_unit_2", "emi_agg_unit_2_desc", 
-                                  "emi_agg_unclear_a", "emi_agg_unclear_b"))
+                                  "emi_agg_unclear_a", "emi_agg_unclear_b", "emi_agg_unclear_c"))
 emi_agg$row_id <- as.integer(emi_agg$row_id)
 
 mat_agg <- read.csv("prejoined_data/2016_mat_agg.tsv", sep = "\t", fill = T,
@@ -37,7 +37,9 @@ mat_agg <- read.csv("prejoined_data/2016_mat_agg.tsv", sep = "\t", fill = T,
                     col.names = c("row_id", "units_id", 
                                  "mat_agg_1", "mat_agg_2", "mat_agg_3",
                                  "mat_agg_4", "mat_agg_5", "mat_agg_6",
-                                 "mat_agg_7", "mat_agg_8", "mat_agg_9"))
+                                 "mat_agg_7", "mat_agg_8", "mat_agg_9", 
+                                 "mat_agg_10"))
+mat_agg$row_id <- as.integer(mat_agg$row_id)
 
 emi_desc <- read.csv("prejoined_data/2016_emi_desc.tsv", sep = "\t", fill = T, 
                      quote = "", 
@@ -54,7 +56,8 @@ mat_desc <- read.csv("prejoined_data/2016_mat_desc.tsv", sep = "\t", fill = T,
 
 
 emi_chem <- unique(read.csv("raw_data/2016_emi_chem.tsv", sep = "\t", header = F, stringsAsFactors = F))
-mat_chem <- read.csv("raw_data/2016_mat_chem.tsv", sep = "\t", header = F, stringsAsFactors = F)
+mat_chem <- read.csv("raw_data/2016_mat_chem.tsv", sep = "\t", header = F, stringsAsFactors = F, 
+                     colClasses = c("character"))
 row_lookup <- read.csv("raw_data/2016_row_lookup.tsv", 
                        sep = "\t", 
                        header = F, 
@@ -65,11 +68,15 @@ units <- read.csv("raw_data/2016_units.tsv", sep = "\t", header = F, stringsAsFa
                   col.names = c("units_id", "col_headers", "last_descriptor_column"))
 
 ######
-# Step 1 - Get all companies with an EMI data
+# Step 1 - Get all companies with and split the EMI and MAT into two data sets.
 ######
 co_details %>%
   mutate(address = paste(addr_hash_pt3, addr_hash_pt4, addr_hash_pt5, sep = ", ")) %>%
   filter(emi_hash_pt1 == "true")-> co_details_emi
+
+co_details %>%
+  mutate(address = paste(addr_hash_pt3, addr_hash_pt4, addr_hash_pt5, sep = ", ")) %>%
+  filter(mat_hash_pt1 == "true")-> co_details_mat
 
 #####
 # Step 2 - Pull In Row Info
@@ -78,95 +85,73 @@ co_details %>%
 row_lookup %>%
   separate_rows(., chem_id_array, sep = ",") %>%
   mutate(chem_id_array = gsub('\\"|\\[|\\]', '',chem_id_array)) %>%
-  mutate(chem_id_array = trimws(chem_id_array)) -> row_lookup
+  mutate(chem_id_array = trimws(chem_id_array)) -> row_lookup_exploded
 
-left_join(co_details_emi, row_lookup, by = c("company_source_no" = "co_sourc_no")) -> co_details_emi
+row_lookup_exploded %>%
+  filter(sheet_key == "EMI") -> row_lookup_emi
+row_lookup_exploded %>%
+  filter(sheet_key == "MAT") -> row_lookup_mat
+
+left_join(co_details_emi, row_lookup_emi, by = c("company_source_no" = "co_sourc_no")) -> co_details_emi
+left_join(co_details_mat, row_lookup_mat, by = c("company_source_no" = "co_sourc_no")) -> co_details_mat
 
 #####
 # Step 3 - Pull in All Data
 #####
 left_join(co_details_emi, emi_desc, by = c("row_id" = "row_id")) -> co_details_emi
 left_join(co_details_emi, emi_agg, by = c("row_id" = "row_id")) -> co_details_emi
+co_details_emi %>% mutate(units_id = coalesce(units_id.x, units_id.y)) %>%
+  select(-units_id.x, -units_id.y) -> co_details_emi
 left_join(co_details_emi, emi_chem, by = c("chem_id_array" = "V1")) -> co_details_emi
-left_join(co_details_emi, units, by = c("units_id.x" = "units_id")) -> co_details_emi
+left_join(co_details_emi, units, by = c("units_id" = "units_id")) -> co_details_emi
+
+left_join(co_details_mat, mat_desc, by = c("row_id" = "row_id")) -> co_details_mat
+left_join(co_details_mat, mat_agg, by = c("row_id" = "row_id")) -> co_details_mat
+co_details_mat %>% mutate(units_id = coalesce(units_id.x, units_id.y)) %>%
+  select(-units_id.x, -units_id.y) -> co_details_mat
+left_join(co_details_mat, mat_chem, by = c("chem_id_array" = "V1")) -> co_details_mat
+left_join(co_details_mat, units, by = c("units_id" = "units_id")) -> co_details_mat
 
 #####
-# Step 4 - Remove all process with a filter
+# Step 4 - Add a flag for all rows with filter
 ##### 
+### EMI First
+no_control_device_phrases <- c("0", "0.0", "None", NA, "none", "N/A", "Uncontrolled", "--", "", 
+                               "NONE", "uncontrolled", "uncontroled", "No control", "n/a")
+co_details_emi %>%
+  mutate(control_device_info_a = emi_agg_unclear_a) %>%
+  mutate(control_device_info_b = emi_agg_unclear_b) %>%
+  mutate(has_control_device = ifelse(control_device_info_a %in% no_control_device_phrases , 0, 1)) %>%
+  mutate(emissions_2016_lbs = V9) %>%
+  mutate(emissions_pollutant = V5) -> co_details_emi
 
+### MAT Second
+co_details_mat %>%
+  mutate(control_device_info_a = mat_agg_8) %>%
+  mutate(control_device_info_b = mat_agg_9) %>%
+  mutate(has_control_device = ifelse(control_device_info_a %in% no_control_device_phrases , 0, 1)) %>%
+  mutate(materials_2016_lbs = V9) %>%
+  mutate(material_pollutant = V5) -> co_details_mat
 
+##### 
+# Step 5 - Create Summary Data Sets + write the output
+##### 
+co_details_emi %>%
+  filter(has_control_device == 0) -> co_details_emi_unfiltered_only
+co_details_emi_unfiltered_only  %>%
+  group_by(company_source_no, addr_hash_pt1) %>%
+  summarise(total_unfiltered_emissions_all_pollutants = sum(as.numeric(emissions_2016_lbs), na.rm = T)) -> total_emissions_by_company
 
+co_details_mat %>%
+  filter(has_control_device == 0) -> co_details_mat_unfiltered_only
+co_details_mat_unfiltered_only  %>%
+  group_by(company_source_no, addr_hash_pt1) %>%
+  summarise(total_unfiltered_materials_all_pollutants = sum(as.numeric(materials_2016_lbs), na.rm = T)) -> total_materials_by_company
 
-View(co_details_emi)
-str(units)
-str(emi_chem)            
-            #co_details_emi %>%
-  left_join(., emi_agg, by = c("" = ""))
-View(row_lookup)
+write.csv(co_details_emi, file = "output_data/2016_all_detailed_emissions_data.csv")
+write.csv(co_details_emi_unfiltered_only, file = "output_data/2016_unfiltered_detailed_emissions_data.csv")
+write.csv(total_emissions_by_company, file = "output_data/2016_summary_unfiltered_emissions_by_company.csv")
 
-View(tmp)  
-mutate(read.table(text = addr_hash2, sep = ",", as.is = TRUE, check.names = FALSE))
-
-
-  
-
-co_details %>% 
-  mutate(addr1 = str_match(addr_hash, "( [0-9]+.*)]]")[,2]) %>%
-  mutate(addr2 = str_match(addr_hash, "( PO B.*)]]")[,2]) %>% View()
-
-View(str_match(co_details$addr_hash, "( [0-9]+.*)"))
-View(grep("( [0-9]+.*)","\\1", co_details$addr_hash, value = T))
-  mutate(address = grep(" [0-9]+.*", addr_hash, value = T))
-%>% head(., n=100) %>% View()
-View(co_details[co_details$company_source_no == "26-3135",])
-
-
-
-
-# company bullseye glass
-co_details[co_details$company_source_no == "26-3135",]
-
-# all chemicals associated with bulleye
-row_lookup[row_lookup$co_sourc_no == "26-3135",] %>%
-  separate_rows(., chem_id_array, sep = ",") %>%
-  mutate(chem_id_array = gsub('\\"|\\[|\\]', '',chem_id_array)) %>%
-  mutate(chem_id_array = trimws(chem_id_array)) -> tmp_rows
-# all chemicals associated with bullseye
-emi_chem %>%
-  filter(V1 %in% tmp_rows$chem_id_array) -> tmp_chems
-View(tmp_chems)
-
-
-View(head(emi_desc[emi_desc$row_id == "04116",]))
-View(((emi_agg[emi_agg$row_id == "04116",])))
-emi_agg %>%
-  filter(row_id == "04116") %>% View()
-
-emi_agg %>%
-  filter(units_id == 5069) %>% dim()
-mat_agg %>%
-  filter(units_id == 921) %>% dim()
-
-
-View(emi_agg)
-View(units)
-
-# how does one look into agg
-View(head(emi_agg))
-left_join(tmp_rows, tmp2, by = c("chem_id_array" = "V1")) %>% View
-
-View(head(emi_chem ))
-032783
-
-rows <- row_lookup[row_lookup$co_sourc_no == "26-3135",]$row_id
-
-View(unique(emi_chem[emi_chem$V1 %in% rows,]))
-emi_chem %>% filter(V4 == "Antimony") %>% head()
-
-row_lookup[row_lookup$row_id == 04006,]
-emi_chem[emi_chem$V1=="4089",]
-
-
-emi_agg[emi_agg$row_id == "04006",] #not here
-emi_chem[emi_chem$V1 == "4006",] # not here
-emi_desc[emi_desc$row_id == "04006",]
+write.csv(co_details_mat, file = "output_data/2016_all_detailed_materials_data.csv")
+write.csv(co_details_mat_unfiltered_only, file = "output_data/2016_unfiltered_detailed_materials_data.csv")
+write.csv(total_materials_by_company, file = "output_data/2016_summary_unfiltered_materials_by_company.csv")

@@ -657,9 +657,7 @@
 01678	Paint Booth	Spray Paint	LINDE BLUE S050078A	Quest Industrial Products	921
 01679	Paint Booth	Spray Paint	70% BLUE SPRAY READY ENAMEL	Watson Coatings, Inc.	921
 01680	Paint Booth	Spray Paint	ProBlock® Primer (Aerosol) White	Sherwin Williams	921
-01681	Paint Booth	Spray Paint	PROBLOCK®
-Interior Oil-Based
-Primer	Sherwin Williams	921
+01681	Paint Booth	Spray Paint	PROBLOCK® Interior Oil-Based Primer	Sherwin Williams	921
 01682	Paint Booth	Spray Paint	KRYLON® OSHA Colors Safety Yellow	Krylon Products Group	921
 01683	Chillers	R-123	2,2-Dichloro-1,1,1-trifluoroethane	NA	921
 01684	Chillers	R-134A	1,1,1,2-Tetrafluoroethane	NA	921
@@ -1224,8 +1222,7 @@ Primer	Sherwin Williams	921
 02990	Photo	Propylene glycol monomethyl ether	AZ BARLI-II 90	EMD Performance Materials Corp.	921
 02991	Copper Room (Fab-1)	Sulfuric Acid	CUBATH® ViaForm® ACCELERATOR	Enthone Inc	921
 02992	Copper Room (Fab-1)	Sulfuric Acid	CUBATH® ViaForm® SUPPRESSOR	Enthone Inc	921
-02993	Photo	Propylene glycol monomethyl Ether, Propylene glycol monomethyl
-ether acetate	DUV44-6	Brewer Science, Inc.	921
+02993	Photo	Propylene glycol monomethyl Ether, Propylene glycol monomethyl ether acetate	DUV44-6	Brewer Science, Inc.	921
 02994	Copper Room (Fab-1)	sulfuric acid, cuso4	ELECTRAPLATE(TM) Y, Rev.1	Rohm and Haas Electronic Materials LLC	921
 02995	Etch, FA Lab, R and D	Ethylene glychol	Ethylene Glychol	Prestone	921
 02996	Photo	Propylene glycol monomethyl ether acetate 	FB 5610 LOWER VIS 4KG BT	FUJIFILM Electronic Materials U.S.A., Inc.	921
@@ -1245,10 +1242,8 @@ ether acetate	DUV44-6	Brewer Science, Inc.	921
 03010	Copper Room (Fab-1)	Sulfuric Acid and CuSO4*5H2O and HCl	S1-Electraanalyze 11, R2	CPI INTERNATIONAL	921
 03011	Photo	Cresol	SPR-955 CM 1.4	Shipley Company	921
 03012	Diffusion, Etch	HSO4	Sulfuric Acid 96%	High Purity Products	921
-03013	Photo	Propylene glycol monomethyl Ether, Propylene glycol monomethyl
-ether acetate	TARF-P6111 ME	TOKYO OHKA KOGYO CO., LTD.	921
-03014	Photo	Propylene glycol monomethyl Ether, Propylene glycol monomethyl
-ether acetate	TGMR-DP011 AE	TOKYO OHKA KOGYO CO., LTD.	921
+03013	Photo	Propylene glycol monomethyl Ether, Propylene glycol monomethyl ether acetate	TARF-P6111 ME	TOKYO OHKA KOGYO CO., LTD.	921
+03014	Photo	Propylene glycol monomethyl Ether, Propylene glycol monomethyl ether acetate	TGMR-DP011 AE	TOKYO OHKA KOGYO CO., LTD.	921
 03015	Thin Films	Trimethyl Phosphate	TMPO	Air Products and Chemicals, Inc	921
 03016	Photo	Propylene glycol monomethyl ether acetate	TS-4800A4	Sumitomo Chemical Co., Ltd.	921
 03017	CMP	Nitric acid	Semi-Sperse® W2000 Aqueous Dispersion	Cabot Microelectronics Corporation(CMC)-United	921
@@ -3091,8 +3086,7 @@ ether acetate	TGMR-DP011 AE	TOKYO OHKA KOGYO CO., LTD.	921
 05757	EU-01	Coating	CHI LATTE ENAMEL - AUW0761	Valspar	921
 05758	EU-01	Coating	WHITE ICING T3 W/TPCT - AUW0817	Valspar	921
 05759	EU-01	Coating	WHITE GLAZE - AXW0268	Valspar	921
-05760	EU-01	Coating	FIN-GLAZE NATURAL HIGHLIGHT 595 - AXC0143
-	Valspar	921
+05760	EU-01	Coating	FIN-GLAZE NATURAL HIGHLIGHT 595 - AXC0143	Valspar	921
 05761	EU-01	Coating	WHITE BRUSH GLAZE - UXW0053	Valspar	921
 05762	EU-01	Coating	MOCHA GLAZE - AXB1106	Valspar	921
 05763	EU-01	Coating	BURNISH GLAZE - AXB0796	Valspar	921
