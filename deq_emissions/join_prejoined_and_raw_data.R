@@ -148,10 +148,10 @@ co_details_mat_unfiltered_only  %>%
   group_by(company_source_no, addr_hash_pt1) %>%
   summarise(total_unfiltered_materials_all_pollutants = sum(as.numeric(materials_2016_lbs), na.rm = T)) -> total_materials_by_company
 
-write.csv(co_details_emi, file = "output_data/2016_all_detailed_emissions_data.csv")
-write.csv(co_details_emi_unfiltered_only, file = "output_data/2016_unfiltered_detailed_emissions_data.csv")
-write.csv(total_emissions_by_company, file = "output_data/2016_summary_unfiltered_emissions_by_company.csv")
+write.csv(co_details_emi, file = "output_data/2016_emissions_all_detailed_data.csv")
+write.csv(co_details_emi_unfiltered_only, file = "output_data/2016_emissions_unfiltered_detailed_data.csv")
+write.csv(total_emissions_by_company, file = "output_data/2016_emissions_summary_unfiltered_by_company.csv")
 
-write.csv(co_details_mat, file = "output_data/2016_all_detailed_materials_data.csv")
-write.csv(co_details_mat_unfiltered_only, file = "output_data/2016_unfiltered_detailed_materials_data.csv")
-write.csv(total_materials_by_company, file = "output_data/2016_summary_unfiltered_materials_by_company.csv")
+write.csv(co_details_mat, file = "output_data/2016_materials_all_detailed_data.csv")
+write.csv(co_details_mat_unfiltered_only, file = "output_data/2016_materials_unfiltered_detailed_data.csv")
+write.csv(total_materials_by_company, file = "output_data/2016_materials_summary_unfiltered_by_company.csv")
