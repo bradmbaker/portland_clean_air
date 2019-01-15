@@ -248,16 +248,8 @@ airports %>%
 # These are combined because they have more info that can go on individual websites.
 #####
 # first we'll geo-code all addresses so we can match on lat/lng and ignore any address formatting issues
+# this data set was generated from geocoding_addresses.R
 addresses <- read.csv("cleaned_data/addresses.csv", stringsAsFactors = F)
-#addresses <- data.frame(address = unique(c(deq_permits$address, onsite_chem_storage_trim$address)), stringsAsFactors = F)
-#addresses$lat <- 0
-#addresses$lon <- 0
-#for(i in 1:nrow(addresses)) {
-#  result <- geocode(addresses$address[i], output = "latlona", source = "dsk")
-#  addresses$lon[i] <- result$lon
-#  addresses$lat[i] <- result$lat
-#}
-#write.csv(addresses, "cleaned_data/addresses.csv", row.names = F)
 
 # create one consolidated dataset with deq permits and onsite storage
 # we'll create an arbitrary key rather than use the DEQ permit for the key.
@@ -265,6 +257,10 @@ deq_permits <- left_join(deq_permits, addresses, by = c("address" = "address"))
 onsite_chem_storage_trim %>% 
   select(-lat, -lng) -> onsite_chem_storage_trim
 onsite_chem_storage_trim <- left_join(onsite_chem_storage_trim, addresses, by = c("address" = "address"))
+
+deq_permits %>% filter(source_number_deq == "26-2955") %>% select(address, lat, lon)
+
+onsite_chem_storage_trim %>% filter(company_id_storage == "018659") %>% select(address, lat, lon)
 
 #full_join(deq_permits, onsite_chem_storage_trim, by = "address") %>%
 #  mutate(address_id = group_indices(.,address)) %>%
