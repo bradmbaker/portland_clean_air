@@ -258,17 +258,13 @@ onsite_chem_storage_trim %>%
   select(-lat, -lng) -> onsite_chem_storage_trim
 onsite_chem_storage_trim <- left_join(onsite_chem_storage_trim, addresses, by = c("address" = "address"))
 
-deq_permits %>% filter(source_number_deq == "26-2955") %>% select(address, lat, lon)
-
-onsite_chem_storage_trim %>% filter(company_id_storage == "018659") %>% select(address, lat, lon)
-
 #full_join(deq_permits, onsite_chem_storage_trim, by = "address") %>%
 #  mutate(address_id = group_indices(.,address)) %>%
 #  mutate(key = coalesce(source_number_deq, paste('onsite_storage_',company_id_storage, sep=""))) -> full_ds
 
 full_join(deq_permits, onsite_chem_storage_trim, by = c("lat" = "lat", "lon" = "lon")) %>%
-  mutate(address = coalesce(address.x, address.y)) %>%
-  select(-address.x, -address.y) %>%
+  mutate(address = coalesce(clean_address.x, clean_address.y, address.x, address.y)) %>%
+  select(-address.x, -address.y, -clean_address.x, -clean_address.y) %>%
   mutate(address_id = group_indices(.,address)) %>%
   mutate(key = coalesce(source_number_deq, paste('onsite_storage_',company_id_storage, sep=""))) -> full_ds
 
@@ -365,4 +361,3 @@ airports %>%
 #  rename(Address = address) %>%
 #  select(`Site Name`, Address) %>%
 #  write.csv(.,"cleaned_data/map_data/wash_co_no_permit_polluters.csv", row.names = F )
-  
