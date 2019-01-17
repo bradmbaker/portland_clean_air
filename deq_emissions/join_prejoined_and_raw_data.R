@@ -168,7 +168,7 @@ co_details_emi_unfiltered_only  %>%
   rename(city = addr_hash_pt4) -> total_emissions_by_company
 
 write.csv(co_details_emi, file = "output_data/2016_emissions_all_detailed_data.csv")
-write.csv(total_emissions_by_company, file = "output_data/2016_emissions_summary.csv")
+write.csv(co_details_emi_unfiltered_only, file = "output_data/2016_emissions_unfiltered_detailed_data.csv")
+write.csv(total_emissions_by_company, file = "output_data/2016_unfiltered_emissions_summary.csv")
 
 # we're ignoring materials for now
-
