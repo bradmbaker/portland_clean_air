@@ -167,8 +167,29 @@ co_details_emi_unfiltered_only  %>%
   rename(company_name = addr_hash_pt2) %>%
   rename(city = addr_hash_pt4) -> total_emissions_by_company
 
-write.csv(co_details_emi, file = "output_data/2016_emissions_all_detailed_data.csv")
-write.csv(co_details_emi_unfiltered_only, file = "output_data/2016_emissions_unfiltered_detailed_data.csv")
-write.csv(total_emissions_by_company, file = "output_data/2016_unfiltered_emissions_summary.csv")
+total_emissions_by_company %>%
+  ungroup() %>%
+  mutate(total_emissions_rank_state = dense_rank(desc(total_unfiltered_emissions))) %>% 
+  mutate(heavy_metals_emissions_rank_state = dense_rank(desc(total_unfiltered_emissions_heavy_metals_only))) %>%
+  mutate(total_emissions_rank_mult_wash_clack = dense_rank(desc(ifelse(
+    county %in% c("Multnomah County", "Washington County", "Clackamas County"), total_unfiltered_emissions, 0
+  )))) %>% 
+  mutate(total_emissions_rank_mult_wash_clack = ifelse(
+    county %in% c("Multnomah County", "Washington County", "Clackamas County"), total_emissions_rank_mult_wash_clack, NA
+  )) %>% 
+  mutate(heavy_metals_emissions_rank_mult_wash_clack = dense_rank(desc(ifelse(
+    county %in% c("Multnomah County", "Washington County", "Clackamas County"), total_unfiltered_emissions_heavy_metals_only, 0
+  )))) %>% 
+  mutate(heavy_metals_emissions_rank_mult_wash_clack = ifelse(
+    county %in% c("Multnomah County", "Washington County", "Clackamas County"), heavy_metals_emissions_rank_mult_wash_clack, NA
+  )) %>% 
+  mutate(total_emissions_rank_state = ifelse(total_unfiltered_emissions > 0, total_emissions_rank_state, NA)) %>% 
+  mutate(heavy_metals_emissions_rank_state = ifelse(total_unfiltered_emissions_heavy_metals_only > 0, heavy_metals_emissions_rank_state, NA)) %>% 
+  mutate(total_emissions_rank_mult_wash_clack = ifelse(total_unfiltered_emissions > 0, total_emissions_rank_mult_wash_clack, NA)) %>% 
+  mutate(heavy_metals_emissions_rank_mult_wash_clack = ifelse(total_unfiltered_emissions_heavy_metals_only > 0, heavy_metals_emissions_rank_mult_wash_clack, NA)) %>% 
+  filter(total_unfiltered_emissions > 0) -> total_emissions_by_company
+
+write.csv(co_details_emi_unfiltered_only, file = "output_data/2016_emissions_unfiltered_detailed_data.csv", row.names = F)
+write.csv(total_emissions_by_company, file = "output_data/2016_unfiltered_emissions_summary.csv", row.names = F)
 
 # we're ignoring materials for now
