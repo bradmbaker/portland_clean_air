@@ -145,31 +145,30 @@ heavy_metals_string <- tolower(paste(read.csv("raw_data/heavy_metals.tsv", heade
 co_details_emi %>% 
   mutate(is_heavy_metal = grepl(heavy_metals_string, emissions_pollutant, ignore.case = T)) -> co_details_emi
 
-
 ##### 
 # Step 6 - Create Summary Data Sets + write the output
 ##### 
+# script to generate this data set is look_up_counties.R
+counties <- read.csv("prejoined_data/address_to_country_lookup.csv", stringsAsFactors = F)
+left_join(co_details_emi, counties, by = ("address" = "address")) -> co_details_emi
+
+##### 
+# Step 7 - Create Summary Data Sets + write the output
+##### 
+
 co_details_emi %>%
   filter(has_control_device == 0) -> co_details_emi_unfiltered_only
 
 co_details_emi_unfiltered_only  %>%
-  group_by(company_source_no, addr_hash_pt2, address) %>%
-  summarise(total_unfiltered_emissions = sum(as.numeric(emissions_2016_lbs), na.rm = T)) %>%
+  group_by(company_source_no, addr_hash_pt2, addr_hash_pt4, address, county) %>%
+  summarise(total_unfiltered_emissions = sum(as.numeric(emissions_2016_lbs), na.rm = T),
+            total_unfiltered_emissions_heavy_metals_only = sum(ifelse(is_heavy_metal,as.numeric(emissions_2016_lbs), 0), na.rm =T)) %>%
   arrange(-total_unfiltered_emissions) %>%
-  rename(company_name = addr_hash_pt2) -> total_emissions_by_company
+  rename(company_name = addr_hash_pt2) %>%
+  rename(city = addr_hash_pt4) -> total_emissions_by_company
 
-co_details_emi_unfiltered_only  %>%
-  filter(is_heavy_metal) %>%
-  group_by(company_source_no, addr_hash_pt2, address) %>%
-  summarise(total_unfiltered_emissions = sum(as.numeric(emissions_2016_lbs), na.rm = T)) %>%
-  arrange(-total_unfiltered_emissions) %>%
-  rename(company_name = addr_hash_pt2) -> total_emissions_by_company_heavy_metals
-
-left_join(total_emissions_by_company, total_emissions_by_company_heavy_metals, by = 
-            c("company_source_no" = "company_source_no", "address" = "address", "company_name" = "company_name")) %>% 
-  rename(total_unfiltered_emissions = total_unfiltered_emissions.x) %>%
-  rename(total_unfiltered_emissions_heavy_metals_only = total_unfiltered_emissions.y) -> summary_data
 write.csv(co_details_emi, file = "output_data/2016_emissions_all_detailed_data.csv")
-write.csv(summary_data, file = "output_data/2016_emissions_summary.csv")
+write.csv(total_emissions_by_company, file = "output_data/2016_emissions_summary.csv")
 
 # we're ignoring materials for now
+
