@@ -196,8 +196,8 @@ deq_permits %>%
   select(ends_with("deq"), address, pca_website) %>%
   left_join(., deq_permit_desc, 
             by = c("general_type_permit_deq" = "general_type_permit_deq")) %>%
-  mutate(general_type_desc_permit_deq = coalesce(general_type_desc_permit_deq, "Other")) -> deq_permits 
-
+  mutate(general_type_desc_permit_deq = coalesce(general_type_desc_permit_deq, "Other")) %>%
+  mutate(source_number_deq = substr(permit_number_deq, 1, 7)) -> deq_permits 
 
 # filter out coffee shops
 # TODO filter out gas stations somehow
@@ -249,7 +249,6 @@ airports %>%
 deq_cao <- read.csv("raw_data/2016_unfiltered_emissions_summary.csv", stringsAsFactors = F)
 
 deq_cao %>%
-  filter(county %in% c("Washington County", "Multnomah County", "Clackamas County")) %>%
   mutate(total_unfiltered_emissions = number(total_unfiltered_emissions,  big.mark = ",", accuracy = .01)) %>%
   mutate(total_unfiltered_emissions_heavy_metals_only = number(total_unfiltered_emissions_heavy_metals_only,  big.mark = ",", accuracy = .01)) %>%
   select(-total_emissions_rank_state, -heavy_metals_emissions_rank_state) %>%
@@ -261,7 +260,19 @@ deq_cao %>%
   rename("Unfiltered Emissions" = total_unfiltered_emissions) %>%
   rename("Unfiltered Heavy Metal Emissions" = total_unfiltered_emissions_heavy_metals_only) %>%
   rename("Three County Emissions Rank" = total_emissions_rank_mult_wash_clack) %>%
-  rename("Three County Heavy Metal Emissions Rank" = heavy_metals_emissions_rank_mult_wash_clack) -> deq_cao_3_counties
+  rename("Three County Heavy Metal Emissions Rank" = heavy_metals_emissions_rank_mult_wash_clack) -> deq_cao
+
+deq_cao_deets <- read.csv("raw_data/2016_emissions_unfiltered_detailed_data.csv", stringsAsFactors = F)
+
+deq_cao_deets %>%
+  select(company_source_no, desc_col_2, emissions_pollutant, emissions_2016_lbs, is_heavy_metal) %>%
+  mutate(emissions_2016_lbs = number(as.numeric(emissions_2016_lbs),  big.mark = ",", accuracy = .001)) %>%
+  rename("Company Source Number" = company_source_no) %>%
+  rename("Process" = desc_col_2) %>%
+  rename("2016 Emissions (lbs)" = emissions_2016_lbs) %>%
+  rename("Pollutant" = emissions_pollutant) %>%
+  rename("Is Heavy Metal" = is_heavy_metal) %>%
+  unique() -> deq_cao_deets
 
 #####
 # Combine DEQ Permits and Onsite Storage Data
@@ -277,14 +288,21 @@ deq_permits <- left_join(deq_permits, addresses, by = c("address" = "address"))
 onsite_chem_storage_trim %>% 
   select(-lat, -lng) -> onsite_chem_storage_trim
 onsite_chem_storage_trim <- left_join(onsite_chem_storage_trim, addresses, by = c("address" = "address"))
+deq_cao <- left_join(deq_cao, addresses, by = c("Address" = "address"))
+deq_cao$in_deq_cao <- 1
 
 #full_join(deq_permits, onsite_chem_storage_trim, by = "address") %>%
 #  mutate(address_id = group_indices(.,address)) %>%
 #  mutate(key = coalesce(source_number_deq, paste('onsite_storage_',company_id_storage, sep=""))) -> full_ds
-
+names(deq_cao)
 full_join(deq_permits, onsite_chem_storage_trim, by = c("lat" = "lat", "lon" = "lon")) %>%
   mutate(address = coalesce(clean_address.x, clean_address.y, address.x, address.y)) %>%
-  select(-address.x, -address.y, -clean_address.x, -clean_address.y) %>%
+  select(-address.x, -address.y, -clean_address.x, -clean_address.y) %>% 
+  left_join(., deq_cao, by = c("source_number_deq" = "Company Source Number")) %>% 
+  mutate(County = coalesce(County.x, County.y)) %>%
+  mutate(lat = coalesce(lat.x, lat.y)) %>%
+  mutate(lon = coalesce(lon.x, lon.y)) %>%
+  select(-County.x, -County.y, -lat.x, -lat.y, -lon.x, -lon.y) %>%
   mutate(address_id = group_indices(.,address)) %>%
   mutate(key = coalesce(source_number_deq, paste('onsite_storage_',company_id_storage, sep=""))) -> full_ds
 
@@ -296,17 +314,21 @@ full_ds %>%
          naics_code_description_storage, chemical_name_storage, 
          hazardous_ingredient_storage, average_amount_storage, 
          maximum_amount_storage, storage_method_storage, 
-         hazardous_class_description_storage, in_storage, key) -> full_ds
+         hazardous_class_description_storage, in_storage, 
+         "Company Name", "Unfiltered Emissions",
+         "Unfiltered Heavy Metal Emissions", "Three County Emissions Rank", 
+         "Three County Heavy Metal Emissions Rank", "in_deq_cao",     
+         key) -> full_ds
 
 full_ds %>%
-  mutate(company_name = coalesce(company_name_deq, company_name_storage)) -> full_ds
+  mutate(company_name = coalesce(company_name_deq, `Company Name`, company_name_storage)) -> full_ds
 
 #####
 # save these datasets to make individual websites
 #####
 
 full_ds %>%
-  select(company_name, address, key, in_deq, in_storage) %>%
+  select(company_name, address, key, in_deq, in_storage, in_deq_cao) %>%
   unique() %>%
   write.csv(., "cleaned_data/companies.csv", row.names = F)
 
@@ -322,6 +344,13 @@ full_ds %>%
   unique() %>%
   write.csv(., "cleaned_data/storage_summary.csv", row.names = F)
 
+full_ds %>%
+  filter(in_deq_cao == 1) %>% 
+  select(key) %>% 
+  left_join(., deq_cao_deets, by = c(key = "Company Source Number")) %>% 
+  unique() %>%
+  write.csv(., "cleaned_data/deq_cao_summary.csv", row.names = F)
+
 #####
 # clean up the data so what is displayed on maps is simple and easy to read.
 # if it's already been done, the if statement skips this step
@@ -332,7 +361,7 @@ full_ds %>%
   unique() %>%
   rename(Company = company_name) %>%
   rename(Address = address) %>%
-  mutate(key = paste("www.portlandcleanair.org/", key, sep="")) %>% 
+  mutate(key = paste("www.portlandcleanair.org/files/detailed_co_info/", key, sep="")) %>% 
   rename('More Info URL' = key) %>% 
   mutate(in_deq = ifelse(!is.na(in_deq), "Yes", "No")) %>% 
   rename("Has DEQ Permit" = in_deq) %>%
@@ -361,7 +390,7 @@ tmp_deq_and_onsite %>%
             row.names = F)
 
 #####
-# Write airports, railyards, and Wash Co No Permit Polluters to the same map directory
+# Write airports, railyards, and DEQ CAO to the same map directory
 #####
 railyards %>%
   rename(Railyard = site_name_railyard) %>%
@@ -376,6 +405,7 @@ airports %>%
   rename(Airport = site_name_airport) %>%
   select(Airport, County, Latitude, Longitude) %>%
   write.csv(., "cleaned_data/map_data/airports.csv", row.names = F)
+
 #wash_co_no_permit_polluters %>%
 #  rename("Site Name" = site_name_wash_co_no_permit) %>%
 #  rename(Address = address) %>%

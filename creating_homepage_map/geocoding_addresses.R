@@ -3,9 +3,11 @@ library(jsonlite)
 
 url_lookup <- "https://maps.googleapis.com"
 path <- "/maps/api/geocode/json"
-api_key <- "AIzaSyB1udgqBAsnXh3gMg0As8gk-TecsGL2NQE"
+api_key <- ""
 
-addresses <- data.frame(address = unique(c(deq_permits$address, onsite_chem_storage_trim$address)), stringsAsFactors = F)
+addresses <- data.frame(address = unique(c(deq_permits$address, 
+                                           onsite_chem_storage_trim$address,
+                                           deq_cao$Address)), stringsAsFactors = F)
 addresses$lat <- 0
 addresses$lon <- 0
 addresses$clean_address <- ""
