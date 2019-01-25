@@ -1,8 +1,9 @@
 library(openxlsx)
 library(dplyr)
 library(ggmap)
+library(scales)
 
-setwd("~/Desktop/Portland_Clean_Air/combining_onsite_storage_and_permits/")
+setwd("~/Desktop/Portland_Clean_Air/creating_homepage_map//")
 
 #######
 # Data Set 1 - Onsite Chemical Storage
@@ -242,6 +243,25 @@ airports %>%
 #  rename(site_name_wash_co_no_permit = FacilityName) %>%
 #  select(ends_with("no_permit"), address) -> wash_co_no_permit_polluters
 
+#####
+# Data Set 9 - DEQ CAO Data
+#####
+deq_cao <- read.csv("raw_data/2016_unfiltered_emissions_summary.csv", stringsAsFactors = F)
+
+deq_cao %>%
+  filter(county %in% c("Washington County", "Multnomah County", "Clackamas County")) %>%
+  mutate(total_unfiltered_emissions = number(total_unfiltered_emissions,  big.mark = ",", accuracy = .01)) %>%
+  mutate(total_unfiltered_emissions_heavy_metals_only = number(total_unfiltered_emissions_heavy_metals_only,  big.mark = ",", accuracy = .01)) %>%
+  select(-total_emissions_rank_state, -heavy_metals_emissions_rank_state) %>%
+  rename("Company Source Number" = company_source_no) %>%
+  rename("Company Name" = company_name) %>%
+  rename("City" = city) %>%
+  rename("Address" = address) %>%
+  rename("County" = county) %>%
+  rename("Unfiltered Emissions" = total_unfiltered_emissions) %>%
+  rename("Unfiltered Heavy Metal Emissions" = total_unfiltered_emissions_heavy_metals_only) %>%
+  rename("Three County Emissions Rank" = total_emissions_rank_mult_wash_clack) %>%
+  rename("Three County Heavy Metal Emissions Rank" = heavy_metals_emissions_rank_mult_wash_clack) -> deq_cao_3_counties
 
 #####
 # Combine DEQ Permits and Onsite Storage Data
