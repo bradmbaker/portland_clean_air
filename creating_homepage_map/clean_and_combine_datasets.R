@@ -319,7 +319,7 @@ full_ds %>%
          "Unfiltered Heavy Metal Emissions", "Three County Emissions Rank", 
          "Three County Heavy Metal Emissions Rank", "in_deq_cao",     
          key) -> full_ds
-
+names(full_ds)
 full_ds %>%
   mutate(company_name = coalesce(company_name_deq, `Company Name`, company_name_storage)) -> full_ds
 
@@ -356,7 +356,7 @@ full_ds %>%
 # if it's already been done, the if statement skips this step
 ##### 
 full_ds %>%
-  select(company_name, address, key, in_deq, in_storage, 
+  select(company_name, address, key, in_deq, in_storage, in_deq_cao, 
          general_type_permit_deq, general_type_desc_permit_deq) %>%
   unique() %>%
   rename(Company = company_name) %>%
@@ -367,6 +367,8 @@ full_ds %>%
   rename("Has DEQ Permit" = in_deq) %>%
   mutate(in_storage = ifelse(!is.na(in_storage), "Yes", "No")) %>% 
   rename("Has Onsite Storage of Chemicals" = in_storage) %>%
+  mutate(in_deq_cao = ifelse(!is.na(in_deq_cao), "Yes", "No")) %>%
+  rename("Has Uncontrolled Emissions" = in_deq_cao) %>%
   mutate(general_type_permit_deq = as.numeric(gsub(",.*","",general_type_permit_deq))) %>%
   rename("DEQ General Permit Type" = general_type_permit_deq) %>%
   rename("DEQ General Permit Type Description" = general_type_desc_permit_deq) -> tmp_deq_and_onsite
