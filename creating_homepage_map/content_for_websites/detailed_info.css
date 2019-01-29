@@ -22,5 +22,13 @@ table {
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  width: 100%;
+  width:100%
+}
+.jumbotron {
+	padding:20px;
+}
+.perm-section > table{
+	max-width:70%;
+	margin-left: auto;
+    margin-right: auto;
 }

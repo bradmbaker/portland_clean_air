@@ -1,9 +1,30 @@
 <div class="row">
-	<div class="col-sm-12">
+	<div class="col-sm-12 perm-section">
 	    <h2>DEQ Permits</h2>
 	    <p>The buisness located at this address is listed as {{ company_name_deq }} and the North American Industry Classification Code System code for the business according to the DEQ is {{ naics_code_deq }}. </p>
-        <p>This is a DEQ General Type {{ general_type_permit_deq }} permit, {{ general_type_desc_permit_deq }}</p>
-        {{ permit_info }}
+        <p>This is a DEQ Air Contaminant Discharge Permit (ACDP) General Type {{ general_type_permit_deq }} permit, {{ general_type_desc_permit_deq }}</p>
+        <ul>
+        {% for permit in permit_info %}
+          <li>
+          {% if permit.endswith('r.pdf') %}
+            <a class = "review-permit" href="http://portlandcleanair.org/files/acdp_standard_and_simple/{{ permit }}">
+              Review Permit
+            </a>
+          {% else %}
+             <a class = "permit" href="http://portlandcleanair.org/files/acdp_standard_and_simple/{{ permit }}">
+              Permit
+            </a>
+          {% endif %}
+          </li>
+        {% endfor %}
+        </ul>
+        
+        {% if permit_info=='' %}
+          <p>No permit scans exist for this permit number. </p>
+        {% else %}
+          <p>These were digitized by Portland Clean Air volunteers.</p>
+        {% endif %}
+        
 	</div>    
 </div>
 <hr>

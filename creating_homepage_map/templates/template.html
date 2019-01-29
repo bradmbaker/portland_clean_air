@@ -14,24 +14,26 @@
   <div class="jumbotron text-center">
       <div class="container">
         <div class="row">
-            <div class="col-md-9">
-                <div class="vert_center">
-                    <h1>{{ company_name }}</h1>
-                    <p>{{ address }}</p> 
-                </div>
-            </div>
-            <div class="col-md-3">
+            <div class="col-md-2">
                 <a href="portlandcleanair.org">
                   <img src="../../content_for_websites/PCA_logo.png" class="img-fluid"/>
                 </a>
            </div>
+            <div class="col-md-10">
+                <div class="vert_center">
+                    <h1>{{ company_name }}</h1>
+                    {% if in_rail_air == 0 %}
+                      <h3>{{ address }}</h3> 
+                    {% endif %}
+                </div>
+            </div>
           </div>
         </div>
       </div>  
   {% if in_deq == 1 %}{{ deq_template }}{% endif %}
-  {% if in_storage == 1 %}{{ storage_template }}{% endif %}
   {% if in_deq_cao == 1 %}{{ deq_cao_template }}{% endif %}
-  {% block air_pollutants %}{% endblock %}
+  {% if in_storage == 1 %}{{ storage_template }}{% endif %}
+  {% if in_rail_air == 1 %}{{ rail_air_template }}{% endif %}
 </div>
 <footer class="page-footer">
   <div class = "row">

@@ -1,42 +1,420 @@
-"Airport","County","Latitude","Longitude"
-"HAPPY VALLEY","Clackamas",45.4482,-122.4995
-"PARRETT MOUNTAIN","Multnomah",45.479,-122.2343
-"SKYHILL","Clackamas",45.2879,-122.4561
-"BONNEY ACRES","Clackamas",45.3243,-122.472
-"BRUCES","Clackamas",45.4218,-122.6204
-"FLYING K BAR J RANCH","Clackamas",45.4426,-122.3206
-"GILBERT","Washington",45.6489,-123.0394
-"HARVEYS ACRES","Washington",45.4415,-122.8929
-"RIEBEN","Washington",45.6103,-123.08
-"CHADWICK","Washington",45.6332,-123.1679
-"KRUEGER","Clackamas",45.4421,-122.3231
-"AEROACRES","Clackamas",45.3165,-122.6054
-"SCHMIDT","Clackamas",45.4529,-122.3211
-"COMPTON","Clackamas",45.2223,-122.7268
-"WARNERS","Clackamas",45.325,-122.4242
-"NIELSEN","Clackamas",45.3443,-122.5179
-"MC KINNON AIRPARK","Clackamas",45.4307,-122.242
-"SKYDIVE OREGON","Clackamas",45.1462,-122.6176
-"FLYING K RANCH","Washington",45.4345,-122.88
-"MEYER RIVERSIDE AIRPARK","Washington",45.3998,-122.829
-"AUBERGE DES FLEURS","Clackamas",45.4498,-122.2543
-"BEAVER OAKS","Clackamas",45.304,-122.3609
-"APPLE VALLEY","Washington",45.6784,-123.1862
-"OLINGER AIRPARK","Washington",45.5598,-123.0196
-"NORTH PLAINS","Washington",45.604,-123.0248
-"SUNSET AIR STRIP","Washington",45.5915,-123.0096
-"EAGLE NEST RANCH","Clackamas",45.3548,-122.3459
-"WORKMAN AIRPARK","Clackamas",45.2076,-122.6693
-"DIETZ AIRPARK","Clackamas",45.2557,-122.6509
-"Portland Downtown","Multnomah",45.52528,-122.67093
-"SKYPORT","Washington",45.5826,-123.0529
-"COUNTRY SQUIRE AIRPARK","Clackamas",45.3544,-122.2681
-"VALLEY VIEW","Clackamas",45.3082,-122.3187
-"LENHARDT AIRPARK","Clackamas",45.1804,-122.7434
-"FAIRWAYS","Clackamas",45.3207,-122.5512
-"SANDY RIVER","Clackamas",45.4018,-122.2287
-"Portland-Mulino","Clackamas",45.21632,-122.59008
-"STARKS TWIN OAKS AIRPARK","Washington",45.4285,-122.9422
-"Portland Intl","Multnomah",45.5916,-122.6142
-"Portland-Troutdale","Multnomah",45.54937,-122.40125
-"Portland-Hillsboro","Washington",45.54039,-122.94983
+"Facility Type","Site Name","Address","City","lat","lon","key","url","in_airport"
+"Airport","Baker City Municipal","Unknown","Baker City",44.83733,-117.80908,"Airport_Baker_City_Municipal","www.portlandcleanair.org/files/detailed_co_info/Airport_Baker_City_Municipal",1
+"Airport","ST ELIZABETH HOSPITAL","Unknown","BAKER",44.7943,-117.8461,"Airport_ST_ELIZABETH_HOSPITAL","www.portlandcleanair.org/files/detailed_co_info/Airport_ST_ELIZABETH_HOSPITAL",1
+"Airport","JENSENS STRIP","Unknown","HAINES",44.9124,-117.958,"Airport_JENSENS_STRIP","www.portlandcleanair.org/files/detailed_co_info/Airport_JENSENS_STRIP",1
+"Airport","OXBOW","Unknown","HOMESTEAD",45.0043,-116.849,"Airport_OXBOW","www.portlandcleanair.org/files/detailed_co_info/Airport_OXBOW",1
+"Airport","MUDDY CREEK","Unknown","HAINES",44.9401,-118.0119,"Airport_MUDDY_CREEK","www.portlandcleanair.org/files/detailed_co_info/Airport_MUDDY_CREEK",1
+"Airport","BALD MOUNTAIN","Unknown","BAKER CITY",44.6169,-117.8719,"Airport_BALD_MOUNTAIN","www.portlandcleanair.org/files/detailed_co_info/Airport_BALD_MOUNTAIN",1
+"Airport","THREE VALLEYS RANCH","Unknown","BAKER CITY",44.4944,-117.7475,"Airport_THREE_VALLEYS_RANCH","www.portlandcleanair.org/files/detailed_co_info/Airport_THREE_VALLEYS_RANCH",1
+"Airport","PINE VALLEY","Unknown","HALFWAY",44.8596,-117.0879,"Airport_PINE_VALLEY","www.portlandcleanair.org/files/detailed_co_info/Airport_PINE_VALLEY",1
+"Airport","BROWNLEE","Unknown","BROWNLEE VILLAGE",44.8499,-116.901,"Airport_BROWNLEE","www.portlandcleanair.org/files/detailed_co_info/Airport_BROWNLEE",1
+"Airport","Corvallis Muni","Unknown","Corvallis",44.49719,-123.28983,"Airport_Corvallis_Muni","www.portlandcleanair.org/files/detailed_co_info/Airport_Corvallis_Muni",1
+"Airport","SCHROCK","Unknown","CORVALLIS",44.4436,-123.2383,"Airport_SCHROCK","www.portlandcleanair.org/files/detailed_co_info/Airport_SCHROCK",1
+"Airport","VENELL","Unknown","CORVALLIS",44.4735,-123.3026,"Airport_VENELL","www.portlandcleanair.org/files/detailed_co_info/Airport_VENELL",1
+"Airport","JOYNER","Unknown","CORVALLIS",44.6271,-123.2245,"Airport_JOYNER","www.portlandcleanair.org/files/detailed_co_info/Airport_JOYNER",1
+"Airport","MUDDY CREEK","Unknown","CORVALLIS",44.436,-123.3084,"Airport_MUDDY_CREEK","www.portlandcleanair.org/files/detailed_co_info/Airport_MUDDY_CREEK",1
+"Airport","DUNNING VINEYARDS","Unknown","CORVALLIS",44.5975,-123.2331,"Airport_DUNNING_VINEYARDS","www.portlandcleanair.org/files/detailed_co_info/Airport_DUNNING_VINEYARDS",1
+"Airport","HEMMINGSON","Unknown","ALBANY",44.6582,-123.1429,"Airport_HEMMINGSON","www.portlandcleanair.org/files/detailed_co_info/Airport_HEMMINGSON",1
+"Airport","FLYING TOM","Unknown","CORVALLIS",44.6576,-123.212,"Airport_FLYING_TOM","www.portlandcleanair.org/files/detailed_co_info/Airport_FLYING_TOM",1
+"Airport","COCA COLA","Unknown","CORVALIS",44.4219,-123.2589,"Airport_COCA_COLA","www.portlandcleanair.org/files/detailed_co_info/Airport_COCA_COLA",1
+"Airport","WINN","Unknown","CORVALLIS",44.5985,-123.2068,"Airport_WINN","www.portlandcleanair.org/files/detailed_co_info/Airport_WINN",1
+"Airport","GOOD SAMARITAN HOSPITAL","Unknown","CORVALLIS",44.6012,-123.2532,"Airport_GOOD_SAMARITAN_HOSPITAL","www.portlandcleanair.org/files/detailed_co_info/Airport_GOOD_SAMARITAN_HOSPITAL",1
+"Airport","Portland-Mulino","Unknown","Portland-Mulino",45.21632,-122.59008,"Airport_Portland-Mulino","www.portlandcleanair.org/files/detailed_co_info/Airport_Portland-Mulino",1
+"Airport","SANDY RIVER","Unknown","SANDY",45.4018,-122.2287,"Airport_SANDY_RIVER","www.portlandcleanair.org/files/detailed_co_info/Airport_SANDY_RIVER",1
+"Airport","COMPTON","Unknown","CANBY",45.2223,-122.7268,"Airport_COMPTON","www.portlandcleanair.org/files/detailed_co_info/Airport_COMPTON",1
+"Airport","MERIDIAN PARK HOSPITAL","Unknown","TUALATIN",45.3779,-122.7404,"Airport_MERIDIAN_PARK_HOSPITAL","www.portlandcleanair.org/files/detailed_co_info/Airport_MERIDIAN_PARK_HOSPITAL",1
+"Airport","WARNER S","Unknown","REDLAND",45.325,-122.4242,"Airport_WARNER_S","www.portlandcleanair.org/files/detailed_co_info/Airport_WARNER_S",1
+"Airport","PYNN","Unknown","WEST LINN",45.3365,-122.6648,"Airport_PYNN","www.portlandcleanair.org/files/detailed_co_info/Airport_PYNN",1
+"Airport","BONNEY ACRES","Unknown","OREGON CITY",45.3243,-122.472,"Airport_BONNEY_ACRES","www.portlandcleanair.org/files/detailed_co_info/Airport_BONNEY_ACRES",1
+"Airport","LENHARDT AIRPARK","Unknown","HUBBARD",45.1804,-122.7434,"Airport_LENHARDT_AIRPARK","www.portlandcleanair.org/files/detailed_co_info/Airport_LENHARDT_AIRPARK",1
+"Airport","HELITRADEWINDS","Unknown","MOLALLA",45.1412,-122.6215,"Airport_HELITRADEWINDS","www.portlandcleanair.org/files/detailed_co_info/Airport_HELITRADEWINDS",1
+"Airport","SCHMIDT","Unknown","BORING",45.4529,-122.3211,"Airport_SCHMIDT","www.portlandcleanair.org/files/detailed_co_info/Airport_SCHMIDT",1
+"Airport","VALLEY VIEW","Unknown","ESTACADA",45.3082,-122.3187,"Airport_VALLEY_VIEW","www.portlandcleanair.org/files/detailed_co_info/Airport_VALLEY_VIEW",1
+"Airport","SKYHILL","Unknown","OREGON CITY",45.2879,-122.4561,"Airport_SKYHILL","www.portlandcleanair.org/files/detailed_co_info/Airport_SKYHILL",1
+"Airport","WILLAMETTE FALLS COMMUNITY HOSPITAL","Unknown","OREGON CITY",45.3576,-122.5859,"Airport_WILLAMETTE_FALLS_COMMUNITY_HOSPITAL","www.portlandcleanair.org/files/detailed_co_info/Airport_WILLAMETTE_FALLS_COMMUNITY_HOSPITAL",1
+"Airport","AUBERGE DES FLEURS","Unknown","SANDY",45.4498,-122.2543,"Airport_AUBERGE_DES_FLEURS","www.portlandcleanair.org/files/detailed_co_info/Airport_AUBERGE_DES_FLEURS",1
+"Airport","WILEY S","Unknown","LAKE OSWEGO",45.431,-122.6495,"Airport_WILEY_S","www.portlandcleanair.org/files/detailed_co_info/Airport_WILEY_S",1
+"Airport","NIELSEN","Unknown","OREGON CITY",45.3443,-122.5179,"Airport_NIELSEN","www.portlandcleanair.org/files/detailed_co_info/Airport_NIELSEN",1
+"Airport","COUNTRY SQUIRE AIRPARK","Unknown","SANDY",45.3544,-122.2681,"Airport_COUNTRY_SQUIRE_AIRPARK","www.portlandcleanair.org/files/detailed_co_info/Airport_COUNTRY_SQUIRE_AIRPARK",1
+"Airport","HAPPY VALLEY","Unknown","HAPPY VALLEY",45.4482,-122.4995,"Airport_HAPPY_VALLEY","www.portlandcleanair.org/files/detailed_co_info/Airport_HAPPY_VALLEY",1
+"Airport","SKYDIVE OREGON","Unknown","MOLALLA",45.1462,-122.6176,"Airport_SKYDIVE_OREGON","www.portlandcleanair.org/files/detailed_co_info/Airport_SKYDIVE_OREGON",1
+"Airport","FLYING K BAR J RANCH","Unknown","BORING",45.4426,-122.3206,"Airport_FLYING_K_BAR_J_RANCH","www.portlandcleanair.org/files/detailed_co_info/Airport_FLYING_K_BAR_J_RANCH",1
+"Airport","DIETZ AIRPARK","Unknown","CANBY",45.2557,-122.6509,"Airport_DIETZ_AIRPARK","www.portlandcleanair.org/files/detailed_co_info/Airport_DIETZ_AIRPARK",1
+"Airport","WORKMAN AIRPARK","Unknown","CANBY",45.2076,-122.6693,"Airport_WORKMAN_AIRPARK","www.portlandcleanair.org/files/detailed_co_info/Airport_WORKMAN_AIRPARK",1
+"Airport","FAIRWAYS","Unknown","OREGON CITY",45.3207,-122.5512,"Airport_FAIRWAYS","www.portlandcleanair.org/files/detailed_co_info/Airport_FAIRWAYS",1
+"Airport","MC KINNON AIRPARK","Unknown","SANDY",45.4307,-122.242,"Airport_MC_KINNON_AIRPARK","www.portlandcleanair.org/files/detailed_co_info/Airport_MC_KINNON_AIRPARK",1
+"Airport","AEROACRES","Unknown","OREGON CITY",45.3165,-122.6054,"Airport_AEROACRES","www.portlandcleanair.org/files/detailed_co_info/Airport_AEROACRES",1
+"Airport","EAGLE NEST RANCH","Unknown","ESTACADA",45.3548,-122.3459,"Airport_EAGLE_NEST_RANCH","www.portlandcleanair.org/files/detailed_co_info/Airport_EAGLE_NEST_RANCH",1
+"Airport","BEAVER OAKS","Unknown","ESTACADA",45.304,-122.3609,"Airport_BEAVER_OAKS","www.portlandcleanair.org/files/detailed_co_info/Airport_BEAVER_OAKS",1
+"Airport","MC GILL","Unknown","ESTACADA",45.3373,-122.3976,"Airport_MC_GILL","www.portlandcleanair.org/files/detailed_co_info/Airport_MC_GILL",1
+"Airport","KRUEGER","Unknown","BORING",45.4421,-122.3231,"Airport_KRUEGER","www.portlandcleanair.org/files/detailed_co_info/Airport_KRUEGER",1
+"Airport","Astoria Regional","Unknown","Astoria",46.15797,-123.87869,"Airport_Astoria_Regional","www.portlandcleanair.org/files/detailed_co_info/Airport_Astoria_Regional",1
+"Airport","Seaside Municipal","Unknown","Seaside",46.0165,-123.90542,"Airport_Seaside_Municipal","www.portlandcleanair.org/files/detailed_co_info/Airport_Seaside_Municipal",1
+"Airport","CAMP RILEA","Unknown","WARRENTON",46.1165,-123.9315,"Airport_CAMP_RILEA","www.portlandcleanair.org/files/detailed_co_info/Airport_CAMP_RILEA",1
+"Airport","STATION THIRTY","Unknown","ASTORIA",46.1519,-123.794,"Airport_STATION_THIRTY","www.portlandcleanair.org/files/detailed_co_info/Airport_STATION_THIRTY",1
+"Airport","KARPENS","Unknown","ASTORIA",46.1614,-123.6403,"Airport_KARPENS","www.portlandcleanair.org/files/detailed_co_info/Airport_KARPENS",1
+"Airport","COLUMBIA MEMORIAL HOSPITAL","Unknown","ASTORIA",46.1876,-123.8179,"Airport_COLUMBIA_MEMORIAL_HOSPITAL","www.portlandcleanair.org/files/detailed_co_info/Airport_COLUMBIA_MEMORIAL_HOSPITAL",1
+"Airport","SEASIDE","Unknown","SEASIDE",45.8415,-123.9268,"Airport_SEASIDE","www.portlandcleanair.org/files/detailed_co_info/Airport_SEASIDE",1
+"Airport","Scappoose Industrial Ai","Unknown","Scappoose",45.7725,-122.86236,"Airport_Scappoose_Industrial_Ai","www.portlandcleanair.org/files/detailed_co_info/Airport_Scappoose_Industrial_Ai",1
+"Airport","BERO FIELD","Unknown","VERNONIA",45.8026,-123.2801,"Airport_BERO_FIELD","www.portlandcleanair.org/files/detailed_co_info/Airport_BERO_FIELD",1
+"Airport","GRABHORN S","Unknown","SCAPPOOSE",45.7823,-122.894,"Airport_GRABHORN_S","www.portlandcleanair.org/files/detailed_co_info/Airport_GRABHORN_S",1
+"Airport","VERNONIA AIRFIELD","Unknown","VERNONIA",45.8515,-123.2415,"Airport_VERNONIA_AIRFIELD","www.portlandcleanair.org/files/detailed_co_info/Airport_VERNONIA_AIRFIELD",1
+"Airport","LONGVIEW BRIDGE MEDICAL EMERGENCY","Unknown","RANIER",46.0981,-122.9664,"Airport_LONGVIEW_BRIDGE_MEDICAL_EMERGENCY","www.portlandcleanair.org/files/detailed_co_info/Airport_LONGVIEW_BRIDGE_MEDICAL_EMERGENCY",1
+"Airport","Bandon State","Unknown","Bandon",43.08733,-124.40956,"Airport_Bandon_State","www.portlandcleanair.org/files/detailed_co_info/Airport_Bandon_State",1
+"Airport","North Bend Muni","Unknown","North Bend",43.41714,-124.24603,"Airport_North_Bend_Muni","www.portlandcleanair.org/files/detailed_co_info/Airport_North_Bend_Muni",1
+"Airport","SUNNYHILL","Unknown","NORTH BEND",43.4832,-124.2029,"Airport_SUNNYHILL","www.portlandcleanair.org/files/detailed_co_info/Airport_SUNNYHILL",1
+"Airport","MENASHA  PAD","Unknown","NORTH BEND",43.4087,-124.2182,"Airport_MENASHA__PAD","www.portlandcleanair.org/files/detailed_co_info/Airport_MENASHA__PAD",1
+"Airport","BENHAM","Unknown","COQUILLE",43.1548,-124.1707,"Airport_BENHAM","www.portlandcleanair.org/files/detailed_co_info/Airport_BENHAM",1
+"Airport","LAKESIDE STATE","Unknown","LAKESIDE",43.5832,-124.1804,"Airport_LAKESIDE_STATE","www.portlandcleanair.org/files/detailed_co_info/Airport_LAKESIDE_STATE",1
+"Airport","BAY AREA HOSPITAL","Unknown","COOS BAY",43.4004,-124.2346,"Airport_BAY_AREA_HOSPITAL","www.portlandcleanair.org/files/detailed_co_info/Airport_BAY_AREA_HOSPITAL",1
+"Airport","POWERS","Unknown","POWERS",42.8696,-124.0593,"Airport_POWERS","www.portlandcleanair.org/files/detailed_co_info/Airport_POWERS",1
+"Airport","Prineville","Unknown","Prineville",44.28699,-120.90383,"Airport_Prineville","www.portlandcleanair.org/files/detailed_co_info/Airport_Prineville",1
+"Airport","PIONEER MEMORIAL HOSPITAL","Unknown","PRINEVILLE",44.3123,-120.8381,"Airport_PIONEER_MEMORIAL_HOSPITAL","www.portlandcleanair.org/files/detailed_co_info/Airport_PIONEER_MEMORIAL_HOSPITAL",1
+"Airport","DRY CREEK AIRPARK","Unknown","PRINEVILLE",44.1951,-120.8231,"Airport_DRY_CREEK_AIRPARK","www.portlandcleanair.org/files/detailed_co_info/Airport_DRY_CREEK_AIRPARK",1
+"Airport","BLM","Unknown","PRINEVILLE",44.2798,-120.9017,"Airport_BLM","www.portlandcleanair.org/files/detailed_co_info/Airport_BLM",1
+"Airport","SHOTGUN RANCH AIRSTRIP","Unknown","POST",44.1342,-120.3231,"Airport_SHOTGUN_RANCH_AIRSTRIP","www.portlandcleanair.org/files/detailed_co_info/Airport_SHOTGUN_RANCH_AIRSTRIP",1
+"Airport","GOERING RANCHES","Unknown","ALFALFA",44.0973,-120.9472,"Airport_GOERING_RANCHES","www.portlandcleanair.org/files/detailed_co_info/Airport_GOERING_RANCHES",1
+"Airport","RIVER RUN RANCH","Unknown","REDMOND",44.3357,-121.02,"Airport_RIVER_RUN_RANCH","www.portlandcleanair.org/files/detailed_co_info/Airport_RIVER_RUN_RANCH",1
+"Airport","ROBECK LANDING","UNKNOWN","POWELL BUTTE",44.3125,-121.00694,"Airport_ROBECK_LANDING","www.portlandcleanair.org/files/detailed_co_info/Airport_ROBECK_LANDING",1
+"Airport","TAILWHEEL","UNKNOWN","PRINEVILLE",44.273182,-120.79474,"Airport_TAILWHEEL","www.portlandcleanair.org/files/detailed_co_info/Airport_TAILWHEEL",1
+"Airport","Brookings","Unknown","Brookings",42.07456,-124.29009,"Airport_Brookings","www.portlandcleanair.org/files/detailed_co_info/Airport_Brookings",1
+"Airport","Gold Beach Muni","Unknown","Gold Beach",42.41344,-124.42427,"Airport_Gold_Beach_Muni","www.portlandcleanair.org/files/detailed_co_info/Airport_Gold_Beach_Muni",1
+"Airport","CAPE BLANCO STATE","Unknown","DENMARK",42.8579,-124.5176,"Airport_CAPE_BLANCO_STATE","www.portlandcleanair.org/files/detailed_co_info/Airport_CAPE_BLANCO_STATE",1
+"Airport","GARVINS","Unknown","BROOKINGS",42.0671,-124.2956,"Airport_GARVINS","www.portlandcleanair.org/files/detailed_co_info/Airport_GARVINS",1
+"Airport","CALVERT PEAK","Unknown","GLENDALE",42.7787,-123.734,"Airport_CALVERT_PEAK","www.portlandcleanair.org/files/detailed_co_info/Airport_CALVERT_PEAK",1
+"Airport","WINKLE BAR","Unknown","GRANTS PASS",42.7015,-123.8051,"Airport_WINKLE_BAR","www.portlandcleanair.org/files/detailed_co_info/Airport_WINKLE_BAR",1
+"Airport","Sunriver","Unknown","Sunriver",43.87633,-121.45306,"Airport_Sunriver","www.portlandcleanair.org/files/detailed_co_info/Airport_Sunriver",1
+"Airport","Bend Muni","Unknown","Bend",44.09483,-121.20064,"Airport_Bend_Muni","www.portlandcleanair.org/files/detailed_co_info/Airport_Bend_Muni",1
+"Airport","Roberts Field","Unknown","Redmond",44.25407,-121.14996,"Airport_Roberts_Field","www.portlandcleanair.org/files/detailed_co_info/Airport_Roberts_Field",1
+"Airport","PILOT BUTTE","Unknown","BEND",44.0473,-121.2756,"Airport_PILOT_BUTTE","www.portlandcleanair.org/files/detailed_co_info/Airport_PILOT_BUTTE",1
+"Airport","THE CITADEL","Unknown","SISTERS",44.3348,-121.3553,"Airport_THE_CITADEL","www.portlandcleanair.org/files/detailed_co_info/Airport_THE_CITADEL",1
+"Airport","CINDER BUTTE","Unknown","REDMOND",44.3217,-121.1933,"Airport_CINDER_BUTTE","www.portlandcleanair.org/files/detailed_co_info/Airport_CINDER_BUTTE",1
+"Airport","SAGE RANCH","Unknown","SISTERS",44.2332,-121.3911,"Airport_SAGE_RANCH","www.portlandcleanair.org/files/detailed_co_info/Airport_SAGE_RANCH",1
+"Airport","HORSEMAN","Unknown","BEND",44.1468,-121.3709,"Airport_HORSEMAN","www.portlandcleanair.org/files/detailed_co_info/Airport_HORSEMAN",1
+"Airport","GOPHER GULCH","Unknown","BEND",44.1112,-121.3339,"Airport_GOPHER_GULCH","www.portlandcleanair.org/files/detailed_co_info/Airport_GOPHER_GULCH",1
+"Airport","SISTERS EAGLE AIR","Unknown","SISTERS",44.3046,-121.5392,"Airport_SISTERS_EAGLE_AIR","www.portlandcleanair.org/files/detailed_co_info/Airport_SISTERS_EAGLE_AIR",1
+"Airport","PINERIDGE RANCH","Unknown","SISTERS",44.3096,-121.4428,"Airport_PINERIDGE_RANCH","www.portlandcleanair.org/files/detailed_co_info/Airport_PINERIDGE_RANCH",1
+"Airport","JUNIPER AIR PARK","Unknown","BEND",44.0346,-121.1184,"Airport_JUNIPER_AIR_PARK","www.portlandcleanair.org/files/detailed_co_info/Airport_JUNIPER_AIR_PARK",1
+"Airport","CLINE FALLS AIR PARK","Unknown","REDMOND",44.2832,-121.2692,"Airport_CLINE_FALLS_AIR_PARK","www.portlandcleanair.org/files/detailed_co_info/Airport_CLINE_FALLS_AIR_PARK",1
+"Airport","ST CHARLES MEDICAL CENTER","Unknown","BEND",44.0671,-121.2689,"Airport_ST_CHARLES_MEDICAL_CENTER","www.portlandcleanair.org/files/detailed_co_info/Airport_ST_CHARLES_MEDICAL_CENTER",1
+"Airport","KENNEL AIRSTRIP","Unknown","BEND",44.0296,-121.1647,"Airport_KENNEL_AIRSTRIP","www.portlandcleanair.org/files/detailed_co_info/Airport_KENNEL_AIRSTRIP",1
+"Airport","D M STEVENSON RANCH","Unknown","BEND",44.0032,-121.272,"Airport_D_M_STEVENSON_RANCH","www.portlandcleanair.org/files/detailed_co_info/Airport_D_M_STEVENSON_RANCH",1
+"Airport","WHIPPET FIELD","Unknown","SISTERS",44.3223,-121.4334,"Airport_WHIPPET_FIELD","www.portlandcleanair.org/files/detailed_co_info/Airport_WHIPPET_FIELD",1
+"Airport","SUNDANCE MEADOWS","Unknown","BEND",43.99,-121.2061,"Airport_SUNDANCE_MEADOWS","www.portlandcleanair.org/files/detailed_co_info/Airport_SUNDANCE_MEADOWS",1
+"Airport","Roseburg Regional","Unknown","Roseburg",43.23878,-123.35586,"Airport_Roseburg_Regional","www.portlandcleanair.org/files/detailed_co_info/Airport_Roseburg_Regional",1
+"Airport","Myrtle Creek Municipal","Unknown","Myrtle Creek",42.99845,-123.30951,"Airport_Myrtle_Creek_Municipal","www.portlandcleanair.org/files/detailed_co_info/Airport_Myrtle_Creek_Municipal",1
+"Airport","GLIDE AERO","Unknown","GLIDE",43.2642,-123.1103,"Airport_GLIDE_AERO","www.portlandcleanair.org/files/detailed_co_info/Airport_GLIDE_AERO",1
+"Airport","HEAVENS GATE RANCH","Unknown","OAKLAND",43.4748,-123.3456,"Airport_HEAVENS_GATE_RANCH","www.portlandcleanair.org/files/detailed_co_info/Airport_HEAVENS_GATE_RANCH",1
+"Airport","TOKETEE STATE","Unknown","CLEARWATER",43.2235,-122.4209,"Airport_TOKETEE_STATE","www.portlandcleanair.org/files/detailed_co_info/Airport_TOKETEE_STATE",1
+"Airport","WINSTON-DILLARD FIRE DISTRICT STATION NR 2","Unknown","DILLARD",43.0984,-123.4284,"Airport_WINSTON-DILLARD_FIRE_DISTRICT_STATION_NR_2","www.portlandcleanair.org/files/detailed_co_info/Airport_WINSTON-DILLARD_FIRE_DISTRICT_STATION_NR_2",1
+"Airport","CRUSE MEMORIAL","Unknown","REEDSPORT",43.6948,-124.1379,"Airport_CRUSE_MEMORIAL","www.portlandcleanair.org/files/detailed_co_info/Airport_CRUSE_MEMORIAL",1
+"Airport","FARM YARD FIELD","Unknown","ELKTON",43.5307,-123.549,"Airport_FARM_YARD_FIELD","www.portlandcleanair.org/files/detailed_co_info/Airport_FARM_YARD_FIELD",1
+"Airport","FLOURNOY VALLEY","Unknown","ROSEBURG",43.2076,-123.5326,"Airport_FLOURNOY_VALLEY","www.portlandcleanair.org/files/detailed_co_info/Airport_FLOURNOY_VALLEY",1
+"Airport","HILLTOP","Unknown","GLIDE",43.3221,-123.1766,"Airport_HILLTOP","www.portlandcleanair.org/files/detailed_co_info/Airport_HILLTOP",1
+"Airport","GEORGE FELT","Unknown","ROSEBURG",43.2248,-123.397,"Airport_GEORGE_FELT","www.portlandcleanair.org/files/detailed_co_info/Airport_GEORGE_FELT",1
+"Airport","WHITAKER","Unknown","OAKLAND",43.4265,-123.2798,"Airport_WHITAKER","www.portlandcleanair.org/files/detailed_co_info/Airport_WHITAKER",1
+"Airport","LOOKINGGLASS","Unknown","ROSEBURG",43.1593,-123.5017,"Airport_LOOKINGGLASS","www.portlandcleanair.org/files/detailed_co_info/Airport_LOOKINGGLASS",1
+"Airport","RIVERVIEW RANCH","Unknown","DAYS CREEK",42.9337,-123.1214,"Airport_RIVERVIEW_RANCH","www.portlandcleanair.org/files/detailed_co_info/Airport_RIVERVIEW_RANCH",1
+"Airport","UMPQUA","Unknown","ROSEBURG",43.3097,-123.1269,"Airport_UMPQUA","www.portlandcleanair.org/files/detailed_co_info/Airport_UMPQUA",1
+"Airport","FLYING D RANCH","Unknown","SUTHERLIN",43.3887,-123.222,"Airport_FLYING_D_RANCH","www.portlandcleanair.org/files/detailed_co_info/Airport_FLYING_D_RANCH",1
+"Airport","NAPIER RANCH","Unknown","ROSEBURG",43.2373,-123.493,"Airport_NAPIER_RANCH","www.portlandcleanair.org/files/detailed_co_info/Airport_NAPIER_RANCH",1
+"Airport","NACE FAMILY AIRSTRIP","Unknown","GLENDALE",42.7712,-123.3145,"Airport_NACE_FAMILY_AIRSTRIP","www.portlandcleanair.org/files/detailed_co_info/Airport_NACE_FAMILY_AIRSTRIP",1
+"Airport","MYRTLE CREEK MUNI","Unknown","MYRTLE CREEK",43.0233,-123.2806,"Airport_MYRTLE_CREEK_MUNI","www.portlandcleanair.org/files/detailed_co_info/Airport_MYRTLE_CREEK_MUNI",1
+"Airport","MERCY HOSPITAL","UNKNOWN","ROSEBURG",43.243111,-123.36638,"Airport_MERCY_HOSPITAL","www.portlandcleanair.org/files/detailed_co_info/Airport_MERCY_HOSPITAL",1
+"Airport","Condon State Pauling Fl","Unknown","Condon",45.24652,-120.16642,"Airport_Condon_State_Pauling_Fl","www.portlandcleanair.org/files/detailed_co_info/Airport_Condon_State_Pauling_Fl",1
+"Airport","AJAX","Unknown","CONDON",45.3832,-120.4678,"Airport_AJAX","www.portlandcleanair.org/files/detailed_co_info/Airport_AJAX",1
+"Airport","ARLINGTON MUNI","Unknown","ARLINGTON",45.7165,-120.1678,"Airport_ARLINGTON_MUNI","www.portlandcleanair.org/files/detailed_co_info/Airport_ARLINGTON_MUNI",1
+"Airport","SNYDER RANCH","Unknown","CONDON",45.1943,-120.217,"Airport_SNYDER_RANCH","www.portlandcleanair.org/files/detailed_co_info/Airport_SNYDER_RANCH",1
+"Airport","Grant Co Rgnl-Ogilvie F","Unknown","John Day",44.40417,-118.9625,"Airport_Grant_Co_Rgnl-Ogilvie_F","www.portlandcleanair.org/files/detailed_co_info/Airport_Grant_Co_Rgnl-Ogilvie_F",1
+"Airport","MONUMENT MUNI","Unknown","MONUMENT",44.8318,-119.4303,"Airport_MONUMENT_MUNI","www.portlandcleanair.org/files/detailed_co_info/Airport_MONUMENT_MUNI",1
+"Airport","LAND S INN RANCH","Unknown","DAYVILLE",44.5938,-119.5642,"Airport_LAND_S_INN_RANCH","www.portlandcleanair.org/files/detailed_co_info/Airport_LAND_S_INN_RANCH",1
+"Airport","MIRANDA S SKYRANCH","Unknown","LONG CREEK",44.7624,-119.1019,"Airport_MIRANDA_S_SKYRANCH","www.portlandcleanair.org/files/detailed_co_info/Airport_MIRANDA_S_SKYRANCH",1
+"Airport","WILEY CREEK","Unknown","DAYVILLE",44.5028,-119.3711,"Airport_WILEY_CREEK","www.portlandcleanair.org/files/detailed_co_info/Airport_WILEY_CREEK",1
+"Airport","INSHALLAH INTL","Unknown","SENECA",44.0904,-119.2897,"Airport_INSHALLAH_INTL","www.portlandcleanair.org/files/detailed_co_info/Airport_INSHALLAH_INTL",1
+"Airport","HI COUNTRY NO 2","Unknown","PRAIRIE CITY",44.4352,-118.6624,"Airport_HI_COUNTRY_NO_2","www.portlandcleanair.org/files/detailed_co_info/Airport_HI_COUNTRY_NO_2",1
+"Airport","OXBOW RANCH","Unknown","PRAIRIE CITY",44.4118,-118.6913,"Airport_OXBOW_RANCH","www.portlandcleanair.org/files/detailed_co_info/Airport_OXBOW_RANCH",1
+"Airport","PONDEROSA RANCH","Unknown","SENECA",44.0258,-118.9329,"Airport_PONDEROSA_RANCH","www.portlandcleanair.org/files/detailed_co_info/Airport_PONDEROSA_RANCH",1
+"Airport","LONGVIEW RANCH","Unknown","KIMBERLY",44.6617,-119.6519,"Airport_LONGVIEW_RANCH","www.portlandcleanair.org/files/detailed_co_info/Airport_LONGVIEW_RANCH",1
+"Airport","SENECA EMERGENCY AIRSTRIP","Unknown","SENECA",44.1382,-118.9816,"Airport_SENECA_EMERGENCY_AIRSTRIP","www.portlandcleanair.org/files/detailed_co_info/Airport_SENECA_EMERGENCY_AIRSTRIP",1
+"Airport","CERNY","UNKNOWN","CANYON CITY",44.2445,-119.12624,"Airport_CERNY","www.portlandcleanair.org/files/detailed_co_info/Airport_CERNY",1
+"Airport","Burns Muni","Unknown","Burns",43.59213,-118.95498,"Airport_Burns_Muni","www.portlandcleanair.org/files/detailed_co_info/Airport_Burns_Muni",1
+"Airport","EL RANCHO","Unknown","FIELDS",42.3303,-118.6472,"Airport_EL_RANCHO","www.portlandcleanair.org/files/detailed_co_info/Airport_EL_RANCHO",1
+"Airport","WAGONTIRE","Unknown","BURNS",43.2499,-119.8752,"Airport_WAGONTIRE","www.portlandcleanair.org/files/detailed_co_info/Airport_WAGONTIRE",1
+"Airport","WHITEHORSE RANCH","Unknown","FIELDS",42.3356,-118.2575,"Airport_WHITEHORSE_RANCH","www.portlandcleanair.org/files/detailed_co_info/Airport_WHITEHORSE_RANCH",1
+"Airport","ROARING SPRINGS RANCH","Unknown","FRENCHGLEN",42.6496,-118.9916,"Airport_ROARING_SPRINGS_RANCH","www.portlandcleanair.org/files/detailed_co_info/Airport_ROARING_SPRINGS_RANCH",1
+"Airport","ARNOLD AIRSTRIP","Unknown","CRANE",43.4193,-118.576,"Airport_ARNOLD_AIRSTRIP","www.portlandcleanair.org/files/detailed_co_info/Airport_ARNOLD_AIRSTRIP",1
+"Airport","BARTON LAKE RANCH","Unknown","DIAMOND",43.1288,-118.6766,"Airport_BARTON_LAKE_RANCH","www.portlandcleanair.org/files/detailed_co_info/Airport_BARTON_LAKE_RANCH",1
+"Airport","WILDHORSE VALLEY","Unknown","ANDREWS",42.4879,-118.6084,"Airport_WILDHORSE_VALLEY","www.portlandcleanair.org/files/detailed_co_info/Airport_WILDHORSE_VALLEY",1
+"Airport","Hood River","Unknown","Hood River",45.67262,-121.53646,"Airport_Hood_River","www.portlandcleanair.org/files/detailed_co_info/Airport_Hood_River",1
+"Airport","GREEN ACRES AIR PARK","Unknown","HOOD RIVER",45.6368,-121.5912,"Airport_GREEN_ACRES_AIR_PARK","www.portlandcleanair.org/files/detailed_co_info/Airport_GREEN_ACRES_AIR_PARK",1
+"Airport","HANEL FIELD","Unknown","MOUNT HOOD",45.5926,-121.5487,"Airport_HANEL_FIELD","www.portlandcleanair.org/files/detailed_co_info/Airport_HANEL_FIELD",1
+"Airport","HOOD RIVER FIRE DEPT","Unknown","HOOD RIVER",45.7029,-121.5295,"Airport_HOOD_RIVER_FIRE_DEPT","www.portlandcleanair.org/files/detailed_co_info/Airport_HOOD_RIVER_FIRE_DEPT",1
+"Airport","CASCADE LOCKS STATE","Unknown","CASCADE LOCKS",45.6769,-121.8789,"Airport_CASCADE_LOCKS_STATE","www.portlandcleanair.org/files/detailed_co_info/Airport_CASCADE_LOCKS_STATE",1
+"Airport","Ashland Muni-Sumner Par","Unknown","Ashland",42.19028,-122.66063,"Airport_Ashland_Muni-Sumner_Par","www.portlandcleanair.org/files/detailed_co_info/Airport_Ashland_Muni-Sumner_Par",1
+"Airport","Rogue Valley Internatio","Unknown","Medford",42.3796,-122.8802,"Airport_Rogue_Valley_Internatio","www.portlandcleanair.org/files/detailed_co_info/Airport_Rogue_Valley_Internatio",1
+"Airport","PINEHURST STATE","Unknown","PINEHURST",42.1102,-122.3832,"Airport_PINEHURST_STATE","www.portlandcleanair.org/files/detailed_co_info/Airport_PINEHURST_STATE",1
+"Airport","ERICKSON AIR-CRANE WHETSTONE","Unknown","CENTRAL POINT",42.43,-122.9049,"Airport_ERICKSON_AIR-CRANE_WHETSTONE","www.portlandcleanair.org/files/detailed_co_info/Airport_ERICKSON_AIR-CRANE_WHETSTONE",1
+"Airport","SPRINGBROOK","Unknown","ROGUE RIVER",42.5551,-123.2045,"Airport_SPRINGBROOK","www.portlandcleanair.org/files/detailed_co_info/Airport_SPRINGBROOK",1
+"Airport","LIGHT VALLEY TREE FARM","Unknown","EAGLE POINT",42.3593,-122.5111,"Airport_LIGHT_VALLEY_TREE_FARM","www.portlandcleanair.org/files/detailed_co_info/Airport_LIGHT_VALLEY_TREE_FARM",1
+"Airport","PROSPECT STATE","Unknown","PROSPECT",42.7432,-122.4881,"Airport_PROSPECT_STATE","www.portlandcleanair.org/files/detailed_co_info/Airport_PROSPECT_STATE",1
+"Airport","TIMBERLAND SHOP","Unknown","ASHLAND",42.2054,-122.6336,"Airport_TIMBERLAND_SHOP","www.portlandcleanair.org/files/detailed_co_info/Airport_TIMBERLAND_SHOP",1
+"Airport","MUCKY FLAT","Unknown","EAGLE POINT",42.5979,-122.7125,"Airport_MUCKY_FLAT","www.portlandcleanair.org/files/detailed_co_info/Airport_MUCKY_FLAT",1
+"Airport","PROVIDENCE HOSPITAL","Unknown","MEDFORD",42.3387,-122.8623,"Airport_PROVIDENCE_HOSPITAL","www.portlandcleanair.org/files/detailed_co_info/Airport_PROVIDENCE_HOSPITAL",1
+"Airport","EAST OREGON CATTLE CO","Unknown","EAGLE POINT",42.5035,-122.8548,"Airport_EAST_OREGON_CATTLE_CO","www.portlandcleanair.org/files/detailed_co_info/Airport_EAST_OREGON_CATTLE_CO",1
+"Airport","SUTTON ON ROGUE","Unknown","WHITE CITY",42.4848,-122.8662,"Airport_SUTTON_ON_ROGUE","www.portlandcleanair.org/files/detailed_co_info/Airport_SUTTON_ON_ROGUE",1
+"Airport","CROMAN","Unknown","WHITE CITY",42.4292,-122.8756,"Airport_CROMAN","www.portlandcleanair.org/files/detailed_co_info/Airport_CROMAN",1
+"Airport","SNIDER CREEK","Unknown","MEDFORD",42.539,-122.9229,"Airport_SNIDER_CREEK","www.portlandcleanair.org/files/detailed_co_info/Airport_SNIDER_CREEK",1
+"Airport","FLY BY NIGHT","Unknown","RUCH",42.2461,-123.07,"Airport_FLY_BY_NIGHT","www.portlandcleanair.org/files/detailed_co_info/Airport_FLY_BY_NIGHT",1
+"Airport","FIREFLY RANCH AIRFIELD","Unknown","WHITE CITY",42.5112,-122.9242,"Airport_FIREFLY_RANCH_AIRFIELD","www.portlandcleanair.org/files/detailed_co_info/Airport_FIREFLY_RANCH_AIRFIELD",1
+"Airport","SHADY COVE AIRPARK","Unknown","SHADY COVE",42.6082,-122.8262,"Airport_SHADY_COVE_AIRPARK","www.portlandcleanair.org/files/detailed_co_info/Airport_SHADY_COVE_AIRPARK",1
+"Airport","ERICKSON AIR-CRANE ADMIN OFFICES","Unknown","CENTRAL POINT",42.43,-122.9049,"Airport_ERICKSON_AIR-CRANE_ADMIN_OFFICES","www.portlandcleanair.org/files/detailed_co_info/Airport_ERICKSON_AIR-CRANE_ADMIN_OFFICES",1
+"Airport","BEAGLE SKY RANCH","Unknown","MEDFORD",42.539,-122.9039,"Airport_BEAGLE_SKY_RANCH","www.portlandcleanair.org/files/detailed_co_info/Airport_BEAGLE_SKY_RANCH",1
+"Airport","BURRILL","Unknown","MEDFORD",42.4387,-122.8637,"Airport_BURRILL","www.portlandcleanair.org/files/detailed_co_info/Airport_BURRILL",1
+"Airport","ROGUE VALLEY MEDICAL CENTER","Unknown","MEDFORD",42.3179,-122.8306,"Airport_ROGUE_VALLEY_MEDICAL_CENTER","www.portlandcleanair.org/files/detailed_co_info/Airport_ROGUE_VALLEY_MEDICAL_CENTER",1
+"Airport","OAKRIDGE RANCH","UNKNOWN","EAGLE POINT",42.463211,-122.73397,"Airport_OAKRIDGE_RANCH","www.portlandcleanair.org/files/detailed_co_info/Airport_OAKRIDGE_RANCH",1
+"Airport","City-County","Unknown","Madras",44.66623,-121.1631,"Airport_City-County","www.portlandcleanair.org/files/detailed_co_info/Airport_City-County",1
+"Airport","ROUND BUTTE","Unknown","METOLIUS",44.6165,-121.2678,"Airport_ROUND_BUTTE","www.portlandcleanair.org/files/detailed_co_info/Airport_ROUND_BUTTE",1
+"Airport","OCHS PRIVATE","Unknown","MADRAS",44.7843,-120.9553,"Airport_OCHS_PRIVATE","www.portlandcleanair.org/files/detailed_co_info/Airport_OCHS_PRIVATE",1
+"Airport","3 RIVERS RECREATION AREA","Unknown","CULVER",44.5579,-121.4014,"Airport_3_RIVERS_RECREATION_AREA","www.portlandcleanair.org/files/detailed_co_info/Airport_3_RIVERS_RECREATION_AREA",1
+"Airport","BOMBAY FARMS","Unknown","MADRAS",44.6501,-121.2384,"Airport_BOMBAY_FARMS","www.portlandcleanair.org/files/detailed_co_info/Airport_BOMBAY_FARMS",1
+"Airport","SIX SPRINGS RANCH","Unknown","MADRAS",44.4835,-120.9159,"Airport_SIX_SPRINGS_RANCH","www.portlandcleanair.org/files/detailed_co_info/Airport_SIX_SPRINGS_RANCH",1
+"Airport","LAKE BILLY CHINOOK STATE","Unknown","CULVER",44.5193,-121.3206,"Airport_LAKE_BILLY_CHINOOK_STATE","www.portlandcleanair.org/files/detailed_co_info/Airport_LAKE_BILLY_CHINOOK_STATE",1
+"Airport","MOUNTAIN VIEW HOSPITAL","Unknown","MADRAS",44.6383,-121.1133,"Airport_MOUNTAIN_VIEW_HOSPITAL","www.portlandcleanair.org/files/detailed_co_info/Airport_MOUNTAIN_VIEW_HOSPITAL",1
+"Airport","Grants Pass","Unknown","Grants Pass",42.51012,-123.38799,"Airport_Grants_Pass","www.portlandcleanair.org/files/detailed_co_info/Airport_Grants_Pass",1
+"Airport","Illinois Valley","Unknown","Cave Junction",42.10372,-123.68229,"Airport_Illinois_Valley","www.portlandcleanair.org/files/detailed_co_info/Airport_Illinois_Valley",1
+"Airport","HENDERSHOTS","Unknown","MERLIN",42.1332,-123.4512,"Airport_HENDERSHOTS","www.portlandcleanair.org/files/detailed_co_info/Airport_HENDERSHOTS",1
+"Airport","BACKACHERS RANCH","Unknown","SELMA",42.2851,-123.5331,"Airport_BACKACHERS_RANCH","www.portlandcleanair.org/files/detailed_co_info/Airport_BACKACHERS_RANCH",1
+"Airport","WONDER","Unknown","WONDER",42.3915,-123.5345,"Airport_WONDER","www.portlandcleanair.org/files/detailed_co_info/Airport_WONDER",1
+"Airport","B BAR RANCH","Unknown","SELMA",42.2476,-123.5695,"Airport_B_BAR_RANCH","www.portlandcleanair.org/files/detailed_co_info/Airport_B_BAR_RANCH",1
+"Airport","JANTZER","Unknown","GRANTS PASS",42.4401,-123.2801,"Airport_JANTZER","www.portlandcleanair.org/files/detailed_co_info/Airport_JANTZER",1
+"Airport","Klamath Falls","Unknown","Klamath Falls",42.1624,-121.7426,"Airport_Klamath_Falls","www.portlandcleanair.org/files/detailed_co_info/Airport_Klamath_Falls",1
+"Airport","Chiloquin State","Unknown","Chiloquin",42.57639,-121.87694,"Airport_Chiloquin_State","www.portlandcleanair.org/files/detailed_co_info/Airport_Chiloquin_State",1
+"Airport","LONG RANCH","Unknown","MERRILL",42.019,-121.7039,"Airport_LONG_RANCH","www.portlandcleanair.org/files/detailed_co_info/Airport_LONG_RANCH",1
+"Airport","BEAVER MARSH STATE","Unknown","BEAVER MARSH",43.129,-121.8178,"Airport_BEAVER_MARSH_STATE","www.portlandcleanair.org/files/detailed_co_info/Airport_BEAVER_MARSH_STATE",1
+"Airport","CRESCENT LAKE STATE","Unknown","CRESCENT LAKE",43.5326,-121.95,"Airport_CRESCENT_LAKE_STATE","www.portlandcleanair.org/files/detailed_co_info/Airport_CRESCENT_LAKE_STATE",1
+"Airport","WILDERNESS","Unknown","BLY",42.3643,-120.9658,"Airport_WILDERNESS","www.portlandcleanair.org/files/detailed_co_info/Airport_WILDERNESS",1
+"Airport","MERLE WEST MEDICAL CENTER","Unknown","KLAMATH FALLS",42.254,-121.7844,"Airport_MERLE_WEST_MEDICAL_CENTER","www.portlandcleanair.org/files/detailed_co_info/Airport_MERLE_WEST_MEDICAL_CENTER",1
+"Airport","MOONDANCE RANCH","Unknown","BEATTY",42.6518,-121.3289,"Airport_MOONDANCE_RANCH","www.portlandcleanair.org/files/detailed_co_info/Airport_MOONDANCE_RANCH",1
+"Airport","FLYING T RANCH","Unknown","SPRAGUE RIVER",42.4349,-121.3497,"Airport_FLYING_T_RANCH","www.portlandcleanair.org/files/detailed_co_info/Airport_FLYING_T_RANCH",1
+"Airport","ALLEN S AIRSTRIP","Unknown","BLY",42.4046,-121.0489,"Airport_ALLEN_S_AIRSTRIP","www.portlandcleanair.org/files/detailed_co_info/Airport_ALLEN_S_AIRSTRIP",1
+"Airport","MALIN","Unknown","MALIN",42.001,-121.3964,"Airport_MALIN","www.portlandcleanair.org/files/detailed_co_info/Airport_MALIN",1
+"Airport","CRESCENT-ODELL LAKES RFPD","Unknown","CRESCENT LAKE JUNCTION",43.5268,-121.9481,"Airport_CRESCENT-ODELL_LAKES_RFPD","www.portlandcleanair.org/files/detailed_co_info/Airport_CRESCENT-ODELL_LAKES_RFPD",1
+"Airport","DILLON FIELD","UNKNOWN","MIDLAND",42.122222,-121.79166,"Airport_DILLON_FIELD","www.portlandcleanair.org/files/detailed_co_info/Airport_DILLON_FIELD",1
+"Airport","SKY WAGON RANCH","UNKNOWN","KLAMATH FALLS",42.130283,-121.53163,"Airport_SKY_WAGON_RANCH","www.portlandcleanair.org/files/detailed_co_info/Airport_SKY_WAGON_RANCH",1
+"Airport","Lake County","Unknown","Lakeview",42.16111,-120.39907,"Airport_Lake_County","www.portlandcleanair.org/files/detailed_co_info/Airport_Lake_County",1
+"Airport","Christmas Valley","Unknown","Christmas Valley",43.23653,-120.6661,"Airport_Christmas_Valley","www.portlandcleanair.org/files/detailed_co_info/Airport_Christmas_Valley",1
+"Airport","SAXON SYCAN","Unknown","SILVER LAKE",42.8393,-121.1172,"Airport_SAXON_SYCAN","www.portlandcleanair.org/files/detailed_co_info/Airport_SAXON_SYCAN",1
+"Airport","WITHROTOR","Unknown","LAKEVIEW",42.2754,-120.3936,"Airport_WITHROTOR","www.portlandcleanair.org/files/detailed_co_info/Airport_WITHROTOR",1
+"Airport","PAISLEY","Unknown","PAISLEY",42.7179,-120.5628,"Airport_PAISLEY","www.portlandcleanair.org/files/detailed_co_info/Airport_PAISLEY",1
+"Airport","SILVER LAKE F S STRIP","Unknown","SILVER LAKE",43.111,-121.0942,"Airport_SILVER_LAKE_F_S_STRIP","www.portlandcleanair.org/files/detailed_co_info/Airport_SILVER_LAKE_F_S_STRIP",1
+"Airport","LAKE DISTRICT HOSPITAL","Unknown","LAKEVIEW",42.1813,-120.3519,"Airport_LAKE_DISTRICT_HOSPITAL","www.portlandcleanair.org/files/detailed_co_info/Airport_LAKE_DISTRICT_HOSPITAL",1
+"Airport","TABLE ROCK","Unknown","CHRISTMAS VALLEY",43.2115,-120.8433,"Airport_TABLE_ROCK","www.portlandcleanair.org/files/detailed_co_info/Airport_TABLE_ROCK",1
+"Airport","FARR","Unknown","LAKEVIEW",42.1277,-120.4838,"Airport_FARR","www.portlandcleanair.org/files/detailed_co_info/Airport_FARR",1
+"Airport","MAHOGANY MTN.","Unknown","SILVER LAKE",43.0671,-121.053,"Airport_MAHOGANY_MTN.","www.portlandcleanair.org/files/detailed_co_info/Airport_MAHOGANY_MTN.",1
+"Airport","ALKALI LAKE STATE","Unknown","ALKALI LAKE",43.0874,-119.9761,"Airport_ALKALI_LAKE_STATE","www.portlandcleanair.org/files/detailed_co_info/Airport_ALKALI_LAKE_STATE",1
+"Airport","Mahlon Sweet Field","Unknown","Eugene",44.1342,-123.2119,"Airport_Mahlon_Sweet_Field","www.portlandcleanair.org/files/detailed_co_info/Airport_Mahlon_Sweet_Field",1
+"Airport","Hobby Field","Unknown","Creswell",43.93207,-123.00675,"Airport_Hobby_Field","www.portlandcleanair.org/files/detailed_co_info/Airport_Hobby_Field",1
+"Airport","Florence Muni","Unknown","Florence",43.97901,-124.10956,"Airport_Florence_Muni","www.portlandcleanair.org/files/detailed_co_info/Airport_Florence_Muni",1
+"Airport","Cottage Grove State","Unknown","Cottage Grove",43.79985,-123.02897,"Airport_Cottage_Grove_State","www.portlandcleanair.org/files/detailed_co_info/Airport_Cottage_Grove_State",1
+"Airport","MC KENZIE BRIDGE STATE","Unknown","MC KENZIE BRIDGE",44.1832,-122.0887,"Airport_MC_KENZIE_BRIDGE_STATE","www.portlandcleanair.org/files/detailed_co_info/Airport_MC_KENZIE_BRIDGE_STATE",1
+"Airport","AUBREY MOUNTAIN AIRSTRIP","Unknown","OAKRIDGE",43.7407,-122.4264,"Airport_AUBREY_MOUNTAIN_AIRSTRIP","www.portlandcleanair.org/files/detailed_co_info/Airport_AUBREY_MOUNTAIN_AIRSTRIP",1
+"Airport","OAKRIDGE STATE","Unknown","OAKRIDGE",43.7526,-122.5026,"Airport_OAKRIDGE_STATE","www.portlandcleanair.org/files/detailed_co_info/Airport_OAKRIDGE_STATE",1
+"Airport","STRAUCH FIELD","Unknown","JUNCTION CITY",44.1883,-123.1894,"Airport_STRAUCH_FIELD","www.portlandcleanair.org/files/detailed_co_info/Airport_STRAUCH_FIELD",1
+"Airport","LAKE WOAHINK","Unknown","FLORENCE",43.9042,-124.1147,"Airport_LAKE_WOAHINK","www.portlandcleanair.org/files/detailed_co_info/Airport_LAKE_WOAHINK",1
+"Airport","CROW-MAG","Unknown","ELMIRA",44.0637,-123.3915,"Airport_CROW-MAG","www.portlandcleanair.org/files/detailed_co_info/Airport_CROW-MAG",1
+"Airport","JASPER RIDGE AIRSTRIP","Unknown","SPRINGFIELD/JASPER",44.0033,-122.88,"Airport_JASPER_RIDGE_AIRSTRIP","www.portlandcleanair.org/files/detailed_co_info/Airport_JASPER_RIDGE_AIRSTRIP",1
+"Airport","SAXON S","Unknown","SPRINGFIELD",44.0468,-122.9517,"Airport_SAXON_S","www.portlandcleanair.org/files/detailed_co_info/Airport_SAXON_S",1
+"Airport","MC WILL HOSPITAL","Unknown","SPRINGFIELD",44.0537,-123.0034,"Airport_MC_WILL_HOSPITAL","www.portlandcleanair.org/files/detailed_co_info/Airport_MC_WILL_HOSPITAL",1
+"Airport","WASHINGTON NATIONAL GUARD - SINCLAIR HGTS","Unknown","BREMERTON",43.5548,-122.6817,"Airport_WASHINGTON_NATIONAL_GUARD_-_SINCLAIR_HGTS","www.portlandcleanair.org/files/detailed_co_info/Airport_WASHINGTON_NATIONAL_GUARD_-_SINCLAIR_HGTS",1
+"Airport","MAHLON SWEET FIELD","Unknown","EUGENE",44.1265,-123.2234,"Airport_MAHLON_SWEET_FIELD","www.portlandcleanair.org/files/detailed_co_info/Airport_MAHLON_SWEET_FIELD",1
+"Airport","MUNSON","Unknown","JUNCTION CITY",44.2504,-123.2281,"Airport_MUNSON","www.portlandcleanair.org/files/detailed_co_info/Airport_MUNSON",1
+"Airport","GREER","Unknown","COBURG",44.1959,-123.0731,"Airport_GREER","www.portlandcleanair.org/files/detailed_co_info/Airport_GREER",1
+"Airport","PIER 126","Unknown","FLORENCE",43.9748,-124.0941,"Airport_PIER_126","www.portlandcleanair.org/files/detailed_co_info/Airport_PIER_126",1
+"Airport","WEST POINT","Unknown","COBURG",44.1971,-123.0559,"Airport_WEST_POINT","www.portlandcleanair.org/files/detailed_co_info/Airport_WEST_POINT",1
+"Airport","WALKER","Unknown","CRESWELL",43.8687,-123.034,"Airport_WALKER","www.portlandcleanair.org/files/detailed_co_info/Airport_WALKER",1
+"Airport","SACRED HEART GENERAL HOSPITAL","Unknown","EUGENE",44.0471,-123.0762,"Airport_SACRED_HEART_GENERAL_HOSPITAL","www.portlandcleanair.org/files/detailed_co_info/Airport_SACRED_HEART_GENERAL_HOSPITAL",1
+"Airport","DRILL FIELD PAD","UNKNOWN","EUGENE",44.059539,-123.11884,"Airport_DRILL_FIELD_PAD","www.portlandcleanair.org/files/detailed_co_info/Airport_DRILL_FIELD_PAD",1
+"Airport","EUGENE FIRE STATION #2","UNKNOWN","EUGENE",44.058342,-123.11886,"Airport_EUGENE_FIRE_STATION_#2","www.portlandcleanair.org/files/detailed_co_info/Airport_EUGENE_FIRE_STATION_#2",1
+"Airport","RIVER BEND HOSPITAL","UNKNOWN","SPRINGFIELD",44.081283,-123.02645,"Airport_RIVER_BEND_HOSPITAL","www.portlandcleanair.org/files/detailed_co_info/Airport_RIVER_BEND_HOSPITAL",1
+"Airport","Siletz Bay State","Unknown","Gleneden Beach",44.87761,-124.02845,"Airport_Siletz_Bay_State","www.portlandcleanair.org/files/detailed_co_info/Airport_Siletz_Bay_State",1
+"Airport","Newport Muni","Unknown","Newport",44.58036,-124.05792,"Airport_Newport_Muni","www.portlandcleanair.org/files/detailed_co_info/Airport_Newport_Muni",1
+"Airport","TOLEDO STATE","Unknown","TOLEDO",44.601,-123.9396,"Airport_TOLEDO_STATE","www.portlandcleanair.org/files/detailed_co_info/Airport_TOLEDO_STATE",1
+"Airport","NORTH LINCOLN HOSPITAL","Unknown","LINCOLN CITY",44.9862,-123.9946,"Airport_NORTH_LINCOLN_HOSPITAL","www.portlandcleanair.org/files/detailed_co_info/Airport_NORTH_LINCOLN_HOSPITAL",1
+"Airport","SILETZ","Unknown","SILETZ",44.7304,-123.9151,"Airport_SILETZ","www.portlandcleanair.org/files/detailed_co_info/Airport_SILETZ",1
+"Airport","PACIFIC COMMUNITIES HOSPITAL","Unknown","NEWPORT",44.6296,-124.0596,"Airport_PACIFIC_COMMUNITIES_HOSPITAL","www.portlandcleanair.org/files/detailed_co_info/Airport_PACIFIC_COMMUNITIES_HOSPITAL",1
+"Airport","WAKONDA BEACH STATE","Unknown","WALDPORT",44.3846,-124.0851,"Airport_WAKONDA_BEACH_STATE","www.portlandcleanair.org/files/detailed_co_info/Airport_WAKONDA_BEACH_STATE",1
+"Airport","Lebanon State","Unknown","Lebanon",44.52985,-122.92953,"Airport_Lebanon_State","www.portlandcleanair.org/files/detailed_co_info/Airport_Lebanon_State",1
+"Airport","Albany Muni","Unknown","Albany",44.63782,-123.05945,"Airport_Albany_Muni","www.portlandcleanair.org/files/detailed_co_info/Airport_Albany_Muni",1
+"Airport","INSPIRATION","Unknown","BEND",44.6225,-122.7522,"Airport_INSPIRATION","www.portlandcleanair.org/files/detailed_co_info/Airport_INSPIRATION",1
+"Airport","SANTIAM JUNCTION STATE","Unknown","SANTIAM JUNCTION",44.4346,-121.9423,"Airport_SANTIAM_JUNCTION_STATE","www.portlandcleanair.org/files/detailed_co_info/Airport_SANTIAM_JUNCTION_STATE",1
+"Airport","JIM S AIRSTRIP","Unknown","HALSEY",44.3826,-123.2132,"Airport_JIM_S_AIRSTRIP","www.portlandcleanair.org/files/detailed_co_info/Airport_JIM_S_AIRSTRIP",1
+"Airport","THE GREEN TREES RANCH","Unknown","SCIO",44.6832,-122.7829,"Airport_THE_GREEN_TREES_RANCH","www.portlandcleanair.org/files/detailed_co_info/Airport_THE_GREEN_TREES_RANCH",1
+"Airport","WOOLDRIDGE AGSTRIP","Unknown","ALBANY",44.7326,-123.0556,"Airport_WOOLDRIDGE_AGSTRIP","www.portlandcleanair.org/files/detailed_co_info/Airport_WOOLDRIDGE_AGSTRIP",1
+"Airport","TALLMAN","Unknown","LEBANON",44.5683,-122.9714,"Airport_TALLMAN","www.portlandcleanair.org/files/detailed_co_info/Airport_TALLMAN",1
+"Airport","GRELLS","Unknown","TANGENT",44.5297,-123.0914,"Airport_GRELLS","www.portlandcleanair.org/files/detailed_co_info/Airport_GRELLS",1
+"Airport","DAVIS","Unknown","GATES",44.7457,-122.4215,"Airport_DAVIS","www.portlandcleanair.org/files/detailed_co_info/Airport_DAVIS",1
+"Airport","LONE OAKS RANCH","Unknown","STAYTON",44.7768,-122.7601,"Airport_LONE_OAKS_RANCH","www.portlandcleanair.org/files/detailed_co_info/Airport_LONE_OAKS_RANCH",1
+"Airport","LAFFERTY FIELD","Unknown","BROWNSVILLE",44.3151,-123.0248,"Airport_LAFFERTY_FIELD","www.portlandcleanair.org/files/detailed_co_info/Airport_LAFFERTY_FIELD",1
+"Airport","LEBANON HOSPITAL","Unknown","LEBANON",44.5515,-122.9073,"Airport_LEBANON_HOSPITAL","www.portlandcleanair.org/files/detailed_co_info/Airport_LEBANON_HOSPITAL",1
+"Airport","KINGSTON AIRPARK","Unknown","STAYTON",44.7785,-122.7301,"Airport_KINGSTON_AIRPARK","www.portlandcleanair.org/files/detailed_co_info/Airport_KINGSTON_AIRPARK",1
+"Airport","JACK S","Unknown","SCIO",44.6394,-122.8266,"Airport_JACK_S","www.portlandcleanair.org/files/detailed_co_info/Airport_JACK_S",1
+"Airport","LAMBERT FIELD","Unknown","ALBANY",44.7304,-123.0759,"Airport_LAMBERT_FIELD","www.portlandcleanair.org/files/detailed_co_info/Airport_LAMBERT_FIELD",1
+"Airport","PROPST","Unknown","ALBANY",44.6387,-123.0234,"Airport_PROPST","www.portlandcleanair.org/files/detailed_co_info/Airport_PROPST",1
+"Airport","MILLER AIRSTRIP","Unknown","ALBANY",44.5932,-122.9895,"Airport_MILLER_AIRSTRIP","www.portlandcleanair.org/files/detailed_co_info/Airport_MILLER_AIRSTRIP",1
+"Airport","ROPPAIR","Unknown","ALBANY",44.6193,-123.0318,"Airport_ROPPAIR","www.portlandcleanair.org/files/detailed_co_info/Airport_ROPPAIR",1
+"Airport","MT HOPE","Unknown","LEBANON",44.5572,-122.8261,"Airport_MT_HOPE","www.portlandcleanair.org/files/detailed_co_info/Airport_MT_HOPE",1
+"Airport","GILLETTE FIELD","Unknown","SCIO",44.7196,-122.6995,"Airport_GILLETTE_FIELD","www.portlandcleanair.org/files/detailed_co_info/Airport_GILLETTE_FIELD",1
+"Airport","DANIELS FIELD","Unknown","HARRISBURG",44.2721,-123.0609,"Airport_DANIELS_FIELD","www.portlandcleanair.org/files/detailed_co_info/Airport_DANIELS_FIELD",1
+"Airport","KNOX S PRIVATE AIRSTRIP","Unknown","HARRISBURG",44.2893,-123.1309,"Airport_KNOX_S_PRIVATE_AIRSTRIP","www.portlandcleanair.org/files/detailed_co_info/Airport_KNOX_S_PRIVATE_AIRSTRIP",1
+"Airport","SHOWA","Unknown","BROWNSVILLE",44.3917,-123.0295,"Airport_SHOWA","www.portlandcleanair.org/files/detailed_co_info/Airport_SHOWA",1
+"Airport","HORN","UNKNOWN","STAYTON",44.771667,-122.72722,"Airport_HORN","www.portlandcleanair.org/files/detailed_co_info/Airport_HORN",1
+"Airport","Ontario Muni","Unknown","Ontario",44.02052,-117.01364,"Airport_Ontario_Muni","www.portlandcleanair.org/files/detailed_co_info/Airport_Ontario_Muni",1
+"Airport","Mc Dermitt State","Unknown","Mc Dermitt",42.00211,-117.7232,"Airport_Mc_Dermitt_State","www.portlandcleanair.org/files/detailed_co_info/Airport_Mc_Dermitt_State",1
+"Airport","ROME SERVICE AIRPORT","Unknown","ROME",42.834,-117.629,"Airport_ROME_SERVICE_AIRPORT","www.portlandcleanair.org/files/detailed_co_info/Airport_ROME_SERVICE_AIRPORT",1
+"Airport","SKINNER RANCH","Unknown","JORDAN VALLEY",42.9513,-117.2821,"Airport_SKINNER_RANCH","www.portlandcleanair.org/files/detailed_co_info/Airport_SKINNER_RANCH",1
+"Airport","OWYHEE RESERVOIR STATE","Unknown","OWYHEE",43.4249,-117.3454,"Airport_OWYHEE_RESERVOIR_STATE","www.portlandcleanair.org/files/detailed_co_info/Airport_OWYHEE_RESERVOIR_STATE",1
+"Airport","MURPHY RANCH","Unknown","JUNTURA",43.9574,-118.1324,"Airport_MURPHY_RANCH","www.portlandcleanair.org/files/detailed_co_info/Airport_MURPHY_RANCH",1
+"Airport","HOLY ROSARY MEDICAL CENTER","Unknown","ONTARIO",44.0257,-116.976,"Airport_HOLY_ROSARY_MEDICAL_CENTER","www.portlandcleanair.org/files/detailed_co_info/Airport_HOLY_ROSARY_MEDICAL_CENTER",1
+"Airport","CROWLEY RANCH AIRSTRIP","Unknown","CROWLEY",43.3079,-117.8943,"Airport_CROWLEY_RANCH_AIRSTRIP","www.portlandcleanair.org/files/detailed_co_info/Airport_CROWLEY_RANCH_AIRSTRIP",1
+"Airport","SCANLON","Unknown","COEUR D ALENE",42.5674,-117.4951,"Airport_SCANLON","www.portlandcleanair.org/files/detailed_co_info/Airport_SCANLON",1
+"Airport","COTTONWOOD CREEK RANCH","Unknown","HARPER",43.8472,-117.5742,"Airport_COTTONWOOD_CREEK_RANCH","www.portlandcleanair.org/files/detailed_co_info/Airport_COTTONWOOD_CREEK_RANCH",1
+"Airport","MILLER MEMORIAL AIRPARK","Unknown","VALE",43.9638,-117.2593,"Airport_MILLER_MEMORIAL_AIRPARK","www.portlandcleanair.org/files/detailed_co_info/Airport_MILLER_MEMORIAL_AIRPARK",1
+"Airport","LOCKHART","Unknown","IRONSIDE",44.1813,-118.2149,"Airport_LOCKHART","www.portlandcleanair.org/files/detailed_co_info/Airport_LOCKHART",1
+"Airport","ROME STATE","Unknown","ROME",42.5777,-117.8854,"Airport_ROME_STATE","www.portlandcleanair.org/files/detailed_co_info/Airport_ROME_STATE",1
+"Airport","JUNTURA","Unknown","JUNTURA",43.7415,-118.0635,"Airport_JUNTURA","www.portlandcleanair.org/files/detailed_co_info/Airport_JUNTURA",1
+"Airport","BYBEE FIELD","UNKNOWN","NYSSA",43.897828,-116.98996,"Airport_BYBEE_FIELD","www.portlandcleanair.org/files/detailed_co_info/Airport_BYBEE_FIELD",1
+"Airport","Aurora State","Unknown","Aurora",45.24714,-122.77006,"Airport_Aurora_State","www.portlandcleanair.org/files/detailed_co_info/Airport_Aurora_State",1
+"Airport","Mcnary Fld","Unknown","Salem",44.90953,-123.0025,"Airport_Mcnary_Fld","www.portlandcleanair.org/files/detailed_co_info/Airport_Mcnary_Fld",1
+"Airport","AMES","Unknown","JEFFERSON",44.7718,-122.9694,"Airport_AMES","www.portlandcleanair.org/files/detailed_co_info/Airport_AMES",1
+"Airport","DAVIDSON FIELD","Unknown","JEFFERSON",44.7946,-123.0976,"Airport_DAVIDSON_FIELD","www.portlandcleanair.org/files/detailed_co_info/Airport_DAVIDSON_FIELD",1
+"Airport","ELKINS","Unknown","SALEM",44.8601,-123.0384,"Airport_ELKINS","www.portlandcleanair.org/files/detailed_co_info/Airport_ELKINS",1
+"Airport","FLY  N  W","Unknown","SALEM",44.9679,-122.9415,"Airport_FLY__N__W","www.portlandcleanair.org/files/detailed_co_info/Airport_FLY__N__W",1
+"Airport","PGE","Unknown","SALEM",44.9996,-122.977,"Airport_PGE","www.portlandcleanair.org/files/detailed_co_info/Airport_PGE",1
+"Airport","MC GEE","Unknown","DONALD",45.2337,-122.8565,"Airport_MC_GEE","www.portlandcleanair.org/files/detailed_co_info/Airport_MC_GEE",1
+"Airport","GILMOUR AG AIR","Unknown","JEFFERSON",44.7554,-123.047,"Airport_GILMOUR_AG_AIR","www.portlandcleanair.org/files/detailed_co_info/Airport_GILMOUR_AG_AIR",1
+"Airport","HOLLIN","Unknown","BROOKS",45.054,-122.907,"Airport_HOLLIN","www.portlandcleanair.org/files/detailed_co_info/Airport_HOLLIN",1
+"Airport","SANTIAM MEMORIAL HOSPITAL HELISTOP","Unknown","STAYTON",44.8048,-122.7845,"Airport_SANTIAM_MEMORIAL_HOSPITAL_HELISTOP","www.portlandcleanair.org/files/detailed_co_info/Airport_SANTIAM_MEMORIAL_HOSPITAL_HELISTOP",1
+"Airport","HATCH","Unknown","STAYTON",44.7732,-122.8501,"Airport_HATCH","www.portlandcleanair.org/files/detailed_co_info/Airport_HATCH",1
+"Airport","REFORESTATION SERVICES","Unknown","SALEM",44.8682,-123.0226,"Airport_REFORESTATION_SERVICES","www.portlandcleanair.org/files/detailed_co_info/Airport_REFORESTATION_SERVICES",1
+"Airport","MCNARY ARNG FLD","Unknown","SALEM",44.9101,-123.0026,"Airport_MCNARY_ARNG_FLD","www.portlandcleanair.org/files/detailed_co_info/Airport_MCNARY_ARNG_FLD",1
+"Airport","LUSARDI FIELD","Unknown","SALEM",44.9854,-122.9462,"Airport_LUSARDI_FIELD","www.portlandcleanair.org/files/detailed_co_info/Airport_LUSARDI_FIELD",1
+"Airport","WAGONER","Unknown","SALEM",44.8485,-123.0415,"Airport_WAGONER","www.portlandcleanair.org/files/detailed_co_info/Airport_WAGONER",1
+"Airport","FLYING E","Unknown","AUMSVILLE",44.8448,-122.9012,"Airport_FLYING_E","www.portlandcleanair.org/files/detailed_co_info/Airport_FLYING_E",1
+"Airport","HARCHENKO INDUSTRIAL","Unknown","BROOKS",45.0776,-122.929,"Airport_HARCHENKO_INDUSTRIAL","www.portlandcleanair.org/files/detailed_co_info/Airport_HARCHENKO_INDUSTRIAL",1
+"Airport","SALEM HOSPITAL","Unknown","SALEM",44.9335,-123.0345,"Airport_SALEM_HOSPITAL","www.portlandcleanair.org/files/detailed_co_info/Airport_SALEM_HOSPITAL",1
+"Airport","COLUMBIA HELICOPTERS","Unknown","AURORA",45.2586,-122.7653,"Airport_COLUMBIA_HELICOPTERS","www.portlandcleanair.org/files/detailed_co_info/Airport_COLUMBIA_HELICOPTERS",1
+"Airport","COLUMBIA AVIATION","Unknown","AURORA",45.2506,-122.7661,"Airport_COLUMBIA_AVIATION","www.portlandcleanair.org/files/detailed_co_info/Airport_COLUMBIA_AVIATION",1
+"Airport","BLUE SKIES FARM","UNKNOWN","SALEM",44.966111,-122.9225,"Airport_BLUE_SKIES_FARM","www.portlandcleanair.org/files/detailed_co_info/Airport_BLUE_SKIES_FARM",1
+"Airport","IRON CROWN","UNKNOWN","SILVERTON",44.941788,-122.76258,"Airport_IRON_CROWN","www.portlandcleanair.org/files/detailed_co_info/Airport_IRON_CROWN",1
+"Airport","Boardman","Unknown","Boardman",45.81483,-119.8205,"Airport_Boardman","www.portlandcleanair.org/files/detailed_co_info/Airport_Boardman",1
+"Airport","Lexington","Unknown","Lexington",45.45415,-119.69027,"Airport_Lexington","www.portlandcleanair.org/files/detailed_co_info/Airport_Lexington",1
+"Airport","SIMTAG FARMS","Unknown","BOARDMAN",45.7521,-119.9459,"Airport_SIMTAG_FARMS","www.portlandcleanair.org/files/detailed_co_info/Airport_SIMTAG_FARMS",1
+"Airport","PGE BOARDMAN","Unknown","BOARDMAN",45.6945,-119.8088,"Airport_PGE_BOARDMAN","www.portlandcleanair.org/files/detailed_co_info/Airport_PGE_BOARDMAN",1
+"Airport","Portland-Troutdale","Unknown","Portland",45.54937,-122.40125,"Airport_Portland-Troutdale","www.portlandcleanair.org/files/detailed_co_info/Airport_Portland-Troutdale",1
+"Airport","Portland Intl","Unknown","Portland",45.5916,-122.6142,"Airport_Portland_Intl","www.portlandcleanair.org/files/detailed_co_info/Airport_Portland_Intl",1
+"Airport","Portland Downtown","Unknown","Portland",45.52528,-122.67093,"Airport_Portland_Downtown","www.portlandcleanair.org/files/detailed_co_info/Airport_Portland_Downtown",1
+"Airport","PARRETT MOUNTAIN","Unknown","NEWBERG",45.479,-122.2343,"Airport_PARRETT_MOUNTAIN","www.portlandcleanair.org/files/detailed_co_info/Airport_PARRETT_MOUNTAIN",1
+"Airport","MOUNT HOOD MEDICAL CENTER","Unknown","GRESHAM",45.5169,-122.4067,"Airport_MOUNT_HOOD_MEDICAL_CENTER","www.portlandcleanair.org/files/detailed_co_info/Airport_MOUNT_HOOD_MEDICAL_CENTER",1
+"Airport","PORTLAND ADVENTIST MEDICAL CENTER","Unknown","PORTLAND",45.5133,-122.5569,"Airport_PORTLAND_ADVENTIST_MEDICAL_CENTER","www.portlandcleanair.org/files/detailed_co_info/Airport_PORTLAND_ADVENTIST_MEDICAL_CENTER",1
+"Airport","OREGON HEALTH SCIENCES UNIVERSITY EMERG","Unknown","PORTLAND",45.4957,-122.6873,"Airport_OREGON_HEALTH_SCIENCES_UNIVERSITY_EMERG","www.portlandcleanair.org/files/detailed_co_info/Airport_OREGON_HEALTH_SCIENCES_UNIVERSITY_EMERG",1
+"Airport","WESTWOOD CORPORATION","Unknown","PORTLAND",45.5018,-122.6715,"Airport_WESTWOOD_CORPORATION","www.portlandcleanair.org/files/detailed_co_info/Airport_WESTWOOD_CORPORATION",1
+"Airport","EMANUEL HOSPITAL","Unknown","PORTLAND",45.5432,-122.6701,"Airport_EMANUEL_HOSPITAL","www.portlandcleanair.org/files/detailed_co_info/Airport_EMANUEL_HOSPITAL",1
+"Airport","PROVIDENCE MEDICAL CENTER","Unknown","PORTLAND",45.528,-122.6121,"Airport_PROVIDENCE_MEDICAL_CENTER","www.portlandcleanair.org/files/detailed_co_info/Airport_PROVIDENCE_MEDICAL_CENTER",1
+"Airport","KATU","Unknown","PORTLAND",45.5271,-122.644,"Airport_KATU","www.portlandcleanair.org/files/detailed_co_info/Airport_KATU",1
+"Airport","WORLD TRADE CENTER","Unknown","PORTLAND",45.5171,-122.6737,"Airport_WORLD_TRADE_CENTER","www.portlandcleanair.org/files/detailed_co_info/Airport_WORLD_TRADE_CENTER",1
+"Airport","PGE SERVICE CENTER","Unknown","PORTLAND",45.496,-122.6479,"Airport_PGE_SERVICE_CENTER","www.portlandcleanair.org/files/detailed_co_info/Airport_PGE_SERVICE_CENTER",1
+"Airport","HESSEL TRACTOR","Unknown","PORTLAND",45.5887,-122.654,"Airport_HESSEL_TRACTOR","www.portlandcleanair.org/files/detailed_co_info/Airport_HESSEL_TRACTOR",1
+"Airport","ROSE GARDEN","Unknown","PORTLAND",45.5328,-122.6661,"Airport_ROSE_GARDEN","www.portlandcleanair.org/files/detailed_co_info/Airport_ROSE_GARDEN",1
+"Airport","LEHMAN FIELD","Unknown","CORBETT",45.4857,-122.234,"Airport_LEHMAN_FIELD","www.portlandcleanair.org/files/detailed_co_info/Airport_LEHMAN_FIELD",1
+"Airport","Independence State","Unknown","Independence",44.86676,-123.19825,"Airport_Independence_State","www.portlandcleanair.org/files/detailed_co_info/Airport_Independence_State",1
+"Airport","MARR FIELD","Unknown","MONMOUTH",44.854,-123.2637,"Airport_MARR_FIELD","www.portlandcleanair.org/files/detailed_co_info/Airport_MARR_FIELD",1
+"Airport","PLUM VALLEY","Unknown","AMITY",45.0337,-123.1723,"Airport_PLUM_VALLEY","www.portlandcleanair.org/files/detailed_co_info/Airport_PLUM_VALLEY",1
+"Airport","FAUST FLD","Unknown","INDEPENDENCE",44.8004,-123.1562,"Airport_FAUST_FLD","www.portlandcleanair.org/files/detailed_co_info/Airport_FAUST_FLD",1
+"Airport","JPM","Unknown","MONMOUTH",44.8392,-123.2589,"Airport_JPM","www.portlandcleanair.org/files/detailed_co_info/Airport_JPM",1
+"Airport","VINEYARD","Unknown","MC COY",45.0498,-123.2345,"Airport_VINEYARD","www.portlandcleanair.org/files/detailed_co_info/Airport_VINEYARD",1
+"Airport","GEORGE","UNKNOWN","SHERIDAN",45.031389,-123.40611,"Airport_GEORGE","www.portlandcleanair.org/files/detailed_co_info/Airport_GEORGE",1
+"Airport","Wasco State","Unknown","Wasco",45.58944,-120.67417,"Airport_Wasco_State","www.portlandcleanair.org/files/detailed_co_info/Airport_Wasco_State",1
+"Airport","Tillamook","Unknown","Tillamook",45.41824,-123.81438,"Airport_Tillamook","www.portlandcleanair.org/files/detailed_co_info/Airport_Tillamook",1
+"Airport","PACIFIC CITY STATE","Unknown","PACIFIC CITY",45.1998,-123.9623,"Airport_PACIFIC_CITY_STATE","www.portlandcleanair.org/files/detailed_co_info/Airport_PACIFIC_CITY_STATE",1
+"Airport","TILLAMOOK COUNTY GENERAL HOSPITAL","Unknown","TILLAMOOK",45.4554,-123.854,"Airport_TILLAMOOK_COUNTY_GENERAL_HOSPITAL","www.portlandcleanair.org/files/detailed_co_info/Airport_TILLAMOOK_COUNTY_GENERAL_HOSPITAL",1
+"Airport","NEHALEM BAY STATE","Unknown","MANZANITA",45.6982,-123.9299,"Airport_NEHALEM_BAY_STATE","www.portlandcleanair.org/files/detailed_co_info/Airport_NEHALEM_BAY_STATE",1
+"Airport","Eastern Oregon Regional","Unknown","Pendleton",45.6954,-118.8496,"Airport_Eastern_Oregon_Regional","www.portlandcleanair.org/files/detailed_co_info/Airport_Eastern_Oregon_Regional",1
+"Airport","Hermiston Muni","Unknown","Hermiston",45.82822,-119.25917,"Airport_Hermiston_Muni","www.portlandcleanair.org/files/detailed_co_info/Airport_Hermiston_Muni",1
+"Airport","DELAMARTER","Unknown","PENDLETON",45.6426,-118.8089,"Airport_DELAMARTER","www.portlandcleanair.org/files/detailed_co_info/Airport_DELAMARTER",1
+"Airport","KING S","Unknown","MILTON/FREEWATER",45.9337,-118.4477,"Airport_KING_S","www.portlandcleanair.org/files/detailed_co_info/Airport_KING_S",1
+"Airport","GOOD SHEPHERD HOSPITAL","Unknown","HERMISTON",45.8453,-119.3067,"Airport_GOOD_SHEPHERD_HOSPITAL","www.portlandcleanair.org/files/detailed_co_info/Airport_GOOD_SHEPHERD_HOSPITAL",1
+"Airport","OREGON SKY RANCH","Unknown","MILTON/FREEWATER",45.879,-118.4052,"Airport_OREGON_SKY_RANCH","www.portlandcleanair.org/files/detailed_co_info/Airport_OREGON_SKY_RANCH",1
+"Airport","QUAIL FIELD","Unknown","PENDLETON",45.6549,-118.5897,"Airport_QUAIL_FIELD","www.portlandcleanair.org/files/detailed_co_info/Airport_QUAIL_FIELD",1
+"Airport","WEST BUTTERCREEK","Unknown","ECHO",45.6653,-119.3861,"Airport_WEST_BUTTERCREEK","www.portlandcleanair.org/files/detailed_co_info/Airport_WEST_BUTTERCREEK",1
+"Airport","BARRETT FIELD","Unknown","ATHENA",45.8212,-118.498,"Airport_BARRETT_FIELD","www.portlandcleanair.org/files/detailed_co_info/Airport_BARRETT_FIELD",1
+"Airport","CABLE CREEK RANCH","Unknown","UKIAH",45.1006,-118.8169,"Airport_CABLE_CREEK_RANCH","www.portlandcleanair.org/files/detailed_co_info/Airport_CABLE_CREEK_RANCH",1
+"Airport","MC NARY DAM","Unknown","UMATILLA",45.9319,-119.2967,"Airport_MC_NARY_DAM","www.portlandcleanair.org/files/detailed_co_info/Airport_MC_NARY_DAM",1
+"Airport","ST ANTHONY S HOSPITAL","Unknown","PENDLETON",45.6729,-118.7697,"Airport_ST_ANTHONY_S_HOSPITAL","www.portlandcleanair.org/files/detailed_co_info/Airport_ST_ANTHONY_S_HOSPITAL",1
+"Airport","DAVIS","Unknown","ADAMS",45.7743,-118.5594,"Airport_DAVIS","www.portlandcleanair.org/files/detailed_co_info/Airport_DAVIS",1
+"Airport","RUGG RANCHES","UNKNOWN","PILOT ROCK",45.476389,-118.79166,"Airport_RUGG_RANCHES","www.portlandcleanair.org/files/detailed_co_info/Airport_RUGG_RANCHES",1
+"Airport","La Grande-Union County","Unknown","La Grande",45.29021,-118.00711,"Airport_La_Grande-Union_County","www.portlandcleanair.org/files/detailed_co_info/Airport_La_Grande-Union_County",1
+"Airport","COVE SIDE RANCH PORT","Unknown","COVE",45.3336,-117.8197,"Airport_COVE_SIDE_RANCH_PORT","www.portlandcleanair.org/files/detailed_co_info/Airport_COVE_SIDE_RANCH_PORT",1
+"Airport","VEY SHEEP RANCH","Unknown","STARKEY",45.0932,-118.3988,"Airport_VEY_SHEEP_RANCH","www.portlandcleanair.org/files/detailed_co_info/Airport_VEY_SHEEP_RANCH",1
+"Airport","UMPLEBY RANCH","Unknown","NORTH POWDER",45.0574,-117.9677,"Airport_UMPLEBY_RANCH","www.portlandcleanair.org/files/detailed_co_info/Airport_UMPLEBY_RANCH",1
+"Airport","Joseph State","Unknown","Joseph",45.3571,-117.25322,"Airport_Joseph_State","www.portlandcleanair.org/files/detailed_co_info/Airport_Joseph_State",1
+"Airport","POWWATKA RIDGE","Unknown","TROY",45.8554,-117.4843,"Airport_POWWATKA_RIDGE","www.portlandcleanair.org/files/detailed_co_info/Airport_POWWATKA_RIDGE",1
+"Airport","PEACOCK RANCH","Unknown","ENTERPRISE",45.4415,-117.351,"Airport_PEACOCK_RANCH","www.portlandcleanair.org/files/detailed_co_info/Airport_PEACOCK_RANCH",1
+"Airport","MEMALOOSE","Unknown","IMNAHA",45.4277,-116.6938,"Airport_MEMALOOSE","www.portlandcleanair.org/files/detailed_co_info/Airport_MEMALOOSE",1
+"Airport","BEACH RANCH","Unknown","ENTERPRISE",45.9638,-117.2349,"Airport_BEACH_RANCH","www.portlandcleanair.org/files/detailed_co_info/Airport_BEACH_RANCH",1
+"Airport","BIG BAR","Unknown","HOMESTEAD",45.1249,-116.7468,"Airport_BIG_BAR","www.portlandcleanair.org/files/detailed_co_info/Airport_BIG_BAR",1
+"Airport","MINAM LODGE","Unknown","COVE",45.3582,-117.6344,"Airport_MINAM_LODGE","www.portlandcleanair.org/files/detailed_co_info/Airport_MINAM_LODGE",1
+"Airport","REDS WALLOWA HORSE RANCH","Unknown","ENTERPRISE",45.3415,-117.626,"Airport_REDS_WALLOWA_HORSE_RANCH","www.portlandcleanair.org/files/detailed_co_info/Airport_REDS_WALLOWA_HORSE_RANCH",1
+"Airport","SMITH MOUNTAIN RANCH","Unknown","WALLOWA",45.6507,-117.6699,"Airport_SMITH_MOUNTAIN_RANCH","www.portlandcleanair.org/files/detailed_co_info/Airport_SMITH_MOUNTAIN_RANCH",1
+"Airport","ENTERPRISE MUNI","Unknown","ENTERPRISE",45.4249,-117.2649,"Airport_ENTERPRISE_MUNI","www.portlandcleanair.org/files/detailed_co_info/Airport_ENTERPRISE_MUNI",1
+"Airport","NELSON RANCH","Unknown","MAUPIN",45.1096,-121.2237,"Airport_NELSON_RANCH","www.portlandcleanair.org/files/detailed_co_info/Airport_NELSON_RANCH",1
+"Airport","PINE HOLLOW","Unknown","WAMIC",45.2548,-121.2937,"Airport_PINE_HOLLOW","www.portlandcleanair.org/files/detailed_co_info/Airport_PINE_HOLLOW",1
+"Airport","SHANIKO CATTLE","Unknown","SHANIKO",44.9601,-120.8847,"Airport_SHANIKO_CATTLE","www.portlandcleanair.org/files/detailed_co_info/Airport_SHANIKO_CATTLE",1
+"Airport","WAPINITIA","Unknown","WAPINITIA",45.1457,-121.229,"Airport_WAPINITIA","www.portlandcleanair.org/files/detailed_co_info/Airport_WAPINITIA",1
+"Airport","POINTERS","Unknown","THE DALLES",45.5721,-121.272,"Airport_POINTERS","www.portlandcleanair.org/files/detailed_co_info/Airport_POINTERS",1
+"Airport","CHENOWETH AIRPARK","Unknown","THE DALLES",45.611,-121.2706,"Airport_CHENOWETH_AIRPARK","www.portlandcleanair.org/files/detailed_co_info/Airport_CHENOWETH_AIRPARK",1
+"Airport","SHANIKO RANCH","Unknown","SHANIKO",45.0029,-120.7398,"Airport_SHANIKO_RANCH","www.portlandcleanair.org/files/detailed_co_info/Airport_SHANIKO_RANCH",1
+"Airport","BIG MUDDY RANCH","Unknown","ANTELOPE",44.8285,-120.495,"Airport_BIG_MUDDY_RANCH","www.portlandcleanair.org/files/detailed_co_info/Airport_BIG_MUDDY_RANCH",1
+"Airport","Portland-Hillsboro","Unknown","Portland",45.54039,-122.94983,"Airport_Portland-Hillsboro","www.portlandcleanair.org/files/detailed_co_info/Airport_Portland-Hillsboro",1
+"Airport","AMBER GLEN BUSINESS CENTER HP","Unknown","BEAVERTON",45.5304,-122.8832,"Airport_AMBER_GLEN_BUSINESS_CENTER_HP","www.portlandcleanair.org/files/detailed_co_info/Airport_AMBER_GLEN_BUSINESS_CENTER_HP",1
+"Airport","FISHBACK","Unknown","BANKS",45.6039,-123.0786,"Airport_FISHBACK","www.portlandcleanair.org/files/detailed_co_info/Airport_FISHBACK",1
+"Airport","STARK S TWIN OAKS AIRPARK","Unknown","HILLSBORO",45.4285,-122.9422,"Airport_STARK_S_TWIN_OAKS_AIRPARK","www.portlandcleanair.org/files/detailed_co_info/Airport_STARK_S_TWIN_OAKS_AIRPARK",1
+"Airport","CHEHALEM MOUNTAIN","Unknown","NEWBERG",45.3554,-122.9462,"Airport_CHEHALEM_MOUNTAIN","www.portlandcleanair.org/files/detailed_co_info/Airport_CHEHALEM_MOUNTAIN",1
+"Airport","SUNSET AIR STRIP","Unknown","NORTH PLAINS",45.5915,-123.0096,"Airport_SUNSET_AIR_STRIP","www.portlandcleanair.org/files/detailed_co_info/Airport_SUNSET_AIR_STRIP",1
+"Airport","NORTH PLAINS","Unknown","NORTH PLAINS",45.604,-123.0248,"Airport_NORTH_PLAINS","www.portlandcleanair.org/files/detailed_co_info/Airport_NORTH_PLAINS",1
+"Airport","SKYPORT","Unknown","CORNELIUS",45.5826,-123.0529,"Airport_SKYPORT","www.portlandcleanair.org/files/detailed_co_info/Airport_SKYPORT",1
+"Airport","ST VINCENT HOSPITAL","Unknown","BEAVERTON",45.5101,-122.7734,"Airport_ST_VINCENT_HOSPITAL","www.portlandcleanair.org/files/detailed_co_info/Airport_ST_VINCENT_HOSPITAL",1
+"Airport","RIEBEN","Unknown","BANKS",45.6103,-123.08,"Airport_RIEBEN","www.portlandcleanair.org/files/detailed_co_info/Airport_RIEBEN",1
+"Airport","FLYING K RANCH","Unknown","BEAVERTON",45.4345,-122.88,"Airport_FLYING_K_RANCH","www.portlandcleanair.org/files/detailed_co_info/Airport_FLYING_K_RANCH",1
+"Airport","TUREL","Unknown","BEAVERTON",45.4482,-122.8504,"Airport_TUREL","www.portlandcleanair.org/files/detailed_co_info/Airport_TUREL",1
+"Airport","CHADWICK","Unknown","BANKS",45.6332,-123.1679,"Airport_CHADWICK","www.portlandcleanair.org/files/detailed_co_info/Airport_CHADWICK",1
+"Airport","HARVEY S ACRES","Unknown","BEAVERTON",45.4415,-122.8929,"Airport_HARVEY_S_ACRES","www.portlandcleanair.org/files/detailed_co_info/Airport_HARVEY_S_ACRES",1
+"Airport","LINCOLN TOWER","Unknown","TIGARD",45.4451,-122.7737,"Airport_LINCOLN_TOWER","www.portlandcleanair.org/files/detailed_co_info/Airport_LINCOLN_TOWER",1
+"Airport","MEYER RIVERSIDE AIRPARK","Unknown","TIGARD",45.3998,-122.829,"Airport_MEYER_RIVERSIDE_AIRPARK","www.portlandcleanair.org/files/detailed_co_info/Airport_MEYER_RIVERSIDE_AIRPARK",1
+"Airport","TUALITY HOSPITAL","Unknown","HILLSBORO",45.5279,-122.9798,"Airport_TUALITY_HOSPITAL","www.portlandcleanair.org/files/detailed_co_info/Airport_TUALITY_HOSPITAL",1
+"Airport","GILBERT","Unknown","NORTH PLAINS",45.6489,-123.0394,"Airport_GILBERT","www.portlandcleanair.org/files/detailed_co_info/Airport_GILBERT",1
+"Airport","APPLE VALLEY","Unknown","BUXTON",45.6784,-123.1862,"Airport_APPLE_VALLEY","www.portlandcleanair.org/files/detailed_co_info/Airport_APPLE_VALLEY",1
+"Airport","OLINGER AIRPARK","Unknown","HILLSBORO",45.5598,-123.0196,"Airport_OLINGER_AIRPARK","www.portlandcleanair.org/files/detailed_co_info/Airport_OLINGER_AIRPARK",1
+"Airport","TEUFEL","UNKNOWN","FOREST GROVE",45.530833,-123.08555,"Airport_TEUFEL","www.portlandcleanair.org/files/detailed_co_info/Airport_TEUFEL",1
+"Airport","TEUFEL S","UNKNOWN","FOREST GROVE",45.531417,-123.08452,"Airport_TEUFEL_S","www.portlandcleanair.org/files/detailed_co_info/Airport_TEUFEL_S",1
+"Airport","COLLINS LANDING STRIP","Unknown","MITCHELL",44.7499,-120.2011,"Airport_COLLINS_LANDING_STRIP","www.portlandcleanair.org/files/detailed_co_info/Airport_COLLINS_LANDING_STRIP",1
+"Airport","KINZUA","Unknown","KINZUA",44.9999,-120.0525,"Airport_KINZUA","www.portlandcleanair.org/files/detailed_co_info/Airport_KINZUA",1
+"Airport","ANTONE RANCH","UNKNOWN","PRINEVILLE",44.493436,-119.84368,"Airport_ANTONE_RANCH","www.portlandcleanair.org/files/detailed_co_info/Airport_ANTONE_RANCH",1
+"Airport","Mc Minnville Muni","Unknown","Mc Minnville",45.19444,-123.13594,"Airport_Mc_Minnville_Muni","www.portlandcleanair.org/files/detailed_co_info/Airport_Mc_Minnville_Muni",1
+"Airport","Sportsman Airpark","Unknown","Newberg",45.29567,-122.95538,"Airport_Sportsman_Airpark","www.portlandcleanair.org/files/detailed_co_info/Airport_Sportsman_Airpark",1
+"Airport","CHEHALEM AIRPARK","Unknown","NEWBERG",45.3237,-123.0543,"Airport_CHEHALEM_AIRPARK","www.portlandcleanair.org/files/detailed_co_info/Airport_CHEHALEM_AIRPARK",1
+"Airport","RED S FIELD","Unknown","AMITY",45.0919,-123.1824,"Airport_RED_S_FIELD","www.portlandcleanair.org/files/detailed_co_info/Airport_RED_S_FIELD",1
+"Airport","MENDENHALL AIRSTRIP","Unknown","WILLAMINA",45.118,-123.5065,"Airport_MENDENHALL_AIRSTRIP","www.portlandcleanair.org/files/detailed_co_info/Airport_MENDENHALL_AIRSTRIP",1
+"Airport","ABBA S","Unknown","SHERIDAN",45.1026,-123.4193,"Airport_ABBA_S","www.portlandcleanair.org/files/detailed_co_info/Airport_ABBA_S",1
+"Airport","RIBBON RIDGE","Unknown","NEWBERG",45.3704,-123.0651,"Airport_RIBBON_RIDGE","www.portlandcleanair.org/files/detailed_co_info/Airport_RIBBON_RIDGE",1
+"Airport","NEWBERG COMMUNITY HOSPITAL","Unknown","NEWBERG",45.3043,-122.9637,"Airport_NEWBERG_COMMUNITY_HOSPITAL","www.portlandcleanair.org/files/detailed_co_info/Airport_NEWBERG_COMMUNITY_HOSPITAL",1
+"Airport","STAN JOST","Unknown","NEWBERG",45.3237,-123.019,"Airport_STAN_JOST","www.portlandcleanair.org/files/detailed_co_info/Airport_STAN_JOST",1
+"Airport","DICK FISHER","Unknown","GASTON",45.4126,-123.1368,"Airport_DICK_FISHER","www.portlandcleanair.org/files/detailed_co_info/Airport_DICK_FISHER",1
+"Airport","MACH-O ACRES","Unknown","SHERIDAN",45.199,-123.3701,"Airport_MACH-O_ACRES","www.portlandcleanair.org/files/detailed_co_info/Airport_MACH-O_ACRES",1
+"Airport","GOODIN CREEK","Unknown","GASTON",45.4096,-123.149,"Airport_GOODIN_CREEK","www.portlandcleanair.org/files/detailed_co_info/Airport_GOODIN_CREEK",1
+"Airport","FLYING M","Unknown","YAMHILL",45.3621,-123.3557,"Airport_FLYING_M","www.portlandcleanair.org/files/detailed_co_info/Airport_FLYING_M",1
+"Airport","POVERTY HOLLOW","Unknown","SHERIDAN",45.1571,-123.3915,"Airport_POVERTY_HOLLOW","www.portlandcleanair.org/files/detailed_co_info/Airport_POVERTY_HOLLOW",1
+"Airport","VALLEY MEDICAL CENTER","Unknown","MCMINNVILLE",45.1994,-123.1633,"Airport_VALLEY_MEDICAL_CENTER","www.portlandcleanair.org/files/detailed_co_info/Airport_VALLEY_MEDICAL_CENTER",1
+"Airport","WATTS LANDING","Unknown","AMITY",45.1534,-123.2372,"Airport_WATTS_LANDING","www.portlandcleanair.org/files/detailed_co_info/Airport_WATTS_LANDING",1
+"Airport","PROVIDENCE NEWBERG MEDICAL CENTER","Unknown","NEWBERG",45.3082,-122.9369,"Airport_PROVIDENCE_NEWBERG_MEDICAL_CENTER","www.portlandcleanair.org/files/detailed_co_info/Airport_PROVIDENCE_NEWBERG_MEDICAL_CENTER",1
+"Airport","TRIVELPIECE","Unknown","YAMHILL",45.3315,-123.2071,"Airport_TRIVELPIECE","www.portlandcleanair.org/files/detailed_co_info/Airport_TRIVELPIECE",1
+"Airport","LAFAYETTE AIRSTRIP","Unknown","LAFAYETTE",45.2443,-123.129,"Airport_LAFAYETTE_AIRSTRIP","www.portlandcleanair.org/files/detailed_co_info/Airport_LAFAYETTE_AIRSTRIP",1

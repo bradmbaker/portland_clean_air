@@ -69,7 +69,7 @@ onsite_chem_storage_trim <- onsite_chem_storage_trim[onsite_chem_storage_trim$Co
 onsite_chems_to_be_removed <- read.xlsx("raw_data/edit list HSIS.xlsx", colNames = F)
 onsite_chems_to_be_removed2 <- read.xlsx("raw_data/original list.xlsx", colNames = F)
 onsite_chems_to_be_removed2$X1 <- toupper(onsite_chems_to_be_removed2$X1)
-onsite_chems_to_be_removed3 <- data.frame(X1 = c("WHEAT", "PLASTER OF PARIS", "CLAY", "IRON", "GLUCOSE", "CORN OIL", "CITRIC ACID"), stringsAsFactors = F)
+onsite_chems_to_be_removed3 <- data.frame(X1 = c("WHEAT", "PLASTER OF PARIS", "CLAY", "IRON", "GLUCOSE", "CORN OIL", "CITRIC ACID", "MONOSODIUM GLUTAMATE"), stringsAsFactors = F)
 onsite_chems_to_be_removed4 <- data.frame(X1 = c("AIR", "ALFALFA MEAL", "CELLULOSE FIBER", "CASEIN", "CORN STARCH", "DEXTROSE", "DIESEL FUEL", "DIESEL FUEL 2", "DIESEL FUEL NO 2", "GRAIN DUST", "HYDROGEN", "NO 2 DIESEL", "PUMICE", "SALMON OIL", "SAND", "WHOLE WHEAT FLOUR", "WOOD"), stringsAsFactors = F)
 onsite_chems_to_be_removed_all <- bind_rows(onsite_chems_to_be_removed, onsite_chems_to_be_removed2, onsite_chems_to_be_removed3, onsite_chems_to_be_removed4)
 onsite_chems_to_be_removed_all$remove <- 1
@@ -90,6 +90,11 @@ onsite_chem_storage_trim %>%
   filter(!grepl("PETROLEUM", paste(hazardous_ingredient_storage, chemical_name_storage))) %>%
   filter(!grepl("BATTERIES", paste(hazardous_ingredient_storage, chemical_name_storage))) %>%
   filter(!grepl("WIRELESS COMMUNICATIONS", company_type_storage)) -> onsite_chem_storage_trim
+
+# remove coffee shops + breweries
+onsite_chem_storage_trim %>%
+  filter(!grepl("coffee", company_name_storage,ignore.case = T)) %>%
+  filter(!grepl("brewery", company_name_storage,ignore.case = T)) -> onsite_chem_storage_trim
 
 # files referenced for posterity
 # write.csv(onsite_chem_storage_trim, file = "~/Desktop/onsite_storage_filtered_mult_clack_wash_co.csv")
@@ -207,29 +212,45 @@ deq_permits %>%
   filter(!grepl("coffee", company_name_deq, ignore.case = T)) -> deq_permits # remove places named coffee something
 
 #####
-# Data Set 6 - Railyards
+# Data Set 6 - Railyards + Airports
 #####
-railyards <- read.xlsx("raw_data/NEI PCA railyards.xlsx")
-railyards %>%
-  rename(site_name_railyard = facility_site_name) %>%
-  rename(lat = latitude_msr) %>%
-  rename(lng = longitude_msr) %>%
-  mutate(in_railyard = 1) %>%
-  select(ends_with("railyard"), lat, lng) -> railyards
+rail_and_airports <- read.xlsx("raw_data/emis_sum_fac_7439.xlsx") 
+rail_and_airports %>%
+  select(facility.source.type, site.name, address, city, site.latitude, site.longitude, pollutant.code, pollutant.desc, total.emissions, emissions.uom) %>%
+  mutate(site.name = gsub("/", "-", site.name)) %>%
+  rename("Facility Type" = facility.source.type) %>%
+  rename("Site Name" = site.name) %>%
+  rename("Address" = address) %>%
+  rename("City" = city) %>%
+  rename("lat" = site.latitude) %>%
+  rename("lon" = site.longitude) %>%
+  rename("Pollutant Code" = pollutant.code) %>%
+  rename("Pollutant Description" = pollutant.desc) %>%
+  rename("Total Emissions" = total.emissions) %>%
+  rename("Emissions Unit" = emissions.uom) %>%
+  mutate(key = gsub(" ", "_", paste(`Facility Type`, `Site Name`))) %>%
+  mutate(url = paste("www.portlandcleanair.org/files/detailed_co_info/", key, sep="")) -> rail_and_airports
 
-#####
-# Data Set 7 - Airports
-#####
-airports <- read.xlsx("raw_data/NEI clack, mult, Wash airports final.xlsx", 
-                      colNames = F)
-airports %>%
-  rename(id_airport = X1) %>%
-  rename(county_airport = X3) %>%
-  rename(lat = X6) %>%
-  rename(lng = X7) %>%
-  rename(site_name_airport = X4) %>%
-  mutate(in_airport = 1) %>%
-  select(ends_with("airport"), lat, lng) -> airports
+rail_and_airports %>% 
+  rename("company_name" = `Site Name`) %>%
+  rename("address" = Address) %>%
+  mutate(in_deq=0) %>%
+  mutate(in_storage = 0) %>%
+  mutate(in_deq_cao = 0) %>%
+  mutate(in_rail_air = 1) %>%
+  select( "company_name", "address", "key", "in_deq", "in_storage", "in_deq_cao", "in_rail_air" ) -> rail_and_airports_summary
+
+rail_and_airports %>%
+  filter(`Facility Type` == "Rail Yard") %>%
+  select(`Facility Type`, `Site Name`, Address, City, lat, lon, key, url) %>%
+  unique() %>%
+  mutate(in_railyard = 1)  -> railyards
+ 
+rail_and_airports %>%
+  filter(`Facility Type` == "Airport") %>%
+  select(`Facility Type`, `Site Name`, Address, City, lat, lon, key, url) %>%
+  unique() %>%
+  mutate(in_airport = 1)  -> airports
 
 #####
 # Data Set 8 - Washington County No Permit Polluters
@@ -265,10 +286,31 @@ deq_cao %>%
 deq_cao_deets <- read.csv("raw_data/2016_emissions_unfiltered_detailed_data.csv", stringsAsFactors = F)
 
 deq_cao_deets %>%
-  select(company_source_no, desc_col_2, emissions_pollutant, emissions_2016_lbs, is_heavy_metal) %>%
+  group_by(company_source_no) %>%
+  summarise(emissions_2016_lbs = sum(as.numeric(emissions_2016_lbs), na.rm =T)) -> deq_cao_deets_totals
+deq_cao_deets_totals$emissions_pollutant <- "Total - All Pollutants"
+deq_cao_deets_totals$is_heavy_metal <- "NA"
+
+deq_cao_deets %>%
+  filter(is_heavy_metal==TRUE) %>%
+  group_by(company_source_no) %>%
+  summarise(emissions_2016_lbs = sum(as.numeric(emissions_2016_lbs), na.rm =T)) -> deq_cao_deets_totals_hm
+deq_cao_deets_totals_hm$emissions_pollutant <- "Total - Heavy Metals Only"
+deq_cao_deets_totals_hm$is_heavy_metal <- "TRUE"
+
+union(deq_cao_deets_totals, deq_cao_deets_totals_hm) %>%
+  select("company_source_no", "emissions_pollutant", "emissions_2016_lbs", "is_heavy_metal") -> deq_cao_deets_totals
+
+deq_cao_deets %>%
+  select(company_source_no, emissions_pollutant, emissions_2016_lbs, is_heavy_metal) %>%
+  mutate(emissions_2016_lbs = as.numeric(emissions_2016_lbs)) -> deq_cao_deets
+
+deq_cao_deets %>%
+  mutate(is_heavy_metal = as.character(is_heavy_metal)) %>%
+  union(., deq_cao_deets_totals) %>%
+  arrange(-emissions_2016_lbs) %>%
   mutate(emissions_2016_lbs = number(as.numeric(emissions_2016_lbs),  big.mark = ",", accuracy = .001)) %>%
   rename("Company Source Number" = company_source_no) %>%
-  rename("Process" = desc_col_2) %>%
   rename("2016 Emissions (lbs)" = emissions_2016_lbs) %>%
   rename("Pollutant" = emissions_pollutant) %>%
   rename("Is Heavy Metal" = is_heavy_metal) %>%
@@ -294,7 +336,7 @@ deq_cao$in_deq_cao <- 1
 #full_join(deq_permits, onsite_chem_storage_trim, by = "address") %>%
 #  mutate(address_id = group_indices(.,address)) %>%
 #  mutate(key = coalesce(source_number_deq, paste('onsite_storage_',company_id_storage, sep=""))) -> full_ds
-names(deq_cao)
+
 full_join(deq_permits, onsite_chem_storage_trim, by = c("lat" = "lat", "lon" = "lon")) %>%
   mutate(address = coalesce(clean_address.x, clean_address.y, address.x, address.y)) %>%
   select(-address.x, -address.y, -clean_address.x, -clean_address.y) %>% 
@@ -319,7 +361,7 @@ full_ds %>%
          "Unfiltered Heavy Metal Emissions", "Three County Emissions Rank", 
          "Three County Heavy Metal Emissions Rank", "in_deq_cao",     
          key) -> full_ds
-names(full_ds)
+
 full_ds %>%
   mutate(company_name = coalesce(company_name_deq, `Company Name`, company_name_storage)) -> full_ds
 
@@ -330,6 +372,8 @@ full_ds %>%
 full_ds %>%
   select(company_name, address, key, in_deq, in_storage, in_deq_cao) %>%
   unique() %>%
+  mutate(in_rail_air = 0) %>% 
+  union(., rail_and_airports_summary) %>%
   write.csv(., "cleaned_data/companies.csv", row.names = F)
 
 full_ds %>%
@@ -350,6 +394,10 @@ full_ds %>%
   left_join(., deq_cao_deets, by = c(key = "Company Source Number")) %>% 
   unique() %>%
   write.csv(., "cleaned_data/deq_cao_summary.csv", row.names = F)
+
+rail_and_airports %>%
+  select(-Address, -url, -lat, -lon) %>%
+  write.csv(., "cleaned_data/rail_air_summary.csv", row.names = F)
 
 #####
 # clean up the data so what is displayed on maps is simple and easy to read.
@@ -395,19 +443,10 @@ tmp_deq_and_onsite %>%
 # Write airports, railyards, and DEQ CAO to the same map directory
 #####
 railyards %>%
-  rename(Railyard = site_name_railyard) %>%
-  rename(Latitude = lat) %>%
-  rename(Longitude = lng) %>%
-  select(Railyard, Latitude, Longitude) %>%
   write.csv(., "cleaned_data/map_data/railyards.csv", row.names = F)
 airports %>%
-  rename(County = county_airport) %>%
-  rename(Latitude = lat) %>%
-  rename(Longitude = lng) %>%
-  rename(Airport = site_name_airport) %>%
-  select(Airport, County, Latitude, Longitude) %>%
   write.csv(., "cleaned_data/map_data/airports.csv", row.names = F)
-
+View(airports)
 #wash_co_no_permit_polluters %>%
 #  rename("Site Name" = site_name_wash_co_no_permit) %>%
 #  rename(Address = address) %>%
