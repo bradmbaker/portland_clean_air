@@ -216,7 +216,8 @@ deq_permits %>%
 #####
 rail_and_airports <- read.xlsx("raw_data/emis_sum_fac_7439.xlsx") 
 rail_and_airports %>%
-  select(facility.source.type, site.name, address, city, site.latitude, site.longitude, pollutant.code, pollutant.desc, total.emissions, emissions.uom) %>%
+  mutate("Total Emissions (lbs)" = ifelse(emissions.uom == "TON", total.emissions*2000, total.emissions)) %>%
+  select(facility.source.type, site.name, address, city, site.latitude, site.longitude, pollutant.code, pollutant.desc, `Total Emissions (lbs)`) %>%
   mutate(site.name = gsub("/", "-", site.name)) %>%
   rename("Facility Type" = facility.source.type) %>%
   rename("Site Name" = site.name) %>%
@@ -226,8 +227,6 @@ rail_and_airports %>%
   rename("lon" = site.longitude) %>%
   rename("Pollutant Code" = pollutant.code) %>%
   rename("Pollutant Description" = pollutant.desc) %>%
-  rename("Total Emissions" = total.emissions) %>%
-  rename("Emissions Unit" = emissions.uom) %>%
   mutate(key = gsub(" ", "_", paste(`Facility Type`, `Site Name`))) %>%
   mutate(url = paste("www.portlandcleanair.org/files/detailed_co_info/", key, sep="")) -> rail_and_airports
 
@@ -446,7 +445,7 @@ railyards %>%
   write.csv(., "cleaned_data/map_data/railyards.csv", row.names = F)
 airports %>%
   write.csv(., "cleaned_data/map_data/airports.csv", row.names = F)
-View(airports)
+
 #wash_co_no_permit_polluters %>%
 #  rename("Site Name" = site_name_wash_co_no_permit) %>%
 #  rename(Address = address) %>%
