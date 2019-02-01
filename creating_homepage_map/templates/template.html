@@ -32,7 +32,17 @@
       </div>  
   {% if in_deq == 1 %}{{ deq_template }}{% endif %}
   {% if in_deq_cao == 1 %}{{ deq_cao_template }}{% endif %}
-  {% if in_storage == 1 %}{{ storage_template }}{% endif %}
+  <div class="row">
+    <div class="col-sm-12">
+      <h2>Onsite Chemical Storage</h2>
+        {% if in_storage == 1 %}
+            {{ storage_template }}
+        {% else %}
+         <p>In the Oregon State Fire Marshall onsite chemical storage data (Hazardous Substance Information System), the company at this site either had no listing or Portland Clean Air edited out the listing due to the substances being non-hazardous.</p>
+        {% endif %}
+    </div>
+  </div>
+  <hr>  
   {% if in_rail_air == 1 %}{{ rail_air_template }}{% endif %}
 </div>
 <footer class="page-footer">

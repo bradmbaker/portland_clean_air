@@ -8,7 +8,7 @@
           <li>
           {% if permit.endswith('r.pdf') %}
             <a class = "review-permit" href="http://portlandcleanair.org/files/acdp_standard_and_simple/{{ permit }}">
-              Review Permit
+              Permit Review
             </a>
           {% else %}
              <a class = "permit" href="http://portlandcleanair.org/files/acdp_standard_and_simple/{{ permit }}">
@@ -17,9 +17,14 @@
           {% endif %}
           </li>
         {% endfor %}
+        {% for g_permit in general_permit_info %}
+          <li>
+            <a class = "g-permit" href="http://portlandcleanair.org/files/data/scans_general_acdp/{{ g_permit }}"> {{ g_permit }}</a>
+          </li>
+        {% endfor %}
         </ul>
         
-        {% if permit_info=='' %}
+        {% if permit_info=='' and general_permit_info == '' %}
           <p>No permit scans exist for this permit number. </p>
         {% else %}
           <p>These were digitized by Portland Clean Air volunteers.</p>

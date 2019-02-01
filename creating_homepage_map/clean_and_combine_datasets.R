@@ -205,7 +205,6 @@ deq_permits %>%
   mutate(source_number_deq = substr(permit_number_deq, 1, 7)) -> deq_permits 
 
 # filter out coffee shops
-# TODO filter out gas stations somehow
 deq_permits %>%
   filter(general_type_permit_deq != 16) %>% ## 16 is coffee roasters
   filter(!grepl("brew", company_name_deq, ignore.case = T)) %>% # remove places named brew something
@@ -228,7 +227,10 @@ rail_and_airports %>%
   rename("Pollutant Code" = pollutant.code) %>%
   rename("Pollutant Description" = pollutant.desc) %>%
   mutate(key = gsub(" ", "_", paste(`Facility Type`, `Site Name`))) %>%
-  mutate(url = paste("www.portlandcleanair.org/files/detailed_co_info/", key, sep="")) -> rail_and_airports
+  mutate(url = paste("www.portlandcleanair.org/files/detailed_co_info/", key, sep="")) %>%
+  mutate(`Site Name` = paste(`Site Name`, `Facility Type`)) %>%
+  arrange(-`Total Emissions (lbs)`) %>%
+  mutate(`Total Emissions (lbs)` = number(`Total Emissions (lbs)`,  big.mark = ",", accuracy = .01)) -> rail_and_airports
 
 rail_and_airports %>% 
   rename("company_name" = `Site Name`) %>%
@@ -283,6 +285,11 @@ deq_cao %>%
   rename("Three County Heavy Metal Emissions Rank" = heavy_metals_emissions_rank_mult_wash_clack) -> deq_cao
 
 deq_cao_deets <- read.csv("raw_data/2016_emissions_unfiltered_detailed_data.csv", stringsAsFactors = F)
+
+deq_cao_deets %>%
+  group_by(company_source_no, is_heavy_metal, emissions_pollutant) %>%
+  summarise(emissions_2016_lbs = sum(as.numeric(emissions_2016_lbs), na.rm = T)) %>%
+  ungroup()-> deq_cao_deets
 
 deq_cao_deets %>%
   group_by(company_source_no) %>%
@@ -404,7 +411,8 @@ rail_and_airports %>%
 ##### 
 full_ds %>%
   select(company_name, address, key, in_deq, in_storage, in_deq_cao, 
-         general_type_permit_deq, general_type_desc_permit_deq) %>%
+         general_type_permit_deq, general_type_desc_permit_deq, 
+          `Three County Emissions Rank`, `Three County Heavy Metal Emissions Rank`) %>%
   unique() %>%
   rename(Company = company_name) %>%
   rename(Address = address) %>%

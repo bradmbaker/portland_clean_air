@@ -31,6 +31,16 @@ for root, dirs, files in os.walk("/Users/bb/Downloads/ACDP Standard and Simple/"
             else:
                 acdp_scans[acdp_scan_num] = [file]
 
+general_scans = {}
+for root, dirs, files in os.walk("/Users/bb/Downloads/scans General ACDP/"):
+    for file in files:
+        if re.search(permit_re_pattern, file):
+            general_scan_num = re.search(permit_re_pattern, file).group(1)
+            if general_scan_num in general_scans:
+                general_scans[general_scan_num].append(file)
+            else:
+                general_scans[general_scan_num] = [file]
+
 
 # prepping the template environment
 file_loader = FileSystemLoader('templates')
@@ -62,12 +72,18 @@ for index, row in companies.iterrows():
             permit_info.sort(key=len)
         else:
             permit_info = ''
+        if row['key'] in general_scans:
+            general_permit_info = general_scans[row['key']]
+            general_permit_info.sort(key=len)
+        else:
+            general_permit_info = ''
         tmp_deq_template = template_deq.render(
             company_name_deq = tmp_deq['company_name_deq'].item(),
             naics_code_deq = tmp_deq['naics_code_deq'].item(),
             general_type_permit_deq = tmp_deq['general_type_permit_deq'].item(),
             general_type_desc_permit_deq = tmp_deq['general_type_desc_permit_deq'].item(),
             permit_info = permit_info,
+            general_permit_info=general_permit_info,
             )
     if row['in_deq_cao'] == 1:
         tmp_deq_cao = deq_cao_summary[deq_cao_summary['key'] == row['key']].drop(columns = ['key'])

@@ -1,25 +1,25 @@
 "Facility Type","Site Name","Address","City","lat","lon","key","url","in_railyard"
-"Rail Yard","BAKER","Unknown","Unknown",44.782919,-117.84481,"Rail_Yard_BAKER","www.portlandcleanair.org/files/detailed_co_info/Rail_Yard_BAKER",1
-"Rail Yard","HUNTINGTON","Unknown","Unknown",44.353968,-117.26506,"Rail_Yard_HUNTINGTON","www.portlandcleanair.org/files/detailed_co_info/Rail_Yard_HUNTINGTON",1
-"Rail Yard","CLACKAMAS","Unknown","Unknown",45.421732,-122.570846,"Rail_Yard_CLACKAMAS","www.portlandcleanair.org/files/detailed_co_info/Rail_Yard_CLACKAMAS",1
-"Rail Yard","BEND","Unknown","Unknown",44.061874,-121.3063,"Rail_Yard_BEND","www.portlandcleanair.org/files/detailed_co_info/Rail_Yard_BEND",1
-"Rail Yard","REDMOND","Unknown","Unknown",44.279288,-121.16653,"Rail_Yard_REDMOND","www.portlandcleanair.org/files/detailed_co_info/Rail_Yard_REDMOND",1
-"Rail Yard","GILCHRIST","Unknown","Unknown",43.36912,-121.82589,"Rail_Yard_GILCHRIST","www.portlandcleanair.org/files/detailed_co_info/Rail_Yard_GILCHRIST",1
-"Rail Yard","KLAMATH","Unknown","Unknown",42.219163,-121.76974,"Rail_Yard_KLAMATH","www.portlandcleanair.org/files/detailed_co_info/Rail_Yard_KLAMATH",1
-"Rail Yard","EUGENE","Unknown","Unknown",44.075837,-123.13821,"Rail_Yard_EUGENE","www.portlandcleanair.org/files/detailed_co_info/Rail_Yard_EUGENE",1
-"Rail Yard","SPRINGFIELD","Unknown","Unknown",44.04358,-123.00851,"Rail_Yard_SPRINGFIELD","www.portlandcleanair.org/files/detailed_co_info/Rail_Yard_SPRINGFIELD",1
-"Rail Yard","ALBANY","Unknown","Unknown",44.658524,-123.06717,"Rail_Yard_ALBANY","www.portlandcleanair.org/files/detailed_co_info/Rail_Yard_ALBANY",1
-"Rail Yard","ONTARIO","Unknown","Unknown",43.988527,-116.973173,"Rail_Yard_ONTARIO","www.portlandcleanair.org/files/detailed_co_info/Rail_Yard_ONTARIO",1
-"Rail Yard","CASTLE","Unknown","Unknown",45.829224,-119.83457,"Rail_Yard_CASTLE","www.portlandcleanair.org/files/detailed_co_info/Rail_Yard_CASTLE",1
-"Rail Yard","BARNES","Unknown","Unknown",45.602454,-122.73766,"Rail_Yard_BARNES","www.portlandcleanair.org/files/detailed_co_info/Rail_Yard_BARNES",1
-"Rail Yard","BROOKLYN","Unknown","Unknown",45.490101,-122.64372,"Rail_Yard_BROOKLYN","www.portlandcleanair.org/files/detailed_co_info/Rail_Yard_BROOKLYN",1
-"Rail Yard","KENTON","Unknown","Unknown",45.580443,-122.66685,"Rail_Yard_KENTON","www.portlandcleanair.org/files/detailed_co_info/Rail_Yard_KENTON",1
-"Rail Yard","LAKE","Unknown","Unknown",45.549649,-122.71845,"Rail_Yard_LAKE","www.portlandcleanair.org/files/detailed_co_info/Rail_Yard_LAKE",1
-"Rail Yard","WILLBRIDGE","Unknown","Unknown",45.561451,-122.74267,"Rail_Yard_WILLBRIDGE","www.portlandcleanair.org/files/detailed_co_info/Rail_Yard_WILLBRIDGE",1
-"Rail Yard","ALBINA","Unknown","Unknown",45.543333,-122.68605,"Rail_Yard_ALBINA","www.portlandcleanair.org/files/detailed_co_info/Rail_Yard_ALBINA",1
-"Rail Yard","PENINSULA TERMINAL","Unknown","Unknown",45.605385,-122.71188,"Rail_Yard_PENINSULA_TERMINAL","www.portlandcleanair.org/files/detailed_co_info/Rail_Yard_PENINSULA_TERMINAL",1
-"Rail Yard","HINKLE","Unknown","Unknown",45.797442,-119.29588,"Rail_Yard_HINKLE","www.portlandcleanair.org/files/detailed_co_info/Rail_Yard_HINKLE",1
-"Rail Yard","PENDLETON","Unknown","Unknown",45.667114,-118.79252,"Rail_Yard_PENDLETON","www.portlandcleanair.org/files/detailed_co_info/Rail_Yard_PENDLETON",1
-"Rail Yard","E","Unknown","Unknown",45.330318,-118.09456,"Rail_Yard_E","www.portlandcleanair.org/files/detailed_co_info/Rail_Yard_E",1
-"Rail Yard","DALLES","Unknown","Unknown",44.8513,-121.0754,"Rail_Yard_DALLES","www.portlandcleanair.org/files/detailed_co_info/Rail_Yard_DALLES",1
-"Rail Yard","THE DALLES","Unknown","Unknown",45.597989,-121.172844,"Rail_Yard_THE_DALLES","www.portlandcleanair.org/files/detailed_co_info/Rail_Yard_THE_DALLES",1
+"Rail Yard","BAKER Rail Yard","Unknown","Unknown",44.782919,-117.84481,"Rail_Yard_BAKER","www.portlandcleanair.org/files/detailed_co_info/Rail_Yard_BAKER",1
+"Rail Yard","BARNES Rail Yard","Unknown","Unknown",45.602454,-122.73766,"Rail_Yard_BARNES","www.portlandcleanair.org/files/detailed_co_info/Rail_Yard_BARNES",1
+"Rail Yard","ALBINA Rail Yard","Unknown","Unknown",45.543333,-122.68605,"Rail_Yard_ALBINA","www.portlandcleanair.org/files/detailed_co_info/Rail_Yard_ALBINA",1
+"Rail Yard","HINKLE Rail Yard","Unknown","Unknown",45.797442,-119.29588,"Rail_Yard_HINKLE","www.portlandcleanair.org/files/detailed_co_info/Rail_Yard_HINKLE",1
+"Rail Yard","PENINSULA TERMINAL Rail Yard","Unknown","Unknown",45.605385,-122.71188,"Rail_Yard_PENINSULA_TERMINAL","www.portlandcleanair.org/files/detailed_co_info/Rail_Yard_PENINSULA_TERMINAL",1
+"Rail Yard","SPRINGFIELD Rail Yard","Unknown","Unknown",44.04358,-123.00851,"Rail_Yard_SPRINGFIELD","www.portlandcleanair.org/files/detailed_co_info/Rail_Yard_SPRINGFIELD",1
+"Rail Yard","EUGENE Rail Yard","Unknown","Unknown",44.075837,-123.13821,"Rail_Yard_EUGENE","www.portlandcleanair.org/files/detailed_co_info/Rail_Yard_EUGENE",1
+"Rail Yard","LAKE Rail Yard","Unknown","Unknown",45.549649,-122.71845,"Rail_Yard_LAKE","www.portlandcleanair.org/files/detailed_co_info/Rail_Yard_LAKE",1
+"Rail Yard","ALBANY Rail Yard","Unknown","Unknown",44.658524,-123.06717,"Rail_Yard_ALBANY","www.portlandcleanair.org/files/detailed_co_info/Rail_Yard_ALBANY",1
+"Rail Yard","BEND Rail Yard","Unknown","Unknown",44.061874,-121.3063,"Rail_Yard_BEND","www.portlandcleanair.org/files/detailed_co_info/Rail_Yard_BEND",1
+"Rail Yard","BROOKLYN Rail Yard","Unknown","Unknown",45.490101,-122.64372,"Rail_Yard_BROOKLYN","www.portlandcleanair.org/files/detailed_co_info/Rail_Yard_BROOKLYN",1
+"Rail Yard","REDMOND Rail Yard","Unknown","Unknown",44.279288,-121.16653,"Rail_Yard_REDMOND","www.portlandcleanair.org/files/detailed_co_info/Rail_Yard_REDMOND",1
+"Rail Yard","DALLES Rail Yard","Unknown","Unknown",44.8513,-121.0754,"Rail_Yard_DALLES","www.portlandcleanair.org/files/detailed_co_info/Rail_Yard_DALLES",1
+"Rail Yard","HUNTINGTON Rail Yard","Unknown","Unknown",44.353968,-117.26506,"Rail_Yard_HUNTINGTON","www.portlandcleanair.org/files/detailed_co_info/Rail_Yard_HUNTINGTON",1
+"Rail Yard","WILLBRIDGE Rail Yard","Unknown","Unknown",45.561451,-122.74267,"Rail_Yard_WILLBRIDGE","www.portlandcleanair.org/files/detailed_co_info/Rail_Yard_WILLBRIDGE",1
+"Rail Yard","CLACKAMAS Rail Yard","Unknown","Unknown",45.421732,-122.570846,"Rail_Yard_CLACKAMAS","www.portlandcleanair.org/files/detailed_co_info/Rail_Yard_CLACKAMAS",1
+"Rail Yard","ONTARIO Rail Yard","Unknown","Unknown",43.988527,-116.973173,"Rail_Yard_ONTARIO","www.portlandcleanair.org/files/detailed_co_info/Rail_Yard_ONTARIO",1
+"Rail Yard","THE DALLES Rail Yard","Unknown","Unknown",45.597989,-121.172844,"Rail_Yard_THE_DALLES","www.portlandcleanair.org/files/detailed_co_info/Rail_Yard_THE_DALLES",1
+"Rail Yard","GILCHRIST Rail Yard","Unknown","Unknown",43.36912,-121.82589,"Rail_Yard_GILCHRIST","www.portlandcleanair.org/files/detailed_co_info/Rail_Yard_GILCHRIST",1
+"Rail Yard","KLAMATH Rail Yard","Unknown","Unknown",42.219163,-121.76974,"Rail_Yard_KLAMATH","www.portlandcleanair.org/files/detailed_co_info/Rail_Yard_KLAMATH",1
+"Rail Yard","CASTLE Rail Yard","Unknown","Unknown",45.829224,-119.83457,"Rail_Yard_CASTLE","www.portlandcleanair.org/files/detailed_co_info/Rail_Yard_CASTLE",1
+"Rail Yard","KENTON Rail Yard","Unknown","Unknown",45.580443,-122.66685,"Rail_Yard_KENTON","www.portlandcleanair.org/files/detailed_co_info/Rail_Yard_KENTON",1
+"Rail Yard","PENDLETON Rail Yard","Unknown","Unknown",45.667114,-118.79252,"Rail_Yard_PENDLETON","www.portlandcleanair.org/files/detailed_co_info/Rail_Yard_PENDLETON",1
+"Rail Yard","E Rail Yard","Unknown","Unknown",45.330318,-118.09456,"Rail_Yard_E","www.portlandcleanair.org/files/detailed_co_info/Rail_Yard_E",1
