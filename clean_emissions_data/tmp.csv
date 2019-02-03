@@ -1,9 +1,0 @@
-coSourceNo,desc_row_id,excel_col_dec,excel_col_alpha,cas_code,cas_name,unit_a,data_a,unit_b,data_b,unit_c,data_c
-22-0143,00003,13,M,75-07-0,acetaldehyde,ef (lb/unit),0.2883225005477251,2016 emissions (lbs/yr),7896.0,pmy emissions (lbs/yr),11844.0
-22-0143,00003,25,Y,107-02-8,acrolein,ef (lb/unit),0.1472285109179873,2016 emissions (lbs/yr),4032.0,pmy emissions (lbs/yr),6048.0
-22-0143,00005,25,Y,107-02-8,acrolein,ef (lb/unit),0.014606003067260644,2016 emissions (lbs/yr),400.0,pmy emissions (lbs/yr),600.0
-22-0143,00010,88,CJ,7664-41-7,ammonia,ef (lb/unit),0.14343058497042285,2016 emissions (lbs/yr),3927.9900000000002,pmy emissions (lbs/yr),5891.985000000001
-22-0143,00012,88,CJ,7664-41-7,ammonia,ef (lb/unit),0.4961425545899365,2016 emissions (lbs/yr),13587.36,pmy emissions (lbs/yr),20381.04
-22-0143,00049,88,CJ,7664-41-7,ammonia,ef (lb/unit),0.0001613963338932301,2016 emissions (lbs/yr),4.42,pmy emissions (lbs/yr),6.63
-22-0143,00005,109,DE,7440-36-0,antimony,ef (lb/unit),2.8846856057839773e-05,2016 emissions (lbs/yr),0.79,pmy emissions (lbs/yr),1.185
-22-0143,00005,575,VC,78-87-5,1,2-dichloropropane,ef (lb/unit),0.00012049952530490033,2016 emissions (lbs/yr),3.3000000000000003,pmy emissions (lbs/yr),4.95
