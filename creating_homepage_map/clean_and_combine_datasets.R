@@ -3,7 +3,7 @@ library(dplyr)
 library(ggmap)
 library(scales)
 
-setwd("~/Desktop/Portland_Clean_Air/creating_homepage_map//")
+setwd("~/Desktop/Portland_Clean_Air/creating_homepage_map/")
 
 #######
 # Data Set 1 - Onsite Chemical Storage
@@ -268,7 +268,7 @@ rail_and_airports %>%
 #####
 # Data Set 9 - DEQ CAO Data
 #####
-deq_cao <- read.csv("raw_data/2016_unfiltered_emissions_summary.csv", stringsAsFactors = F)
+deq_cao <- read.csv("raw_data/2016_uncontrolled_emissions_summary.csv", stringsAsFactors = F)
 
 deq_cao %>%
   mutate(total_unfiltered_emissions = number(total_unfiltered_emissions,  big.mark = ",", accuracy = .01)) %>%
@@ -279,48 +279,63 @@ deq_cao %>%
   rename("City" = city) %>%
   rename("Address" = address) %>%
   rename("County" = county) %>%
-  rename("Unfiltered Emissions" = total_unfiltered_emissions) %>%
-  rename("Unfiltered Heavy Metal Emissions" = total_unfiltered_emissions_heavy_metals_only) %>%
-  rename("Three County Emissions Rank" = total_emissions_rank_mult_wash_clack) %>%
-  rename("Three County Heavy Metal Emissions Rank" = heavy_metals_emissions_rank_mult_wash_clack) -> deq_cao
+  rename("Uncontrolled Emissions" = total_unfiltered_emissions) %>%
+  rename("Uncontrolled Heavy Metal Emissions" = total_unfiltered_emissions_heavy_metals_only) %>%
+  rename("Three County Uncontrolled Emissions Rank" = total_emissions_rank_mult_wash_clack) %>%
+  rename("Three County Uncontrolled Heavy Metal Emissions Rank" = heavy_metals_emissions_rank_mult_wash_clack) -> deq_cao
 
-deq_cao_deets <- read.csv("raw_data/2016_emissions_unfiltered_detailed_data.csv", stringsAsFactors = F)
+deq_cao_deets <- read.csv("raw_data/2016_all_emissions.csv", stringsAsFactors = F)
 
 deq_cao_deets %>%
+  mutate(uncontrolled_emissions_2016_lbs = ifelse(has_control_device==0, as.numeric(emissions_2016_lbs), 0)) %>% 
   group_by(company_source_no, is_heavy_metal, emissions_pollutant) %>%
-  summarise(emissions_2016_lbs = sum(as.numeric(emissions_2016_lbs), na.rm = T)) %>%
+  summarise(total_emissions_2016_lbs = sum(as.numeric(emissions_2016_lbs), na.rm = T),
+            uncontrolled_emissions_2016_lbs = sum(uncontrolled_emissions_2016_lbs, na.rm = T)) %>%
   ungroup()-> deq_cao_deets
 
 deq_cao_deets %>%
   group_by(company_source_no) %>%
-  summarise(emissions_2016_lbs = sum(as.numeric(emissions_2016_lbs), na.rm =T)) -> deq_cao_deets_totals
+  summarise(total_emissions_2016_lbs = sum(as.numeric(total_emissions_2016_lbs), na.rm =T),
+              uncontrolled_emissions_2016_lbs = sum(as.numeric(uncontrolled_emissions_2016_lbs), na.rm =T)
+            ) -> deq_cao_deets_totals
+
 deq_cao_deets_totals$emissions_pollutant <- "Total - All Pollutants"
 deq_cao_deets_totals$is_heavy_metal <- "NA"
 
 deq_cao_deets %>%
   filter(is_heavy_metal==TRUE) %>%
   group_by(company_source_no) %>%
-  summarise(emissions_2016_lbs = sum(as.numeric(emissions_2016_lbs), na.rm =T)) -> deq_cao_deets_totals_hm
+  summarise(total_emissions_2016_lbs = sum(as.numeric(total_emissions_2016_lbs), na.rm =T),
+            uncontrolled_emissions_2016_lbs = sum(as.numeric(uncontrolled_emissions_2016_lbs), na.rm =T)) -> deq_cao_deets_totals_hm
+
 deq_cao_deets_totals_hm$emissions_pollutant <- "Total - Heavy Metals Only"
 deq_cao_deets_totals_hm$is_heavy_metal <- "TRUE"
 
 union(deq_cao_deets_totals, deq_cao_deets_totals_hm) %>%
-  select("company_source_no", "emissions_pollutant", "emissions_2016_lbs", "is_heavy_metal") -> deq_cao_deets_totals
+  select("company_source_no", "emissions_pollutant", "total_emissions_2016_lbs", "uncontrolled_emissions_2016_lbs", "is_heavy_metal") -> deq_cao_deets_totals
 
 deq_cao_deets %>%
-  select(company_source_no, emissions_pollutant, emissions_2016_lbs, is_heavy_metal) %>%
-  mutate(emissions_2016_lbs = as.numeric(emissions_2016_lbs)) -> deq_cao_deets
+  select(company_source_no, emissions_pollutant, total_emissions_2016_lbs, uncontrolled_emissions_2016_lbs, is_heavy_metal) %>%
+  mutate(total_emissions_2016_lbs = as.numeric(total_emissions_2016_lbs)) %>%
+  mutate(uncontrolled_emissions_2016_lbs = as.numeric(uncontrolled_emissions_2016_lbs)) -> deq_cao_deets
 
 deq_cao_deets %>%
   mutate(is_heavy_metal = as.character(is_heavy_metal)) %>%
   union(., deq_cao_deets_totals) %>%
-  arrange(-emissions_2016_lbs) %>%
-  mutate(emissions_2016_lbs = number(as.numeric(emissions_2016_lbs),  big.mark = ",", accuracy = .001)) %>%
+  arrange(-total_emissions_2016_lbs) %>%
+  mutate(other_emissions_2016_lbs = as.numeric(total_emissions_2016_lbs) - as.numeric(uncontrolled_emissions_2016_lbs)) %>%
+  mutate(total_emissions_2016_lbs = number(as.numeric(total_emissions_2016_lbs),  big.mark = ",", accuracy = .001)) %>%
+  mutate(uncontrolled_emissions_2016_lbs = number(as.numeric(uncontrolled_emissions_2016_lbs),  big.mark = ",", accuracy = .001)) %>%
+  mutate(other_emissions_2016_lbs = number(as.numeric(other_emissions_2016_lbs),  big.mark = ",", accuracy = .001)) %>%
   rename("Company Source Number" = company_source_no) %>%
-  rename("2016 Emissions (lbs)" = emissions_2016_lbs) %>%
+  rename("2016 Total Emissions (lbs)" = total_emissions_2016_lbs) %>%
+  rename("2016 Total Uncontrolled Emissions (lbs)" = uncontrolled_emissions_2016_lbs) %>%
+  rename("2016 Total Other Emissions (lbs)" = other_emissions_2016_lbs) %>%
   rename("Pollutant" = emissions_pollutant) %>%
   rename("Is Heavy Metal" = is_heavy_metal) %>%
-  unique() -> deq_cao_deets
+  select(`Company Source Number`, Pollutant, `2016 Total Emissions (lbs)`, `2016 Total Uncontrolled Emissions (lbs)`,
+          `2016 Total Other Emissions (lbs)`, `Is Heavy Metal`) %>%
+    unique() -> deq_cao_deets
 
 #####
 # Combine DEQ Permits and Onsite Storage Data
@@ -363,9 +378,9 @@ full_ds %>%
          hazardous_ingredient_storage, average_amount_storage, 
          maximum_amount_storage, storage_method_storage, 
          hazardous_class_description_storage, in_storage, 
-         "Company Name", "Unfiltered Emissions",
-         "Unfiltered Heavy Metal Emissions", "Three County Emissions Rank", 
-         "Three County Heavy Metal Emissions Rank", "in_deq_cao",     
+         "Company Name", "Uncontrolled Emissions",
+         "Uncontrolled Heavy Metal Emissions", "Three County Uncontrolled Emissions Rank", 
+         "Three County Uncontrolled Heavy Metal Emissions Rank", "in_deq_cao",     
          key) -> full_ds
 
 full_ds %>%
@@ -398,9 +413,9 @@ full_ds %>%
   filter(in_deq_cao == 1) %>% 
   select(key) %>% 
   left_join(., deq_cao_deets, by = c(key = "Company Source Number")) %>% 
-  unique() %>%
+  unique()  -> tmp
   write.csv(., "cleaned_data/deq_cao_summary.csv", row.names = F)
-
+View(tmp)
 rail_and_airports %>%
   select(-Address, -url, -lat, -lon) %>%
   write.csv(., "cleaned_data/rail_air_summary.csv", row.names = F)
@@ -412,7 +427,7 @@ rail_and_airports %>%
 full_ds %>%
   select(company_name, address, key, in_deq, in_storage, in_deq_cao, 
          general_type_permit_deq, general_type_desc_permit_deq, 
-          `Three County Emissions Rank`, `Three County Heavy Metal Emissions Rank`) %>%
+          `Three County Uncontrolled Emissions Rank`, `Three County Uncontrolled Heavy Metal Emissions Rank`) %>%
   unique() %>%
   rename(Company = company_name) %>%
   rename(Address = address) %>%

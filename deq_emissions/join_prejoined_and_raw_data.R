@@ -157,17 +157,17 @@ left_join(co_details_emi, counties, by = ("address" = "address")) -> co_details_
 ##### 
 
 co_details_emi %>%
-  filter(has_control_device == 0) -> co_details_emi_unfiltered_only
+  filter(has_control_device == 0) -> co_details_emi_uncontrolled_only
 
-co_details_emi_unfiltered_only  %>%
+co_details_emi_uncontrolled_only  %>%
   group_by(company_source_no, addr_hash_pt2, addr_hash_pt4, address, county) %>%
   summarise(total_unfiltered_emissions = sum(as.numeric(emissions_2016_lbs), na.rm = T),
             total_unfiltered_emissions_heavy_metals_only = sum(ifelse(is_heavy_metal,as.numeric(emissions_2016_lbs), 0), na.rm =T)) %>%
   arrange(-total_unfiltered_emissions) %>%
   rename(company_name = addr_hash_pt2) %>%
-  rename(city = addr_hash_pt4) -> total_emissions_by_company
+  rename(city = addr_hash_pt4) -> total_uncontrolled_emissions_by_company
 
-total_emissions_by_company %>%
+total_uncontrolled_emissions_by_company %>%
   ungroup() %>%
   mutate(total_emissions_rank_state = dense_rank(desc(total_unfiltered_emissions))) %>% 
   mutate(heavy_metals_emissions_rank_state = dense_rank(desc(total_unfiltered_emissions_heavy_metals_only))) %>%
@@ -187,9 +187,10 @@ total_emissions_by_company %>%
   mutate(heavy_metals_emissions_rank_state = ifelse(total_unfiltered_emissions_heavy_metals_only > 0, heavy_metals_emissions_rank_state, NA)) %>% 
   mutate(total_emissions_rank_mult_wash_clack = ifelse(total_unfiltered_emissions > 0, total_emissions_rank_mult_wash_clack, NA)) %>% 
   mutate(heavy_metals_emissions_rank_mult_wash_clack = ifelse(total_unfiltered_emissions_heavy_metals_only > 0, heavy_metals_emissions_rank_mult_wash_clack, NA)) %>% 
-  filter(total_unfiltered_emissions > 0) -> total_emissions_by_company
+  filter(total_unfiltered_emissions > 0) -> total_uncontrolled_emissions_by_company
 
-write.csv(co_details_emi_unfiltered_only, file = "output_data/2016_emissions_unfiltered_detailed_data.csv", row.names = F)
-write.csv(total_emissions_by_company, file = "output_data/2016_unfiltered_emissions_summary.csv", row.names = F)
+write.csv(co_details_emi, file = "output_data/2016_all_emissions.csv", row.names = F)
+write.csv(co_details_emi_uncontrolled_only, file = "output_data/2016_emissions_uncontrolled_only_detailed_data.csv", row.names = F)
+write.csv(total_uncontrolled_emissions_by_company, file = "output_data/2016_uncontrolled_emissions_summary.csv", row.names = F)
 
 # we're ignoring materials for now

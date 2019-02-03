@@ -1,4 +1,4 @@
-"Company","Address","More Info URL","Has DEQ Permit","Has Onsite Storage of Chemicals","Has Uncontrolled Emissions","DEQ General Permit Type","DEQ General Permit Type Description","Three County Emissions Rank","Three County Heavy Metal Emissions Rank"
+"Company","Address","More Info URL","Has DEQ Permit","Has Onsite Storage of Chemicals","Has Uncontrolled Emissions","DEQ General Permit Type","DEQ General Permit Type Description","Three County Uncontrolled Emissions Rank","Three County Uncontrolled Heavy Metal Emissions Rank"
 "West Coast Wire Rope & Rigging, Inc. ","2900 NW 29th Ave, Portland, OR 97210, USA","www.portlandcleanair.org/files/detailed_co_info/26-0067","Yes","Yes","No",5,"Other",NA,NA
 "K F Jacobsen & Co., Inc. ","1208 N River St, Portland, OR 97227, USA","www.portlandcleanair.org/files/detailed_co_info/26-1764","Yes","Yes","No",7," Asphalt Plants",NA,NA
 "Porter W. Yett Company ","5949 NE Cully Blvd, Portland, OR 97218, USA","www.portlandcleanair.org/files/detailed_co_info/26-1767","Yes","No","No",7," Asphalt Plants",NA,NA

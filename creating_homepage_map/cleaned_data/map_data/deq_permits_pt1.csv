@@ -1,4 +1,4 @@
-"Company","Address","More Info URL","Has DEQ Permit","Has Onsite Storage of Chemicals","Has Uncontrolled Emissions","DEQ General Permit Type","DEQ General Permit Type Description","Three County Emissions Rank","Three County Heavy Metal Emissions Rank"
+"Company","Address","More Info URL","Has DEQ Permit","Has Onsite Storage of Chemicals","Has Uncontrolled Emissions","DEQ General Permit Type","DEQ General Permit Type Description","Three County Uncontrolled Emissions Rank","Three County Uncontrolled Heavy Metal Emissions Rank"
 "Precision Equipment, Inc. ","8440 N Kerby Ave, Portland, OR 97217, USA","www.portlandcleanair.org/files/detailed_co_info/26-0051","Yes","Yes","No",1," Hard Chrome Electroplates",NA,NA
 "Donaldson & Landry Machine Shop ","8916 NE Vancouver Way, Portland, OR 97211, USA","www.portlandcleanair.org/files/detailed_co_info/26-9841","Yes","Yes","No",1," Hard Chrome Electroplates",NA,NA
 "Boden Store Fixtures, Inc. Plant #1","5335 NE 109th Ave, Portland, OR 97220, USA","www.portlandcleanair.org/files/detailed_co_info/26-0041","Yes","No","No",10," Sawmills",NA,NA

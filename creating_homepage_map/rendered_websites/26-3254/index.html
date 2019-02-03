@@ -71,7 +71,9 @@
   <thead>
     <tr style="text-align: right;">
       <th>Pollutant</th>
-      <th>2016 Emissions (lbs)</th>
+      <th>2016 Total Emissions (lbs)</th>
+      <th>2016 Total Uncontrolled Emissions (lbs)</th>
+      <th>2016 Total Other Emissions (lbs)</th>
       <th>Is Heavy Metal</th>
     </tr>
   </thead>
@@ -79,340 +81,476 @@
     <tr>
       <td>Total - All Pollutants</td>
       <td>103.346</td>
+      <td>103.346</td>
+      <td>0.000</td>
       <td>NA</td>
     </tr>
     <tr>
       <td>Formaldehyde</td>
       <td>46.276</td>
+      <td>46.276</td>
+      <td>0.000</td>
       <td>False</td>
     </tr>
     <tr>
       <td>Acetaldehyde</td>
       <td>14.381</td>
+      <td>14.381</td>
+      <td>0.000</td>
       <td>False</td>
     </tr>
     <tr>
       <td>Ammonia</td>
       <td>9.082</td>
+      <td>9.082</td>
+      <td>0.000</td>
       <td>False</td>
     </tr>
     <tr>
       <td>Acrolein</td>
       <td>7.090</td>
+      <td>7.090</td>
+      <td>0.000</td>
       <td>False</td>
     </tr>
     <tr>
       <td>Benzene</td>
       <td>6.027</td>
+      <td>6.027</td>
+      <td>0.000</td>
       <td>False</td>
     </tr>
     <tr>
       <td>1,3-Butadiene</td>
       <td>5.624</td>
+      <td>5.624</td>
+      <td>0.000</td>
       <td>False</td>
     </tr>
     <tr>
       <td>Hexane</td>
       <td>5.109</td>
+      <td>5.109</td>
+      <td>0.000</td>
       <td>False</td>
     </tr>
     <tr>
       <td>Propionaldehyde</td>
       <td>2.916</td>
+      <td>2.916</td>
+      <td>0.000</td>
       <td>False</td>
     </tr>
     <tr>
       <td>Naphthalene</td>
       <td>1.787</td>
+      <td>1.787</td>
+      <td>0.000</td>
       <td>False</td>
     </tr>
     <tr>
       <td>Toluene</td>
       <td>1.712</td>
+      <td>1.712</td>
+      <td>0.000</td>
       <td>False</td>
     </tr>
     <tr>
       <td>Styrene</td>
       <td>1.220</td>
+      <td>1.220</td>
+      <td>0.000</td>
       <td>False</td>
     </tr>
     <tr>
       <td>Phenol</td>
       <td>0.774</td>
+      <td>0.774</td>
+      <td>0.000</td>
       <td>False</td>
     </tr>
     <tr>
       <td>o-Xylene</td>
       <td>0.595</td>
+      <td>0.595</td>
+      <td>0.000</td>
       <td>False</td>
     </tr>
     <tr>
       <td>Ethyl benzene</td>
       <td>0.555</td>
+      <td>0.555</td>
+      <td>0.000</td>
       <td>False</td>
     </tr>
     <tr>
       <td>Total - Heavy Metals Only</td>
       <td>0.125</td>
+      <td>0.125</td>
+      <td>0.000</td>
       <td>True</td>
     </tr>
     <tr>
       <td>Zinc</td>
       <td>0.082</td>
+      <td>0.082</td>
+      <td>0.000</td>
       <td>True</td>
     </tr>
     <tr>
       <td>Xylenes (mixed) including:</td>
       <td>0.056</td>
+      <td>0.056</td>
+      <td>0.000</td>
       <td>False</td>
     </tr>
     <tr>
       <td>Chromium VI</td>
       <td>0.013</td>
+      <td>0.013</td>
+      <td>0.000</td>
       <td>True</td>
     </tr>
     <tr>
       <td>Barium</td>
       <td>0.012</td>
+      <td>0.012</td>
+      <td>0.000</td>
       <td>False</td>
     </tr>
     <tr>
       <td>Vanadium (fume or dust)</td>
       <td>0.007</td>
+      <td>0.007</td>
+      <td>0.000</td>
       <td>True</td>
     </tr>
     <tr>
       <td>Nickel</td>
       <td>0.006</td>
+      <td>0.006</td>
+      <td>0.000</td>
       <td>True</td>
     </tr>
     <tr>
       <td>Molybdenum trioxide</td>
       <td>0.005</td>
+      <td>0.005</td>
+      <td>0.000</td>
       <td>True</td>
     </tr>
     <tr>
       <td>Lead</td>
       <td>0.004</td>
+      <td>0.004</td>
+      <td>0.000</td>
       <td>True</td>
     </tr>
     <tr>
       <td>Hydrogen Cyanide</td>
       <td>0.003</td>
+      <td>0.003</td>
+      <td>0.000</td>
       <td>False</td>
     </tr>
     <tr>
       <td>Cadmium</td>
       <td>0.003</td>
+      <td>0.003</td>
+      <td>0.000</td>
       <td>True</td>
     </tr>
     <tr>
       <td>Copper and compounds</td>
       <td>0.002</td>
+      <td>0.002</td>
+      <td>0.000</td>
       <td>True</td>
     </tr>
     <tr>
       <td>Manganese</td>
       <td>0.001</td>
+      <td>0.001</td>
+      <td>0.000</td>
       <td>True</td>
     </tr>
     <tr>
       <td>Mercury</td>
       <td>0.001</td>
+      <td>0.001</td>
+      <td>0.000</td>
       <td>True</td>
     </tr>
     <tr>
       <td>Arsenic</td>
       <td>0.001</td>
+      <td>0.001</td>
+      <td>0.000</td>
       <td>True</td>
     </tr>
     <tr>
       <td>Hydrogen fluoride</td>
       <td>0.001</td>
+      <td>0.001</td>
+      <td>0.000</td>
       <td>False</td>
     </tr>
     <tr>
       <td>Acrylonitrile</td>
+      <td>0.000</td>
+      <td>0.000</td>
       <td>0.000</td>
       <td>False</td>
     </tr>
     <tr>
       <td>Cobalt</td>
       <td>0.000</td>
+      <td>0.000</td>
+      <td>0.000</td>
       <td>True</td>
     </tr>
     <tr>
       <td>Acetonitrile</td>
+      <td>0.000</td>
+      <td>0.000</td>
       <td>0.000</td>
       <td>False</td>
     </tr>
     <tr>
       <td>Antimony</td>
       <td>0.000</td>
+      <td>0.000</td>
+      <td>0.000</td>
       <td>True</td>
     </tr>
     <tr>
       <td>Methyl methacrylate</td>
+      <td>0.000</td>
+      <td>0.000</td>
       <td>0.000</td>
       <td>False</td>
     </tr>
     <tr>
       <td>Methylene chloride</td>
       <td>0.000</td>
+      <td>0.000</td>
+      <td>0.000</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>2-Methyl naphthalene</td>
+      <td>0.000</td>
+      <td>0.000</td>
+      <td>0.000</td>
       <td>False</td>
     </tr>
     <tr>
       <td>Selenium</td>
       <td>0.000</td>
+      <td>0.000</td>
+      <td>0.000</td>
       <td>True</td>
     </tr>
     <tr>
-      <td>2-Methyl naphthalene</td>
-      <td>0.000</td>
-      <td>False</td>
-    </tr>
-    <tr>
       <td>Phenanthrene</td>
+      <td>0.000</td>
+      <td>0.000</td>
       <td>0.000</td>
       <td>False</td>
     </tr>
     <tr>
       <td>7,12-Dimethylbenz[a]anthracene</td>
       <td>0.000</td>
+      <td>0.000</td>
+      <td>0.000</td>
       <td>False</td>
     </tr>
     <tr>
       <td>Hydrochloric acid</td>
+      <td>0.000</td>
+      <td>0.000</td>
       <td>0.000</td>
       <td>False</td>
     </tr>
     <tr>
       <td>Beryllium</td>
       <td>0.000</td>
+      <td>0.000</td>
+      <td>0.000</td>
       <td>False</td>
     </tr>
     <tr>
       <td>Cyanide compounds (inorganic) including but no...</td>
+      <td>0.000</td>
+      <td>0.000</td>
       <td>0.000</td>
       <td>False</td>
     </tr>
     <tr>
       <td>Pyrene</td>
       <td>0.000</td>
+      <td>0.000</td>
+      <td>0.000</td>
       <td>False</td>
     </tr>
     <tr>
       <td>Di(2-ethylhexyl) phthalate</td>
+      <td>0.000</td>
+      <td>0.000</td>
       <td>0.000</td>
       <td>False</td>
     </tr>
     <tr>
       <td>Fluoranthene</td>
       <td>0.000</td>
+      <td>0.000</td>
+      <td>0.000</td>
       <td>False</td>
     </tr>
     <tr>
       <td>Acenaphthene</td>
+      <td>0.000</td>
+      <td>0.000</td>
       <td>0.000</td>
       <td>False</td>
     </tr>
     <tr>
       <td>Ethylene dichloride</td>
       <td>0.000</td>
+      <td>0.000</td>
+      <td>0.000</td>
       <td>False</td>
     </tr>
     <tr>
       <td>Fluorene</td>
+      <td>0.000</td>
+      <td>0.000</td>
       <td>0.000</td>
       <td>False</td>
     </tr>
     <tr>
       <td>Anthracene</td>
       <td>0.000</td>
+      <td>0.000</td>
+      <td>0.000</td>
       <td>False</td>
     </tr>
     <tr>
       <td>Acenaphthylene</td>
+      <td>0.000</td>
+      <td>0.000</td>
       <td>0.000</td>
       <td>False</td>
     </tr>
     <tr>
       <td>Indeno[1,2,3-cd]pyrene</td>
       <td>0.000</td>
+      <td>0.000</td>
+      <td>0.000</td>
       <td>False</td>
     </tr>
     <tr>
       <td>Benzo[b]fluoranthene</td>
+      <td>0.000</td>
+      <td>0.000</td>
       <td>0.000</td>
       <td>False</td>
     </tr>
     <tr>
       <td>Benzo[k]fluoranthene</td>
       <td>0.000</td>
-      <td>False</td>
-    </tr>
-    <tr>
-      <td>Benz[a]anthracene</td>
+      <td>0.000</td>
       <td>0.000</td>
       <td>False</td>
     </tr>
     <tr>
       <td>Chrysene</td>
       <td>0.000</td>
+      <td>0.000</td>
+      <td>0.000</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>Benz[a]anthracene</td>
+      <td>0.000</td>
+      <td>0.000</td>
+      <td>0.000</td>
       <td>False</td>
     </tr>
     <tr>
       <td>3-Methylcholanthrene</td>
+      <td>0.000</td>
+      <td>0.000</td>
       <td>0.000</td>
       <td>False</td>
     </tr>
     <tr>
       <td>Dibutyl phthalate</td>
       <td>0.000</td>
+      <td>0.000</td>
+      <td>0.000</td>
       <td>False</td>
     </tr>
     <tr>
       <td>Methyl chloride</td>
+      <td>0.000</td>
+      <td>0.000</td>
       <td>0.000</td>
       <td>False</td>
     </tr>
     <tr>
       <td>Benzo[g,h,i]perylene</td>
       <td>0.000</td>
+      <td>0.000</td>
+      <td>0.000</td>
       <td>False</td>
     </tr>
     <tr>
       <td>Benzo[a]pyrene</td>
+      <td>0.000</td>
+      <td>0.000</td>
       <td>0.000</td>
       <td>False</td>
     </tr>
     <tr>
       <td>Dibenz[a,h]acridine</td>
       <td>0.000</td>
+      <td>0.000</td>
+      <td>0.000</td>
       <td>False</td>
     </tr>
     <tr>
       <td>Acetophenone</td>
+      <td>0.000</td>
+      <td>0.000</td>
       <td>0.000</td>
       <td>False</td>
     </tr>
     <tr>
       <td>Methyl tert-butyl ether</td>
       <td>0.000</td>
+      <td>0.000</td>
+      <td>0.000</td>
       <td>False</td>
     </tr>
     <tr>
       <td>Carbon disulfide</td>
+      <td>0.000</td>
+      <td>0.000</td>
       <td>0.000</td>
       <td>False</td>
     </tr>
     <tr>
       <td>1,1,2,2-Tetrachloroethane</td>
       <td>0.000</td>
+      <td>0.000</td>
+      <td>0.000</td>
       <td>False</td>
     </tr>
     <tr>
       <td>Methyl chloroform</td>
+      <td>0.000</td>
+      <td>0.000</td>
       <td>0.000</td>
       <td>False</td>
     </tr>
