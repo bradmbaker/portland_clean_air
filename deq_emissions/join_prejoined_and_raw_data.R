@@ -156,6 +156,21 @@ left_join(co_details_emi, counties, by = ("address" = "address")) -> co_details_
 # Step 7 - Create Summary Data Sets + write the output
 ##### 
 
+names(co_details_emi)
+
+co_details_emi %>%
+  group_by(company_source_no, addr_hash_pt2, addr_hash_pt4, address, county) %>%
+  summarise(total_emissions = sum(as.numeric(emissions_2016_lbs), na.rm = T),
+            total_emissions_heavy_metals_only = sum(ifelse(is_heavy_metal,as.numeric(emissions_2016_lbs), 0), na.rm =T), 
+            unfiltered_emissions = sum(ifelse(has_control_device==0,as.numeric(emissions_2016_lbs), 0), na.rm =T), 
+            unfiltered_emissions_heavy_metals_only = sum(ifelse((has_control_device==0)&(is_heavy_metal),as.numeric(emissions_2016_lbs), 0), na.rm =T), 
+            filtered_emissions = sum(ifelse(!(has_control_device==0),as.numeric(emissions_2016_lbs), 0), na.rm =T), 
+            filtered_emissions_heavy_metals_only = sum(ifelse(!(has_control_device==0)&(is_heavy_metal),as.numeric(emissions_2016_lbs), 0), na.rm =T)) %>%
+  arrange(-total_emissions) %>%
+  rename(company_name = addr_hash_pt2) %>%
+  rename(city = addr_hash_pt4) -> all_emissions_summary
+write.csv(all_emissions_summary, file = "output_data/2016_all_emissions_by_compnay.csv", row.names = F)
+
 co_details_emi %>%
   filter(has_control_device == 0) -> co_details_emi_uncontrolled_only
 
@@ -166,6 +181,7 @@ co_details_emi_uncontrolled_only  %>%
   arrange(-total_unfiltered_emissions) %>%
   rename(company_name = addr_hash_pt2) %>%
   rename(city = addr_hash_pt4) -> total_uncontrolled_emissions_by_company
+
 
 total_uncontrolled_emissions_by_company %>%
   ungroup() %>%
