@@ -10,7 +10,7 @@ access_token_secret = ''
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
-api = tweepy.API(auth, wait_on_rate_limit=True)
+api = tweepy.API(auth, wait_on_rate_limit=True )
 
 # Open/Create a file to append data
 csvFile = open('all_no_i5_tweets.csv', 'a')
@@ -30,73 +30,135 @@ def remove_linebreaks(tweet_text):
 # NoI5RQX hashtag
 for tweet in tweepy.Cursor(api.search, q="#NOI5RQX", count=100,
                            lang="en",
-                           since="2019-02-01").items():
-    print (tweet.created_at, tweet.id, tweet.text)
+                           since="2019-02-01",
+                           tweet_mode='extended').items():
+    full_text_retweeted = tweet._json.get("retweeted_status")
+    if None != full_text_retweeted:
+        text = full_text_retweeted.get("full_text")
+        retweeted = 1
+    else:
+        text = tweet._json["full_text"]
+        retweeted = 0
+    print (tweet.id, retweeted, text)
     csvWriter.writerow([tweet.created_at,
                         create_url(tweet.id),
                         tweet.user.screen_name,
-                        remove_linebreaks(tweet.text.encode('utf-8'))])
+                        remove_linebreaks(text.encode('utf-8'))])
+
+
+# freewayted hashtag
+for tweet in tweepy.Cursor(api.search, q="#freewayted", count=100,
+                           lang="en",
+                           since="2019-02-01",
+                           tweet_mode='extended').items():
+    full_text_retweeted = tweet._json.get("retweeted_status")
+    if None != full_text_retweeted:
+        text = full_text_retweeted.get("full_text")
+        retweeted = 1
+    else:
+        text = tweet._json["full_text"]
+        retweeted = 0
+    print (tweet.id, retweeted, text)
+    csvWriter.writerow([tweet.created_at,
+                        create_url(tweet.id),
+                        tweet.user.screen_name,
+                        remove_linebreaks(text.encode('utf-8'))])
+
 
 # Joe cortright and ODOT
 for tweet in tweepy.Cursor(api.search, q="@joe_cortright", count=100,
                            lang="en",
-                           since="2019-02-01").items():
-    if re.search('@OregonDOT', tweet.text):
-        print (tweet.created_at, tweet.text)
+                           since="2019-02-01",
+                           tweet_mode='extended').items():
+    full_text_retweeted = tweet._json.get("retweeted_status")
+    if None != full_text_retweeted:
+        text = full_text_retweeted.get("full_text")
+        retweeted = 1
+    else:
+        text = tweet._json["full_text"]
+        retweeted = 0
+    if re.search('@OregonDOT', text):
+        print (tweet.id, retweeted, text)
         csvWriter.writerow([tweet.created_at,
                             create_url(tweet.id),
                             tweet.user.screen_name,
-                            remove_linebreaks(tweet.text.encode('utf-8'))])
+                            remove_linebreaks(text.encode('utf-8'))])
 
 # rose quarter & @OregonDOT
 for tweet in tweepy.Cursor(api.search, q="rose quarter", count=100,
                            lang="en",
-                           since="2019-02-01").items():
-    if re.search('@OregonDOT', tweet.text):
-        print (tweet.created_at, tweet.text)
+                           since="2019-02-01",
+                           tweet_mode='extended').items():
+    full_text_retweeted = tweet._json.get("retweeted_status")
+    if None != full_text_retweeted:
+        text = full_text_retweeted.get("full_text")
+        retweeted = 1
+    else:
+        text = tweet._json["full_text"]
+        retweeted = 0
+    if re.search('@OregonDOT', text):
+        print (tweet.id, retweeted, text)
         csvWriter.writerow([tweet.created_at,
                             create_url(tweet.id),
                             tweet.user.screen_name,
-                            remove_linebreaks(tweet.text.encode('utf-8'))])
+                            remove_linebreaks(text.encode('utf-8'))])
+
+
 
 # freeway expansion & @OregonDOT
 for tweet in tweepy.Cursor(api.search, q="freeway expansion", count=100,
                            lang="en",
-                           since="2019-02-01").items():
-    if re.search('@OregonDOT', tweet.text):
-        print (tweet.created_at, tweet.text)
+                           since="2019-02-01",
+                           tweet_mode='extended').items():
+    full_text_retweeted = tweet._json.get("retweeted_status")
+    if None != full_text_retweeted:
+        text = full_text_retweeted.get("full_text")
+        retweeted = 1
+    else:
+        text = tweet._json["full_text"]
+        retweeted = 0
+    if re.search('@OregonDOT', text):
+        print (tweet.id, retweeted, text)
         csvWriter.writerow([tweet.created_at,
                             create_url(tweet.id),
                             tweet.user.screen_name,
-                            remove_linebreaks(tweet.text.encode('utf-8'))])
+                            remove_linebreaks(text.encode('utf-8'))])
 
 # portland & freeway expansion
 for tweet in tweepy.Cursor(api.search, q="freeway expansion", count=100,
                            lang="en",
-                           since="2019-02-01").items():
-    if re.search('portland', tweet.text):
-        print (tweet.created_at, tweet.text)
+                           since="2019-02-01",
+                           tweet_mode='extended').items():
+    full_text_retweeted = tweet._json.get("retweeted_status")
+    if None != full_text_retweeted:
+        text = full_text_retweeted.get("full_text")
+        retweeted = 1
+    else:
+        text = tweet._json["full_text"]
+        retweeted = 0
+    if re.search('portland', text):
+        print (tweet.id, retweeted, text)
         csvWriter.writerow([tweet.created_at,
                             create_url(tweet.id),
                             tweet.user.screen_name,
-                            remove_linebreaks(tweet.text.encode('utf-8'))])
+                            remove_linebreaks(text.encode('utf-8'))])
 
 # freeway widening & portland
 for tweet in tweepy.Cursor(api.search, q="freeway widening", count=100,
                            lang="en",
-                           since="2019-02-01").items():
-    if re.search('portland', tweet.text):
-        print (tweet.created_at, tweet.text)
+                           since="2019-02-01",
+                           tweet_mode='extended').items():
+    full_text_retweeted = tweet._json.get("retweeted_status")
+    if None != full_text_retweeted:
+        text = full_text_retweeted.get("full_text")
+        retweeted = 1
+    else:
+        text = tweet._json["full_text"]
+        retweeted = 0
+    if re.search('portland', text):
+        print (tweet.id, retweeted, text)
         csvWriter.writerow([tweet.created_at,
                             create_url(tweet.id),
                             tweet.user.screen_name,
-                            remove_linebreaks(tweet.text.encode('utf-8'))])
-# freewayted hashtag
-for tweet in tweepy.Cursor(api.search, q="#freewayted", count=100,
-                           lang="en",
-                           since="2019-02-01").items():
-    print (tweet.created_at, tweet.text)
-    csvWriter.writerow([tweet.created_at,
-                        create_url(tweet.id),
-                        tweet.user.screen_name,
-                        remove_linebreaks(tweet.text.encode('utf-8'))])
+                            remove_linebreaks(text.encode('utf-8'))])
+
