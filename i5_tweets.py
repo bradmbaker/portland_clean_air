@@ -162,3 +162,18 @@ for tweet in tweepy.Cursor(api.search, q="freeway widening", count=100,
                             tweet.user.screen_name,
                             remove_linebreaks(text.encode('utf-8'))])
 
+# remove duplicates
+inFile = open('all_no_i5_tweets.csv', 'r')
+outFile = open('all_no_i5_tweets_dupes_removed.csv', 'w')
+listLines = []
+
+for line in inFile:
+    if line in listLines:
+        continue
+    else:
+        outFile.write(line)
+        listLines.append(line)
+
+outFile.close()
+
+inFile.close()
